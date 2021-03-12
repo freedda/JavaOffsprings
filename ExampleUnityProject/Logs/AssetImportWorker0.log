@@ -1,299 +1,152 @@
 Using pre-set license
 Built from '2020.2/staging' branch; Version is '2020.2.5f1 (e2c53f129de5) revision 14861631'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 18363.1379; Version 1909; 64bit' Language: 'el' Physical Memory: 7128 MB
+OS: 'Windows 10 Pro; OS build 18363.1440; Version 1909; 64bit' Language: 'el' Physical Memory: 3999 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Unity 2020.2.5\Unity\Editor\Unity.exe
+C:\Unity\20.2.5f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/dimit/Desktop/dim/Σχολή/πτυχιακή/FirstScene/ExampleUnityProject
+C:/Users/User/Desktop/Πτυχιακη/Git Πτυχιακη/FirstScene/ExampleUnityProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57656
-Successfully changed project path to: C:/Users/dimit/Desktop/dim/Σχολή/πτυχιακή/FirstScene/ExampleUnityProject
-C:/Users/dimit/Desktop/dim/Σχολή/πτυχιακή/FirstScene/ExampleUnityProject
+50217
+Successfully changed project path to: C:/Users/User/Desktop/Πτυχιακη/Git Πτυχιακη/FirstScene/ExampleUnityProject
+C:/Users/User/Desktop/Πτυχιακη/Git Πτυχιακη/FirstScene/ExampleUnityProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 170.07 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 52.53 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.5f1 (e2c53f129de5)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Unity 2020.2.5/Unity/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/dimit/Desktop/dim/Σχολή/πτυχιακή/FirstScene/ExampleUnityProject/Assets
+[Subsystems] Discovering subsystems at path C:/Unity/20.2.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Desktop/Πτυχιακη/Git Πτυχιακη/FirstScene/ExampleUnityProject/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon(TM) R5 Graphics (ID=0x9851)
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 840M      (ID=0x1341)
     Vendor:   
-    VRAM:     1006 MB
-    Driver:   22.19.180.768
+    VRAM:     1996 MB
+    Driver:   10.18.13.5362
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Unity 2020.2.5/Unity/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Unity 2020.2.5/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Unity 2020.2.5/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
+Mono path[0] = 'C:/Unity/20.2.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Unity/20.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Unity/20.2.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Unity 2020.2.5/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006413 seconds.
+Register platform support module: C:/Unity/20.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002970 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 141.83 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 53.68 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.295 seconds
+- Completed reload, in  3.262 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002943 seconds.
+Registered in 0.001021 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.762 seconds
+- Completed reload, in  3.695 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
-Refreshing native plugins compatible for Editor in 1.18 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1230 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.1 MB.
-System memory in use after: 88.9 MB.
+Unloading 1231 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.4 MB.
+System memory in use after: 89.2 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1691.
-Total: 5.826300 ms (FindLiveObjects: 0.526600 ms CreateObjectMapping: 0.120800 ms MarkObjects: 4.413100 ms  DeleteObjects: 0.760800 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Sun_Temple/Content/Textures/page-texture.png
-  artifactKey: Guid(1bf962e98ecbd2a48bed43281a3d621d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/page-texture.png using Guid(1bf962e98ecbd2a48bed43281a3d621d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abcce242fa0ac3c42563f1de5ecabd7') in 0.442209 seconds
-  Import took 0.466695 seconds .
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1692.
+Total: 2.556100 ms (FindLiveObjects: 0.202900 ms CreateObjectMapping: 0.063100 ms MarkObjects: 1.890300 ms  DeleteObjects: 0.397700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 185.389531 seconds.
-  path: Assets/Sun_Temple/Content/Textures/page-texture1.png
-  artifactKey: Guid(eb0885cd0301ec648b1d07af0e265855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/page-texture1.png using Guid(eb0885cd0301ec648b1d07af0e265855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565e48f01875f0bd680d359d052c79ec') in 0.085290 seconds
-  Import took 0.114854 seconds .
+  path: Assets/Scripts/CameraController.cs
+  artifactKey: Guid(e837148dfbbe24c4db87dc688ba293fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CameraController.cs using Guid(e837148dfbbe24c4db87dc688ba293fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05bde87ad82f311bc57cb18da20317d2') in 0.087048 seconds
+  Import took 0.091654 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 27.176283 seconds.
-  path: Assets/Sun_Temple/PostProcessing/Utilities/CustomMotionTexture/Textures/DebugMotionVectors.png
-  artifactKey: Guid(3aac3087967ea4fae858ec0494fd24d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/PostProcessing/Utilities/CustomMotionTexture/Textures/DebugMotionVectors.png using Guid(3aac3087967ea4fae858ec0494fd24d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b955dc3d03006d00c494ea56fff6da') in 0.139096 seconds
-  Import took 0.154603 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001587 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.074 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.0 MB.
+System memory in use after: 86.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1693.
+Total: 10.629900 ms (FindLiveObjects: 1.179800 ms CreateObjectMapping: 0.163000 ms MarkObjects: 8.700400 ms  DeleteObjects: 0.583500 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 61.040785 seconds.
-  path: Assets/Sun_Temple/PostProcessing/Editor Resources/UI/MotionBlendingIcon.png
-  artifactKey: Guid(c0fa58091049bd24394fa15b0b6d4c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/PostProcessing/Editor Resources/UI/MotionBlendingIcon.png using Guid(c0fa58091049bd24394fa15b0b6d4c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c65ddf367d89131771c3055b9e516b1') in 0.203654 seconds
-  Import took 0.218321 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001836 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.320 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.0 MB.
+System memory in use after: 86.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1695.
+Total: 2.941100 ms (FindLiveObjects: 0.182100 ms CreateObjectMapping: 0.058800 ms MarkObjects: 1.898400 ms  DeleteObjects: 0.800200 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000560 seconds.
-  path: Assets/Sun_Temple/PostProcessing/Textures/LUTs/NeutralLUT_16.png
-  artifactKey: Guid(e45483e270a314c4bbc6e317771d56ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/PostProcessing/Textures/LUTs/NeutralLUT_16.png using Guid(e45483e270a314c4bbc6e317771d56ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9803acadcad7b0aeceb0b7028ba85d08') in 0.140164 seconds
-  Import took 0.165241 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001052 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.100 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.0 MB.
+System memory in use after: 86.8 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000556 seconds.
-  path: Assets/Sun_Temple/PostProcessing/Editor Resources/UI/MotionBlendingIcon.png
-  artifactKey: Guid(c0fa58091049bd24394fa15b0b6d4c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/PostProcessing/Editor Resources/UI/MotionBlendingIcon.png using Guid(c0fa58091049bd24394fa15b0b6d4c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c65ddf367d89131771c3055b9e516b1') in 0.035163 seconds
-  Import took 0.042076 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000649 seconds.
-  path: Assets/Sun_Temple/PostProcessing/Textures/LUTs/NeutralLUT_16.png
-  artifactKey: Guid(e45483e270a314c4bbc6e317771d56ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/PostProcessing/Textures/LUTs/NeutralLUT_16.png using Guid(e45483e270a314c4bbc6e317771d56ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9803acadcad7b0aeceb0b7028ba85d08') in 0.035104 seconds
-  Import took 0.040915 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000540 seconds.
-  path: Assets/Sun_Temple/PostProcessing/Textures/LUTs/NeutralLUT_32.png
-  artifactKey: Guid(4f98e9c96c8a48541b5eb704e92d99b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/PostProcessing/Textures/LUTs/NeutralLUT_32.png using Guid(4f98e9c96c8a48541b5eb704e92d99b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67043fdbcbff5dc77c3098570b002e20') in 0.131434 seconds
-  Import took 0.159404 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.091837 seconds.
-  path: Assets/Sun_Temple/Content/Textures/prop_kitchenprops_A.tif
-  artifactKey: Guid(1e2f457c31c87dc42b7cc2e0d7e9405c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/prop_kitchenprops_A.tif using Guid(1e2f457c31c87dc42b7cc2e0d7e9405c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044d7fc370c62f24399657d80ca2a9a2') in 0.133117 seconds
-  Import took 0.157744 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000542 seconds.
-  path: Assets/Sun_Temple/Content/Textures/prop_porcelain_tiling_A.tif
-  artifactKey: Guid(d56db2610aa09264aa2a270e80e380c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/prop_porcelain_tiling_A.tif using Guid(d56db2610aa09264aa2a270e80e380c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5a9fe2a7722c278ef0380e198d2e5c') in 0.155750 seconds
-  Import took 0.177269 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000629 seconds.
-  path: Assets/Sun_Temple/Content/Textures/prop_rocks2_A.tif
-  artifactKey: Guid(de8f8c2f5d7f2f44a87c44ca14261b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/prop_rocks2_A.tif using Guid(de8f8c2f5d7f2f44a87c44ca14261b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b203b1ee2196e8584e24abd4a795da') in 0.216925 seconds
-  Import took 0.247363 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000481 seconds.
-  path: Assets/Sun_Temple/Content/Textures/prop_rocks_A.tif
-  artifactKey: Guid(ce2d9be16adf4eb408c965ea855cc439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/prop_rocks_A.tif using Guid(ce2d9be16adf4eb408c965ea855cc439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f0cd1262693df71b30d6f77bcad017') in 0.148735 seconds
-  Import took 0.172197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000506 seconds.
-  path: Assets/Sun_Temple/Content/Textures/prop_porcelain_tiling_A.tif
-  artifactKey: Guid(d56db2610aa09264aa2a270e80e380c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/prop_porcelain_tiling_A.tif using Guid(d56db2610aa09264aa2a270e80e380c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5a9fe2a7722c278ef0380e198d2e5c') in 0.042741 seconds
-  Import took 0.048409 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000617 seconds.
-  path: Assets/Sun_Temple/Content/Textures/prop_rugs_A.tif
-  artifactKey: Guid(4b8e44dd64bf29641bdcddfc2778840d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/prop_rugs_A.tif using Guid(4b8e44dd64bf29641bdcddfc2778840d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344b53abae69fd1e00db03a61aed3569') in 0.073975 seconds
-  Import took 0.091378 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000873 seconds.
-  path: Assets/Sun_Temple/Content/Textures/prop_stones_N.tiff
-  artifactKey: Guid(453d7f0ebf6c4024f97c25bc8a8b42b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/prop_stones_N.tiff using Guid(453d7f0ebf6c4024f97c25bc8a8b42b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a589845736dce12970ed0bfa999197f') in 0.244435 seconds
-  Import took 0.304028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000561 seconds.
-  path: Assets/Sun_Temple/Content/Textures/prop_rocks_N.tif
-  artifactKey: Guid(4c08a203851a13a4e950dd27d7656eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/prop_rocks_N.tif using Guid(4c08a203851a13a4e950dd27d7656eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b675da07414b12ddabe1b6122c66a95') in 0.314012 seconds
-  Import took 0.320165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000508 seconds.
-  path: Assets/Sun_Temple/Content/Textures/prop_stones_A.tif
-  artifactKey: Guid(f609109b31e374b4d90d3b390c70992d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/prop_stones_A.tif using Guid(f609109b31e374b4d90d3b390c70992d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d1a36ee087780c32144d40a361d155') in 0.188287 seconds
-  Import took 0.250659 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000523 seconds.
-  path: Assets/Sun_Temple/Content/Textures/prop_rocks_N.tif
-  artifactKey: Guid(4c08a203851a13a4e950dd27d7656eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/prop_rocks_N.tif using Guid(4c08a203851a13a4e950dd27d7656eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b675da07414b12ddabe1b6122c66a95') in 0.076355 seconds
-  Import took 0.083822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008724 seconds.
-  path: Assets/Sun_Temple/Content/Textures/prop_kitchenprops_A.tif
-  artifactKey: Guid(1e2f457c31c87dc42b7cc2e0d7e9405c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/prop_kitchenprops_A.tif using Guid(1e2f457c31c87dc42b7cc2e0d7e9405c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044d7fc370c62f24399657d80ca2a9a2') in 0.057271 seconds
-  Import took 0.064241 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000515 seconds.
-  path: Assets/Sun_Temple/PostProcessing/Textures/Spectral LUTs/SpectralLut_BlueRed.tga
-  artifactKey: Guid(318cbcd94840f1d48aca4d86234dc2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/PostProcessing/Textures/Spectral LUTs/SpectralLut_BlueRed.tga using Guid(318cbcd94840f1d48aca4d86234dc2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e966500e20cc13ce01d11ad1fe54f1cf') in 0.240086 seconds
-  Import took 0.246780 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000609 seconds.
-  path: Assets/Sun_Temple/PostProcessing/Textures/Spectral LUTs/SpectralLut_PurpleGreen.tga
-  artifactKey: Guid(42183971d24cfe443a346e7ec6e83bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/PostProcessing/Textures/Spectral LUTs/SpectralLut_PurpleGreen.tga using Guid(42183971d24cfe443a346e7ec6e83bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9aaed0bb3ef99a9c8b0c26e9970f137') in 0.210417 seconds
-  Import took 0.218799 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000557 seconds.
-  path: Assets/Sun_Temple/PostProcessing/Textures/Spectral LUTs/SpectralLut_GreenPurple.tga
-  artifactKey: Guid(4a8f054acfbd08043a931cd22760758d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/PostProcessing/Textures/Spectral LUTs/SpectralLut_GreenPurple.tga using Guid(4a8f054acfbd08043a931cd22760758d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8d48a7ae8afa27b5e2540283dce9f2') in 0.272289 seconds
-  Import took 0.308284 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000722 seconds.
-  path: Assets/Sun_Temple/PostProcessing/Utilities/CustomMotionTexture/Textures/WheelMotionVectors.png
-  artifactKey: Guid(d1cc06458fe724df8837423c0a2f8f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/PostProcessing/Utilities/CustomMotionTexture/Textures/WheelMotionVectors.png using Guid(d1cc06458fe724df8837423c0a2f8f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390c4390ad025d80ebf3834a25cd9dde') in 0.147957 seconds
-  Import took 0.209471 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000534 seconds.
-  path: Assets/Sun_Temple/PostProcessing/Utilities/CustomMotionTexture/Textures/UVChecker.png
-  artifactKey: Guid(a08960dd6e8274e7f8fca616e09c48ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/PostProcessing/Utilities/CustomMotionTexture/Textures/UVChecker.png using Guid(a08960dd6e8274e7f8fca616e09c48ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a763a161e4184ebdf383566441fb297c') in 0.264830 seconds
-  Import took 0.281970 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000678 seconds.
-  path: Assets/Sun_Temple/PostProcessing/Textures/Spectral LUTs/SpectralLut_RedBlue.tga
-  artifactKey: Guid(ff5f3317371838d4fa16ac6c2acf2040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/PostProcessing/Textures/Spectral LUTs/SpectralLut_RedBlue.tga using Guid(ff5f3317371838d4fa16ac6c2acf2040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a24fefb01785a2c431bb3b2d4be838b') in 0.116542 seconds
-  Import took 0.142910 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000520 seconds.
-  path: Assets/Sun_Temple/PostProcessing/Textures/Spectral LUTs/SpectralLut_BlueRed.tga
-  artifactKey: Guid(318cbcd94840f1d48aca4d86234dc2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/PostProcessing/Textures/Spectral LUTs/SpectralLut_BlueRed.tga using Guid(318cbcd94840f1d48aca4d86234dc2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e966500e20cc13ce01d11ad1fe54f1cf') in 0.029602 seconds
-  Import took 0.036540 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000588 seconds.
-  path: Assets/Sun_Temple/Content/Textures/prop_kitchenprops_R.tif
-  artifactKey: Guid(bb83480ef5792a54a9c19fb85150d3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/prop_kitchenprops_R.tif using Guid(bb83480ef5792a54a9c19fb85150d3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8ea86fa7f5feabde7f4e7a65899ce9') in 0.091445 seconds
-  Import took 0.216353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 746.899114 seconds.
-  path: Assets/Sun_Temple/Content/Meshes/Main/Materials/Page_Material.mat
-  artifactKey: Guid(a765759bfca8545478d6446f9911c9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Meshes/Main/Materials/Page_Material.mat using Guid(a765759bfca8545478d6446f9911c9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9336ea8c3f5e34a452dc1892ece3ee4e') in 0.369711 seconds
-  Import took 0.388359 seconds .
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1697.
+Total: 6.645700 ms (FindLiveObjects: 0.308000 ms CreateObjectMapping: 0.092700 ms MarkObjects: 3.979400 ms  DeleteObjects: 2.261400 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
