@@ -69,6 +69,7 @@
      <Compile Include="Assets\Sun_Temple\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
      <Compile Include="Assets\Sun_Temple\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
      <Compile Include="Assets\Sun_Temple\Scripts\FPSController\CursorLock.cs" />
+     <Compile Include="Assets\Scripts\LookWithTheMouse.cs" />
      <Compile Include="Assets\Sun_Temple\Scripts\Culling\CullDistanceVolume.cs" />
      <Compile Include="Assets\Sun_Temple\Scripts\Doors\CursorManager.cs" />
      <Compile Include="Assets\Sun_Temple\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
@@ -113,7 +114,6 @@
      <Compile Include="Assets\Sun_Temple\PostProcessing\Runtime\Models\UserLutModel.cs" />
      <Compile Include="Assets\Sun_Temple\PostProcessing\Runtime\Components\BloomComponent.cs" />
      <Compile Include="Assets\Sun_Temple\PostProcessing\Runtime\Models\DitheringModel.cs" />
-     <Compile Include="Assets\Scripts\LookWithTheMouse.cs" />
      <None Include="Assets\Sun_Temple\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
      <None Include="Assets\Sun_Temple\Content\Shaders\Decal.shader" />
      <None Include="Assets\Sun_Temple\PostProcessing\Resources\Shaders\GrainGen.shader" />
@@ -734,32 +734,38 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>C:/Unity/20.2.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
+ <Reference Include="Cinemachine">
+ <HintPath>C:/Users/User/Desktop/Πτυχιακη/git πτυχ/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/User/Desktop/Πτυχιακη/Git Πτυχιακη/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/User/Desktop/Πτυχιακη/git πτυχ/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>C:/Users/User/Desktop/Πτυχιακη/git πτυχ/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/User/Desktop/Πτυχιακη/Git Πτυχιακη/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/User/Desktop/Πτυχιακη/git πτυχ/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>C:/Users/User/Desktop/Πτυχιακη/Git Πτυχιακη/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>C:/Users/User/Desktop/Πτυχιακη/git πτυχ/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/User/Desktop/Πτυχιακη/Git Πτυχιακη/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/User/Desktop/Πτυχιακη/git πτυχ/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/User/Desktop/Πτυχιακη/Git Πτυχιακη/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/User/Desktop/Πτυχιακη/git πτυχ/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/User/Desktop/Πτυχιακη/Git Πτυχιακη/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/User/Desktop/Πτυχιακη/git πτυχ/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/User/Desktop/Πτυχιακη/Git Πτυχιακη/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/User/Desktop/Πτυχιακη/git πτυχ/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/User/Desktop/Πτυχιακη/Git Πτυχιακη/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/User/Desktop/Πτυχιακη/git πτυχ/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/User/Desktop/Πτυχιακη/Git Πτυχιακη/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/User/Desktop/Πτυχιακη/git πτυχ/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
