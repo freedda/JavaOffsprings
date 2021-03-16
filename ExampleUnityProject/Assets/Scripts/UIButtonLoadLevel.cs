@@ -10,7 +10,7 @@ public class UIButtonLoadLevel : MonoBehaviour
     public void loadLevel()
     {
         //Load the level from LevelToLoad
-        SceneManager.LoadScene(LevelToLoad);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
 }
