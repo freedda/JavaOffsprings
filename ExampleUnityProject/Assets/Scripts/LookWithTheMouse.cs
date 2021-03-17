@@ -5,7 +5,7 @@ using UnityEngine;
 public class LookWithTheMouse : MonoBehaviour
 {
     public Transform rotatePlayersBody;
-    private float mouseControl = 100;
+    private float mouseControl = 72;
     private float xAxisRotation = 0f;
     
     // Start is called before the first frame update
@@ -23,7 +23,7 @@ public class LookWithTheMouse : MonoBehaviour
         float mouseYaxis = Input.GetAxis("Mouse Y") * mouseControl * Time.deltaTime;
 
         //rotate players body in vector3.up based on mouse X
-        rotatePlayersBody.Rotate(Vector3.up * mouseXaxis);
+        //rotatePlayersBody.Rotate(Vector3.up * mouseXaxis);
 
         //Rotation based on mouse Y
         xAxisRotation -= mouseYaxis;
