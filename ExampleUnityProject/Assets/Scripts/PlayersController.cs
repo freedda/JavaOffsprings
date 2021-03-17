@@ -1,21 +1,21 @@
 
 using UnityEngine;
 
-[RequireComponent(typeof(PlayersMovement))]
+[RequireComponent(typeof(FocusWithClick))]
 public class PlayersController : MonoBehaviour
 {
     public LayerMask aMoveMask;
     private int range = 100;
     Camera myCamera;
 
-    private PlayersMovement move;
+    private FocusWithClick move;
     
     
     // Start is called before the first frame update
     void Start()
     {
         myCamera = Camera.main;
-        move = GetComponent<PlayersMovement>();
+        move = GetComponent<FocusWithClick>();
 
     }
 
