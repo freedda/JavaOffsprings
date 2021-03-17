@@ -23,7 +23,7 @@ public class LookWithTheMouse : MonoBehaviour
         float mouseYaxis = Input.GetAxis("Mouse Y") * mouseControl * Time.deltaTime;
 
         //rotate players body in vector3.up based on mouse X
-        //rotatePlayersBody.Rotate(Vector3.up * mouseXaxis);
+        rotatePlayersBody.Rotate(Vector3.up * mouseXaxis);
 
         //Rotation based on mouse Y
         xAxisRotation -= mouseYaxis;

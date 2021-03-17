@@ -25,13 +25,13 @@ public class Movement : MonoBehaviour
 
     private void ApplyInput(float move, float turn)
     {
-        PlayerMove(move);
-        PlayerTurn(turn);
+       // PlayerMove(move);
+        //PlayerTurn(turn);
 
         //Diaforetika vazw se sxolia tin playermove kai turn kai ektelw ta parakatw
         //Kai apo to look with the mouse vgale to sxolio stin grammi 26
-        //Vector3 playerMovement = new Vector3(move, 0f, turn) * speed * Time.deltaTime;
-        //transform.Translate(playerMovement, Space.Self);
+        Vector3 playerMovement = new Vector3(turn, 0f, move) * speed * Time.deltaTime;
+        transform.Translate(playerMovement, Space.Self);
     }
 
     private void PlayerTurn(float input)
