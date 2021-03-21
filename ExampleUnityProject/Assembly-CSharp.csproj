@@ -60,6 +60,7 @@
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\ExposureManager\ExposureArea.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\Doors\CircularLerp.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\Culling\DistanceHide.cs" />
+     <Compile Include="Assets\Scripts\Item.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\ExposureManager\ExposureManager.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\DisableRenderer.cs" />
@@ -68,6 +69,7 @@
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
      <Compile Include="Assets\Scripts\PlayersController.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
+     <Compile Include="Assets\Scripts\Inventory.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\FPSController\CursorLock.cs" />
      <Compile Include="Assets\Scripts\LookWithTheMouse.cs" />
@@ -118,8 +120,9 @@
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\UserLutModel.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\BloomComponent.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\DitheringModel.cs" />
-     <Compile Include="Assets\Scripts\Inventory.cs" />
-     <Compile Include="Assets\Scripts\Item.cs" />
+     <Compile Include="Assets\Scripts\InventoryUI.cs" />
+     <Compile Include="Assets\Scripts\InventorySlot.cs" />
+     <Compile Include="Assets\Scripts\PickUpItem.cs" />
      <None Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
      <None Include="Assets\Unity Store Assets\Sun_Temple\Content\Shaders\Decal.shader" />
      <None Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Resources\Shaders\GrainGen.shader" />

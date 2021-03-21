@@ -11,8 +11,9 @@ public class PlayersController : MonoBehaviour
     private FocusWithClick move;
     private bool CanPickUP = false;
     public Item item;
-    
-    
+    private PickUpItem pickUpItem;
+//    private Transform item;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -48,7 +49,7 @@ public class PlayersController : MonoBehaviour
             if (Physics.Raycast(ray, out castHit, range))
             {
                 // Focused on item if we hit an interactable item
-               // Debug.Log("Pick up item");
+               
             }
         }
 
@@ -56,6 +57,10 @@ public class PlayersController : MonoBehaviour
         {
             CanPickUP = false;
             Debug.Log("pick up " + item.name);
+            Inventory.instance.AddItem(item);
+           // pickUpItem.PickUp();
+            // Inventory.instance.AddItem(item);
+            // Destroy(gameObject);
         }
     }
 }
