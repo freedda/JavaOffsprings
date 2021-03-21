@@ -126,7 +126,7 @@
      <None Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
      <None Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
      <None Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
-     <None Include="Assets\ManNeko_Assets\Adventurer Blake\Read Me.txt" />
+     <None Include="Assets\Unity Store Assets\ManNeko_Assets\Adventurer Blake\Read Me.txt" />
      <None Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
      <None Include="Assets\Unity Store Assets\Sun_Temple\Content\Shaders\Clouds.shader" />
      <None Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />

@@ -108,11 +108,11 @@ GameObject:
   - component: {fileID: 2826336085080442667}
   - component: {fileID: 2826336085080442668}
   - component: {fileID: 2826336085080442669}
-  - component: {fileID: 2826336085080442670}
   - component: {fileID: 1346105725990905000}
   - component: {fileID: 5918275517980546971}
   - component: {fileID: 7410417993721142741}
   - component: {fileID: 6033217621357832632}
+  - component: {fileID: 807148092471895148}
   m_Layer: 0
   m_Name: Player1
   m_TagString: Player
@@ -173,22 +173,6 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1.1, z: 0}
---- !u!54 &2826336085080442670
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2826336085080442576}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!95 &1346105725990905000
 Animator:
   serializedVersion: 3
@@ -247,7 +231,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aMoveMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
+--- !u!54 &807148092471895148
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2826336085080442576}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &5924871761214478156
 GameObject:
   m_ObjectHideFlags: 0
@@ -387,6 +387,10 @@ PrefabInstance:
     - target: {fileID: 8356104788382652267, guid: a32b89e71fbd51d4d9b3d270682a75ce, type: 3}
       propertyPath: m_Name
       value: 'The Adventurer Blake '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8356104788382652267, guid: a32b89e71fbd51d4d9b3d270682a75ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a32b89e71fbd51d4d9b3d270682a75ce, type: 3}
