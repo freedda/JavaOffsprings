@@ -1,6 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class LookWithTheMouse : MonoBehaviour
 {
@@ -17,7 +16,12 @@ public class LookWithTheMouse : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {   
+        // to check if we hovering the UI ( for the inventory)
+        if (EventSystem.current.IsPointerOverGameObject())
+            return;
+        
+        
         //"Mouse X" in project settings , edit ->project set->input manager
         float mouseXaxis = Input.GetAxis("Mouse X") * mouseControl * Time.deltaTime;
         float mouseYaxis = Input.GetAxis("Mouse Y") * mouseControl * Time.deltaTime;

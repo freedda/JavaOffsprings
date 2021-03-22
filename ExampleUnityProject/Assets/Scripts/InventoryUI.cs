@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,21 +9,32 @@ public class InventoryUI : MonoBehaviour
     private Inventory myInventory;
     private InventorySlot[] inventorySlots;
     
+    
     // Start is called before the first frame update
     void Start()
     {
         myInventory = Inventory.instance;
-        myInventory.onItemChangedCallback += UpdateUI;
+        myInventory.onItemChangedCallback += Update;
 
         inventorySlots = GFXInvetory.GetComponentsInChildren<InventorySlot>();
     }
 
     // Update is called once per frame
-    
-    void UpdateUI()
+    void Update()
+    {   
+        Debug.Log("update UI");
+        for (int i = 0; i < inventorySlots.Length; i++)
+        {
+            if (i < myInventory.items.Count)
+            {
+                inventorySlots[i].AddItem(myInventory.items[i]);      
+            }
+        }
+    }
+
+    /*void UpdateUI()
     {
         Debug.Log("update UI");
-        Debug.Log("length: " + inventorySlots.Length);
         for (int i = 0; i < inventorySlots.Length; i++)
         {
             if (i < myInventory.items.Count)
@@ -31,6 +43,6 @@ public class InventoryUI : MonoBehaviour
             }
                   
         }
-    }
+    }*/
     
 }

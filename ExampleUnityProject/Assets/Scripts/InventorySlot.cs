@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Assertions.Must;
 using UnityEngine.UI;
 
 public class InventorySlot : MonoBehaviour
@@ -21,4 +22,18 @@ public class InventorySlot : MonoBehaviour
         icon.sprite = null;
         icon.enabled = false;
     }
+
+    public void UseItem()
+    {
+        if (item != null)
+        {
+            item.Use();
+        }
+        // if player click an empty inventoryButton
+        else
+        {
+            Debug.Log("Select an item");
+        }
+    }
+    
 }
