@@ -539,8 +539,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1432504198}
-        m_TargetAssemblyTypeName: UIButtonHowToPlay, Assembly-CSharp
-        m_MethodName: HowToPlay
+        m_TargetAssemblyTypeName: SetCanvasActiveUI, Assembly-CSharp
+        m_MethodName: activateCanvas
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1201,8 +1201,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 377202601}
-        m_TargetAssemblyTypeName: UIButtonHowToPlay, Assembly-CSharp
-        m_MethodName: HowToPlay
+        m_TargetAssemblyTypeName: SetCanvasActiveUI, Assembly-CSharp
+        m_MethodName: activateCanvas
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
