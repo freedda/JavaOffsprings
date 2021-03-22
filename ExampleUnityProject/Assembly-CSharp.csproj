@@ -61,6 +61,7 @@
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\Doors\CircularLerp.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\Culling\DistanceHide.cs" />
      <Compile Include="Assets\Scripts\Item.cs" />
+     <Compile Include="Assets\Scripts\PickUpItem.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\ExposureManager\ExposureManager.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\DisableRenderer.cs" />
@@ -82,6 +83,7 @@
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\DitheringComponent.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
+     <Compile Include="Assets\Scripts\InventoryUI.cs" />
      <Compile Include="Assets\Scripts\FocusWithClick.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\WindSwaySimple.cs" />
@@ -93,6 +95,7 @@
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\TaaComponent.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
      <Compile Include="Assets\Scripts\UIButtonHowToPlay.cs" />
+     <Compile Include="Assets\Scripts\InventorySlot.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\VignetteModel.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\GrainModel.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
@@ -120,9 +123,6 @@
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\UserLutModel.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\BloomComponent.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\DitheringModel.cs" />
-     <Compile Include="Assets\Scripts\InventoryUI.cs" />
-     <Compile Include="Assets\Scripts\InventorySlot.cs" />
-     <Compile Include="Assets\Scripts\PickUpItem.cs" />
      <None Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
      <None Include="Assets\Unity Store Assets\Sun_Temple\Content\Shaders\Decal.shader" />
      <None Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Resources\Shaders\GrainGen.shader" />

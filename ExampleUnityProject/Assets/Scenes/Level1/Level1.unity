@@ -2839,7 +2839,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37338b7e708bee749988ef62f5315e39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GFXInvetory: {fileID: 638857004}
+  GFXInvetory: {fileID: 998899789}
 --- !u!1001 &664507154
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5706,6 +5706,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   items: []
+  space: 12
 --- !u!4 &1504446441
 Transform:
   m_ObjectHideFlags: 0
@@ -12980,7 +12981,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -13.7, y: -15.8}
+  m_AnchoredPosition: {x: -13.700012, y: -15.800003}
   m_SizeDelta: {x: 155.5476, y: 192.3985}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &1949597904

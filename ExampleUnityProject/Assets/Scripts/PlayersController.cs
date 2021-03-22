@@ -10,6 +10,7 @@ public class PlayersController : MonoBehaviour
 
     private FocusWithClick move;
     private bool CanPickUP = false;
+    // item must change !!
     public Item item;
     private PickUpItem pickUpItem;
 //    private Transform item;

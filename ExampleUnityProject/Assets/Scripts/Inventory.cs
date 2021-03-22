@@ -21,6 +21,7 @@ public class Inventory : MonoBehaviour
     public List<Item> items = new List<Item>();
     public delegate void itemChanged();
     public itemChanged onItemChangedCallback;
+    public int space = 12;
     
     public void AddItem (Item newItem)
     {
@@ -32,14 +33,14 @@ public class Inventory : MonoBehaviour
         
     }
 
-    public void RemoveItem(Item newItem)
+    /*public void RemoveItem(Item newItem)
     {
         items.Remove(newItem);
         if (onItemChangedCallback != null)
         {
             onItemChangedCallback.Invoke();
         }
-    }
+    }*/
     
     
 }

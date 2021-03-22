@@ -20,9 +20,9 @@ public class PickUpItem : MonoBehaviour
       Gizmos.DrawWireSphere(interactionTransform.position, radius);
    }
    
-   public void PickUp(Item newItem)
+   /*public void PickUp(Item newItem)
    {
       Inventory.instance.AddItem(newItem);
-   }
+   }*/
    
 }

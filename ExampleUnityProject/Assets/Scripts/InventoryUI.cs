@@ -22,9 +22,14 @@ public class InventoryUI : MonoBehaviour
     void UpdateUI()
     {
         Debug.Log("update UI");
+        Debug.Log("length: " + inventorySlots.Length);
         for (int i = 0; i < inventorySlots.Length; i++)
         {
-            inventorySlots[i].AddItem(myInventory.items[i]);            
+            if (i < myInventory.items.Count)
+            {
+                inventorySlots[i].AddItem(myInventory.items[i]);      
+            }
+                  
         }
     }
     
