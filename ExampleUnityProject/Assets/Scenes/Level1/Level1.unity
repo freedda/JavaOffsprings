@@ -1396,8 +1396,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1892e6c3c11566c48ba54b584535328a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 1
+  radius: 1.5
   interactionTransform: {fileID: 267969275}
+  item: {fileID: 11400000, guid: 5e867170e505c9541b484c4838f96c82, type: 2}
 --- !u!1001 &277807989
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2295,8 +2296,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1892e6c3c11566c48ba54b584535328a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 1
+  radius: 1.5
   interactionTransform: {fileID: 502602260}
+  item: {fileID: 11400000, guid: 673e5505664012c4f82515133cab5f93, type: 2}
 --- !u!1001 &514690618
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4692,6 +4694,10 @@ PrefabInstance:
     - target: {fileID: 877037331071963810, guid: 684a5d8f02fdbd44eae7389771dd162a, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 877037331071963814, guid: 684a5d8f02fdbd44eae7389771dd162a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.256855
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 684a5d8f02fdbd44eae7389771dd162a, type: 3}
@@ -13691,15 +13697,19 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6033217621357832632, guid: c0f8680e05dde694ca29e53e608703eb, type: 3}
+    - target: {fileID: 5918275517980546971, guid: c0f8680e05dde694ca29e53e608703eb, type: 3}
+      propertyPath: speed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
       propertyPath: item
       value: 
       objectReference: {fileID: 11400000, guid: 5e867170e505c9541b484c4838f96c82, type: 2}
-    - target: {fileID: 6033217621357832632, guid: c0f8680e05dde694ca29e53e608703eb, type: 3}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6033217621357832632, guid: c0f8680e05dde694ca29e53e608703eb, type: 3}
+    - target: {fileID: 0}
       propertyPath: aMoveMask.m_Bits
       value: 64
       objectReference: {fileID: 0}

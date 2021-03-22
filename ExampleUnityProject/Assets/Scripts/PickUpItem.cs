@@ -6,9 +6,29 @@ using UnityEngine;
 public class PickUpItem : MonoBehaviour
 {
    // distance between player and item in ordeto interact
-   public float radius = 1f;
+   public float radius = 1.5f;
    public Transform interactionTransform;
+   private GameObject player;
+   private  string playerTag = ("Player");
+   public Item item;
    
+
+   void Start()
+   {
+      player = GameObject.FindGameObjectWithTag(playerTag);
+   }
+
+   void Update()
+   {
+      if (Input.GetKeyDown("e") && isClose(player))
+      {
+         Debug.Log("pick up " + item.name);
+         PickUp(item);
+         Destroy(gameObject);;
+      }
+      
+   }
+
    void OnDrawGizmosSelected()
    {  
       // to prevent any errors
@@ -20,9 +40,24 @@ public class PickUpItem : MonoBehaviour
       Gizmos.DrawWireSphere(interactionTransform.position, radius);
    }
    
-   /*public void PickUp(Item newItem)
+   public void PickUp(Item newItem)
    {
       Inventory.instance.AddItem(newItem);
-   }*/
+   }
    
+   private bool isClose(GameObject player)
+   {
+      if (Vector3.Distance(player.transform.position, this.transform.position) < radius)
+      {
+         Debug.Log("u r close, u can pick it");
+         //Activate a "E" 
+         //......
+         //Its close in the radius
+         return true;
+      }
+      else
+      {
+         return false;
+      }
+   }
 }

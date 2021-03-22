@@ -26,7 +26,7 @@ public class PlayersController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //If pressed left button down from mouse
+        /*//If pressed left button down from mouse
         if (Input.GetMouseButtonDown(0))
         {
             Ray ray = myCamera.ScreenPointToRay(Input.mousePosition);
@@ -52,7 +52,7 @@ public class PlayersController : MonoBehaviour
                 // Focused on item if we hit an interactable item
                
             }
-        }
+        }*/
 
         if (Input.GetKeyDown("e") && CanPickUP)
         {
