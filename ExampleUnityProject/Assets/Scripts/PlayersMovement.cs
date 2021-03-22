@@ -15,10 +15,12 @@ public class PlayersMovement : MonoBehaviour
      * with w-s up and down
      * and with a-d left and right
      */
-    // private string turnInput = ("Horizontal");
-    // private string verticalInput = ("Vertical");
+    private string turnInput = ("Horizontal");
+    private string verticalInput = ("Vertical");
 
-    public float speed = 3f;
+    public float speed = 2f;
+    Rigidbody rb;
+
     Animator anim;
 
 
@@ -26,80 +28,61 @@ public class PlayersMovement : MonoBehaviour
     private void Start()
     {
         anim = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody>();
 
 
     }
 
     private void Update()
     {
-        // float verticalMoveAxis = Input.GetAxis(verticalInput);
-        // float horizontalMoveAxis = Input.GetAxis(turnInput);
+        float verticalMoveAxis = Input.GetAxis(verticalInput);
+        float horizontalMoveAxis = Input.GetAxis(turnInput);
         
         
-            //Call the movement function
-            if (Input.GetKeyDown(KeyCode.S))
-            {
-                anim.SetInteger("condition", 1);
-                direction = transform.TransformDirection(new Vector3(0, 0, -1) * speed);
-            }
+        rb.velocity = new Vector3 (horizontalMoveAxis * speed * Time.deltaTime, rb.velocity.y, verticalMoveAxis * speed * Time.deltaTime);
 
-            if (Input.GetKeyUp(KeyCode.S))
-            {
-                anim.SetInteger("condition", 0);
-                direction = transform.TransformDirection(new Vector3(0, 0, 0) * speed);
-            }
+        if (rb.velocity.z >0.01 || rb.velocity.z < -0.01)
+        {   
+            anim.SetInteger("condition", 1);
+            transform.Translate(rb.velocity, Space.Self);
 
+        }
+        else
 
-            if (Input.GetKeyDown(KeyCode.W))
-            { 
-                anim.SetInteger("condition", 1);
-               direction = transform.TransformDirection(new Vector3(0, 0, 1) * speed);
-            }
+        {
+            anim.SetInteger("condition", 0);
+            transform.Translate(rb.velocity, Space.Self);
 
-            if (Input.GetKeyUp(KeyCode.W))
-            {
-                anim.SetInteger("condition", 0);
-               direction = transform.TransformDirection(new Vector3(0, 0, 0) * speed);
-            }
+        }
 
-            if (Input.GetKeyDown(KeyCode.A))
-            {
-                anim.SetInteger("conditionL", 3);
-                direction = transform.TransformDirection(new Vector3(-1, 0, 0) * speed);
-            }
+        if (rb.velocity.x > 0.01)
+        {   
+            anim.SetInteger("conditionR", 2);
+            transform.Translate(rb.velocity, Space.Self);
 
-            if (Input.GetKeyUp(KeyCode.A))
-            {
-                anim.SetInteger("conditionL", 0);
-               direction = transform.TransformDirection(new Vector3(0, 0, 0) * speed);
-            }
+        }
+        else
+        {
+            anim.SetInteger("conditionR", 0);
+            transform.Translate(rb.velocity, Space.Self);
 
-            if (Input.GetKeyDown(KeyCode.D))
-            {
-                anim.SetInteger("conditionR", 2);
-                direction = (new Vector3(1, 0, 0) * speed);
-            }
-
-            if (Input.GetKeyUp(KeyCode.D))
-            {
-                anim.SetInteger("conditionR", 0);
-                direction = transform.TransformDirection(new Vector3(0, 0, 0) * speed);
-            }
-
+        }
         
-            
-        //call movement function
-        Movement(direction);
-        
+        if (rb.velocity.x < -0.01)
+        {   
+            anim.SetInteger("conditionL", 3);
+            transform.Translate(rb.velocity, Space.Self);
+
+        }
+        else
+        {
+            anim.SetInteger("conditionL", 0);
+            transform.Translate(rb.velocity, Space.Self);
+
+        }
 
     }
 
-    private void Movement(Vector3 direction)
-    {
-        
-        transform.Translate(direction * Time.deltaTime, Space.Self);
-        
-        
-    }
+    
     
 }
