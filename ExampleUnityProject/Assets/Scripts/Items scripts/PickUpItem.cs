@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PickUpItem : MonoBehaviour
 {
@@ -11,15 +12,25 @@ public class PickUpItem : MonoBehaviour
    private GameObject player;
    private  string playerTag = ("Player");
    public Item item;
-   
+   public GameObject messagePanel;
 
    void Start()
    {
       player = GameObject.FindGameObjectWithTag(playerTag);
    }
+   
 
    void Update()
    {
+      /*if (isClose(player))
+      {
+         messagePanel.SetActive(true);
+      }
+      else
+      {
+         messagePanel.SetActive(false);
+      }*/
+      
       if (Input.GetKeyDown("e") && isClose(player))
       {
          Debug.Log("pick up " + item.name);

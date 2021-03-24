@@ -12,6 +12,7 @@ public class PickupKey : MonoBehaviour
     private string playerTag = ("Player");
     private bool isPicked=true;
     public GameObject papyrusCanvas;
+    public GameObject messagePanel;
     
     // Start is called before the first frame update
     void Start()
@@ -26,7 +27,16 @@ public class PickupKey : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {   
+        /*if (Vector3.Distance(player.transform.position, this.transform.position) < radius)
+        {
+            messagePanel.SetActive(true);
+        }
+        else
+        {
+            messagePanel.SetActive(false);
+        }*/
+        
         if (isPicked)
         {   if(Input.GetKeyDown("e") && (Vector3.Distance(player.transform.position, this.transform.position) < radius))
             {
