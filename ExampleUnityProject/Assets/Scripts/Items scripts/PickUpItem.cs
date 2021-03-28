@@ -6,40 +6,59 @@ using UnityEngine.UI;
 
 public class PickUpItem : MonoBehaviour
 {
+   
    // distance between player and item in ordeto interact
    public float radius = 1.5f;
    public Transform interactionTransform;
-   private GameObject player;
+   
+   protected GameObject player;
    private  string playerTag = ("Player");
+   
    public Item item;
+   
+   //A message Panel for "E" canvas
    public GameObject messagePanel;
+   private GameObject invetoryPanel;
 
-   void Start()
+  
+
+
+   protected virtual void Start()
    {
       player = GameObject.FindGameObjectWithTag(playerTag);
+      
+    
    }
    
 
-   void Update()
+   protected  virtual void Update()
    {
-      /*if (isClose(player))
-      {
-         messagePanel.SetActive(true);
-      }
-      else
-      {
-         messagePanel.SetActive(false);
-      }*/
-      
+      ActiveCanvasWithE();
       if (Input.GetKeyDown("e") && isClose(player))
       {
          Debug.Log("pick up " + item.name);
+         
          PickUp(item);
          Destroy(gameObject);
+        
+        
+  
       }
-      
+ 
    }
 
+   protected void ActiveCanvasWithE()
+   {
+      if (isClose(player))
+      {
+         messagePanel.SetActive(true);
+      }
+      else if(messagePanel.activeSelf==true)
+      {
+         messagePanel.SetActive(false);
+      }
+   }
+   
    void OnDrawGizmosSelected()
    {  
       // to prevent any errors
@@ -56,7 +75,7 @@ public class PickUpItem : MonoBehaviour
       Inventory.instance.AddItem(newItem);
    }
    
-   private bool isClose(GameObject player)
+   protected bool isClose(GameObject player)
    {
       if (Vector3.Distance(player.transform.position, this.transform.position) < radius)
       {

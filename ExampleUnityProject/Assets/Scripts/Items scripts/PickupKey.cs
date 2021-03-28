@@ -2,48 +2,48 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PickupKey : MonoBehaviour
+[System.Serializable]
+//Inherited from PickUpItm Class
+public class PickupKey : PickUpItem
 {
-    
-    private GameObject player;
-
-    public float radius = 1.5f;
-
-    private string playerTag = ("Player");
+ 
     private bool isPicked=true;
-    public GameObject papyrusCanvas;
-    public GameObject messagePanel;
+
+    public GameObject myCanvas;
     
+  
     // Start is called before the first frame update
-    void Start()
-    {
-        player = GameObject.FindGameObjectWithTag (playerTag);
+    protected override void Start()
+    {   
+        //player component from parent class
+        base.Start();
+        
+        //Make child changes
         if (!player)
         {
             isPicked = false;
             return;
         }
+
     }
 
     // Update is called once per frame
-    void Update()
+    protected override void Update()
     {   
-        /*if (Vector3.Distance(player.transform.position, this.transform.position) < radius)
-        {
-            messagePanel.SetActive(true);
-        }
-        else
-        {
-            messagePanel.SetActive(false);
-        }*/
+        //Activate E canvas
+        ActiveCanvasWithE();
         
         if (isPicked)
-        {   if(Input.GetKeyDown("e") && (Vector3.Distance(player.transform.position, this.transform.position) < radius))
+        {   if(Input.GetKeyDown("e") &&  isClose(player))
             {
-                papyrusCanvas.SetActive(true);
+                //Activate Theory 
+                //myCanvas = Papyrus Canvas
+                myCanvas.SetActive(true);
                 Destroy(gameObject);
+              
 
             }
         }
+       
     }
 }
