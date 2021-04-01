@@ -10,8 +10,7 @@ public class PickupKey : PickUpItem
     private bool isPicked=true;
 
     public GameObject myCanvas;
-    
-  
+      
     // Start is called before the first frame update
     protected override void Start()
     {   
@@ -31,7 +30,6 @@ public class PickupKey : PickUpItem
     protected override void Update()
     {   
         //Activate E canvas
-        ActiveCanvasWithE();
         
         if (isPicked)
         {   if(Input.GetKeyDown("e") &&  isClose(player))

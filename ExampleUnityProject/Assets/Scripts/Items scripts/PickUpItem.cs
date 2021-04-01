@@ -1,8 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Windows.Speech;
 
 public class PickUpItem : MonoBehaviour
 {
@@ -26,14 +28,15 @@ public class PickUpItem : MonoBehaviour
    protected virtual void Start()
    {
       player = GameObject.FindGameObjectWithTag(playerTag);
-      
-    
+     
+
    }
    
 
    protected  virtual void Update()
    {
       ActiveCanvasWithE();
+      
       if (Input.GetKeyDown("e") && isClose(player))
       {
          Debug.Log("pick up " + item.name);
@@ -44,19 +47,35 @@ public class PickUpItem : MonoBehaviour
         
   
       }
- 
+
+      
    }
 
    protected void ActiveCanvasWithE()
    {
-      if (isClose(player))
-      {
-         messagePanel.SetActive(true);
-      }
-      else if(messagePanel.activeSelf==true)
+      if (messagePanel.activeSelf == true && !isClose(this.player))
       {
          messagePanel.SetActive(false);
+         Debug.Log("MPIKE");
       }
+      /*Debug.Log("to E pane einai genika ston kwdika: " +  messagePanel.activeSelf);
+      Debug.Log("to E pane einai sto hierarchy: " +  messagePanel.activeInHierarchy);*/
+      if (isClose(this.player) )
+      {
+         messagePanel.SetActive(true);
+         Debug.Log("to E pane einai genika ston kwdika  11 : " +  messagePanel.activeSelf);
+         Debug.Log("to E pane einai sto hierarchy  11 : " +  messagePanel.activeInHierarchy);
+
+      }
+      else 
+      {
+         messagePanel.SetActive(false);
+         Debug.Log("to E pane einai genika ston kwdika  22 : " +  messagePanel.activeSelf);
+         Debug.Log("to E pane einai sto hierarchy  22 : " +  messagePanel.activeInHierarchy);
+         Debug.Log(isClose(player));
+      }
+
+      
    }
    
    void OnDrawGizmosSelected()
@@ -77,12 +96,14 @@ public class PickUpItem : MonoBehaviour
    
    protected bool isClose(GameObject player)
    {
-      if (Vector3.Distance(player.transform.position, this.transform.position) < radius)
+      if (Vector3.Distance(player.transform.position, transform.position) < radius)
       {
          Debug.Log("u r close, u can pick it");
          //Activate a "E" 
          //......
          //Its close in the radius
+       //  Debug.Log("einai mKONTA o player stin thesi " + player.transform.position + "kai to antikeimeno " + this.transform.position);
+         
          return true;
       }
       else

@@ -12,6 +12,7 @@ namespace SunTemple{
 		public Sprite defaultCursor;
 		public Sprite lockedCursor;
 		public Sprite doorCursor;
+		public Sprite eCursor;
 
 		private UnityEngine.UI.Image img;
 
@@ -31,6 +32,9 @@ namespace SunTemple{
 			img.sprite = doorCursor;
 		}
 
+		public void SetCursorToE(){
+			img.sprite = eCursor; 
+		}
 		public void SetCursorToDefault(){
 			img.sprite = defaultCursor; 
 		}

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7331662289094221355}
   - component: {fileID: 7331662289094221354}
   - component: {fileID: 7331662289094221353}
-  - component: {fileID: 5654005832407639043}
+  - component: {fileID: 5142004865408240770}
   m_Layer: 6
   m_Name: Page
   m_TagString: Untagged
@@ -96,7 +96,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &5654005832407639043
+--- !u!114 &5142004865408240770
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -110,5 +110,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 1.5
   interactionTransform: {fileID: 7331662289094221356}
-  item: {fileID: 11400000, guid: 5e867170e505c9541b484c4838f96c82, type: 2}
+  item: {fileID: 0}
   messagePanel: {fileID: 0}
