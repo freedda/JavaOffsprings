@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace SunTemple{
+
 	
 	public class CursorManager : MonoBehaviour {
 
@@ -41,4 +41,4 @@ namespace SunTemple{
 		
 
 	}
-}
+

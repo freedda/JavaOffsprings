@@ -30,7 +30,13 @@ public class PickupKey : PickUpItem
     protected override void Update()
     {   
         //Activate E canvas
+        base.Update();
         
+       
+    }
+
+    protected void tryToPick()
+    {
         if (isPicked)
         {   if(Input.GetKeyDown("e") &&  isClose(player))
             {
@@ -42,6 +48,5 @@ public class PickupKey : PickUpItem
 
             }
         }
-       
     }
 }
