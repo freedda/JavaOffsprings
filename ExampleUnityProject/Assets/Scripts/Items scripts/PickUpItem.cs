@@ -22,17 +22,12 @@ public class PickUpItem : MonoBehaviour
    public GameObject messagePanel;
    private GameObject invetoryPanel;
 
-  
-
-
+   
    protected virtual void Start()
    {
       player = GameObject.FindGameObjectWithTag(playerTag);
-     
-
    }
    
-
    protected  virtual void Update()
    {
       ActiveCanvasWithE();
@@ -40,15 +35,16 @@ public class PickUpItem : MonoBehaviour
       if (Input.GetKeyDown("e") && isClose(player))
       {
          Debug.Log("pick up " + item.name);
-         
-         PickUp(item);
+         if (item.name.Equals("Page item"))
+         {
+            Debug.Log("pire to page");
+         }
+         else
+         {
+            PickUp(item);
+         }
          Destroy(gameObject);
-        
-        
-  
       }
-
-      
    }
 
    protected void ActiveCanvasWithE()
@@ -74,8 +70,6 @@ public class PickUpItem : MonoBehaviour
          Debug.Log("to E pane einai sto hierarchy  22 : " +  messagePanel.activeInHierarchy);
          Debug.Log(isClose(player));
       }
-
-      
    }
    
    void OnDrawGizmosSelected()
@@ -89,9 +83,16 @@ public class PickUpItem : MonoBehaviour
       Gizmos.DrawWireSphere(interactionTransform.position, radius);
    }
    
-   public void PickUp(Item newItem)
+   protected void PickUp(Item newItem)
    {
-      Inventory.instance.AddItem(newItem);
+      if (newItem.name.Equals("Page item"))
+      {
+         // add page to backpack
+      }
+      else
+      {
+         Inventory.instance.AddItem(newItem);
+      }
    }
    
    protected bool isClose(GameObject player)
