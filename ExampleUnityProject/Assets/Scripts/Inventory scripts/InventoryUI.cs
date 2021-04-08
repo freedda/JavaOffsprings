@@ -31,18 +31,4 @@ public class InventoryUI : MonoBehaviour
             }
         }
     }
-
-    /*void UpdateUI()
-    {
-        Debug.Log("update UI");
-        for (int i = 0; i < inventorySlots.Length; i++)
-        {
-            if (i < myInventory.items.Count)
-            {
-                inventorySlots[i].AddItem(myInventory.items[i]);      
-            }
-                  
-        }
-    }*/
-    
 }

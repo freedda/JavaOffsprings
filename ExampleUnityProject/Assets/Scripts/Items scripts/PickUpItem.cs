@@ -10,7 +10,7 @@ public class PickUpItem : MonoBehaviour
 {
    
    // distance between player and item in ordeto interact
-   public float radius = 2f;
+   public float radius = 1.5f;
    public Transform interactionTransform;
    
    protected GameObject player;
@@ -53,14 +53,7 @@ public class PickUpItem : MonoBehaviour
       if (Input.GetKeyDown("e") && isClose(player))
       {
          Debug.Log("pick up " + item.name);
-         if (item.name.Equals("Page item"))
-         {
-            Debug.Log("pire to page");
-         }
-         else
-         {
-            PickUp(item);
-         }
+         PickUp(item);
          Destroy(gameObject);
       }
    }
@@ -86,7 +79,7 @@ public class PickUpItem : MonoBehaviour
       if (messagePanel.activeSelf == true && !isClose(this.player))
       {
          messagePanel.SetActive(false);
-         Debug.Log("MPIKE");
+        // Debug.Log("MPIKE");
       }
       /*Debug.Log("to E pane einai genika ston kwdika: " +  messagePanel.activeSelf);
       Debug.Log("to E pane einai sto hierarchy: " +  messagePanel.activeInHierarchy);*/
@@ -124,14 +117,7 @@ public class PickUpItem : MonoBehaviour
    
    protected void PickUp(Item newItem)
    {
-      if (newItem.name.Equals("Page item"))
-      {
-         // add page to backpack
-      }
-      else
-      {
-         Inventory.instance.AddItem(newItem);
-      }
+      Inventory.instance.AddItem(newItem);
    }
    
    protected bool isClose(GameObject player)

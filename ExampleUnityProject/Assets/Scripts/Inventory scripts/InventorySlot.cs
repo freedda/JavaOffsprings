@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class InventorySlot : MonoBehaviour
 {
     public Image icon;
+    public Text nameText;
     private Item item;
 
     public void AddItem(Item newItem)
@@ -12,7 +13,10 @@ public class InventorySlot : MonoBehaviour
         item = newItem;
 
         icon.sprite = item.icon;
+        nameText.text = item.name;
         icon.enabled = true;
+        nameText.gameObject.SetActive(true);
+        
     }
 
     public void RemoveItem()
