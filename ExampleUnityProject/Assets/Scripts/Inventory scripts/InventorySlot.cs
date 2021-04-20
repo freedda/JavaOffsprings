@@ -9,10 +9,10 @@ public class InventorySlot : MonoBehaviour
     public Text nameText;
     private Item item;
 
-    public void Start()
+    /*public void Start()
     {
         icon.enabled = false;
-    }
+    }*/
     
     public void AddItem(Item newItem)
     {

@@ -60,19 +60,21 @@ public class PickUpItem : MonoBehaviour
 
    protected void activeSpriteE()
    {
-      if (isClose(player)){ 
-         Ray ray = cam.ScreenPointToRay (new Vector3 (Screen.width / 2, Screen.height / 2, 0));
-        RaycastHit hit;
+      if (isClose(player))
+      {
+         Ray ray = cam.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2, 0));
+         RaycastHit hit;
 
-        if (ItemCollider.Raycast (ray, out hit, radius)) {
-           
-               cursor.SetCursorToE(); 
-           					
-         } 
-      else {
-            cursor.SetCursorToDefault ();
+         if (ItemCollider.Raycast(ray, out hit, radius))
+         {
+            cursor.SetCursorToE();
          }
-     }
+      }
+      else
+      {
+         cursor.SetCursorToDefault ();
+      }
+     
    }
    protected void ActiveCanvasWithE()
    {
