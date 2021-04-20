@@ -29,6 +29,10 @@ public class InventoryUI : MonoBehaviour
             {
                 inventorySlots[i].AddItem(myInventory.items[i]);      
             }
+            else
+            {
+                inventorySlots[i].RemoveItem();
+            }
         }
     }
 }
