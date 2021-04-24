@@ -15,11 +15,11 @@ C:/Users/dimit/Desktop/dim/Σχολή/πτυχιακή/FirstScene/ExampleUnityPr
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50911
+51687
 Successfully changed project path to: C:/Users/dimit/Desktop/dim/Σχολή/πτυχιακή/FirstScene/ExampleUnityProject
 C:/Users/dimit/Desktop/dim/Σχολή/πτυχιακή/FirstScene/ExampleUnityProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 163.64 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 135.06 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.7f1 (c53830e277f1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,103 +35,480 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006838 seconds.
+Registered in 0.007959 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 159.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 140.60 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.322 seconds
+- Completed reload, in 19.527 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003307 seconds.
+Registered in 0.003618 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.110 seconds
+- Completed reload, in  2.983 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.76 seconds
-Refreshing native plugins compatible for Editor in 1.34 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.31 seconds
+Refreshing native plugins compatible for Editor in 1.15 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1286 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.1 MB.
-System memory in use after: 101.0 MB.
+System memory in use before: 101.0 MB.
+System memory in use after: 100.8 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1752.
-Total: 7.087300 ms (FindLiveObjects: 0.550000 ms CreateObjectMapping: 0.140500 ms MarkObjects: 4.545700 ms  DeleteObjects: 1.846100 ms)
+Total: 7.668600 ms (FindLiveObjects: 0.599100 ms CreateObjectMapping: 0.135100 ms MarkObjects: 4.683100 ms  DeleteObjects: 2.246800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/items/Saw.prefab
-  artifactKey: Guid(609a3d1fc985b454fb0e877d422ed818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/items/Saw.prefab using Guid(609a3d1fc985b454fb0e877d422ed818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90e169ee30c783055e80b6087db2089') in 0.680723 seconds
-  Import took 0.723540 seconds .
+  path: Assets/Unity Store Assets/CarpenterToolSet/models/Materials/parquet_diffuse.mat
+  artifactKey: Guid(6144ee405786047648e30c552da2959b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/models/Materials/parquet_diffuse.mat using Guid(6144ee405786047648e30c552da2959b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82596ef47d49311c895c18f0ea4f416') in 1.841533 seconds
+  Import took 1.870073 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.372717 seconds.
-  path: Assets/Prefabs/items/Saw.prefab
-  artifactKey: Guid(609a3d1fc985b454fb0e877d422ed818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/items/Saw.prefab using Guid(609a3d1fc985b454fb0e877d422ed818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90e169ee30c783055e80b6087db2089') in 0.044157 seconds
-  Import took 0.052012 seconds .
+  Time since last request: 0.000737 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/models/nails.fbx
+  artifactKey: Guid(958267ed545634d56b0260d3b2a78cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/models/nails.fbx using Guid(958267ed545634d56b0260d3b2a78cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdaa1c784547890113822ca32f670136') in 1.027303 seconds
+  Import took 1.061472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000569 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/prefabs/nail3.prefab
+  artifactKey: Guid(1f4b424f33c5647fb8f5e9408f893b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/prefabs/nail3.prefab using Guid(1f4b424f33c5647fb8f5e9408f893b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67279746aad11fde407bcf94b911f2cf') in 0.095667 seconds
+  Import took 0.111717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000538 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/models/Materials/handsaw_material.mat
+  artifactKey: Guid(bf170e3431bad4f39a917430a66c517e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/models/Materials/handsaw_material.mat using Guid(bf170e3431bad4f39a917430a66c517e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7eb3c5f946d872f0ed41242b7965d4') in 0.125806 seconds
+  Import took 0.165991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000610 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/textures/hammer_sp_hammer_material_MetallicSmoothness.png
+  artifactKey: Guid(796ec5b0efcc94c648bcce8da88948e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/textures/hammer_sp_hammer_material_MetallicSmoothness.png using Guid(796ec5b0efcc94c648bcce8da88948e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16982494854242ac1ea78f0097eeebf') in 0.143206 seconds
+  Import took 0.243271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000868 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/textures/nails_SP_nail_material_AO.png
+  artifactKey: Guid(34b603c0548ba41d384de17cd2190d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/textures/nails_SP_nail_material_AO.png using Guid(34b603c0548ba41d384de17cd2190d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b7e2075c22e998006754f2a577a905') in 0.177421 seconds
+  Import took 0.208890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000703 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/prefabs/nail6.prefab
+  artifactKey: Guid(9b081bfd40b8e413eae93f37ea498428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/prefabs/nail6.prefab using Guid(9b081bfd40b8e413eae93f37ea498428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b19f13e2435cd229153b1ff8995858') in 0.108350 seconds
+  Import took 0.137115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000816 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/textures/Crowbar_SP_crowbar_MetallicSmoothness.png
+  artifactKey: Guid(c1f4064889aaf4e55b2d0d7b3ed2c0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/textures/Crowbar_SP_crowbar_MetallicSmoothness.png using Guid(c1f4064889aaf4e55b2d0d7b3ed2c0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5af76e98d585fffac33fdbc46ba634') in 0.111428 seconds
+  Import took 0.122275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000897 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/textures/hammer_sp_hammer_material_Normal.png
+  artifactKey: Guid(78a9fdc3675a74e5c8a662d12eee9f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/textures/hammer_sp_hammer_material_Normal.png using Guid(78a9fdc3675a74e5c8a662d12eee9f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0819f4272c5e9f0b30d5d0b3dd2b7f53') in 0.082122 seconds
+  Import took 0.097803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000574 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/prefabs/hand_saw.prefab
+  artifactKey: Guid(f5566e55ec840448ba59fd75522ab0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/prefabs/hand_saw.prefab using Guid(f5566e55ec840448ba59fd75522ab0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418b079ee714720adb8a022df09e3795') in 0.225869 seconds
+  Import took 0.261197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006155 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/textures/hand_saw_handsaw_material_AO.png
+  artifactKey: Guid(3b0c29605989b460ab156415f8a69360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/textures/hand_saw_handsaw_material_AO.png using Guid(3b0c29605989b460ab156415f8a69360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467a9f199844649880805312cc796106') in 0.082326 seconds
+  Import took 0.092306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000570 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/textures/nails_SP_nail_material_AlbedoTransparency.png
+  artifactKey: Guid(7e5b0eea6196d4b8f959bce7282ceb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/textures/nails_SP_nail_material_AlbedoTransparency.png using Guid(7e5b0eea6196d4b8f959bce7282ceb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd13a10b738ba7ae9907afc3d3f4ea5f') in 0.121526 seconds
+  Import took 0.155993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000749 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/prefabs/nail2_bent.prefab
+  artifactKey: Guid(d31462118066546e998e8a4b0e4a33e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/prefabs/nail2_bent.prefab using Guid(d31462118066546e998e8a4b0e4a33e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5656df453991a8aa734c8a9929eb17f6') in 0.137188 seconds
+  Import took 0.146667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000648 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/models/Materials/nail_material.mat
+  artifactKey: Guid(9de35782da82b4ac29a6265f93258d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/models/Materials/nail_material.mat using Guid(9de35782da82b4ac29a6265f93258d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f18ee0023f9e1634e06840f5246f0d5') in 0.168251 seconds
+  Import took 0.200198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000807 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/textures/hammer_sp_hammer_material_AlbedoTransparency.png
+  artifactKey: Guid(e27806810ed9c4845a615d0b69006478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/textures/hammer_sp_hammer_material_AlbedoTransparency.png using Guid(e27806810ed9c4845a615d0b69006478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8310bd8d631170483acd594cdb2f81e7') in 0.090393 seconds
+  Import took 0.116404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000800 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/textures/parquet_normal.png
+  artifactKey: Guid(3b311826ec6ef4475a4981fecb9dd36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/textures/parquet_normal.png using Guid(3b311826ec6ef4475a4981fecb9dd36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c50fdba9e8033247a977e380f4c153') in 0.056901 seconds
+  Import took 0.070491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000507 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/prefabs/nail7_bent.prefab
+  artifactKey: Guid(725bf882740ab41fa8a1d4e14202b9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/prefabs/nail7_bent.prefab using Guid(725bf882740ab41fa8a1d4e14202b9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4996412c5f971ce7437df9de7db1fd6a') in 0.215495 seconds
+  Import took 0.255277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000972 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/prefabs/nails.prefab
+  artifactKey: Guid(e0aece4dc76384d49ac2e22c13d1fbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/prefabs/nails.prefab using Guid(e0aece4dc76384d49ac2e22c13d1fbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e023025c1111d67fd081b22b99fd515') in 0.166590 seconds
+  Import took 0.204667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/textures/nails_SP_nail_material_MetallicSmoothness.png
+  artifactKey: Guid(8d2a614ff650640c79c94e5a8aa5374f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/textures/nails_SP_nail_material_MetallicSmoothness.png using Guid(8d2a614ff650640c79c94e5a8aa5374f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d2bb11040cf9afc3be6b38ec6cd262') in 0.095636 seconds
+  Import took 0.104583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000819 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/textures/Crowbar_SP_crowbar_Normal.png
+  artifactKey: Guid(3be1269e754db4b268325f9e8be5ccde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/textures/Crowbar_SP_crowbar_Normal.png using Guid(3be1269e754db4b268325f9e8be5ccde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0490e24dbc39a1f244f7d3e28f20dc0') in 0.086854 seconds
+  Import took 0.113279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000992 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/models/hand_saw.fbx
+  artifactKey: Guid(b6a84ee22424f499b99522626bb43ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/models/hand_saw.fbx using Guid(b6a84ee22424f499b99522626bb43ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525278dd94e90fea54068cc2681b7df0') in 0.460735 seconds
+  Import took 0.501012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001004 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/textures/Crowbar_SP_crowbar_AlbedoTransparency.png
+  artifactKey: Guid(9324f7ec69c0c4ee9ad65b4250aff0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/textures/Crowbar_SP_crowbar_AlbedoTransparency.png using Guid(9324f7ec69c0c4ee9ad65b4250aff0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8afad1549af636a48764dc933cd9c0b2') in 0.109146 seconds
+  Import took 0.135578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001083 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/models/Materials/crowbar.mat
+  artifactKey: Guid(07efa0acb0ab74ec9a727e46587192ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/models/Materials/crowbar.mat using Guid(07efa0acb0ab74ec9a727e46587192ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e8a1bb6f6c8e72dcbfeef16decf2e9') in 0.356060 seconds
+  Import took 0.421673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000562 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/textures/hand_saw_handsaw_material_Normal.png
+  artifactKey: Guid(40c96822d3add476cb1d699af88cb6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/textures/hand_saw_handsaw_material_Normal.png using Guid(40c96822d3add476cb1d699af88cb6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f522407399bb6fb0c241e870c56d62') in 0.153371 seconds
+  Import took 0.193611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001790 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/prefabs/nail1_bent.prefab
+  artifactKey: Guid(25c1656d10ab8450c85fcc45f3488760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/prefabs/nail1_bent.prefab using Guid(25c1656d10ab8450c85fcc45f3488760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '113ebf4ff40fcfc58e5488bdf2c2cba3') in 0.485121 seconds
+  Import took 0.562128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000505 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/textures/parquet_diffuse.png
+  artifactKey: Guid(e17b7a68a4d51483d80ad5aa0653d119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/textures/parquet_diffuse.png using Guid(e17b7a68a4d51483d80ad5aa0653d119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72ba0646660b216e4cdf58a59e7e6d0') in 0.035049 seconds
+  Import took 0.099442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/textures/nails_SP_nail_material_Normal.png
+  artifactKey: Guid(84976083d5084420d942280ca01e9b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/textures/nails_SP_nail_material_Normal.png using Guid(84976083d5084420d942280ca01e9b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c43234c9fb2b78b13be66289fd2617') in 0.058962 seconds
+  Import took 0.091160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/prefabs/nail5_bent.prefab
+  artifactKey: Guid(4273cb693984c427b913c4ddd5e105c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/prefabs/nail5_bent.prefab using Guid(4273cb693984c427b913c4ddd5e105c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176290559da8f1dc7f9f9965bf6f3f04') in 0.070979 seconds
+  Import took 0.080299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/models/Materials
+  artifactKey: Guid(83bac6baf55f245a596f441309a8607a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/models/Materials using Guid(83bac6baf55f245a596f441309a8607a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f9ad950febf8e6e07496e6491c9bd2e') in 0.042669 seconds
+  Import took 0.067432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000897 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/prefabs/hammer.prefab
+  artifactKey: Guid(583e25463d6f741b6afcee0e9b30ffaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/prefabs/hammer.prefab using Guid(583e25463d6f741b6afcee0e9b30ffaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1010d9090c0cb4fe87fa19aa7c5944c') in 0.078869 seconds
+  Import took 0.100691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/prefabs/nail3_bent.prefab
+  artifactKey: Guid(10c2580cfca6e4b808b330814ebed757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/prefabs/nail3_bent.prefab using Guid(10c2580cfca6e4b808b330814ebed757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e25773b24b62a797ced5ecf05a59ec') in 0.071356 seconds
+  Import took 0.082641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet
+  artifactKey: Guid(f052b3d514f2a8e4d9c18a42d34c52e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet using Guid(f052b3d514f2a8e4d9c18a42d34c52e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce30682c6290f35e0b5a34ab8e62abc') in 0.019785 seconds
+  Import took 0.025491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/prefabs/nail7.prefab
+  artifactKey: Guid(da0a9ea39583d48369f90f898db56a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/prefabs/nail7.prefab using Guid(da0a9ea39583d48369f90f898db56a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd475cf6173ae7d3807b252cc4354a1') in 0.070832 seconds
+  Import took 0.080873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/models/hammer.fbx
+  artifactKey: Guid(9fa8fd1d2e4e34e34be96120842ea655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/models/hammer.fbx using Guid(9fa8fd1d2e4e34e34be96120842ea655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea027fb58ae9d023e411cf49aa705a9e') in 0.075273 seconds
+  Import took 0.093833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/models/Materials/hammer_material.mat
+  artifactKey: Guid(1cc8f25388a0b4705bebd5fca0e07762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/models/Materials/hammer_material.mat using Guid(1cc8f25388a0b4705bebd5fca0e07762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bedc710774764ef099c4b1cf08a95a9b') in 0.085940 seconds
+  Import took 0.094156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000568 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/textures/hand_saw_handsaw_material_MetallicSmoothness.png
+  artifactKey: Guid(86e0f0b2dd31e40678f2b48c4aa52b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/textures/hand_saw_handsaw_material_MetallicSmoothness.png using Guid(86e0f0b2dd31e40678f2b48c4aa52b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ee52f1daa52db267cd41b73e4be9d5') in 0.054166 seconds
+  Import took 0.072674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/models
+  artifactKey: Guid(950de414265e74d7eb8df9f2dc1a9870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/models using Guid(950de414265e74d7eb8df9f2dc1a9870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226d63c5cbc83ef7a10262d8deb2a1cb') in 0.024696 seconds
+  Import took 0.044039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/prefabs
+  artifactKey: Guid(4df4acd7c8f2948719e49ec4dac004cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/prefabs using Guid(4df4acd7c8f2948719e49ec4dac004cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69df1f83fdb74e262d95da0aa0c3327') in 0.024194 seconds
+  Import took 0.033398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/models/Crowbar.fbx
+  artifactKey: Guid(7d6000c6952e64ddd9b6613c319ad4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/models/Crowbar.fbx using Guid(7d6000c6952e64ddd9b6613c319ad4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cfb8c3c2d7895f8f11898c9fc308fee') in 0.086196 seconds
+  Import took 0.094394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000607 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/prefabs/nail4.prefab
+  artifactKey: Guid(1475b54d4c70442728a3a49a5ae2ae19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/prefabs/nail4.prefab using Guid(1475b54d4c70442728a3a49a5ae2ae19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a926abe2aeedcc58b89092ca6676fc7b') in 0.076406 seconds
+  Import took 0.093988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000594 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/prefabs/Crowbar.prefab
+  artifactKey: Guid(1f41ca70e984b46bbbbafd2ba9561d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/prefabs/Crowbar.prefab using Guid(1f41ca70e984b46bbbbafd2ba9561d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d1a8cf3a72c733cd17b0f1ea34f22cf') in 0.069915 seconds
+  Import took 0.078447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000588 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/textures/Crowbar_SP_crowbar_AO.png
+  artifactKey: Guid(6be28f611dd994ecdb5d73011d44a8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/textures/Crowbar_SP_crowbar_AO.png using Guid(6be28f611dd994ecdb5d73011d44a8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921ae2397f38f07aa4f80dd8da271847') in 0.046491 seconds
+  Import took 0.081615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000514 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/textures
+  artifactKey: Guid(fd2bd99d89c094a78bcf4aa3dd7054a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/textures using Guid(fd2bd99d89c094a78bcf4aa3dd7054a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a06301dd5934cbe9337f2ed7cffb86f') in 0.024343 seconds
+  Import took 0.066242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000638 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/textures/hand_saw_handsaw_material_AlbedoTransparency.png
+  artifactKey: Guid(a8d78d377a8fa4f8e9c09bbd3b831ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/textures/hand_saw_handsaw_material_AlbedoTransparency.png using Guid(a8d78d377a8fa4f8e9c09bbd3b831ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1029d236add1dfc3cc788a11a6f401') in 0.067543 seconds
+  Import took 0.111340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/prefabs/nail6_bent.prefab
+  artifactKey: Guid(fc450de1bc2954c9d88d145e16f2b68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/prefabs/nail6_bent.prefab using Guid(fc450de1bc2954c9d88d145e16f2b68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93bc1dd176f58a5b5ddc2705bb574c3') in 0.084952 seconds
+  Import took 0.113199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000529 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/prefabs/nail1.prefab
+  artifactKey: Guid(7ef8c97723fa2463bb400c64db7e970e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/prefabs/nail1.prefab using Guid(7ef8c97723fa2463bb400c64db7e970e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d19fc39371b5035fd694404a228787') in 0.123001 seconds
+  Import took 0.131150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000631 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/textures/hammer_sp_hammer_material_AO.png
+  artifactKey: Guid(0abfb636a3f324875a0dd8c1f9083e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/textures/hammer_sp_hammer_material_AO.png using Guid(0abfb636a3f324875a0dd8c1f9083e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca020dbce5e84cfccbeacb484c32afb') in 0.053084 seconds
+  Import took 0.060705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000632 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/prefabs/nail5.prefab
+  artifactKey: Guid(bbc7789ff097047d79c75efd0c56731e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/prefabs/nail5.prefab using Guid(bbc7789ff097047d79c75efd0c56731e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6eccc8cff561506247112d5fe7726c9') in 0.404492 seconds
+  Import took 0.433198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/prefabs/nail4_bent.prefab
+  artifactKey: Guid(16042fb34c2b941f5b3bb482afbd84c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/prefabs/nail4_bent.prefab using Guid(16042fb34c2b941f5b3bb482afbd84c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23915b147321b620fce4cc26d85bc504') in 0.166953 seconds
+  Import took 0.196643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.699969 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/example.unity
+  artifactKey: Guid(9ebfdb36c301b4ce5b9ad9c495c49470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/example.unity using Guid(9ebfdb36c301b4ce5b9ad9c495c49470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f90432fc1d2291ac0f34eb92723b86e') in 0.039372 seconds
+  Import took 0.073898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023909 seconds.
+  path: Assets/Unity Store Assets/CarpenterToolSet/example.unity
+  artifactKey: Guid(9ebfdb36c301b4ce5b9ad9c495c49470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CarpenterToolSet/example.unity using Guid(9ebfdb36c301b4ce5b9ad9c495c49470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f90432fc1d2291ac0f34eb92723b86e') in 0.078679 seconds
+  Import took 0.101037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.883777 seconds.
+  path: Assets/Scenes/Our Scene/Our Scene.unity
+  artifactKey: Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Our Scene/Our Scene.unity using Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b226ba0ff8ae09c2d0ab7ff502a1a7e') in 0.069980 seconds
+  Import took 0.094170 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002936 seconds.
+Registered in 0.003013 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.41 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 2.62 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.998 seconds
+- Completed reload, in  4.072 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.70 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1250 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.9 MB.
-System memory in use after: 101.7 MB.
+System memory in use before: 102.4 MB.
+System memory in use after: 102.2 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1763.
-Total: 6.797100 ms (FindLiveObjects: 0.492200 ms CreateObjectMapping: 0.111200 ms MarkObjects: 4.577200 ms  DeleteObjects: 1.612700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003572 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.97 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  5.807 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1250 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.9 MB.
-System memory in use after: 101.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1766.
-Total: 6.966900 ms (FindLiveObjects: 0.545500 ms CreateObjectMapping: 0.116400 ms MarkObjects: 4.595300 ms  DeleteObjects: 1.705400 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1801.
+Total: 7.594300 ms (FindLiveObjects: 0.568000 ms CreateObjectMapping: 0.112800 ms MarkObjects: 5.037400 ms  DeleteObjects: 1.871000 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
