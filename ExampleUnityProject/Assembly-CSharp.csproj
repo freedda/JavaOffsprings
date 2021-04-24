@@ -53,43 +53,27 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\FxaaComponent.cs" />
-     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
-     <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\FPSController\CharController_Motor.cs" />
-     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\UserLutComponent.cs" />
-     <Compile Include="Assets\Scripts\Player&apos;s scripts\PlayersMovement.cs" />
-     <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\ExposureManager\ExposureArea.cs" />
+     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\WebSocket.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\Doors\CircularLerp.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\Culling\DistanceHide.cs" />
-     <Compile Include="Assets\Scripts\Items scripts\Item.cs" />
+     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\SocketWebTcp.cs" />
      <Compile Include="Assets\Scripts\Items scripts\PickUpItem.cs" />
-     <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\ExposureManager\ExposureManager.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\DisableRenderer.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
-     <Compile Include="Assets\Scripts\Canvases scripts\UIButtonExitGame.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
      <Compile Include="Assets\Scripts\Equipment\Equipment.cs" />
      <Compile Include="Assets\Scripts\Player&apos;s scripts\PlayersController.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
      <Compile Include="Assets\Scripts\Inventory scripts\Inventory.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
-     <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\FPSController\CursorLock.cs" />
      <Compile Include="Assets\Scripts\LookWithTheMouse.cs" />
-     <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\Culling\CullDistanceVolume.cs" />
-     <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\Doors\CursorManager.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
-     <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\MoveToLayer.cs" />
-     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
      <Compile Include="Assets\Scripts\Equipment\EquipmentManager.cs" />
-     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\DitheringComponent.cs" />
-     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
-     <Compile Include="Assets\Scripts\Inventory scripts\InventoryUI.cs" />
      <Compile Include="Assets\Scripts\Player&apos;s scripts\FocusWithClick.cs" />
-     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
-     <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\WindSwaySimple.cs" />
-     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\PostProcessingComponent.cs" />
+     <Compile Include="Assets\MenuManager.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\VignetteComponent.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
@@ -100,48 +84,53 @@
      <Compile Include="Assets\Scripts\Inventory scripts\InventorySlot.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\VignetteModel.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\GrainModel.cs" />
-     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
-     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
-     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\Culling\TriggerArea.cs" />
-     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\PostProcessingModel.cs" />
-     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
      <Compile Include="Assets\Scripts\Canvases scripts\UIButtonLoadLevel.cs" />
-     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\Doors\Door.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\PostProcessingProfile.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\Culling\CullDistances.cs" />
-     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\FogComponent.cs" />
-     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\BloomModel.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\GrainComponent.cs" />
-     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+     <Compile Include="Assets\Menu.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\PostProcessingContext.cs" />
-     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
-     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
-     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\UserLutModel.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\BloomComponent.cs" />
      <Compile Include="Assets\Scripts\Items scripts\PickupKey.cs" />
+     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+     <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\FPSController\CharController_Motor.cs" />
+     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\UserLutComponent.cs" />
+     <Compile Include="Assets\Scripts\Player&apos;s scripts\PlayersMovement.cs" />
+     <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\ExposureManager\ExposureArea.cs" />
+     <Compile Include="Assets\Scripts\Items scripts\Item.cs" />
+     <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\ExposureManager\ExposureManager.cs" />
+     <Compile Include="Assets\Scripts\Canvases scripts\UIButtonExitGame.cs" />
+     <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\FPSController\CursorLock.cs" />
+     <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\Culling\CullDistanceVolume.cs" />
+     <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\Doors\CursorManager.cs" />
+     <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\MoveToLayer.cs" />
+     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
+     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\DitheringComponent.cs" />
+     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
+     <Compile Include="Assets\Scripts\Inventory scripts\InventoryUI.cs" />
+     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
+     <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\WindSwaySimple.cs" />
+     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\PostProcessingComponent.cs" />
+     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
+     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
+     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
+     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
+     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
+     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\FogComponent.cs" />
+     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\BloomModel.cs" />
+     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
+     <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\DitheringModel.cs" />
-     <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
-     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
-     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
-     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
-     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\WebSocket.cs" />
-     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\FriendItem.cs" />
-     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
-     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
-     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
-     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
-     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
-     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
-     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\SocketWebTcp.cs" />
-     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
-     <Compile Include="Assets\MenuManager.cs" />
-     <Compile Include="Assets\Menu.cs" />
+     <Compile Include="Assets\Launch.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
      <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
@@ -445,11 +434,11 @@
  <Reference Include="UnityEditor.UnityConnectModule">
  <HintPath>C:/Unity/2020.2.7f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
  </Reference>
- <Reference Include="Photon3Unity3D">
- <HintPath>C:/Users/User/Desktop/Πτυχιακη/πτυχιακη 3/FirstScene/ExampleUnityProject/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll</HintPath>
- </Reference>
  <Reference Include="websocket-sharp">
  <HintPath>C:/Users/User/Desktop/Πτυχιακη/πτυχιακη 3/FirstScene/ExampleUnityProject/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+ </Reference>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>C:/Users/User/Desktop/Πτυχιακη/πτυχιακη 3/FirstScene/ExampleUnityProject/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Unity/2020.2.7f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -832,41 +821,29 @@
       <Project>{1ffb19e6-6698-36c4-606a-acae7a79212e}</Project>
       <Name>PhotonUnityNetworking</Name>
     </ProjectReference>
-    <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
-      <Project>{dc44087d-ab63-5f18-e91d-d335ad8f65d4}</Project>
-      <Name>PunDemos.DemoSlotcarEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
-      <Project>{b4c71aca-aca9-0a32-fefa-c27cb54f3a9c}</Project>
-      <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
-      <Project>{6633b074-6ae5-96e8-49e5-29346b56324d}</Project>
-      <Name>PhotonUnityNetworking.Utilities</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
-      <Project>{05d87c07-d90d-22f5-81c1-bdff0ea2dd8e}</Project>
-      <Name>PhotonUnityNetworking.Demos</Name>
-    </ProjectReference>
     <ProjectReference Include="PhotonChat.csproj">
       <Project>{87a187d8-9529-3478-b558-114973c0f982}</Project>
       <Name>PhotonChat</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
-      <Project>{347d6c0e-2d6b-1645-d7a6-2903224917a9}</Project>
-      <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
       <Project>{64121efe-9dd7-7e91-df61-0adea8ac4411}</Project>
       <Name>PhotonUnityNetworking.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="PunDemos.DemoHubEditor.csproj">
-      <Project>{620741ac-67a9-ca46-5884-0da36e10e645}</Project>
-      <Name>PunDemos.DemoHubEditor</Name>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
+      <Project>{347d6c0e-2d6b-1645-d7a6-2903224917a9}</Project>
+      <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonRealtime.csproj">
       <Project>{0dc5ede9-8277-db29-4cc8-341c4efc0f54}</Project>
       <Name>PhotonRealtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
+      <Project>{6633b074-6ae5-96e8-49e5-29346b56324d}</Project>
+      <Name>PhotonUnityNetworking.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
+      <Project>{b4c71aca-aca9-0a32-fefa-c27cb54f3a9c}</Project>
+      <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

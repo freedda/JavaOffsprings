@@ -282,11 +282,11 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Unity/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="Photon3Unity3D">
- <HintPath>C:/Users/User/Desktop/Πτυχιακη/πτυχιακη 3/FirstScene/ExampleUnityProject/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll</HintPath>
- </Reference>
  <Reference Include="websocket-sharp">
  <HintPath>C:/Users/User/Desktop/Πτυχιακη/πτυχιακη 3/FirstScene/ExampleUnityProject/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+ </Reference>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>C:/Users/User/Desktop/Πτυχιακη/πτυχιακη 3/FirstScene/ExampleUnityProject/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>C:/Users/User/Desktop/Πτυχιακη/πτυχιακη 3/FirstScene/ExampleUnityProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
