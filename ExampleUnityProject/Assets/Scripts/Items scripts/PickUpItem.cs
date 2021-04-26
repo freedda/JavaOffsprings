@@ -119,7 +119,14 @@ public class PickUpItem : MonoBehaviour
    
    protected void PickUp(Item newItem)
    {
-      Inventory.instance.AddItem(newItem);
+      if (newItem.name.Contains("Page"))
+      {
+         PageSlot.instance.AddPage(newItem);
+      }
+      else
+      {
+         Inventory.instance.AddItem(newItem);
+      }
    }
    
    protected bool isClose(GameObject player)
