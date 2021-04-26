@@ -3698,7 +3698,7 @@ namespace Photon.Realtime
         /// Each item is a RoomInfo which might include custom properties (provided you defined those as lobby-listed when creating a room).
         /// Not all types of lobbies provide a listing of rooms to the client. Some are silent and specialized for server-side matchmaking.
         /// </remarks>
-        void OnRoomListUpdate(List<RoomInfo> roomList);
+        void OnRoomListUpdate(List<RoomInfo> listOfRooms);
 
         /// <summary>
         /// Called when the Master Server sent an update for the Lobby Statistics.
@@ -4303,13 +4303,13 @@ namespace Photon.Realtime
             }
         }
 
-        public void OnRoomListUpdate(List<RoomInfo> roomList)
+        public void OnRoomListUpdate(List<RoomInfo> listOfRooms)
         {
             this.client.UpdateCallbackTargets();
 
             foreach (ILobbyCallbacks target in this)
             {
-                target.OnRoomListUpdate(roomList);
+                target.OnRoomListUpdate(listOfRooms);
             }
         }
 

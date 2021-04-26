@@ -1,6 +1,4 @@
-using UnityEditor.U2D;
 using UnityEngine;
-using UnityEngine.Assertions.Must;
 using UnityEngine.UI;
 
 public class InventorySlot : MonoBehaviour
