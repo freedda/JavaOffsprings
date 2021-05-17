@@ -54,6 +54,7 @@
   <ItemGroup>
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\FxaaComponent.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+     <Compile Include="Assets\Scripts\Player&apos;s scripts\PrefabsPlayerManager.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\FPSController\CharController_Motor.cs" />
      <Compile Include="Assets\Photon\PhotonLibs\WebSocket\WebSocket.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\UserLutComponent.cs" />
@@ -133,6 +134,7 @@
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\UserLutModel.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\BloomComponent.cs" />
      <Compile Include="Assets\Scripts\Items scripts\PickupKey.cs" />
+     <Compile Include="Assets\Scripts\Player&apos;s scripts\sceneManager.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\DitheringModel.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />

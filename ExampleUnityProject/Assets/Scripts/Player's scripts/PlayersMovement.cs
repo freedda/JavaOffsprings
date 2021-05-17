@@ -1,14 +1,7 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Data;
-using System.Diagnostics;
-using System.Drawing;
 using UnityEngine;
-using UnityEngine.AI;
-using Debug = UnityEngine.Debug;
+using Photon.Pun;
 
-public class PlayersMovement : MonoBehaviour
+public class PlayersMovement : MonoBehaviourPunCallbacks
 {
     /*
      * Moving the player
@@ -25,16 +18,37 @@ public class PlayersMovement : MonoBehaviour
 
 
     private Vector3 direction;
+    PhotonView view;
+    
+    void Awake()
+    {
+        rb = GetComponent<Rigidbody>();
+        view = GetComponent< PhotonView >();
+        
+    }
     private void Start()
     {
-        anim = GetComponent<Animator>();
-        rb = GetComponent<Rigidbody>();
+        if (!view.IsMine)
+        {
+            Destroy(GetComponentInChildren<Camera>().gameObject);
+            Destroy(rb);
+        }
+        else
+        {
+            anim = GetComponent<Animator>();
+        }
 
 
     }
 
     private void Update()
     {
+        
+        if (!view.IsMine)
+        {
+            return;
+        }
+        
         float verticalMoveAxis = Input.GetAxis(verticalInput);
         float horizontalMoveAxis = Input.GetAxis(turnInput);
         
