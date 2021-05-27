@@ -29,8 +29,10 @@ public class PickupKey : PickUpItem
     // Update is called once per frame
     protected override void Update()
     {
-        ActiveCanvasWithE();
-        tryToPick();
+        base.Update();
+        Debug.Log("Fine");
+        /*ActiveCanvasWithE();
+        tryToPick();*/
        
     }
 

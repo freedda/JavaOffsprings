@@ -1,15 +1,15 @@
 using UnityEngine;
 using Photon.Pun;
 
-public class PlayersMovement : MonoBehaviourPunCallbacks
+public class PlayersMovement : MonoBehaviourPun
 {
     /*
      * Moving the player
      * with w-s up and down
      * and with a-d left and right
      */
-    private string turnInput = ("Horizontal");
-    private string verticalInput = ("Vertical");
+    [SerializeField] private string turnInput = ("Horizontal");
+    [SerializeField] private string verticalInput = ("Vertical");
 
     public float speed = 2f;
     Rigidbody rb;

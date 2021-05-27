@@ -5,15 +5,16 @@ using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Windows.Speech;
+using Photon.Pun;
 
-public class PickUpItem : MonoBehaviour
+public class PickUpItem : MonoBehaviourPun
 {
    
    // distance between player and item in ordeto interact
    public float radius = 1.5f;
    public Transform interactionTransform;
    
-   protected GameObject player;
+   [SerializeField] protected GameObject player;
    private  string playerTag = ("Player");
    
    public Item item;
@@ -25,9 +26,12 @@ public class PickUpItem : MonoBehaviour
    
    private Camera cam;
    private Collider ItemCollider;
+   protected PhotonView view;
    
    protected virtual void Start()
    {
+      view = GetComponent< PhotonView >();
+
       player = GameObject.FindGameObjectWithTag(playerTag);
       ItemCollider = GetComponent<BoxCollider> ();
       cam = Camera.main;
@@ -42,6 +46,12 @@ public class PickUpItem : MonoBehaviour
    
    protected  virtual void Update()
    {
+      player = GameObject.FindGameObjectWithTag(playerTag);
+      if (player == null)
+      {
+         Debug.Log("DEN VRISKEI PAIKTI");
+         return;
+      }
       ActiveCanvasWithE();
      // activeSpriteE();
       tryToPick();
@@ -78,31 +88,29 @@ public class PickUpItem : MonoBehaviour
    }
    protected void ActiveCanvasWithE()
    {
-      if (messagePanel.activeSelf == true && !isClose(this.player))
+      if (messagePanel.activeSelf == true && !isClose(player))
       {
          messagePanel.SetActive(false);
         // Debug.Log("MPIKE");
       }
-      /*Debug.Log("to E pane einai genika ston kwdika: " +  messagePanel.activeSelf);
-      Debug.Log("to E pane einai sto hierarchy: " +  messagePanel.activeInHierarchy);*/
-      if (isClose(this.player) )
+     
+      if (isClose(player) )
       {
+         Debug.Log("PLAYER IS CLOSE");
+         cam = Camera.main;
+
          Ray ray = cam.ScreenPointToRay (new Vector3 (Screen.width / 2, Screen.height / 2, 0));
          RaycastHit hit;
 
          if (ItemCollider.Raycast(ray, out hit, radius))
          {
             messagePanel.SetActive(true);
-            Debug.Log("to E pane einai genika ston kwdika  11 : " + messagePanel.activeSelf);
-            Debug.Log("to E pane einai sto hierarchy  11 : " + messagePanel.activeInHierarchy);
          }
       }
       else 
       {
          messagePanel.SetActive(false);
-         Debug.Log("to E pane einai genika ston kwdika  22 : " +  messagePanel.activeSelf);
-         Debug.Log("to E pane einai sto hierarchy  22 : " +  messagePanel.activeInHierarchy);
-         Debug.Log(isClose(player));
+       
       }
    }
    
@@ -134,11 +142,7 @@ public class PickUpItem : MonoBehaviour
       if (Mathf.Abs(Vector3.Distance(player.transform.position, transform.position)) < radius)
       {
          Debug.Log("u r close, u can pick it");
-         //Activate a "E" 
-         //......
-         //Its close in the radius
-       //  Debug.Log("einai mKONTA o player stin thesi " + player.transform.position + "kai to antikeimeno " + this.transform.position);
-         
+        
          return true;
       }
       else

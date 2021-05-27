@@ -94,6 +94,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ce9c0940f25f143b155b4b49e8a995, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turnInput: Horizontal
+  verticalInput: Vertical
   speed: 3
 --- !u!114 &1946750198825342362
 MonoBehaviour:
