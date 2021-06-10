@@ -58,14 +58,30 @@ public class PickUpItem : MonoBehaviourPun
     
    }
 
+   [PunRPC]
    protected void tryToPick()
    {
       if (Input.GetKeyDown("e") && isClose(player))
       {
          Debug.Log("pick up " + item.name);
          PickUp(item);
-         Destroy(gameObject);
+         if (PhotonNetwork.IsMasterClient) {
+             PhotonNetwork.Destroy(gameObject);
+         }
+         else
+         {
+            view.RPC("RPC_destroy",RpcTarget.MasterClient); 
+            RPC_destroy();
+         
+         }
+         
       }
+   }
+   
+   [PunRPC]
+   void RPC_destroy()
+   {
+      Destroy(gameObject);
    }
 
    protected void activeSpriteE()
