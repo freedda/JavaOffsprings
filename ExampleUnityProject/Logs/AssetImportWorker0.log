@@ -1,147 +1,114 @@
 Using pre-set license
 Built from '2020.2/staging' branch; Version is '2020.2.7f1 (c53830e277f1) revision 12924976'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1052; Version 2009; 64bit' Language: 'el' Physical Memory: 3999 MB
+OS: 'Windows 10 Home; OS build 19042.1052; Version 2009; 64bit' Language: 'el' Physical Memory: 15734 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Unity\2020.2.7f1\Editor\Unity.exe
+C:\Program Files\Unity\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/User/Desktop/Πτυχιακη/νέο Πτυχιακη/FirstScene/ExampleUnityProject
+C:/Users/dimik/Desktop/πτυχιακή-2/FirstScene/ExampleUnityProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59016
-Successfully changed project path to: C:/Users/User/Desktop/Πτυχιακη/νέο Πτυχιακη/FirstScene/ExampleUnityProject
-C:/Users/User/Desktop/Πτυχιακη/νέο Πτυχιακη/FirstScene/ExampleUnityProject
+54439
+Successfully changed project path to: C:/Users/dimik/Desktop/πτυχιακή-2/FirstScene/ExampleUnityProject
+C:/Users/dimik/Desktop/πτυχιακή-2/FirstScene/ExampleUnityProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 76.16 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 42.62 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.7f1 (c53830e277f1)
-[Subsystems] Discovering subsystems at path C:/Unity/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/User/Desktop/Πτυχιακη/νέο Πτυχιακη/FirstScene/ExampleUnityProject/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/dimik/Desktop/πτυχιακή-2/FirstScene/ExampleUnityProject/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce 840M (ID=0x1341)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
     Vendor:   
-    VRAM:     2010 MB
-    Driver:   27.21.14.6589
+    VRAM:     7867 MB
+    Driver:   27.20.11028.10001
 Initialize mono
-Mono path[0] = 'C:/Unity/2020.2.7f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Unity/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Unity/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Unity/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008813 seconds.
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001642 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 78.30 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 42.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.609 seconds
+- Completed reload, in  0.876 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.024610 seconds.
+Registered in 0.002437 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.44 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.589 seconds
+- Completed reload, in  0.755 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 29.69 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1410 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.8 MB.
-System memory in use after: 125.6 MB.
+System memory in use before: 126.6 MB.
+System memory in use after: 126.4 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1871.
-Total: 383.315600 ms (FindLiveObjects: 5.456000 ms CreateObjectMapping: 0.337000 ms MarkObjects: 365.353800 ms  DeleteObjects: 12.113400 ms)
+Total: 3.698800 ms (FindLiveObjects: 0.525100 ms CreateObjectMapping: 0.121100 ms MarkObjects: 1.985100 ms  DeleteObjects: 1.064900 ms)
 
 ========================================================================
 Received Import Request.
   path: Assets/Scenes/Game/Game.unity
   artifactKey: Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game/Game.unity using Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a6fc75c5d8ec266aa7a4cd9fc371cf6') in 0.166996 seconds
-  Import took 0.188504 seconds .
+Start importing Assets/Scenes/Game/Game.unity using Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc26d04b953b814b7f452a93aabb35e') in 0.025633 seconds
+  Import took 0.029281 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 111.413375 seconds.
-  path: Assets/Cattleya/sources/clothingSet_04.fbx
-  artifactKey: Guid(8c2451cba12610a4b83716d152a35013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cattleya/sources/clothingSet_04.fbx using Guid(8c2451cba12610a4b83716d152a35013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75f766f220e6e97797e3803ef9b0c71') in 1.007337 seconds
-  Import took 1.016240 seconds .
+  Time since last request: 289.582293 seconds.
+  path: Assets/Scripts/Question Manager.cs
+  artifactKey: Guid(74a9a64c44d97f24bb52cdd9a3029801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Question Manager.cs using Guid(74a9a64c44d97f24bb52cdd9a3029801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e62967a50b7a73aaa91ed625882799') in 0.023413 seconds
+  Import took 0.026140 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000770 seconds.
-  path: Assets/Cattleya/sources/clothingSet_04_And_nackedSet.fbx
-  artifactKey: Guid(ebaf91e845e67ac4f85b03ca6c72bd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cattleya/sources/clothingSet_04_And_nackedSet.fbx using Guid(ebaf91e845e67ac4f85b03ca6c72bd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6024fd952c3600796ecd248134ac9f') in 0.336186 seconds
-  Import took 0.342502 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002281 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.734 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.2 MB.
+System memory in use after: 122.9 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000936 seconds.
-  path: Assets/Cattleya/sources/nackedSet.fbx
-  artifactKey: Guid(83559fbceef558949926fe1ed703e4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cattleya/sources/nackedSet.fbx using Guid(83559fbceef558949926fe1ed703e4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfedee1b44490442f8a87de8172b4374') in 0.259034 seconds
-  Import took 0.271187 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001026 seconds.
-  path: Assets/Cattleya/prefabs/clothingSet_04_And_nackedSet.prefab
-  artifactKey: Guid(01c14961d9931d94f9ccb0cf0c46ba9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cattleya/prefabs/clothingSet_04_And_nackedSet.prefab using Guid(01c14961d9931d94f9ccb0cf0c46ba9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa9e16380aad3992b17761efdd66f93') in 0.230855 seconds
-  Import took 0.248630 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000802 seconds.
-  path: Assets/Cattleya/sources/clothingSet_04_tex.png
-  artifactKey: Guid(784c78924e5396744953169847d21860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cattleya/sources/clothingSet_04_tex.png using Guid(784c78924e5396744953169847d21860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328b1bdcae4bb7d122ca3d5967761ca7') in 0.221083 seconds
-  Import took 0.234288 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/Cattleya/sources/hair1.png
-  artifactKey: Guid(f8b7dc5e8d3dff3479902cbf2cf50f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cattleya/sources/hair1.png using Guid(f8b7dc5e8d3dff3479902cbf2cf50f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddab489d31e4117186f7a3167a31a9e1') in 0.034014 seconds
-  Import took 0.040991 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001491 seconds.
-  path: Assets/Cattleya/sources/girl_texture_01.png
-  artifactKey: Guid(e955f1ae9549b1f418ecd6aa9ba99082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cattleya/sources/girl_texture_01.png using Guid(e955f1ae9549b1f418ecd6aa9ba99082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85e169492dc4e33aec691763ff75ae5') in 0.090575 seconds
-  Import took 0.097184 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000432 seconds.
-  path: Assets/Cattleya/sources/idleAnimation.fbx
-  artifactKey: Guid(a5e11101db1088e47b2aef562350ae30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cattleya/sources/idleAnimation.fbx using Guid(a5e11101db1088e47b2aef562350ae30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd81078295d55f81bf8fc1d23f6e6c53') in 0.101984 seconds
-  Import took 0.112121 seconds .
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1876.
+Total: 2.993300 ms (FindLiveObjects: 0.233000 ms CreateObjectMapping: 0.056800 ms MarkObjects: 1.799900 ms  DeleteObjects: 0.902300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
