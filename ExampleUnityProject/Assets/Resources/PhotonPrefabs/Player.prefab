@@ -317,7 +317,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 11400000, guid: f43475771aebba145a1e96a88b9ee4e7, type: 2}
+  profile: {fileID: 0}
 --- !u!135 &1233083911727325400
 SphereCollider:
   m_ObjectHideFlags: 0
