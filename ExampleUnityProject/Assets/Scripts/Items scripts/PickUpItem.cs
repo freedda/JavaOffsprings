@@ -19,6 +19,8 @@ public class PickUpItem : MonoBehaviourPun
    
    public Item item;
    
+   public GameObject myCanvas;
+   
    //A message Panel for "E" canvas
    public GameObject messagePanel;
    private GameObject invetoryPanel;
@@ -150,6 +152,11 @@ public class PickUpItem : MonoBehaviourPun
       else
       {
          Inventory.instance.AddItem(newItem);
+         if (newItem.name.Contains("Key"))
+         {
+            myCanvas.SetActive(true);
+            Debug.Log("Pire key,  canvas. ");
+         }
       }
    }
    

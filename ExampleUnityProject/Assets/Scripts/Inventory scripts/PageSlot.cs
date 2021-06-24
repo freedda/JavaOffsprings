@@ -18,7 +18,7 @@ public class PageSlot : MonoBehaviour
     }
     #endregion
     
-    public Image icon;
+    //public Image icon;
     public Text countText;
     private Item item;
     private int count = 0;
@@ -26,12 +26,12 @@ public class PageSlot : MonoBehaviour
     public void AddPage(Item newItem)
     {
         count += 1;
-        if (!(icon.enabled))
+        /*if (!(icon.enabled))
         {
            icon.enabled = true; 
-        }
+        }*/
         item = newItem;
-        icon.sprite = item.icon;
+        //icon.sprite = item.icon;
         countText.text = count.ToString();
         
       //  countText.gameObject.SetActive(true);

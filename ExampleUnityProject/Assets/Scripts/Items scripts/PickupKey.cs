@@ -9,7 +9,7 @@ public class PickupKey : PickUpItem
  
     private bool isPicked=true;
 
-    public GameObject myCanvas;
+   // public GameObject myCanvas;
       
     // Start is called before the first frame update
     protected override void Start()
@@ -43,11 +43,13 @@ public class PickupKey : PickUpItem
             {
                 //Activate Theory 
                 //myCanvas = Papyrus Canvas
-                myCanvas.SetActive(true);
+                // myCanvas.SetActive(true);
+                // Debug.Log("Pire key,  canvas. ");
                 Destroy(gameObject);
               
 
             }
+            
         }
     }
 }
