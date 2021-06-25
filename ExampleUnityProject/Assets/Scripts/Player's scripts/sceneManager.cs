@@ -44,7 +44,7 @@ public class sceneManager : MonoBehaviourPunCallbacks
         {
             //access to the path class
             PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "PrefabsPlayerManager"),
-                new Vector3(38,28,-152), Quaternion.identity);
+                new Vector3(45,28,-194), Quaternion.identity);
         }
     }
 
