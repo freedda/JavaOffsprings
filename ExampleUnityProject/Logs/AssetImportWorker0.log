@@ -1,439 +1,179 @@
 Using pre-set license
 Built from '2020.2/staging' branch; Version is '2020.2.7f1 (c53830e277f1) revision 12924976'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1052; Version 2009; 64bit' Language: 'el' Physical Memory: 3999 MB
+OS: 'Windows 10 Home; OS build 19042.1052; Version 2009; 64bit' Language: 'el' Physical Memory: 15734 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Unity\2020.2.7f1\Editor\Unity.exe
+C:\Program Files\Unity\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/User/Desktop/Πτυχιακη/νέο Πτυχιακη/FirstScene/ExampleUnityProject
+C:/Users/dimik/Desktop/πτυχιακή-2/FirstScene/ExampleUnityProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51339
-Successfully changed project path to: C:/Users/User/Desktop/Πτυχιακη/νέο Πτυχιακη/FirstScene/ExampleUnityProject
-C:/Users/User/Desktop/Πτυχιακη/νέο Πτυχιακη/FirstScene/ExampleUnityProject
+55796
+Successfully changed project path to: C:/Users/dimik/Desktop/πτυχιακή-2/FirstScene/ExampleUnityProject
+C:/Users/dimik/Desktop/πτυχιακή-2/FirstScene/ExampleUnityProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 80.94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 54.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.7f1 (c53830e277f1)
-[Subsystems] Discovering subsystems at path C:/Unity/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/User/Desktop/Πτυχιακη/νέο Πτυχιακη/FirstScene/ExampleUnityProject/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/dimik/Desktop/πτυχιακή-2/FirstScene/ExampleUnityProject/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce 840M (ID=0x1341)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
     Vendor:   
-    VRAM:     2010 MB
-    Driver:   27.21.14.6589
+    VRAM:     7867 MB
+    Driver:   27.20.11028.10001
 Initialize mono
-Mono path[0] = 'C:/Unity/2020.2.7f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Unity/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Unity/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Unity/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004788 seconds.
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001718 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 67.12 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 46.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.627 seconds
+- Completed reload, in  0.954 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009647 seconds.
+Registered in 0.004378 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.263 seconds
+- Completed reload, in  0.751 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 21.34 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1694 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.0 MB.
-System memory in use after: 136.9 MB.
+Unloading 1661 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.2 MB.
+System memory in use after: 136.0 MB.
 
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2121.
-Total: 13.801300 ms (FindLiveObjects: 4.274800 ms CreateObjectMapping: 0.234000 ms MarkObjects: 6.968200 ms  DeleteObjects: 2.199700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.022072 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.344 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1609 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.8 MB.
-System memory in use after: 132.6 MB.
-
-Unloading 77 unused Assets to reduce memory usage. Loaded Objects now: 2092.
-Total: 9.987900 ms (FindLiveObjects: 0.922700 ms CreateObjectMapping: 0.142900 ms MarkObjects: 7.531500 ms  DeleteObjects: 1.388400 ms)
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2088.
+Total: 3.796200 ms (FindLiveObjects: 0.451100 ms CreateObjectMapping: 0.092800 ms MarkObjects: 2.379100 ms  DeleteObjects: 0.870600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
-  artifactKey: Guid(1de4c5222d3f93d44885c826db1687b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset using Guid(1de4c5222d3f93d44885c826db1687b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0275d09e0b61e96af46da1ed2d5b61d') in 6.672527 seconds
-  Import took 6.685988 seconds .
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/toHub.png
+  artifactKey: Guid(9587663c4d27e47b19a118aabaac4a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/toHub.png using Guid(9587663c4d27e47b19a118aabaac4a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd2fbc6db648b08af0786ee2bcc0b85') in 0.119410 seconds
+  Import took 0.123618 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 116.681805 seconds.
-  path: Assets/Scripts/Voice and Chat Photon
-  artifactKey: Guid(656c2581e2cd4d1428a241c403830a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Voice and Chat Photon using Guid(656c2581e2cd4d1428a241c403830a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17e788399624a9f62d5a7135acf0fad') in 0.028086 seconds
-  Import took 0.043512 seconds .
+  Time since last request: 9.678465 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp512.png
+  artifactKey: Guid(7377013011b4c3348809ff574abe799e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp512.png using Guid(7377013011b4c3348809ff574abe799e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '848d2b06d1b69d8bceb56fa89ee26e8d') in 0.019519 seconds
+  Import took 0.022739 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.220021 seconds.
-  path: Assets/Scripts/Voice and Chat Photon/VoiceButtonManager.cs
-  artifactKey: Guid(23f58eabab9ced34680397904d5f8840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Voice and Chat Photon/VoiceButtonManager.cs using Guid(23f58eabab9ced34680397904d5f8840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d1e63c19bf7f329fe77ffea31a9e1a') in 0.054292 seconds
-  Import took 0.067568 seconds .
+  Time since last request: 0.000257 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp128.png
+  artifactKey: Guid(f00feafcf0675cd47a48f83ae42b06d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp128.png using Guid(f00feafcf0675cd47a48f83ae42b06d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f9d610725f9193864d023cbd07cb0c') in 0.014831 seconds
+  Import took 0.017636 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003576 seconds.
-  path: Assets/Scripts/Voice and Chat Photon/VoiceButtonManager.cs
-  artifactKey: Guid(23f58eabab9ced34680397904d5f8840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Voice and Chat Photon/VoiceButtonManager.cs using Guid(23f58eabab9ced34680397904d5f8840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d1e63c19bf7f329fe77ffea31a9e1a') in 0.009335 seconds
-  Import took 0.084643 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.023203 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.267 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.35 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1610 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.7 MB.
-System memory in use after: 132.5 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2097.
-Total: 19.848200 ms (FindLiveObjects: 0.578300 ms CreateObjectMapping: 0.237500 ms MarkObjects: 16.269000 ms  DeleteObjects: 2.758600 ms)
+  Time since last request: 0.000295 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp48.png
+  artifactKey: Guid(44ebd8e6f42cae445ab4b22f0a9b48a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp48.png using Guid(44ebd8e6f42cae445ab4b22f0a9b48a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4410c6653aa80570cf5176c519abd0') in 0.023691 seconds
+  Import took 0.026865 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 255.961616 seconds.
-  path: Assets/Scripts/Player's scripts/PrefabsPlayerManager.cs
-  artifactKey: Guid(d793c07f571730744a528eb8e43e514c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player's scripts/PrefabsPlayerManager.cs using Guid(d793c07f571730744a528eb8e43e514c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bace4fead5f776f8e29e252709206314') in 5.189237 seconds
-  Import took 6.308496 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 1.629201 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  9.623 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 104.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1610 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.7 MB.
-System memory in use after: 132.5 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2101.
-Total: 1692.070200 ms (FindLiveObjects: 95.133000 ms CreateObjectMapping: 3.914700 ms MarkObjects: 1372.082300 ms  DeleteObjects: 219.649500 ms)
+  Time since last request: 0.414285 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/PunIcon-White-129.png
+  artifactKey: Guid(56bbc6b42271d4177ac313247f47ac1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/PunIcon-White-129.png using Guid(56bbc6b42271d4177ac313247f47ac1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef0094d93f3141e247450163073c4c6') in 0.015607 seconds
+  Import took 0.019470 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 161.133644 seconds.
-  path: Assets/Scripts/Player's scripts/sceneManager.cs
-  artifactKey: Guid(81ec5f233df35144fb852bdb90595914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player's scripts/sceneManager.cs using Guid(81ec5f233df35144fb852bdb90595914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.714795 seconds
-  ERROR: Build asset version error: assets/scripts/player's scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-06-25T14:23:33.2326471Z' while content on disk has modification time of '2021-06-25T14:41:47.2606906Z'
-  Import took 0.876924 seconds .
+  Time since last request: 0.000245 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp32.png
+  artifactKey: Guid(436c5e63723127948af8857e903f658a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp32.png using Guid(436c5e63723127948af8857e903f658a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d3a23a8763f12d4fcc71bb2e629fda') in 0.012473 seconds
+  Import took 0.015249 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.011962 seconds.
-  path: Assets/Scripts/Player's scripts/PrefabsPlayerManager.cs
-  artifactKey: Guid(d793c07f571730744a528eb8e43e514c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player's scripts/PrefabsPlayerManager.cs using Guid(d793c07f571730744a528eb8e43e514c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f7d7d856fb415debd3ef30cf06f6f9') in 0.599292 seconds
-  Import took 0.627252 seconds .
+  Time since last request: 0.450202 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Icons/PunIcon-128.png
+  artifactKey: Guid(bd293dc32f4aaf94e8274f2fac2cdf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Icons/PunIcon-128.png using Guid(bd293dc32f4aaf94e8274f2fac2cdf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d0877c3a14d2ec082abc532c05b6dc') in 0.015592 seconds
+  Import took 0.018322 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.236439 seconds.
-  path: Assets/Scripts/Player's scripts/sceneManager.cs
-  artifactKey: Guid(81ec5f233df35144fb852bdb90595914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player's scripts/sceneManager.cs using Guid(81ec5f233df35144fb852bdb90595914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000701 seconds
-  ERROR: Build asset version error: assets/scripts/player's scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-06-25T14:23:33.2326471Z' while content on disk has modification time of '2021-06-25T14:41:47.2606906Z'
-  Import took 0.047956 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.027397 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.828 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.67 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1610 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.7 MB.
-System memory in use after: 132.5 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2105.
-Total: 43.730500 ms (FindLiveObjects: 5.317600 ms CreateObjectMapping: 0.329300 ms MarkObjects: 32.464400 ms  DeleteObjects: 5.405700 ms)
+  Time since last request: 0.230432 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/OutlinedSquaredBox.png
+  artifactKey: Guid(c222cd02c447941edb09ecb6433229ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/OutlinedSquaredBox.png using Guid(c222cd02c447941edb09ecb6433229ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19892b41287a8c2de4460e534a10edca') in 0.013421 seconds
+  Import took 0.016940 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.941339 seconds.
-  path: Assets/Scripts/Player's scripts/sceneManager.cs
-  artifactKey: Guid(81ec5f233df35144fb852bdb90595914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player's scripts/sceneManager.cs using Guid(81ec5f233df35144fb852bdb90595914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52320d5335f19f304601fe1c17e319be') in 0.068525 seconds
-  Import took 0.091601 seconds .
+  Time since last request: 0.233393 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/Gradient.png
+  artifactKey: Guid(66efb24ed46044ab8a039599cbc47d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/Gradient.png using Guid(66efb24ed46044ab8a039599cbc47d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c324a2f90686d7c93bb1ef9d8421ab9') in 0.014834 seconds
+  Import took 0.018380 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.387359 seconds.
+  Time since last request: 0.721975 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/DropDown Arrow.png
+  artifactKey: Guid(936345f7fc3934efa8119a8700d904c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/DropDown Arrow.png using Guid(936345f7fc3934efa8119a8700d904c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b082c4cbe9b808433b19c9690060326') in 0.014096 seconds
+  Import took 0.017345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/DropDown CheckMark.png
+  artifactKey: Guid(fd47c8b4ebfbd4339858d4d23f587519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/DropDown CheckMark.png using Guid(fd47c8b4ebfbd4339858d4d23f587519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe3d5f8205fb5a47ab4cf13c91a0cc5') in 0.010716 seconds
+  Import took 0.013278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 991.020110 seconds.
   path: Assets/Scenes/Game/Game.unity
   artifactKey: Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game/Game.unity using Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7fdeb9d48990a935751631316e4c6e') in 1.903413 seconds
-  Import took 1.910892 seconds .
+Start importing Assets/Scenes/Game/Game.unity using Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9d1b01f8db085eb5ddaaa4a473d5a9') in 0.005261 seconds
+  Import took 0.011240 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 944.573312 seconds.
-  path: Assets/Resources/PhotonPrefabs
-  artifactKey: Guid(cc89f3ec54ba3b147bfe6948759a5579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/PhotonPrefabs using Guid(cc89f3ec54ba3b147bfe6948759a5579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b63cda8a1eab35d66ccd99c80b64056') in 0.133180 seconds
-  Import took 0.387147 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.268598 seconds.
-  path: Assets/Resources/PhotonPrefabs/Player.prefab
-  artifactKey: Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/PhotonPrefabs/Player.prefab using Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd61cc3479c2a0801d0490cdd3997e8') in 1.495101 seconds
-  Import took 1.506936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000717 seconds.
-  path: Assets/Resources/PhotonPrefabs/PrefabsPlayerManager.prefab
-  artifactKey: Guid(8f06bac4270e8a24d8e3bbdc856dfc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/PhotonPrefabs/PrefabsPlayerManager.prefab using Guid(8f06bac4270e8a24d8e3bbdc856dfc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd3b508d34eda0353193a55f5703f11') in 0.044988 seconds
-  Import took 0.061142 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.952356 seconds.
-  path: Assets/Resources/PhotonPrefabs/Player.prefab
-  artifactKey: Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/PhotonPrefabs/Player.prefab using Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b4aae855b0e4a7cbdb323f834961cc') in 0.179310 seconds
-  Import took 0.191895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.493327 seconds.
-  path: Assets/Resources/PhotonPrefabs/Player.prefab
-  artifactKey: Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/PhotonPrefabs/Player.prefab using Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9c1ba2d54cbe5f5a54c0634bba5e5f') in 0.205751 seconds
-  Import took 0.216776 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.924035 seconds.
-  path: Assets/Resources/PhotonPrefabs/Player.prefab
-  artifactKey: Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/PhotonPrefabs/Player.prefab using Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8cc3e151af599bc05fba6280542ca34') in 0.127809 seconds
-  Import took 0.136976 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.759520 seconds.
-  path: Assets/Resources/PhotonPrefabs/Player.prefab
-  artifactKey: Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/PhotonPrefabs/Player.prefab using Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068384cee94e14ad2b99408b77a11dce') in 0.108623 seconds
-  Import took 0.116587 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.348317 seconds.
-  path: Assets/Resources/PhotonPrefabs/Player.prefab
-  artifactKey: Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/PhotonPrefabs/Player.prefab using Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5eec3260306124a5f1bc210b933496') in 0.122566 seconds
-  Import took 0.131124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 121.203643 seconds.
-  path: Assets/Resources/PhotonPrefabs/Player.prefab
-  artifactKey: Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/PhotonPrefabs/Player.prefab using Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f8b8a7bebfc29a3bb95d29523b3e76') in 0.145772 seconds
-  Import took 0.155884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.535092 seconds.
-  path: Assets/Resources/PhotonPrefabs/Player.prefab
-  artifactKey: Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/PhotonPrefabs/Player.prefab using Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d30db1f32b2e5790710ef30363e3970') in 0.111970 seconds
-  Import took 0.122141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.295423 seconds.
-  path: Assets/Resources/PhotonPrefabs/Player.prefab
-  artifactKey: Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/PhotonPrefabs/Player.prefab using Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a8b6d9a7dd0d32d0e6af5a1eb00cfd') in 0.121503 seconds
-  Import took 0.128512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 59.327663 seconds.
-  path: Assets/Resources/PhotonPrefabs/Player.prefab
-  artifactKey: Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/PhotonPrefabs/Player.prefab using Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687ce541cd074a0f663e7163e4f94d84') in 0.112118 seconds
-  Import took 0.119932 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.682082 seconds.
-  path: Assets/Scenes/Menu/Menu Scene.unity
-  artifactKey: Guid(3d3148e8100f561449e35ed6f1509ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menu/Menu Scene.unity using Guid(3d3148e8100f561449e35ed6f1509ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278324906351a4d2052ec24a14e124a6') in 0.073385 seconds
-  Import took 0.080840 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.033360 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.56 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  5.948 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 15.22 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1610 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.0 MB.
-System memory in use after: 149.8 MB.
-
-Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2117.
-Total: 128.491900 ms (FindLiveObjects: 21.647700 ms CreateObjectMapping: 2.657800 ms MarkObjects: 86.995100 ms  DeleteObjects: 17.152600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 110.432880 seconds.
-  path: Assets/Resources/PhotonPrefabs/Player.prefab
-  artifactKey: Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/PhotonPrefabs/Player.prefab using Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87612db70fdf97afa27e4bb325483dab') in 0.610639 seconds
-  Import took 0.650050 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.401122 seconds.
-  path: Assets/Resources/PhotonPrefabs/Player.prefab
-  artifactKey: Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/PhotonPrefabs/Player.prefab using Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5da2ebf0878d67129e0cbe76e8c5c1') in 0.160601 seconds
-  Import took 0.170039 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008334 seconds.
-  path: Assets/Resources/PhotonPrefabs/Player.prefab
-  artifactKey: Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/PhotonPrefabs/Player.prefab using Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5da2ebf0878d67129e0cbe76e8c5c1') in 0.110006 seconds
-  Import took 0.120396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.043174 seconds.
-  path: Assets/Resources/PhotonPrefabs/Player.prefab
-  artifactKey: Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/PhotonPrefabs/Player.prefab using Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb67c03603909d58b6abfbf216e590d4') in 0.124423 seconds
-  Import took 0.131228 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.039713 seconds.
-  path: Assets/Resources/PhotonPrefabs/Player.prefab
-  artifactKey: Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/PhotonPrefabs/Player.prefab using Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb67c03603909d58b6abfbf216e590d4') in 0.109495 seconds
-  Import took 0.116908 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.051063 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.996 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1610 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.1 MB.
-System memory in use after: 149.9 MB.
-
-Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2122.
-Total: 6.239900 ms (FindLiveObjects: 0.350900 ms CreateObjectMapping: 0.161300 ms MarkObjects: 4.393100 ms  DeleteObjects: 1.331200 ms)
+  Time since last request: 5275.747975 seconds.
+  path: Assets/Scenes/Game/Game.unity
+  artifactKey: Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game/Game.unity using Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad500d92fdd7949e5bf8f815868e7a6') in 0.028584 seconds
+  Import took 0.079891 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
