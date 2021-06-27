@@ -54,7 +54,6 @@
   <ItemGroup>
      <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\FxaaComponent.cs" />
-     <Compile Include="Assets\Scripts\Question Manager.cs" />
      <Compile Include="Assets\Photon\PhotonLibs\WebSocket\WebSocket.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\Doors\CircularLerp.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\Culling\DistanceHide.cs" />
@@ -74,6 +73,7 @@
      <Compile Include="Assets\Scripts\MasterClient scripts\Launch.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
+     <Compile Include="Assets\QuizManager.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
      <Compile Include="Assets\Scripts\Equipment\EquipmentManager.cs" />
      <Compile Include="Assets\Scripts\Player&apos;s scripts\FocusWithClick.cs" />
@@ -114,6 +114,7 @@
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\ExposureManager\ExposureArea.cs" />
      <Compile Include="Assets\Scripts\Items scripts\Item.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\ExposureManager\ExposureManager.cs" />
+     <Compile Include="Assets\Scripts\QnA.cs" />
      <Compile Include="Assets\Scripts\Canvases scripts\UIButtonExitGame.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\FPSController\CursorLock.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\Culling\CullDistanceVolume.cs" />
@@ -132,6 +133,7 @@
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
+     <Compile Include="Assets\Scripts\AnswerScript.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\FogComponent.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\BloomModel.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />

@@ -51,7 +51,7 @@ public class PickUpItem : MonoBehaviourPun
       player = GameObject.FindGameObjectWithTag(playerTag);
       if (player == null)
       {
-         Debug.Log("DEN VRISKEI PAIKTI");
+        // Debug.Log("DEN VRISKEI PAIKTI");
          return;
       }
       ActiveCanvasWithE();

@@ -30,7 +30,7 @@ public class PickupKey : PickUpItem
     protected override void Update()
     {
         base.Update();
-        Debug.Log("Fine");
+        //Debug.Log("Fine");
         /*ActiveCanvasWithE();
         tryToPick();*/
        
