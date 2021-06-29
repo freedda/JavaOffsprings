@@ -22,7 +22,7 @@ public class PlayersMovement : MonoBehaviourPun
     
     void Awake()
     {
-        rb = GetComponent<Rigidbody>();
+        rb = gameObject.GetComponent<Rigidbody>();
         view = GetComponent< PhotonView >();
         
     }
@@ -41,7 +41,7 @@ public class PlayersMovement : MonoBehaviourPun
 
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         
         if (!view.IsMine)

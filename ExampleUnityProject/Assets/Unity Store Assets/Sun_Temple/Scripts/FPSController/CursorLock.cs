@@ -14,14 +14,14 @@ namespace Sun_Temple{
 		}
 
 
-	
 
-		void Update(){
+		void FixedUpdate(){
 			
 			if (Input.GetKeyDown (KeyCode.Escape)) {
 				if (isLocked) {
 					isLocked = false;
-				} else if (!isLocked) {
+				} 
+				else if (!isLocked) {
 					isLocked = true;
 				}
 			}

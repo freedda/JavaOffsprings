@@ -1,0 +1,433 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.7f1 (c53830e277f1) revision 12924976'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1052; Version 2009; 64bit' Language: 'el' Physical Memory: 3999 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Unity\2020.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/User/Desktop/Πτυχιακη/πτυχιακη/FirstScene/ExampleUnityProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59215
+Successfully changed project path to: C:/Users/User/Desktop/Πτυχιακη/πτυχιακη/FirstScene/ExampleUnityProject
+C:/Users/User/Desktop/Πτυχιακη/πτυχιακη/FirstScene/ExampleUnityProject
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 113.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.7f1 (c53830e277f1)
+[Subsystems] Discovering subsystems at path C:/Unity/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Desktop/Πτυχιακη/πτυχιακη/FirstScene/ExampleUnityProject/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 840M (ID=0x1341)
+    Vendor:   
+    VRAM:     2010 MB
+    Driver:   27.21.14.6589
+Initialize mono
+Mono path[0] = 'C:/Unity/2020.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Unity/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Unity/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Unity/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008073 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 201.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.153 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.028861 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.103 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.23 seconds
+Refreshing native plugins compatible for Editor in 65.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1664 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.3 MB.
+System memory in use after: 136.1 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2091.
+Total: 78.348800 ms (FindLiveObjects: 13.835300 ms CreateObjectMapping: 1.078000 ms MarkObjects: 53.805000 ms  DeleteObjects: 8.665400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Game/Game.unity
+  artifactKey: Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game/Game.unity using Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbfeba55708d87df95bb14fc8742b2d0') in 0.363220 seconds
+  Import took 0.416960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002058 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Scripts/Doors/Door.cs
+  artifactKey: Guid(2ab9bdba8c7f4ec4c9a5e09a943ec171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Scripts/Doors/Door.cs using Guid(2ab9bdba8c7f4ec4c9a5e09a943ec171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0397d2206454c3d9fe67290b312979b4') in 0.245430 seconds
+  Import took 0.259789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.751598 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Materials/Black.mat
+  artifactKey: Guid(1598ff147655ecb4893e78f88baa9475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Materials/Black.mat using Guid(1598ff147655ecb4893e78f88baa9475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc162ca79dab678ff8366ff147f074e') in 2.419701 seconds
+  Import took 2.738517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2086.492997 seconds.
+  path: Assets/Prefabs/Backpack/Backpack Button.prefab
+  artifactKey: Guid(ec3911945c18e0240aaee1215f0c19b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Backpack/Backpack Button.prefab using Guid(ec3911945c18e0240aaee1215f0c19b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539de68949cb5dff20d57a0229e28534') in 0.531246 seconds
+  Import took 0.656079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.202591 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Prefabs/Bullet.prefab
+  artifactKey: Guid(5624ee9da9d10514ea7b808e83979c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Prefabs/Bullet.prefab using Guid(5624ee9da9d10514ea7b808e83979c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289f09967a8402e91d00eebe9f4292b2') in 0.412998 seconds
+  Import took 0.419343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.195581 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_LongTriangular_B_Interior_A.prefab
+  artifactKey: Guid(7c202d8cd54543b4487d577b8919ffee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_LongTriangular_B_Interior_A.prefab using Guid(7c202d8cd54543b4487d577b8919ffee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d428d93e0da4068fe0873a240610920') in 2.000114 seconds
+  Import took 2.032651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 801.662557 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/roadRampLongCurvedWall.fbx
+  artifactKey: Guid(002276cc119770f4c8b9797abd47f7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/roadRampLongCurvedWall.fbx using Guid(002276cc119770f4c8b9797abd47f7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152081f0e051eeecef5e39741a8b09a5') in 0.574100 seconds
+  Import took 0.613446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001409 seconds.
+  path: Assets/Unity Store Assets/CS - Signs Free/Materials/Sign_Ramp_30_MPH.mat
+  artifactKey: Guid(e8ed225807bd82e458a7d4607d05448a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CS - Signs Free/Materials/Sign_Ramp_30_MPH.mat using Guid(e8ed225807bd82e458a7d4607d05448a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5d3ce4f3fe86b707062423fe62c655') in 0.281510 seconds
+  Import took 0.288876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000881 seconds.
+  path: Assets/Unity Store Assets/CS - Signs Free/Prefabs/Medium/Sign_Ramp_30_MPH.prefab
+  artifactKey: Guid(ab487e59e1f66964ea661a3a832bd38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CS - Signs Free/Prefabs/Medium/Sign_Ramp_30_MPH.prefab using Guid(ab487e59e1f66964ea661a3a832bd38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f377614201425ae88ff8a99771c8a9de') in 0.101084 seconds
+  Import took 0.112865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001031 seconds.
+  path: Assets/Unity Store Assets/CS - Signs Free/Prefabs/Large/Sign_Ramp_30_MPH.prefab
+  artifactKey: Guid(ef403e2614b763243bdbe8f0990bbf14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CS - Signs Free/Prefabs/Large/Sign_Ramp_30_MPH.prefab using Guid(ef403e2614b763243bdbe8f0990bbf14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d01db348abf5b262a70d8ebdf215df') in 0.060628 seconds
+  Import took 0.073135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042494 seconds.
+  path: Assets/Unity Store Assets/CS - Signs Free/Prefabs/Medium/Sign_Ramp_30_MPH.prefab
+  artifactKey: Guid(ab487e59e1f66964ea661a3a832bd38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CS - Signs Free/Prefabs/Medium/Sign_Ramp_30_MPH.prefab using Guid(ab487e59e1f66964ea661a3a832bd38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f377614201425ae88ff8a99771c8a9de') in 0.049969 seconds
+  Import took 0.058808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 615.918576 seconds.
+  path: Assets/Unity Store Assets/CS - Signs Free/Prefabs/Small/Sign_2_Way_Street.prefab
+  artifactKey: Guid(c07252de08dfb5941825bea813ba7f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CS - Signs Free/Prefabs/Small/Sign_2_Way_Street.prefab using Guid(c07252de08dfb5941825bea813ba7f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b0d09521447056ed8fb8128e9c493f') in 0.118776 seconds
+  Import took 0.153969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001257 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Models/tree_1.FBX
+  artifactKey: Guid(92afa2e4e0d0b8542bf48b0de3ac19bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Models/tree_1.FBX using Guid(92afa2e4e0d0b8542bf48b0de3ac19bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc98a6a9ed11ac7a6ee3789c6e58c852') in 0.341885 seconds
+  Import took 0.348556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000976 seconds.
+  path: Assets/Unity Store Assets/CS - Signs Free/Prefabs/Large/Sign_2_Way_Street.prefab
+  artifactKey: Guid(3a46691d5182e6b45b689599dceb669f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CS - Signs Free/Prefabs/Large/Sign_2_Way_Street.prefab using Guid(3a46691d5182e6b45b689599dceb669f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ceaeb024c55a5b1ad8f5bd7227fa6b6') in 0.083761 seconds
+  Import took 0.098204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000951 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Models/tree_6.FBX
+  artifactKey: Guid(45e438e80c2860545b63beb8d6718edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Models/tree_6.FBX using Guid(45e438e80c2860545b63beb8d6718edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e6d3c5f5020c840104f1b47318e2d0') in 0.171919 seconds
+  Import took 0.185586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Unity Store Assets/CS - Signs Free/Prefabs/Medium/Sign_2_Way_Street.prefab
+  artifactKey: Guid(8b68463b20d2e7e429bc31ed99fb988e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CS - Signs Free/Prefabs/Medium/Sign_2_Way_Street.prefab using Guid(8b68463b20d2e7e429bc31ed99fb988e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582ce245642679035e9e935351107453') in 0.061852 seconds
+  Import took 0.069881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000586 seconds.
+  path: Assets/Unity Store Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_2_Way_Street.prefab
+  artifactKey: Guid(c38f701c334163a479e23a27da555edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_2_Way_Street.prefab using Guid(c38f701c334163a479e23a27da555edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2843af05eb9b7967614b899116d3db75') in 0.070528 seconds
+  Import took 0.086771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001442 seconds.
+  path: Assets/Unity Store Assets/CS - Signs Free/Materials/Sign_2_Way_Street.mat
+  artifactKey: Guid(7583cd767586418479f63c34fdc629ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CS - Signs Free/Materials/Sign_2_Way_Street.mat using Guid(7583cd767586418479f63c34fdc629ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f15f2e716bb8a28a51004eeb4423d5') in 0.084052 seconds
+  Import took 0.091594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.260709 seconds.
+  path: Assets/Unity Store Assets/CS - Signs Free/Materials/Sign_2_Way_Street.mat
+  artifactKey: Guid(7583cd767586418479f63c34fdc629ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CS - Signs Free/Materials/Sign_2_Way_Street.mat using Guid(7583cd767586418479f63c34fdc629ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f15f2e716bb8a28a51004eeb4423d5') in 0.122036 seconds
+  Import took 0.187192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 267.049999 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Prefabs/Tab Toggle.prefab
+  artifactKey: Guid(192c18d73e55e466d89edd9bc2ab936d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Prefabs/Tab Toggle.prefab using Guid(192c18d73e55e466d89edd9bc2ab936d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39226da5c2067ff95f355ffa5a7bc469') in 0.192278 seconds
+  Import took 0.201173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000858 seconds.
+  path: Assets/Unity Store Assets/CS - Signs Free/Materials/Tab_25_MPH.mat
+  artifactKey: Guid(5d0058901d3838142ab1ca0b61e30d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CS - Signs Free/Materials/Tab_25_MPH.mat using Guid(5d0058901d3838142ab1ca0b61e30d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8755855fcbbc9d4cb78cfb7f6cfb7320') in 0.115220 seconds
+  Import took 0.125805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Prefabs/Tab Toggle.prefab
+  artifactKey: Guid(192c18d73e55e466d89edd9bc2ab936d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Prefabs/Tab Toggle.prefab using Guid(192c18d73e55e466d89edd9bc2ab936d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39226da5c2067ff95f355ffa5a7bc469') in 0.036860 seconds
+  Import took 0.043746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026909 seconds.
+  path: Assets/Unity Store Assets/CS - Signs Free/Materials/Tab_25_MPH.mat
+  artifactKey: Guid(5d0058901d3838142ab1ca0b61e30d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CS - Signs Free/Materials/Tab_25_MPH.mat using Guid(5d0058901d3838142ab1ca0b61e30d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8755855fcbbc9d4cb78cfb7f6cfb7320') in 0.076853 seconds
+  Import took 0.082194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.437859 seconds.
+  path: Assets/Unity Store Assets/CS - Signs Free/Materials/Tab_45_MPH.mat
+  artifactKey: Guid(d05bc0ac9ccb3b741a3018c3dc2a001c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CS - Signs Free/Materials/Tab_45_MPH.mat using Guid(d05bc0ac9ccb3b741a3018c3dc2a001c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5fc5cea93cb2e0fcee7998b6ce325a') in 0.054538 seconds
+  Import took 0.060304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001654 seconds.
+  path: Assets/Unity Store Assets/CS - Signs Free/Prefabs/Large/Tab_Ahead.prefab
+  artifactKey: Guid(b081a2432faf48d459422f484ca53101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CS - Signs Free/Prefabs/Large/Tab_Ahead.prefab using Guid(b081a2432faf48d459422f484ca53101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea62d54d2fbe1bf6d25fd3338b4d3bbe') in 0.065122 seconds
+  Import took 0.078810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Unity Store Assets/CS - Signs Free/Prefabs/Medium/Tab_Ahead.prefab
+  artifactKey: Guid(5cd0d0172581d6545bed2dfcd8c1a394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CS - Signs Free/Prefabs/Medium/Tab_Ahead.prefab using Guid(5cd0d0172581d6545bed2dfcd8c1a394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4593c8918574c92436aa470e0a0023e5') in 0.103605 seconds
+  Import took 0.111549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Unity Store Assets/CS - Signs Free/Prefabs/X-Small/Tab_Ahead.prefab
+  artifactKey: Guid(1d02c1ebca037a7468692be2791bbea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CS - Signs Free/Prefabs/X-Small/Tab_Ahead.prefab using Guid(1d02c1ebca037a7468692be2791bbea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '521ba9d9971ff132305e0f4d1681db16') in 0.034138 seconds
+  Import took 0.041201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Unity Store Assets/CS - Signs Free/Materials/Tab_Ahead.mat
+  artifactKey: Guid(6448643b4e7b4a54a960905542fa88a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CS - Signs Free/Materials/Tab_Ahead.mat using Guid(6448643b4e7b4a54a960905542fa88a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e6b95dff825af9808839553075eab8') in 0.035619 seconds
+  Import took 0.043521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.142286 seconds.
+  path: Assets/Unity Store Assets/CS - Signs Free/Materials/Tab_Arrow_Diagonal.mat
+  artifactKey: Guid(546d8c9fa30854844aab58d3603a887d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CS - Signs Free/Materials/Tab_Arrow_Diagonal.mat using Guid(546d8c9fa30854844aab58d3603a887d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348a981cf30c82ef3c53cf73591930e3') in 0.052092 seconds
+  Import took 0.057466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Unity Store Assets/CS - Signs Free/Prefabs/Medium/Tab_Arrow_Diagonal.prefab
+  artifactKey: Guid(cbae61adab8cbfa4a9d47d5ae1a4992c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CS - Signs Free/Prefabs/Medium/Tab_Arrow_Diagonal.prefab using Guid(cbae61adab8cbfa4a9d47d5ae1a4992c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5d0aac59c5bb394fa820fb3ef17be1') in 0.045457 seconds
+  Import took 0.052486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000889 seconds.
+  path: Assets/Unity Store Assets/CS - Signs Free/Prefabs/Large/Tab_Arrow_Diagonal.prefab
+  artifactKey: Guid(c3c9fc770e2947347b82e27bbbb0d23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CS - Signs Free/Prefabs/Large/Tab_Arrow_Diagonal.prefab using Guid(c3c9fc770e2947347b82e27bbbb0d23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16bafa37e0dc3421c6bbb575e85664b3') in 0.159648 seconds
+  Import took 0.172234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.602967 seconds.
+  path: Assets/Unity Store Assets/CS - Signs Free/Prefabs/Medium/Tab_Arrow_Diagonal_R.prefab
+  artifactKey: Guid(a14e7b302240dbf498a00d34c1189850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CS - Signs Free/Prefabs/Medium/Tab_Arrow_Diagonal_R.prefab using Guid(a14e7b302240dbf498a00d34c1189850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674d17abc210253bd209d7f3870b1563') in 0.111057 seconds
+  Import took 0.144179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/Unity Store Assets/CS - Signs Free/Prefabs/X-Small/Tab_Speed_25.prefab
+  artifactKey: Guid(7906122a50f78014295cc7207ea8447a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CS - Signs Free/Prefabs/X-Small/Tab_Speed_25.prefab using Guid(7906122a50f78014295cc7207ea8447a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e91a5d2db961eec65a992299e4b0d50') in 0.043687 seconds
+  Import took 0.058158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Unity Store Assets/CS - Signs Free/Prefabs/Medium/Tab_Speed_25.prefab
+  artifactKey: Guid(436eddc377181e7428c931dc4a104e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CS - Signs Free/Prefabs/Medium/Tab_Speed_25.prefab using Guid(436eddc377181e7428c931dc4a104e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ecb10d5073b634421fb876c760d1ad') in 0.037743 seconds
+  Import took 0.052786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001068 seconds.
+  path: Assets/Unity Store Assets/CS - Signs Free/Prefabs/Large/Tab_Speed_45.prefab
+  artifactKey: Guid(1d7c7ce760d30f545b88ca42b6a58936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CS - Signs Free/Prefabs/Large/Tab_Speed_45.prefab using Guid(1d7c7ce760d30f545b88ca42b6a58936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd5e3c78f1c880a6276916038a5dfd5') in 0.146320 seconds
+  Import took 0.154999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Unity Store Assets/CS - Signs Free/Prefabs/Large/Tab_Arrow_Diagonal_R.prefab
+  artifactKey: Guid(7e31fbbfaace8934ca3162ccb31b6dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CS - Signs Free/Prefabs/Large/Tab_Arrow_Diagonal_R.prefab using Guid(7e31fbbfaace8934ca3162ccb31b6dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005ff0913627e7eb0538de004805e877') in 0.049978 seconds
+  Import took 0.057547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Unity Store Assets/CS - Signs Free/Prefabs/Medium/Tab_Speed_45.prefab
+  artifactKey: Guid(4ab1f37fe1a9b5148825528a54a49792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CS - Signs Free/Prefabs/Medium/Tab_Speed_45.prefab using Guid(4ab1f37fe1a9b5148825528a54a49792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a0b4c0007e1c11eab0d6a1c5e83faa') in 0.031908 seconds
+  Import took 0.040796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Unity Store Assets/CS - Signs Free/Prefabs/Large/Tab_Speed_25.prefab
+  artifactKey: Guid(9ea90c47c4e44364a83a5e4ffed96dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CS - Signs Free/Prefabs/Large/Tab_Speed_25.prefab using Guid(9ea90c47c4e44364a83a5e4ffed96dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b562088e519be9113ae2abb0503e50a8') in 0.033711 seconds
+  Import took 0.040419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/Unity Store Assets/CS - Signs Free/Prefabs/X-Small/Tab_Speed_45.prefab
+  artifactKey: Guid(a6e69801820a5f04a90bca7362570633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CS - Signs Free/Prefabs/X-Small/Tab_Speed_45.prefab using Guid(a6e69801820a5f04a90bca7362570633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f3306e7fab872370d2c7550600bac5') in 0.041941 seconds
+  Import took 0.055876 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.059730 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.744 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 48.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1613 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.0 MB.
+System memory in use after: 137.8 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2142.
+Total: 512.999500 ms (FindLiveObjects: 66.705100 ms CreateObjectMapping: 2.144100 ms MarkObjects: 357.515400 ms  DeleteObjects: 85.653100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.080517 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 20.458 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 69.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1613 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.0 MB.
+System memory in use after: 137.8 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2146.
+Total: 463.475400 ms (FindLiveObjects: 77.676800 ms CreateObjectMapping: 6.760400 ms MarkObjects: 309.615400 ms  DeleteObjects: 69.212900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

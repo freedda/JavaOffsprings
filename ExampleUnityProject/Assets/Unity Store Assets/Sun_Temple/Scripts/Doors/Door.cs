@@ -42,20 +42,10 @@ namespace SunTemple
 				return;
 			}
 
-			Player = GameObject.FindGameObjectWithTag (playerTag);
-
-			if (!Player) {
-				Debug.LogWarning (this.GetType ().Name + ".cs on " + this.name + ", No object tagged with " + playerTag + " found in Scene", gameObject);
-				scriptIsEnabled = false;
-				return;
-			}
+			Player = GameObject.FindGameObjectWithTag(playerTag);
 
 			Cam = Camera.main;
-			if (!Cam) {
-				Debug.LogWarning (this.GetType ().Name + ", No objects tagged with MainCamera in Scene", gameObject);
-				scriptIsEnabled = false;
-			}
-		
+			
 			cursor = CursorManager.instance;
 
 			if (cursor != null) {
@@ -69,6 +59,21 @@ namespace SunTemple
 
 		void Update()
 		{
+			Player = GameObject.FindGameObjectWithTag (playerTag);
+        
+        	if (!Player) {
+        		Debug.LogWarning (this.GetType ().Name + ".cs on " + this.name + ", No object tagged with " + playerTag + " found in Scene", gameObject);
+        		scriptIsEnabled = false;
+        		return;
+        	}	
+            
+            
+            Cam = Camera.main;
+            if (!Cam) {
+	            Debug.LogWarning (this.GetType ().Name + ", No objects tagged with MainCamera in Scene", gameObject);
+	            scriptIsEnabled = false;
+            }
+        	
 			if (scriptIsEnabled) {
 				if (Rotating) {
 					Rotate ();

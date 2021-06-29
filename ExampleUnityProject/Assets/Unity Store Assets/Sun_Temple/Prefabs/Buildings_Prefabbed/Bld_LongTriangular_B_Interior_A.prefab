@@ -140690,6 +140690,7 @@ GameObject:
   - component: {fileID: 23538787138992702}
   - component: {fileID: 114348127332882914}
   - component: {fileID: 65472254480781324}
+  - component: {fileID: 8126882828218157929}
   m_Layer: 0
   m_Name: Bld_Common_Door_B (4)
   m_TagString: Untagged
@@ -140792,6 +140793,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.2627743, y: 2.9865339, z: 0.26804814}
   m_Center: {x: 0.60494703, y: 1.5004648, z: -0.0026350468}
+--- !u!208 &8126882828218157929
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953052624972374}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 0
+  m_Extents: {x: 0.634, y: 1.493, z: 0.634}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.60700005, y: 1.5000001, z: -0.003}
+  m_TimeToStationary: 0.5
 --- !u!1 &1954510275009702
 GameObject:
   m_ObjectHideFlags: 0
