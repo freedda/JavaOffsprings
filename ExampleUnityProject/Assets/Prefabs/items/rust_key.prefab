@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 15127842643977869}
   - component: {fileID: -8125036814708090364}
   - component: {fileID: 8054476265279582557}
+  - component: {fileID: 2411245512593736886}
   m_Layer: 6
   m_Name: rust_key
   m_TagString: Key
@@ -115,8 +116,8 @@ MonoBehaviour:
   interactionTransform: {fileID: 0}
   player: {fileID: 0}
   item: {fileID: 0}
-  messagePanel: {fileID: 0}
   myCanvas: {fileID: 0}
+  messagePanel: {fileID: 0}
 --- !u!114 &-8125036814708090364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -156,3 +157,16 @@ MonoBehaviour:
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
   m_UseLocal: 1
+--- !u!65 &2411245512593736886
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5907703636480842724}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.12193204, y: 0.039105855, z: 0.23262411}
+  m_Center: {x: 0, y: -9.313226e-10, z: 0.000000003725291}

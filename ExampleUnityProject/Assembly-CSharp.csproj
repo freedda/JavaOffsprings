@@ -143,6 +143,7 @@
      <Compile Include="Assets\Scripts\MasterClient scripts\PlayerListNames.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\DitheringModel.cs" />
+     <Compile Include="Assets\uniqueKeys.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
      <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />

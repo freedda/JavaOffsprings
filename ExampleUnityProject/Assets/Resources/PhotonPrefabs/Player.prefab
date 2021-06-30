@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 2886325915938745307}
   - component: {fileID: 922989513969530549}
   - component: {fileID: 8776002856662385260}
+  - component: {fileID: -835719032593915322}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -409,6 +410,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   VoiceRecorder: {fileID: 8431992891764266383}
+--- !u!114 &-835719032593915322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6551049343285595807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8058a127815cd30418085247a3b6924a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countKeys: 0
 --- !u!1 &6551049344482485521
 GameObject:
   m_ObjectHideFlags: 0

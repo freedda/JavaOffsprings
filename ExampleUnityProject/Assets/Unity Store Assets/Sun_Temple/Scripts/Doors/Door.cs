@@ -29,9 +29,12 @@ namespace SunTemple
 
 
 		private bool scriptIsEnabled = true;
+		
+		//How much uniqueKeys the player has
+		private uniqueKeys key;
 
 
-
+	
         void Start(){
             StartRotation = transform.localEulerAngles ;
 			DoorCollider = GetComponent<BoxCollider> ();
@@ -52,13 +55,15 @@ namespace SunTemple
 				cursor.SetCursorToDefault ();
 			}
 
-					
+	        key = uniqueKeys.instance;
         }
 
 
 
 		void Update()
 		{
+			key = uniqueKeys.instance;
+
 			Player = GameObject.FindGameObjectWithTag (playerTag);
         
         	if (!Player) {
@@ -88,10 +93,18 @@ namespace SunTemple
 					CursorHint ();
 				}
 			}
+			
+			UnLockTheDoor();
 
-		} 
+		}
 
-
+		void UnLockTheDoor()
+		{
+			if (key.countKeys.ToString() == this.name)
+			{
+				IsLocked = false;
+			}
+		}
 
 
 		void TryToOpen(){

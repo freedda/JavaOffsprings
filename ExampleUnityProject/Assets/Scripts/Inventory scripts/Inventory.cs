@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -22,10 +23,24 @@ public class Inventory : MonoBehaviour
     public delegate void itemChanged();
     public itemChanged onItemChangedCallback;
     public int space = 12;
-    
+
+    //A counter for the existing keys in inventory
+    public int CountKeys;
+
+    private void Start()
+    {
+        CountKeys = 0;
+    }
+
     public void AddItem (Item newItem)
     {
         items.Add(newItem);
+        //Every Key add 1 on itself.
+        if (newItem.name.Equals("Key"))
+        {
+            CountKeys += 1;
+            Debug.Log("MPIKA MESA STTO INVENTORY KAI  TO COUNT EINAI "+ CountKeys);
+        }
         if (onItemChangedCallback != null)
         {
             onItemChangedCallback.Invoke();

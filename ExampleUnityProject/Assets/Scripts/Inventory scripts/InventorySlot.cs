@@ -7,6 +7,7 @@ public class InventorySlot : MonoBehaviour
     public Text nameText;
     private Item item;
 
+    public GameObject theoryCanvas;
     /*public void Start()
     {
         icon.enabled = false;
@@ -32,7 +33,16 @@ public class InventorySlot : MonoBehaviour
     {
         if (item != null)
         {
-            item.Use();
+            //if the item is a key, then activate the canvas (if the player click on inventory's button)
+            if (item.name.Equals("Key"))
+            {
+                theoryCanvas.SetActive(true);
+            }
+            //Else use it like an equipment
+            else
+            {
+                item.Use();
+            }
         }
         // if player click an empty inventoryButton
         else
