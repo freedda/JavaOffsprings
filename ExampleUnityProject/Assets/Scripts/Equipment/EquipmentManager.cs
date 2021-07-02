@@ -31,6 +31,7 @@ public class EquipmentManager : MonoBehaviour
 
    }
 
+   //EDW TO ORISMA ISWS GINEI EPISIS STRING NEWITEM (THA FANEI)
    public void EquipPlayer(Equipment newItem)
    {
       // get the index of the slot our new item is supposed to be inserted into
@@ -42,7 +43,7 @@ public class EquipmentManager : MonoBehaviour
       {  
          // take the old item and put it back to the inventory
          oldItem = currentEquipment[slotIndex];
-         inventory.AddItem(oldItem);
+         inventory.AddItem(oldItem.Id);
       }
       
       if (equipmentChanged != null) 
@@ -60,7 +61,7 @@ public class EquipmentManager : MonoBehaviour
       if (currentEquipment[slotIndex] != null)
       {
          Equipment oldItem = currentEquipment[slotIndex];
-         inventory.AddItem(oldItem);
+         inventory.AddItem(oldItem.Id);
          
          currentEquipment[slotIndex] = null;
          

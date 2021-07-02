@@ -9,11 +9,14 @@ public class Equipment : Item
     // paradegima to sfuri mporei na prokalei 'damage' se antikeimeno pou thelei na spasei
     public int damage;
 
-    public override void Use()
+    public override void Use(string Id)
     {
-        base.Use();
+        base.Use(Id);
         // Equip the item
+        Debug.Log("to this einai " + this);
+        
         EquipmentManager.instance.EquipPlayer(this);
+        
         //Remove item from the inventory
         Debug.Log("Removing equipment from slot");
         RemoveFromInventory();

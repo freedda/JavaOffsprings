@@ -20,17 +20,14 @@ public class PageSlot : MonoBehaviour
     
     //public Image icon;
     public Text countText;
-    private Item item;
+    private string item;
     private int count = 0;
         
-    public void AddPage(Item newItem)
+    public void AddPage(string newItemId)
     {
         count += 1;
-        /*if (!(icon.enabled))
-        {
-           icon.enabled = true; 
-        }*/
-        item = newItem;
+        
+        item = newItemId;
         //icon.sprite = item.icon;
         countText.text = count.ToString();
         

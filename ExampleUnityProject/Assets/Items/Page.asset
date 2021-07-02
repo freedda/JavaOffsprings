@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b3295e6c86790749a199ae7d58b4ed2, type: 3}
   m_Name: Page
   m_EditorClassIdentifier: 
+  Id: a3da4feb-3607-4a51-9a50-d19a9fc3f5fd
   name: 'Page '
   icon: {fileID: 21300000, guid: 9ae9ac126f6be9b4fa19f7461dcf1715, type: 3}
   isDeafaultItem: 0

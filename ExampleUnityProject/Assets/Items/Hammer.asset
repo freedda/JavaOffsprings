@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: affbfcbafd272b1498929340bfeb5a50, type: 3}
   m_Name: Hammer
   m_EditorClassIdentifier: 
+  Id: c33c70d5-0665-4e90-aa76-6342bbe0cf50
   name: Hammer
   icon: {fileID: 21300000, guid: 1c6ac39ded55b12468605def0baa16fc, type: 3}
   isDeafaultItem: 0
+  equipSlot: 0
+  damage: 0

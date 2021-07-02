@@ -19,7 +19,7 @@ public class Inventory : MonoBehaviour
     }
     #endregion
     
-    public List<Item> items = new List<Item>();
+    public List<string> items = new List<string>();
     public delegate void itemChanged();
     public itemChanged onItemChangedCallback;
     public int space = 12;
@@ -32,14 +32,14 @@ public class Inventory : MonoBehaviour
         CountKeys = 0;
     }
 
-    public void AddItem (Item newItem)
+    public void AddItem (string newItemId)
     {
-        items.Add(newItem);
+        items.Add(newItemId);
         //Every Key add 1 on itself.
-        if (newItem.name.Equals("Key"))
+        if (newItemId.Equals("02250c14-1e7b-4d55-a5e1-ce6758e5ac88"))
         {
             CountKeys += 1;
-            Debug.Log("MPIKA MESA STTO INVENTORY KAI  TO COUNT EINAI "+ CountKeys);
+            //Debug.Log("MPIKA MESA STTO INVENTORY KAI  TO COUNT EINAI "+ CountKeys);
         }
         if (onItemChangedCallback != null)
         {
@@ -47,9 +47,9 @@ public class Inventory : MonoBehaviour
         }
     }
 
-    public void RemoveItem(Item newItem)
+    public void RemoveItem(string newItemId)
     {
-        items.Remove(newItem);
+        items.Remove(newItemId);
         if (onItemChangedCallback != null)
         {
             onItemChangedCallback.Invoke();

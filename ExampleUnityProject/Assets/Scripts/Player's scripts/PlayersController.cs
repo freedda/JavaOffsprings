@@ -58,7 +58,7 @@ public class PlayersController : MonoBehaviour
         {
             CanPickUP = false;
             Debug.Log("pick up " + item.name);
-            Inventory.instance.AddItem(item);
+            Inventory.instance.AddItem(item.Id);
            // pickUpItem.PickUp();
             // Inventory.instance.AddItem(item);
             // Destroy(gameObject);

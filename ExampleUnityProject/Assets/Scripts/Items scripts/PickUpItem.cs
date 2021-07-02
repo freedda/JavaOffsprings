@@ -6,12 +6,19 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Windows.Speech;
 using Photon.Pun;
-
+/*
+ * This script is attatched to the items
+ * If the player is near to the item then
+ * they can pick up it.
+ * If the item is a key, the Theory activated
+ * if the item is somithing else it saved in inventory
+ * if the item is a Page the counter increased by one
+ */
 public class PickUpItem : MonoBehaviourPun
 {
    
    // distance between player and item in ordeto interact
-   public float radius = 1.5f;
+   public float radius = 1f;
    public Transform interactionTransform;
    
    [SerializeField] protected GameObject player;
@@ -35,10 +42,11 @@ public class PickUpItem : MonoBehaviourPun
       view = GetComponent< PhotonView >();
 
       player = GameObject.FindGameObjectWithTag(playerTag);
+      
       ItemCollider = GetComponent<BoxCollider> ();
+
       cam = Camera.main;
-      
-      
+
       cursor = CursorManager.instance;
 
       if (cursor != null) {
@@ -49,44 +57,49 @@ public class PickUpItem : MonoBehaviourPun
    protected  virtual void Update()
    {
       player = GameObject.FindGameObjectWithTag(playerTag);
+      
       if (player == null)
       {
-        // Debug.Log("DEN VRISKEI PAIKTI");
+         // Debug.Log("DEN VRISKEI PAIKTI");
          return;
       }
       ActiveCanvasWithE();
-     // activeSpriteE();
-      tryToPick();
+      // activeSpriteE();
+      TryToPick();
     
    }
 
    [PunRPC]
-   protected void tryToPick()
+   protected void TryToPick()
    {
       if (Input.GetKeyDown("e") && isClose(player))
       {
          Debug.Log("pick up " + item.name);
-         PickUp(item);
-         if (PhotonNetwork.IsMasterClient) {
+         
+         view.RPC("PickUp", RpcTarget.AllBuffered, item.Id);
+         //PickUp(item);
+         
+         /*if (PhotonNetwork.IsMasterClient) {
              PhotonNetwork.Destroy(gameObject);
          }
          else
          {
             view.RPC("RPC_destroy",RpcTarget.MasterClient); 
             RPC_destroy();
-         
-         }
+            
+         }*/
          
       }
    }
    
    [PunRPC]
-   void RPC_destroy()
+   private void RPC_destroy()
    {
       Destroy(gameObject);
    }
 
-   protected void activeSpriteE()
+   //PAEI GIA SVISIMO?
+   /*protected void activeSpriteE()
    {
       if (isClose(player))
       {
@@ -103,10 +116,10 @@ public class PickUpItem : MonoBehaviourPun
          cursor.SetCursorToDefault ();
       }
      
-   }
+   }*/
    protected void ActiveCanvasWithE()
    {
-      if (messagePanel.activeSelf == true && !isClose(player))
+      if (messagePanel.activeSelf && !isClose(player))
       {
          messagePanel.SetActive(false);
         // Debug.Log("MPIKE");
@@ -143,16 +156,22 @@ public class PickUpItem : MonoBehaviourPun
       Gizmos.DrawWireSphere(interactionTransform.position, radius);
    }
    
-   protected void PickUp(Item newItem)
+   [PunRPC]
+   protected void PickUp(String newItemId)
    {
-      if (newItem.name.Contains("Page"))
+      RPC_destroy();
+      //This is page's id
+      if (newItemId.Equals("a3da4feb-3607-4a51-9a50-d19a9fc3f5fd"))
       {
-         PageSlot.instance.AddPage(newItem);
+         //to add page tha mporouse na mn dexete orisma kathw den to xrisimopoiei
+         PageSlot.instance.AddPage(newItemId);
       }
       else
       {
-         Inventory.instance.AddItem(newItem);
-         if (newItem.name.Contains("Key"))
+         
+         Inventory.instance.AddItem(newItemId);
+         //this is key's id
+         if (newItemId.Equals("02250c14-1e7b-4d55-a5e1-ce6758e5ac88"))
          {
             myCanvas.SetActive(true);
             Debug.Log("Pire key,  canvas. ");
