@@ -35,7 +35,6 @@ public class QuizManager : MonoBehaviour
             QTxt.text = QnA[currentQ].Question;
             setAnswers();
         }
-        
     }
 
     void setAnswers()

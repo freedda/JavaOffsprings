@@ -5,18 +5,18 @@ using UnityEngine;
 public class AnswerScript : MonoBehaviour
 {
     public bool isCorrect = false;
-    public QuizManager quizManager;
+    public DBscript dbManager;
     public void Answer()
     {
         if (isCorrect)
         {
             Debug.Log("Correct answer");
-            quizManager.correct();
+            dbManager.correct();
         }
         else
         {
             Debug.Log("Wrong answer");
-            quizManager.correct();
+            dbManager.correct();
         }
     }
     
