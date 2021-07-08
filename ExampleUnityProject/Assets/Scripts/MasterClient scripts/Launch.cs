@@ -93,6 +93,12 @@ public class Launch : MonoBehaviourPunCallbacks
     
     public override void OnJoinedRoom()
     {
+        
+        if (2 == PhotonNetwork.CurrentRoom.PlayerCount)
+        {
+            PhotonNetwork.CurrentRoom.IsOpen = false;
+            PhotonNetwork.CurrentRoom.IsVisible = false;
+        }
         MenuManager.instance.OpenMenu("room lobby");
         roomNameText.text = PhotonNetwork.CurrentRoom.Name;
         

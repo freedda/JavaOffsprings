@@ -40,10 +40,12 @@ public class Item : ScriptableObject
         instance = this;
     }
 
-    public virtual void Use(string Id)
+    public virtual void Use(string Ids)
     {
+        Id = Ids;
         // Use item...
-        Debug.Log("Using " + name);
+        Debug.Log("Using " + Id);
+        RemoveFromInventory();
 
     }
 
