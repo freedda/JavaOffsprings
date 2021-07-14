@@ -1,0 +1,168 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Data;
+using System.Text.RegularExpressions;
+using UnityEngine;
+using Mono.Data.Sqlite;
+using TMPro;
+public class DBscriptBlanks : MonoBehaviour
+{   
+    
+    private string dbName = "URI=file:theoryBlanks.db";
+    private string option;
+    private int currentQ;
+    public TextMeshProUGUI QTxt;
+    public TextMeshProUGUI BlanksTxt;
+    public TextMeshProUGUI AnswerTxt;
+    
+    [System.Serializable]
+    public class QuestionAndAnswers
+    {
+        public string Question;
+        public string Blanks;
+        public string correctAnswer;
+    }
+    
+    public List<QuestionAndAnswers> QnA = new List<QuestionAndAnswers>();
+    
+    // Start is called before the first frame update
+    void Start()
+    {   
+        // Create database
+        CreateDB();
+        // Add a theory question with options and correct answer
+        /*AddTheory(2, "Fill in the blanks to print the word Java: \n " , "class myDemo \n{\n    public static void main (String_] args)\n    {\n        System.out._(\"Java_)_\n    }\n}", 
+           "class myDemo { public static void main (String[] args) { System.out.println(\"Java\");}}" );
+           */
+
+        
+        // Display records to the console 
+        DisplayTheory();
+        
+        // Reverse list
+        QnA.Reverse();
+        
+        //Generate the first question 
+        generateQuestion();
+    }
+
+    public void CreateDB()
+    {
+        // Create database connection
+        using(var connection = new SqliteConnection(dbName))
+        { 
+            connection.Open();
+            using (var command = connection.CreateCommand())
+            {   
+                // Create a table "theory" if it doesnt exist already  
+                command.CommandText = "CREATE TABLE IF NOT EXISTS theoryBlanks (questionID INT PRIMARY KEY, question VARCHAR(50), blanks VARCHAR(50), correctAnswer VARCHAR(50));";
+                command.ExecuteNonQuery();
+            }
+            // Close database connection
+            connection.Close();
+        }
+    }
+    
+    public void AddTheory(int questionID, string question, string blanks, string correctAnswer)
+    {   
+        // Create database connection
+        using (var connection = new SqliteConnection(dbName))
+        {
+            connection.Open();
+
+            using (var command = connection.CreateCommand())
+            {   
+                // Insert record to the database 
+                command.CommandText = "INSERT INTO theoryBlanks (questionID,question, blanks, correctAnswer) VALUES ('" +questionID+ "', '" + question + 
+                                      "' , '" + blanks + "', '" + correctAnswer + "' );";
+                command.ExecuteNonQuery();
+            }
+            
+            // Close database connection
+            connection.Close();
+        }
+        
+    }
+    
+      public void DisplayTheory()
+    {
+        using (var connection = new SqliteConnection(dbName))
+        {
+            connection.Open();
+            using (var command = connection.CreateCommand())
+            {
+                // Select from the database
+                command.CommandText = "SELECT * FROM theoryBlanks ORDER BY questionID;";
+
+                // Iterate through the recordset and display
+                using (IDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {   
+                        // Get question's ID. IDs start from 1, we want to count from 0 
+                        currentQ = Convert.ToInt16(reader["questionID"])-1;
+                       // Debug.Log("ID: " + currentQ);
+
+                        // Get question from the db
+                        QnA[currentQ].Question = reader["question"].ToString();
+                       // Debug.Log(QnA[currentQ].Question);
+
+                        QnA[currentQ].Blanks = reader["blanks"].ToString();
+                        QnA[currentQ].correctAnswer = reader["correctAnswer"].ToString();
+                        
+                        //Display question's ID, question, blanks
+                        // Debug.Log("Question ID: " +reader["questionID"] +"\n Question: " + reader["question"] + 
+                        //  "\n " + reader["blanks"] + "\n" + reader["correctAnswer"]);
+                    }
+                    reader.Close();
+                }
+            }
+            connection.Close();
+        }
+    }
+      
+      void generateQuestion()
+      {
+          for (int i = 0; i < QnA.Count; i++)
+          {
+              currentQ = i;
+              QTxt.text = QnA[currentQ].Question;
+              BlanksTxt.text = QnA[currentQ].Blanks;
+          }
+      }
+        
+      public void getAnswer()
+      { 
+          string correctAnswer = Regex.Replace(QnA[currentQ].correctAnswer, @"\s+", "");
+          string playersAnswer = Regex.Replace(AnswerTxt.text, @"\s+", "");
+          playersAnswer = playersAnswer.Remove(playersAnswer.Length - 1);
+         
+          if (playersAnswer.Equals(correctAnswer))
+          {
+              Debug.Log("correct Answer");
+          }
+          else
+          { 
+              Debug.Log("Wrong answer");
+              Debug.Log(correctAnswer);
+          }
+          correct();
+
+      }
+      
+      public void correct()
+      {
+          // Remove question from the list
+          QnA.RemoveAt(currentQ);
+          
+          //clear player's answer txt
+          
+          
+          // Generate next question
+          generateQuestion();
+          
+
+      }
+
+}

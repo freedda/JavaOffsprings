@@ -56,6 +56,7 @@
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\FxaaComponent.cs" />
      <Compile Include="Assets\Scripts\Player&apos;s scripts\uniqueKeys.cs" />
      <Compile Include="Assets\Photon\PhotonLibs\WebSocket\WebSocket.cs" />
+     <Compile Include="Assets\Scripts\Quiz\DBscriptBlanks.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\Doors\CircularLerp.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\Culling\DistanceHide.cs" />
      <Compile Include="Assets\Photon\PhotonLibs\WebSocket\SocketWebTcp.cs" />
@@ -89,6 +90,7 @@
      <Compile Include="Assets\Scripts\Inventory scripts\InventorySlot.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\VignetteModel.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\GrainModel.cs" />
+     <Compile Include="Assets\answerBlanks.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\Culling\TriggerArea.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\PostProcessingModel.cs" />
      <Compile Include="Assets\Scripts\Canvases scripts\UIButtonLoadLevel.cs" />
