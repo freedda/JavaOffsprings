@@ -132,6 +132,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 8219224437660034638}
   nameText: {fileID: 823909002652653695}
+  theoryCanvas: {fileID: 0}
 --- !u!222 &3260880182439024152
 CanvasRenderer:
   m_ObjectHideFlags: 0

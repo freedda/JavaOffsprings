@@ -46,6 +46,8 @@ MonoBehaviour:
   - SendChat
   - PickUp
   - TryToPick
+  - ClickItem
+  - UseItem
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 0

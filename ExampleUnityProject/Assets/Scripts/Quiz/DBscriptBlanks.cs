@@ -15,6 +15,7 @@ public class DBscriptBlanks : MonoBehaviour
     public TextMeshProUGUI QTxt;
     public TextMeshProUGUI BlanksTxt;
     public TextMeshProUGUI AnswerTxt;
+    public TMP_InputField answerField;
     
     [System.Serializable]
     public class QuestionAndAnswers
@@ -157,7 +158,8 @@ public class DBscriptBlanks : MonoBehaviour
           QnA.RemoveAt(currentQ);
           
           //clear player's answer txt
-          
+          answerField.Select();
+          answerField.text = "";
           
           // Generate next question
           generateQuestion();

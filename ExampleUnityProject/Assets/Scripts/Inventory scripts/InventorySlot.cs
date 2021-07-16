@@ -1,3 +1,4 @@
+using Photon.Pun;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -6,12 +7,15 @@ public class InventorySlot : MonoBehaviour
     public Image icon;
     public Text nameText;
     private string itemId;
+    
+    private PhotonView view;
 
     public GameObject theoryCanvas;
-    /*public void Start()
+    
+    private void Start()
     {
-        icon.enabled = false;
-    }*/
+        view = GetComponent<PhotonView>();
+    }
     
     public void AddItem(string newItemId)
     {
@@ -40,6 +44,15 @@ public class InventorySlot : MonoBehaviour
         nameText.text = null;
     }
 
+    [PunRPC]
+    public void ClickItem()
+    {
+
+        view.RPC("UseItem", RpcTarget.All, null);
+        Debug.Log("Click apoooo " + view);
+    }
+
+    [PunRPC]
     public void UseItem()
     {
         if (itemId != null)

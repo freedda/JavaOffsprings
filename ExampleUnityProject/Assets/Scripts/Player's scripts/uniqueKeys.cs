@@ -7,11 +7,11 @@ public class uniqueKeys : MonoBehaviour
     public static uniqueKeys instance;
     void Awake()
     {
-        if (instance != null)
+        /*if (instance != null)
         {
             Debug.LogWarning("More than one instance of Inventory found");
             return;
-        }
+        }*/
         instance = this;
     }
     
