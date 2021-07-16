@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Photon.Pun;
 using UnityEngine;
 
 namespace SunTemple
@@ -32,10 +33,15 @@ namespace SunTemple
 		
 		//How much uniqueKeys the player has
 		private uniqueKeys key;
+		
+		private PhotonView view;
 
 
 	
         void Start(){
+	        view = GetComponent<PhotonView>();
+
+	        
             StartRotation = transform.localEulerAngles ;
 			DoorCollider = GetComponent<BoxCollider> ();
 
@@ -115,7 +121,8 @@ namespace SunTemple
 											
 				if (DoorCollider.Raycast(ray, out hit, MaxDistance)){					
 					if (IsLocked == false){
-						Activate ();
+						view.RPC("Activate",  RpcTarget.All);
+						//Activate ();
 					}
 				}
 			}
@@ -143,6 +150,8 @@ namespace SunTemple
 
 
 
+
+		[PunRPC]
         public void Activate()
         {
             if (DoorClosed)
