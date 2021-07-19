@@ -36,7 +36,7 @@ public class InventoryUI : MonoBehaviour
     [PunRPC] 
     void RPC_Inventory_Update() 
     { 
-        Debug.Log("update UI"); 
+        //Debug.Log("update UI"); 
         for (int i = 0; i < inventorySlots.Length; i++) 
         { 
             if (i < myInventory.items.Count) 
