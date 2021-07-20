@@ -48,6 +48,34 @@ public class InventorySlot : MonoBehaviour
                 nameText.text = "Watering Can";
                 icon.sprite = takeIconsSprites.instance.icons[2];
                 break;
+            case "27ce03e1-1780-4f03-bfc1-65ff17fcbfea":
+                nameText.text = "Axe";
+                icon.sprite = takeIconsSprites.instance.icons[3];
+                break;
+            case "0c217d02-9e3d-4633-8171-826d75d922c0":
+                nameText.text = "Hoe";
+                icon.sprite = takeIconsSprites.instance.icons[4];
+                break;
+            case "e5bdaf11-a79b-4436-8422-2c063ac7cc42":
+                nameText.text = "Nails";
+                icon.sprite = takeIconsSprites.instance.icons[5];
+                break;
+            case "42a57c99-52c6-4ee0-bd84-1032112f959a":
+                nameText.text = "Pickaxe";
+                icon.sprite = takeIconsSprites.instance.icons[6];
+                break;
+            case "648ca90a-9168-4b30-ad30-fea8f5275ce4":
+                nameText.text = "Saw";
+                icon.sprite = takeIconsSprites.instance.icons[7];
+                break;
+            case "3d48b44b-3e22-4f1b-a274-36890d659094":
+                nameText.text = "Shovel";
+                icon.sprite = takeIconsSprites.instance.icons[8];
+                break;
+            case "6337484d-d404-4a26-b38c-6f36fd9437ea":
+                nameText.text = "Sickle";
+                icon.sprite = takeIconsSprites.instance.icons[9];
+                break;  
         }
         
         icon.enabled = true;
