@@ -101,8 +101,8 @@
      <Compile Include="Assets\Photon\PhotonVoice\PhotonVoiceApi\Core\POpusCodec\Enums\Delay.cs" />
      <Compile Include="Assets\Photon\PhotonVoice\PhotonVoiceApi\Core\POpusCodec\OpusEncoder.cs" />
      <Compile Include="Assets\Photon\PhotonVoice\PhotonVoiceApi\Core\Voice.cs" />
-     <Compile Include="Assets\Photon\PhotonVoice\PhotonVoiceApi\Platforms\Unity\AudioInEnumerator.cs" />
      <Compile Include="Assets\Photon\PhotonVoice\PhotonVoiceApi\Core\POpusCodec\Enums\ForceChannels.cs" />
+     <Compile Include="Assets\Photon\PhotonVoice\PhotonVoiceApi\Platforms\Unity\AudioInEnumerator.cs" />
      <Compile Include="Assets\Photon\PhotonVoice\PhotonVoiceApi\Core\AudioUtil.cs" />
      <Compile Include="Assets\Photon\PhotonVoice\PhotonVoiceApi\Core\POpusCodec\Enums\Bandwidth.cs" />
      <Compile Include="Assets\Photon\PhotonVoice\PhotonVoiceApi\Platforms\Unity\MicWrapperPusher.cs" />

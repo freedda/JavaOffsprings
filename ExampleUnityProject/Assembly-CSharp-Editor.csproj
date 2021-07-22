@@ -686,8 +686,11 @@
  <Reference Include="Unity.VisualStudio.Editor">
  <HintPath>C:/Users/dimik/Desktop/πτυχιακή-2/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/dimik/Desktop/πτυχιακή-2/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <Reference Include="Autodesk.Fbx.Editor">
+ <HintPath>C:/Users/dimik/Desktop/πτυχιακή-2/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/Autodesk.Fbx.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Formats.Fbx.Editor">
+ <HintPath>C:/Users/dimik/Desktop/πτυχιακή-2/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/Unity.Formats.Fbx.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
  <HintPath>C:/Users/dimik/Desktop/πτυχιακή-2/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
@@ -704,20 +707,17 @@
  <Reference Include="Unity.Rider.Editor">
  <HintPath>C:/Users/dimik/Desktop/πτυχιακή-2/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/dimik/Desktop/πτυχιακή-2/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="Autodesk.Fbx.Editor">
- <HintPath>C:/Users/dimik/Desktop/πτυχιακή-2/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/Autodesk.Fbx.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Formats.Fbx.Editor">
- <HintPath>C:/Users/dimik/Desktop/πτυχιακή-2/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/Unity.Formats.Fbx.Editor.dll</HintPath>
- </Reference>
  <Reference Include="Autodesk.Fbx">
  <HintPath>C:/Users/dimik/Desktop/πτυχιακή-2/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/Autodesk.Fbx.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Users/dimik/Desktop/πτυχιακή-2/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Formats.Fbx.Runtime">
  <HintPath>C:/Users/dimik/Desktop/πτυχιακή-2/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/Unity.Formats.Fbx.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>C:/Users/dimik/Desktop/πτυχιακή-2/FirstScene/ExampleUnityProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -725,33 +725,13 @@
       <Project>{797e000f-5f2b-e05f-7da5-7b5c3539f9f8}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="PhotonVoice.csproj">
-      <Project>{eac6809d-6c08-c323-fd82-fae7b9a20396}</Project>
-      <Name>PhotonVoice</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{1ffb19e6-6698-36c4-606a-acae7a79212e}</Project>
-      <Name>PhotonUnityNetworking</Name>
-    </ProjectReference>
     <ProjectReference Include="PhotonChat.csproj">
       <Project>{87a187d8-9529-3478-b558-114973c0f982}</Project>
       <Name>PhotonChat</Name>
     </ProjectReference>
-    <ProjectReference Include="PhotonVoice.Editor.csproj">
-      <Project>{1619566e-c69b-3a2c-32f6-fd7c8810bd02}</Project>
-      <Name>PhotonVoice.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
-      <Project>{05d87c07-d90d-22f5-81c1-bdff0ea2dd8e}</Project>
-      <Name>PhotonUnityNetworking.Demos</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonVoice.PUN.Editor.csproj">
-      <Project>{93f400f7-231f-2922-753e-7834c58074f8}</Project>
-      <Name>PhotonVoice.PUN.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonVoice.Utilities.Editor.csproj">
-      <Project>{0d762217-5b71-966e-aac2-385983c90ec8}</Project>
-      <Name>PhotonVoice.Utilities.Editor</Name>
+    <ProjectReference Include="PhotonVoice.API.csproj">
+      <Project>{cbe839d5-9579-b29f-4765-782562440765}</Project>
+      <Name>PhotonVoice.API</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
       <Project>{64121efe-9dd7-7e91-df61-0adea8ac4411}</Project>
@@ -769,13 +749,33 @@
       <Project>{0dc5ede9-8277-db29-4cc8-341c4efc0f54}</Project>
       <Name>PhotonRealtime</Name>
     </ProjectReference>
-    <ProjectReference Include="PhotonVoice.API.csproj">
-      <Project>{cbe839d5-9579-b29f-4765-782562440765}</Project>
-      <Name>PhotonVoice.API</Name>
-    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
       <Project>{6633b074-6ae5-96e8-49e5-29346b56324d}</Project>
       <Name>PhotonUnityNetworking.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonVoice.csproj">
+      <Project>{eac6809d-6c08-c323-fd82-fae7b9a20396}</Project>
+      <Name>PhotonVoice</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.csproj">
+      <Project>{1ffb19e6-6698-36c4-606a-acae7a79212e}</Project>
+      <Name>PhotonUnityNetworking</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonVoice.Editor.csproj">
+      <Project>{1619566e-c69b-3a2c-32f6-fd7c8810bd02}</Project>
+      <Name>PhotonVoice.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
+      <Project>{05d87c07-d90d-22f5-81c1-bdff0ea2dd8e}</Project>
+      <Name>PhotonUnityNetworking.Demos</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonVoice.PUN.Editor.csproj">
+      <Project>{93f400f7-231f-2922-753e-7834c58074f8}</Project>
+      <Name>PhotonVoice.PUN.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonVoice.Utilities.Editor.csproj">
+      <Project>{0d762217-5b71-966e-aac2-385983c90ec8}</Project>
+      <Name>PhotonVoice.Utilities.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
       <Project>{dc44087d-ab63-5f18-e91d-d335ad8f65d4}</Project>
