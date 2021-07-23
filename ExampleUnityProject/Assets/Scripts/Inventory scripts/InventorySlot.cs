@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using Photon.Pun;
 using UnityEngine;
 using UnityEngine.UI;
@@ -13,6 +14,11 @@ public class InventorySlot : MonoBehaviour
 
     public GameObject theoryCanvas;
     public GameObject player;
+
+    private string objectTag;
+
+    private GameObject findTheObject;
+    private MoveItem moveItemsObject;
     
     private void Start()
     {
@@ -43,6 +49,7 @@ public class InventorySlot : MonoBehaviour
             case "c33c70d5-0665-4e90-aa76-6342bbe0cf50":
                 nameText.text = "Hammer";
                 icon.sprite = takeIconsSprites.instance.icons[1];
+                objectTag = "Box";
                 break;
             case "9c2521b6-86a4-47a2-a5fd-0edf24a5c777":
                 nameText.text = "Watering Can";
@@ -102,6 +109,9 @@ public class InventorySlot : MonoBehaviour
     {
         if (itemId != null)
         {
+            findTheObject = GetNearestTarget();
+            moveItemsObject = (MoveItem) findTheObject.GetComponent(typeof(MoveItem));
+            
             //if the item is a key, then activate the canvas (if the player click on inventory's button)
             if (itemId.Equals("02250c14-1e7b-4d55-a5e1-ce6758e5ac88"))
             {
@@ -110,16 +120,14 @@ public class InventorySlot : MonoBehaviour
             //Else use it like an equipment
             else
             {
-                if (MoveItem.instance.isClose(player))
+               
+                if (moveItemsObject.CompareId(itemId) == 1)
                 {
-                    MoveItem.instance.CompareId(itemId);
-
                     Item.instance.Use(itemId);
-                }
-                else
-                {
-                    Debug.Log("EISAI MAKRIAAAAAAA");
-                }
+                    Debug.Log("OK EINAI edw");
+                } 
+
+                Debug.Log("OOOOOOOOOOOK EINAI EDWWW MESA");
 
             }
         }
@@ -129,5 +137,9 @@ public class InventorySlot : MonoBehaviour
             Debug.Log("Select an item");
         }
     }
-    
+    private GameObject GetNearestTarget()
+    {
+       //Find the closest object between the player and the object to use the equipment
+        return GameObject.FindGameObjectsWithTag(objectTag).Aggregate((o1, o2) => Vector3.Distance(o1.transform.position, player.transform.position) > Vector3.Distance(o2.transform.position, player.transform.position) ? o2 : o1);
+    }
 }

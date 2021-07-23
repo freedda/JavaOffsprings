@@ -51,6 +51,9 @@ MonoBehaviour:
   - RPC_Inventory_Update
   - RPC_Update
   - Activate
+  - CompareId
+  - MoveTheObject
+  - RPC_MoveTheObject
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 0
