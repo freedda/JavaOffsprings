@@ -109,8 +109,7 @@ public class InventorySlot : MonoBehaviour
     {
         if (itemId != null)
         {
-            findTheObject = GetNearestTarget();
-            moveItemsObject = (MoveItem) findTheObject.GetComponent(typeof(MoveItem));
+            
             
             //if the item is a key, then activate the canvas (if the player click on inventory's button)
             if (itemId.Equals("02250c14-1e7b-4d55-a5e1-ce6758e5ac88"))
@@ -120,7 +119,9 @@ public class InventorySlot : MonoBehaviour
             //Else use it like an equipment
             else
             {
-               
+                findTheObject = GetNearestTarget();
+                moveItemsObject = (MoveItem) findTheObject.GetComponent(typeof(MoveItem));
+                
                 if (moveItemsObject.CompareId(itemId) == 1)
                 {
                     Item.instance.Use(itemId);

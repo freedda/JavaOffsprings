@@ -20,6 +20,7 @@ public class Inventory : MonoBehaviour
     #endregion
     
     public List<string> items = new List<string>();
+    public List<string> keys = new List<string>();
     public delegate void itemChanged();
     public itemChanged onItemChangedCallback;
     public int space = 12;
@@ -34,13 +35,19 @@ public class Inventory : MonoBehaviour
 
     public void AddItem (string newItemId)
     {
-        items.Add(newItemId);
+        
         //Every Key add 1 on itself.
         if (newItemId.Equals("02250c14-1e7b-4d55-a5e1-ce6758e5ac88"))
         {
+            keys.Add(newItemId);
             CountKeys += 1;
             //Debug.Log("MPIKA MESA STTO INVENTORY KAI  TO COUNT EINAI "+ CountKeys);
         }
+        else
+        {
+            items.Add(newItemId);
+        }
+        
         if (onItemChangedCallback != null)
         {
             onItemChangedCallback.Invoke();
