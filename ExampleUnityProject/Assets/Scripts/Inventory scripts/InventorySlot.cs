@@ -58,6 +58,7 @@ public class InventorySlot : MonoBehaviour
             case "27ce03e1-1780-4f03-bfc1-65ff17fcbfea":
                 nameText.text = "Axe";
                 icon.sprite = takeIconsSprites.instance.icons[3];
+                objectTag = "Basket";
                 break;
             case "0c217d02-9e3d-4633-8171-826d75d922c0":
                 nameText.text = "Hoe";

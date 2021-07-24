@@ -50,7 +50,7 @@ public class InventoryUI : MonoBehaviour
         }   
         for (int i = 0; i < 10; i++)
         {
-            Debug.Log("MPIKE STO KEYS");
+            // Debug.Log("MPIKE STO KEYS");
             if (i < myInventory.keys.Count)
             {
                 inventorySlots[i+14].AddItem(myInventory.keys[i]);

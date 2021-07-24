@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Key
   - Box
+  - Basket
+  - Item
   layers:
   - Default
   - TransparentFX

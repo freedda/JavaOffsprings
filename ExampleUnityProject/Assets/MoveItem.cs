@@ -18,7 +18,8 @@ public class MoveItem : MonoBehaviour
     public static MoveItem instance;
     
     private PhotonView view;
-
+ 
+    public GameObject destroyedItem;
     // Start is called before the first frame update
     
     private void Awake()
@@ -64,7 +65,14 @@ public class MoveItem : MonoBehaviour
             
         }
 
-        MoveTheObject();
+        if (gameObject.tag == "Box")
+        {
+            MoveTheObject();
+        }
+        else
+        {
+            destroyItem();
+        }
         return 1;
     }
     
@@ -82,6 +90,19 @@ public class MoveItem : MonoBehaviour
         curMoveProportion += (Time.fixedDeltaTime);
         transform.Translate(0, 0, 30*Time.fixedDeltaTime);
 
+    }
+
+    [PunRPC]
+    public void destroyItem()
+    {
+        view.RPC("RPC_destroyItem" , RpcTarget.AllBuffered);
+    }
+
+    [PunRPC]
+    public void RPC_destroyItem()
+    {
+        Instantiate(destroyedItem, transform.position, transform.rotation);
+        Destroy(gameObject);
     }
     
     public bool isClose(GameObject player)

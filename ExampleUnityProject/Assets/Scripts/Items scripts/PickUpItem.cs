@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
@@ -119,15 +120,16 @@ public class PickUpItem : MonoBehaviourPun
    }*/
    protected void ActiveCanvasWithE()
    {
-      if (messagePanel.activeSelf && !isClose(player))
+      GameObject g = GameObject.FindGameObjectsWithTag("Item").Aggregate((o1, o2) => Vector3.Distance(o1.transform.position, player.transform.position) > Vector3.Distance(o2.transform.position, player.transform.position) ? o2 : o1);
+      if (!(Mathf.Abs(Vector3.Distance(player.transform.position, g.transform.position)) < radius) && messagePanel.activeSelf)
       {
          messagePanel.SetActive(false);
-        // Debug.Log("MPIKE");
+         Debug.Log("EINAI STO IF");
+         
       }
-     
-      if (isClose(player) )
-      {
-         Debug.Log("PLAYER IS CLOSE");
+      
+      if((Mathf.Abs(Vector3.Distance(player.transform.position, g.transform.position)) < radius)){
+         Debug.Log("PLAYER IS CLOSE + " + gameObject);
          cam = Camera.main;
 
          Ray ray = cam.ScreenPointToRay (new Vector3 (Screen.width / 2, Screen.height / 2, 0));
@@ -137,6 +139,9 @@ public class PickUpItem : MonoBehaviourPun
          {
             messagePanel.SetActive(true);
          }
+         
+         messagePanel.SetActive(true);
+         Debug.Log("ENERGIOPOIHHHHHSE TON CANVVVVVA pou einai o  " + messagePanel + " einai einai " + messagePanel.activeSelf);
       }
       else 
       {

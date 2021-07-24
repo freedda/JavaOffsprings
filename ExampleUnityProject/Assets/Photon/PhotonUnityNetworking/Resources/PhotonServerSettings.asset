@@ -54,6 +54,8 @@ MonoBehaviour:
   - CompareId
   - MoveTheObject
   - RPC_MoveTheObject
+  - destroyItem
+  - RPC_destroyItem
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 0
