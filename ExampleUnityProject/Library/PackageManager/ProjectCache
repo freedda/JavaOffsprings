@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637625590947571273
+      ticks: 637629187074839370
     m_Hash: 3526178898
   m_LockFileStatus:
     m_FilePath: "C:/Users/User/Desktop/\u03A0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7/\u03C0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7/FirstScene/ExampleUnityProject/Packages/packages-lock.json"
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637625592040090212
+      ticks: 637629190409293594
     m_Hash: 430392430
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -2890,7 +2890,7 @@ m_PackageAssets:
       hasRepository: 1
       repository:
         type: git
-        url: https://github.com/Unity-Technologies/com.autodesk.fbx.git
+        url: git+https://github.com/Unity-Technologies/com.autodesk.fbx.git
         revision: bc9e7804923e64ef9e855089ae11cac62fd540df
         path: 
   m_LocalPackages:

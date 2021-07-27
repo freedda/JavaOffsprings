@@ -45,13 +45,14 @@ public class Item : ScriptableObject
         Id = Ids;
         // Use item...
         Debug.Log("Using " + Id);
-        RemoveFromInventory();
+        //RemoveFromInventory(Id);
 
     }
 
-    public void RemoveFromInventory()
+    public void RemoveFromInventory(string Ids)
     {
-        Inventory.instance.RemoveItem(this.Id);
+        Id = Ids;
+        Inventory.instance.RemoveItem(Id);
     }
     
     

@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Photon.Pun;
 using UnityEngine;
 
 public class Inventory : MonoBehaviour
@@ -27,10 +28,13 @@ public class Inventory : MonoBehaviour
 
     //A counter for the existing keys in inventory
     public int CountKeys;
+   
+    private PhotonView view;
 
     private void Start()
     {
         CountKeys = 0;
+        view = GetComponent<PhotonView>();
     }
 
     public void AddItem (string newItemId)
@@ -54,14 +58,26 @@ public class Inventory : MonoBehaviour
         }
     }
 
+    [PunRPC]
     public void RemoveItem(string newItemId)
     {
+     
+        Debug.Log("Sto removeItem to id einai "+ newItemId + " kai to view einai " + view);
+        var id = newItemId;
+        view.RPC("RPC_RemoveItem", RpcTarget.AllBuffered, id);
+    }
+
+    [PunRPC]
+    public void RPC_RemoveItem(string newItemId)
+    {
+         
         items.Remove(newItemId);
         if (onItemChangedCallback != null)
         {
             onItemChangedCallback.Invoke();
         }
     }
+    
     
     
 }

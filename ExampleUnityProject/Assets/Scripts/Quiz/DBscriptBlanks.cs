@@ -16,6 +16,8 @@ public class DBscriptBlanks : MonoBehaviour
     public TextMeshProUGUI BlanksTxt;
     public TextMeshProUGUI AnswerTxt;
     public TMP_InputField answerField;
+
+    public GameObject blanksPanel;
     
     [System.Serializable]
     public class QuestionAndAnswers
@@ -149,6 +151,9 @@ public class DBscriptBlanks : MonoBehaviour
               Debug.Log(correctAnswer);
           }
           correct();
+          
+          //When the button "Sumbit" pressed, close the blanks panel
+          blanksPanel.SetActive(false);
 
       }
       

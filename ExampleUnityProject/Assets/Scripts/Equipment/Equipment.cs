@@ -14,12 +14,12 @@ public class Equipment : Item
         base.Use(Id);
         // Equip the item
         Debug.Log("to this einai " + this);
-        
-        EquipmentManager.instance.EquipPlayer(this);
+         
+        //EquipmentManager.instance.EquipPlayer(this);
         
         //Remove item from the inventory
         Debug.Log("Removing equipment from slot");
-        RemoveFromInventory();
+        RemoveFromInventory(Id);
     }
     
 }

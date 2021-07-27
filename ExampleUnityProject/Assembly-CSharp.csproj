@@ -81,6 +81,7 @@
      <Compile Include="Assets\Scripts\Player&apos;s scripts\FocusWithClick.cs" />
      <Compile Include="Assets\Scripts\MasterClient scripts\MenuManager.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+     <Compile Include="Assets\ActivateItem.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\VignetteComponent.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\FogModel.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Utils\MaterialFactory.cs" />

@@ -90,6 +90,7 @@ public class InventorySlot : MonoBehaviour
         nameText.gameObject.SetActive(true);
     }
 
+    [PunRPC]
     public void RemoveItem()
     {
         itemId = null;
@@ -101,7 +102,7 @@ public class InventorySlot : MonoBehaviour
     public void ClickItem()
     {
 
-        view.RPC("UseItem", RpcTarget.All, null);
+        view.RPC("UseItem", RpcTarget.AllBuffered);
         Debug.Log("Click apoooo " + view);
     }
 
@@ -110,28 +111,19 @@ public class InventorySlot : MonoBehaviour
     {
         if (itemId != null)
         {
-            
-            
-            //if the item is a key, then activate the canvas (if the player click on inventory's button)
-            if (itemId.Equals("02250c14-1e7b-4d55-a5e1-ce6758e5ac88"))
-            {
-                theoryCanvas.SetActive(true);
-            }
-            //Else use it like an equipment
-            else
-            {
-                findTheObject = GetNearestTarget();
+
+            findTheObject = GetNearestTarget();
                 moveItemsObject = (MoveItem) findTheObject.GetComponent(typeof(MoveItem));
-                
+
                 if (moveItemsObject.CompareId(itemId) == 1)
                 {
                     Item.instance.Use(itemId);
-                    Debug.Log("OK EINAI edw");
+                    Inventory.instance.RemoveItem(itemId);
+                    //Debug.Log("OK EINAI edw");
                 } 
 
-                Debug.Log("OOOOOOOOOOOK EINAI EDWWW MESA");
 
-            }
+            
         }
         // if player click an empty inventoryButton
         else
@@ -139,9 +131,29 @@ public class InventorySlot : MonoBehaviour
             Debug.Log("Select an item");
         }
     }
+
+   
+    
     private GameObject GetNearestTarget()
     {
        //Find the closest object between the player and the object to use the equipment
         return GameObject.FindGameObjectsWithTag(objectTag).Aggregate((o1, o2) => Vector3.Distance(o1.transform.position, player.transform.position) > Vector3.Distance(o2.transform.position, player.transform.position) ? o2 : o1);
+    }
+
+    public void useKeyNotRpc()
+    {
+        if (itemId != null)
+        {
+
+            //if the item is a key, then activate the canvas (if the player click on inventory's button)
+            if (itemId.Equals("02250c14-1e7b-4d55-a5e1-ce6758e5ac88"))
+            {
+                theoryCanvas.SetActive(true);
+            }
+            else
+            {
+                Debug.Log("Select an item");
+            }
+        }
     }
 }

@@ -37,6 +37,8 @@ public class PickUpItem : MonoBehaviourPun
    private Camera cam;
    private Collider ItemCollider;
    protected PhotonView view;
+
+   public GameObject theoryPanel;
    
    protected virtual void Start()
    {
@@ -79,16 +81,7 @@ public class PickUpItem : MonoBehaviourPun
          
          view.RPC("PickUp", RpcTarget.AllBuffered, item.Id);
          //PickUp(item);
-         
-         /*if (PhotonNetwork.IsMasterClient) {
-             PhotonNetwork.Destroy(gameObject);
-         }
-         else
-         {
-            view.RPC("RPC_destroy",RpcTarget.MasterClient); 
-            RPC_destroy();
-            
-         }*/
+      
          
       }
    }
@@ -99,37 +92,19 @@ public class PickUpItem : MonoBehaviourPun
       Destroy(gameObject);
    }
 
-   //PAEI GIA SVISIMO?
-   /*protected void activeSpriteE()
-   {
-      if (isClose(player))
-      {
-         Ray ray = cam.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2, 0));
-         RaycastHit hit;
-
-         if (ItemCollider.Raycast(ray, out hit, radius))
-         {
-            cursor.SetCursorToE();
-         }
-      }
-      else
-      {
-         cursor.SetCursorToDefault ();
-      }
-     
-   }*/
+   
    protected void ActiveCanvasWithE()
    {
       GameObject g = GameObject.FindGameObjectsWithTag("Item").Aggregate((o1, o2) => Vector3.Distance(o1.transform.position, player.transform.position) > Vector3.Distance(o2.transform.position, player.transform.position) ? o2 : o1);
       if (!(Mathf.Abs(Vector3.Distance(player.transform.position, g.transform.position)) < radius) && messagePanel.activeSelf)
       {
          messagePanel.SetActive(false);
-         Debug.Log("EINAI STO IF");
+         //Debug.Log("EINAI STO IF");
          
       }
       
       if((Mathf.Abs(Vector3.Distance(player.transform.position, g.transform.position)) < radius)){
-         Debug.Log("PLAYER IS CLOSE + " + gameObject);
+         //Debug.Log("PLAYER IS CLOSE + " + gameObject);
          cam = Camera.main;
 
          Ray ray = cam.ScreenPointToRay (new Vector3 (Screen.width / 2, Screen.height / 2, 0));
@@ -141,7 +116,7 @@ public class PickUpItem : MonoBehaviourPun
          }
          
          messagePanel.SetActive(true);
-         Debug.Log("ENERGIOPOIHHHHHSE TON CANVVVVVA pou einai o  " + messagePanel + " einai einai " + messagePanel.activeSelf);
+         //Debug.Log("ENERGIOPOIHHHHHSE TON CANVVVVVA pou einai o  " + messagePanel + " einai einai " + messagePanel.activeSelf);
       }
       else 
       {
@@ -180,6 +155,11 @@ public class PickUpItem : MonoBehaviourPun
          {
             myCanvas.SetActive(true);
             Debug.Log("Pire key,  canvas. ");
+         }
+         else
+         {
+            //if it isnt key, then open the theory task
+            theoryPanel.SetActive(true);
          }
       }
    }

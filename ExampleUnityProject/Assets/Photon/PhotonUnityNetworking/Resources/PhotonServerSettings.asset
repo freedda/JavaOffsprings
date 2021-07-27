@@ -56,6 +56,10 @@ MonoBehaviour:
   - RPC_MoveTheObject
   - destroyItem
   - RPC_destroyItem
+  - RemoveItem
+  - RPC_RemoveItem
+  - activated
+  - RPC_activated
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 0

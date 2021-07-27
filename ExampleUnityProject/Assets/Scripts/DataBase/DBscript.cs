@@ -14,6 +14,7 @@ public class DBscript : MonoBehaviour
     private int currentQ;
     public GameObject[] options;
     public TextMeshProUGUI QTxt;
+
     
     [System.Serializable]
     public class QuestionAndAnswers

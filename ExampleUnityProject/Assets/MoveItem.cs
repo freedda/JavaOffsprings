@@ -20,6 +20,10 @@ public class MoveItem : MonoBehaviour
     private PhotonView view;
  
     public GameObject destroyedItem;
+
+    public GameObject[] numOfplayers;
+
+    public bool itIsDestroyed;
     // Start is called before the first frame update
     
     private void Awake()
@@ -31,14 +35,16 @@ public class MoveItem : MonoBehaviour
     void Start()
     {
         view = GetComponent<PhotonView>();
+        itIsDestroyed = false;
 
-        
+
     }
     // in Update, find the player
 
     private void Update()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        
       
         if (player == null)
         {
@@ -51,19 +57,21 @@ public class MoveItem : MonoBehaviour
     public int CompareId(string itemId)
     {
         tempId = itemId;
-        
-        
+
         Debug.Log("MPIKE STO COMP" + tempId);
         if(!isClose(player)){
             Debug.Log("EIsai Makria jas");
             return 0;
         }
+
+       
         if (!id.Equals(tempId) )
         {
             Debug.Log("U need other item to id einai " +id +"kai to tempId " + tempId);
             return 2;
             
         }
+        
 
         if (gameObject.tag == "Box")
         {
@@ -76,22 +84,33 @@ public class MoveItem : MonoBehaviour
         return 1;
     }
     
-    
+    /*
+     * id the gameobject is a box
+     * move it and discover the hide euquipment
+     * Target.ALL
+     */
     [PunRPC]
     public void MoveTheObject()
     {
-        view.RPC("RPC_MoveTheObject", RpcTarget.All);
+        view.RPC("RPC_MoveTheObject", RpcTarget.AllBuffered);
     }
 
     [PunRPC]
     public void RPC_MoveTheObject()
     {
 
+        itIsDestroyed = true;
+
         curMoveProportion += (Time.fixedDeltaTime);
         transform.Translate(0, 0, 30*Time.fixedDeltaTime);
 
     }
 
+    /*
+     * If the object isnt a box, destroyed it to
+     * find the hide object
+     */
+    
     [PunRPC]
     public void destroyItem()
     {
@@ -101,6 +120,8 @@ public class MoveItem : MonoBehaviour
     [PunRPC]
     public void RPC_destroyItem()
     {
+        itIsDestroyed = true;
+
         Instantiate(destroyedItem, transform.position, transform.rotation);
         Destroy(gameObject);
     }
