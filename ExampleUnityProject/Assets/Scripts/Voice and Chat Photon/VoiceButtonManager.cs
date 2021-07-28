@@ -21,7 +21,7 @@ public class VoiceButtonManager : MonoBehaviourPun
     void Update()
     {
         //WHEN the player push the M button
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.LeftAlt))
         {
             //Start transmit
             if(view.IsMine) 

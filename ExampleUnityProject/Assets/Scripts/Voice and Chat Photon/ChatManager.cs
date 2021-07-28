@@ -40,7 +40,7 @@ public class ChatManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.Tab) && !isChatting)
+        if (Input.GetKeyUp(KeyCode.T) && Input.GetKeyUp(KeyCode.LeftShift) && !isChatting)
         {
             isChatting = true;
             chatInput = "";
@@ -71,7 +71,7 @@ public class ChatManager : MonoBehaviour
 
         if (!isChatting)
         {
-            GUI.Label(new Rect(5, Screen.height - 25, 200, 25), "Press 'Tab' to chat or 'R' to speak");
+            GUI.Label(new Rect(5, Screen.height - 25, 200, 25), "Press 'Shift + T' to chat or 'Alt' to speak");
         }
         else
         {
