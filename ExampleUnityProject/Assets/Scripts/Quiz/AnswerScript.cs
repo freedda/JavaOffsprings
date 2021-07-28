@@ -8,17 +8,25 @@ public class AnswerScript : MonoBehaviour
     public DBscript dbManager;
     
     public GameObject multiplesPanel;
-
+    public GameObject correctAnswerPanel;
+    public GameObject wrongAnswerPanel;
+    [SerializeField] private Animator animator;
+    
     public void Answer()
     {
         if (isCorrect)
         {
             Debug.Log("Correct answer");
+            correctAnswerPanel.SetActive(true);
+            animator.SetTrigger("Correct");
             dbManager.correct();
+           
         }
         else
         {
             Debug.Log("Wrong answer");
+            wrongAnswerPanel.SetActive(true);
+            animator.SetTrigger("Wrong");
             dbManager.correct();
         }
         

@@ -16,8 +16,13 @@ public class DBscriptBlanks : MonoBehaviour
     public TextMeshProUGUI BlanksTxt;
     public TextMeshProUGUI AnswerTxt;
     public TMP_InputField answerField;
-
+    
+    public GameObject correctAnswerPanel;
+    public GameObject wrongAnswerPanel;
+    public TextMeshProUGUI correctAnswerText;
     public GameObject blanksPanel;
+    
+    [SerializeField] private Animator animator;
     
     [System.Serializable]
     public class QuestionAndAnswers
@@ -144,10 +149,15 @@ public class DBscriptBlanks : MonoBehaviour
           if (playersAnswer.Equals(correctAnswer))
           {
               Debug.Log("correct Answer");
+              correctAnswerPanel.SetActive(true);
+              animator.SetTrigger("Correct");
           }
           else
           { 
               Debug.Log("Wrong answer");
+              correctAnswerText.text = correctAnswer;
+              wrongAnswerPanel.SetActive(true);
+              animator.SetTrigger("Wrong");
               Debug.Log(correctAnswer);
           }
           correct();
