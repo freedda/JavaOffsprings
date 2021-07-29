@@ -8,6 +8,8 @@ TagManager:
   - Box
   - Basket
   - Item
+  - Barrel
+  - Grain
   layers:
   - Default
   - TransparentFX

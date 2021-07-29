@@ -159,6 +159,7 @@ public class PickUpItem : MonoBehaviourPun
          else
          {
             //if it isnt key, then open the theory task
+            Debug.Log(" open the theory task");
             theoryPanel.SetActive(true);
          }
       }

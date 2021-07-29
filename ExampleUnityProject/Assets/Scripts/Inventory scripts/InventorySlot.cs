@@ -80,9 +80,15 @@ public class InventorySlot : MonoBehaviour
                 nameText.text = "Shovel";
                 icon.sprite = takeIconsSprites.instance.icons[8];
                 break;
-            case "6337484d-d404-4a26-b38c-6f36fd9437ea":
+            case "578ab2af-36db-4f40-8d1c-662d854c8cf6":
                 nameText.text = "Sickle";
                 icon.sprite = takeIconsSprites.instance.icons[9];
+                objectTag = "Barrel";
+                break;  
+            case "c0f922b8-1122-4e50-8839-93a08ec7c1a3":
+                nameText.text = "Scissor";
+                icon.sprite = takeIconsSprites.instance.icons[10];
+                objectTag = "Grain";
                 break;  
         }
         

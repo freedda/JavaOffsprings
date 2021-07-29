@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: affbfcbafd272b1498929340bfeb5a50, type: 3}
   m_Name: Sickle
   m_EditorClassIdentifier: 
-  Id: 6337484d-d404-4a26-b38c-6f36fd9437ea
+  Id: 578ab2af-36db-4f40-8d1c-662d854c8cf6
   name: Sickle
   icon: {fileID: 21300000, guid: 2c3171a4c30cfeb4bbccf7e5456c6b19, type: 3}
   isDeafaultItem: 0

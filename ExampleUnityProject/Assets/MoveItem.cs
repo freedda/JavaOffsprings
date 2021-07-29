@@ -21,7 +21,7 @@ public class MoveItem : MonoBehaviour
  
     public GameObject destroyedItem;
 
-    public GameObject[] numOfplayers;
+    public GameObject OtherToolPanel;
 
     public bool itIsDestroyed;
     // Start is called before the first frame update
@@ -61,19 +61,21 @@ public class MoveItem : MonoBehaviour
         Debug.Log("MPIKE STO COMP" + tempId);
         if(!isClose(player)){
             Debug.Log("EIsai Makria jas");
+            StartCoroutine(OtherTool());
             return 0;
         }
 
        
         if (!id.Equals(tempId) )
         {
-            Debug.Log("U need other item to id einai " +id +"kai to tempId " + tempId);
+            Debug.Log("U need other item to id einai " + id + "kai to tempId " + tempId);
+            StartCoroutine(OtherTool());
             return 2;
             
         }
         
 
-        if (gameObject.tag == "Box")
+        if (gameObject.tag == "Barrel")
         {
             MoveTheObject();
         }
@@ -139,6 +141,11 @@ public class MoveItem : MonoBehaviour
             return false;
         }
     }
-    
-    
+
+    IEnumerator OtherTool()
+    {
+        OtherToolPanel.SetActive(true);
+        yield return new WaitForSeconds(1f);
+        OtherToolPanel.SetActive(false);
+    }
 }

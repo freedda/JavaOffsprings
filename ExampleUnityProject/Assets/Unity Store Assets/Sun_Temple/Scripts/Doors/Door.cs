@@ -113,6 +113,7 @@ namespace SunTemple
 		}
 
 
+		[PunRPC]
 		void TryToOpen(){
 			if (Mathf.Abs(Vector3.Distance(transform.position, Player.transform.position)) <= MaxDistance){	
 
