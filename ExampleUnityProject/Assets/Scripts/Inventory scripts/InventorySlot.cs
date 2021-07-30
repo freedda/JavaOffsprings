@@ -54,6 +54,7 @@ public class InventorySlot : MonoBehaviour
             case "9c2521b6-86a4-47a2-a5fd-0edf24a5c777":
                 nameText.text = "Watering Can";
                 icon.sprite = takeIconsSprites.instance.icons[2];
+                objectTag = "Flower";
                 break;
             case "27ce03e1-1780-4f03-bfc1-65ff17fcbfea":
                 nameText.text = "Axe";
@@ -75,6 +76,7 @@ public class InventorySlot : MonoBehaviour
             case "648ca90a-9168-4b30-ad30-fea8f5275ce4":
                 nameText.text = "Saw";
                 icon.sprite = takeIconsSprites.instance.icons[7];
+                objectTag = "Wood";
                 break;
             case "3d48b44b-3e22-4f1b-a274-36890d659094":
                 nameText.text = "Shovel";

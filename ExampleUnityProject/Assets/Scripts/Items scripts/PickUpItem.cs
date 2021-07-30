@@ -40,37 +40,57 @@ public class PickUpItem : MonoBehaviourPun
 
    public GameObject theoryPanel;
    
+   private bool flag;
+   private AudioSource m_MyAudioSource;
+  
+   private void Awake()
+   {
+      m_MyAudioSource = GetComponent<AudioSource>();
+  
+   }
+  
    protected virtual void Start()
    {
       view = GetComponent< PhotonView >();
-
+   
       player = GameObject.FindGameObjectWithTag(playerTag);
       
       ItemCollider = GetComponent<BoxCollider> ();
-
+  
       cam = Camera.main;
-
+  
       cursor = CursorManager.instance;
-
+  
       if (cursor != null) {
          cursor.SetCursorToDefault ();
       }
+  
+      flag = true;
+  
    }
-   
+  
    protected  virtual void Update()
    {
       player = GameObject.FindGameObjectWithTag(playerTag);
-      
+     
       if (player == null)
       {
          // Debug.Log("DEN VRISKEI PAIKTI");
          return;
       }
+     
+      if (m_MyAudioSource != null && flag)
+      {
+         m_MyAudioSource.Play();
+         Debug.Log("Mpike mesa tn if");
+         flag = false;
+      }
       ActiveCanvasWithE();
       // activeSpriteE();
       TryToPick();
-    
+   
    }
+
 
    [PunRPC]
    protected void TryToPick()

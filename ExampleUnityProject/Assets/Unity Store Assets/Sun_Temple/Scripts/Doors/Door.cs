@@ -36,10 +36,13 @@ namespace SunTemple
 		
 		private PhotonView view;
 
+		private AudioSource m_MyAudioSource;
 
 	
         void Start(){
 	        view = GetComponent<PhotonView>();
+	        m_MyAudioSource = GetComponent<AudioSource>();
+
 
 	        
             StartRotation = transform.localEulerAngles ;
@@ -159,6 +162,9 @@ namespace SunTemple
                 Open();
             else
                 Close();
+            m_MyAudioSource.Play();
+
+
         }
 
 

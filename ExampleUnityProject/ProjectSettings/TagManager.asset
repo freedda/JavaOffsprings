@@ -10,6 +10,8 @@ TagManager:
   - Item
   - Barrel
   - Grain
+  - Flower
+  - Wood
   layers:
   - Default
   - TransparentFX

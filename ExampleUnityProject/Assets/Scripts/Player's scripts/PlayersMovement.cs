@@ -1,5 +1,6 @@
 using UnityEngine;
 using Photon.Pun;
+using Photon.Voice;
 
 public class PlayersMovement : MonoBehaviourPun
 {
@@ -15,7 +16,7 @@ public class PlayersMovement : MonoBehaviourPun
     Rigidbody rb;
 
     Animator anim;
-
+    
 
     private Vector3 direction;
     PhotonView view;

@@ -75,7 +75,7 @@ public class MoveItem : MonoBehaviour
         }
         
 
-        if (gameObject.tag == "Barrel")
+        if (gameObject.tag == "Barrel" || gameObject.tag == "Flower")
         {
             MoveTheObject();
         }
