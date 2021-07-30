@@ -40,9 +40,9 @@ public class DBscriptBlanks : MonoBehaviour
         // Create database
         CreateDB();
         // Add a theory question with options and correct answer
-        /*AddTheory(2, "Fill in the blanks to print the word Java: \n " , "class myDemo \n{\n    public static void main (String_] args)\n    {\n        System.out._(\"Java_)_\n    }\n}", 
-           "class myDemo { public static void main (String[] args) { System.out.println(\"Java\");}}" );
-           */
+       // AddTheory(2, "Create an object of Item class called myItem:  \n " , "__ __ = new __ ();", 
+          // "Item myItem= new Item();" );
+           
 
         
         // Display records to the console 
@@ -120,8 +120,8 @@ public class DBscriptBlanks : MonoBehaviour
                         QnA[currentQ].correctAnswer = reader["correctAnswer"].ToString();
                         
                         //Display question's ID, question, blanks
-                        // Debug.Log("Question ID: " +reader["questionID"] +"\n Question: " + reader["question"] + 
-                        //  "\n " + reader["blanks"] + "\n" + reader["correctAnswer"]);
+                        Debug.Log("Question ID: " +reader["questionID"] +"\n Question: " + reader["question"] + 
+                          "\n " + reader["blanks"] + "\n" + reader["correctAnswer"]);
                     }
                     reader.Close();
                 }
@@ -155,7 +155,7 @@ public class DBscriptBlanks : MonoBehaviour
           else
           { 
               Debug.Log("Wrong answer");
-              correctAnswerText.text = correctAnswer;
+              correctAnswerText.text = QnA[currentQ].correctAnswer;
               wrongAnswerPanel.SetActive(true);
               animator.SetTrigger("Wrong");
               Debug.Log(correctAnswer);
