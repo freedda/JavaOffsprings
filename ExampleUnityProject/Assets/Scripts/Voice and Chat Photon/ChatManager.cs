@@ -71,7 +71,7 @@ public class ChatManager : MonoBehaviour
 
         if (!isChatting)
         {
-            GUI.Label(new Rect(5, Screen.height - 25, 200, 25), "Press 'Shift + T' to chat or 'Alt' to speak");
+            GUI.Label(new Rect(5, Screen.height - 25, 270, 25), "Press 'Shift + T' to chat or 'Alt' to speak");
         }
         else
         {
