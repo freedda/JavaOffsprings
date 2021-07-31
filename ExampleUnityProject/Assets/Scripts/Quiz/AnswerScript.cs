@@ -1,15 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class AnswerScript : MonoBehaviour
 {
     public bool isCorrect = false;
+    public string correctAnswer; 
     public DBscript dbManager;
     
     public GameObject multiplesPanel;
     public GameObject correctAnswerPanel;
     public GameObject wrongAnswerPanel;
+    public TextMeshProUGUI correctAnswerText;
     [SerializeField] private Animator animator;
     
     public void Answer()
@@ -25,6 +28,7 @@ public class AnswerScript : MonoBehaviour
         else
         {
             Debug.Log("Wrong answer");
+            correctAnswerText.text = correctAnswer;
             wrongAnswerPanel.SetActive(true);
             animator.SetTrigger("Wrong");
             dbManager.correct();

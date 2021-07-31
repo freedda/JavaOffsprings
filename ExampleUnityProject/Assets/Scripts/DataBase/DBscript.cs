@@ -14,14 +14,16 @@ public class DBscript : MonoBehaviour
     private int currentQ;
     public GameObject[] options;
     public TextMeshProUGUI QTxt;
-
+   
+    
     
     [System.Serializable]
     public class QuestionAndAnswers
     {
         public string Question;
         public string[] Answers;
-        public int correctAnswer;
+        public string correctAnswer;
+        public int correctAnswerIndex;
     }
     
      public List<QuestionAndAnswers> QnA = new List<QuestionAndAnswers>();
@@ -107,9 +109,12 @@ public class DBscript : MonoBehaviour
                         Debug.Log(QnA[currentQ].Question);
                         
                         // Get correct answer index 
-                        QnA[currentQ].correctAnswer = Convert.ToInt32(reader["correctAnswer"]) - 1;
-                        Debug.Log(QnA[currentQ].correctAnswer);
+                        QnA[currentQ].correctAnswerIndex = Convert.ToInt32(reader["correctAnswer"]) - 1;
+                        Debug.Log(QnA[currentQ].correctAnswerIndex);
                         
+                        option = "option" + reader["correctAnswer"];
+                        QnA[currentQ].correctAnswer = reader[option].ToString();
+                        Debug.Log(QnA[currentQ].correctAnswer);
                         // Get answer's options
                         for (int i = 0; i < options.Length; i++)
                         {   
@@ -143,6 +148,7 @@ public class DBscript : MonoBehaviour
         {
             currentQ = i;
             QTxt.text = QnA[currentQ].Question;
+           // correctAnswerText.text = QnA[currentQ].correctAnswer;
             setAnswers();
         }
     }
@@ -152,11 +158,12 @@ public class DBscript : MonoBehaviour
         for (int i = 0; i < options.Length; i++)
         {
             options[i].GetComponent<AnswerScript>().isCorrect = false;
+            options[i].GetComponent<AnswerScript>().correctAnswer = QnA[currentQ].correctAnswer;
             options[i].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = QnA[currentQ].Answers[i];
-            if (QnA[currentQ].correctAnswer == (i))
+            if (QnA[currentQ].correctAnswerIndex == (i))
             {
-                //Debug.Log(options[i].GetComponent<AnswerScript>().isCorrect);
                 options[i].GetComponent<AnswerScript>().isCorrect = true;
+                
             }
         }
             
