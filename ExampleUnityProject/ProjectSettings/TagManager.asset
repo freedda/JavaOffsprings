@@ -12,6 +12,9 @@ TagManager:
   - Grain
   - Flower
   - Wood
+  - Candles
+  - Pitcher
+  - Bottle
   layers:
   - Default
   - TransparentFX

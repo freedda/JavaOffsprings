@@ -72,6 +72,7 @@ public class InventorySlot : MonoBehaviour
             case "42a57c99-52c6-4ee0-bd84-1032112f959a":
                 nameText.text = "Pickaxe";
                 icon.sprite = takeIconsSprites.instance.icons[6];
+                objectTag = "Pitcher";
                 break;
             case "648ca90a-9168-4b30-ad30-fea8f5275ce4":
                 nameText.text = "Saw";
@@ -92,6 +93,17 @@ public class InventorySlot : MonoBehaviour
                 icon.sprite = takeIconsSprites.instance.icons[10];
                 objectTag = "Grain";
                 break;  
+            case "60b4f560-252d-4e7b-9a3a-f59dc79fefd8":
+                nameText.text = "Matches";
+                icon.sprite = takeIconsSprites.instance.icons[11];
+                objectTag = "Candles";
+                break;  
+            case "c4d08953-af47-4048-beb6-1cfce7abcc41":
+                nameText.text = "Stone";
+                icon.sprite = takeIconsSprites.instance.icons[12];
+                objectTag = "Bottle";
+                break;  
+                
         }
         
         icon.enabled = true;
