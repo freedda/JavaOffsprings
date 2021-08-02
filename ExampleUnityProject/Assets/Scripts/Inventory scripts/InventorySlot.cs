@@ -103,6 +103,11 @@ public class InventorySlot : MonoBehaviour
                 icon.sprite = takeIconsSprites.instance.icons[12];
                 objectTag = "Bottle";
                 break;  
+            case "e4904d6a-64e3-4500-be92-7f3a7d13bfc8":
+                nameText.text = "Crowbar";
+                icon.sprite = takeIconsSprites.instance.icons[13];
+                objectTag = "WoodenBox";
+                break; 
                 
         }
         

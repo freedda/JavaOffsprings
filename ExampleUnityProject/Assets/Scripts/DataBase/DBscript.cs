@@ -34,7 +34,7 @@ public class DBscript : MonoBehaviour
         // Create database
         CreateDB();
         // Add a theory question with options and correct answer
-      //  AddTheory(2, "Which one of these commands is correct for printing text on screen?" , "System.out.println(“Hello World!”)", "System.out.println(Hello World!)" , "System.out.println(“Hello World!”);" , "System.out.println(Hello World!);", 3);
+       // AddTheory(3, "In Java, code needs to be inside:" , "an instance", "a class" , "a method" , "an object", 2);
 
         
         // Display records to the console 
@@ -137,20 +137,24 @@ public class DBscript : MonoBehaviour
     public void correct()
     {   
         // Remove question from the list
-        QnA.RemoveAt(currentQ);
+      //  QnA.RemoveAt(currentQ);
         // Generate next question
         generateQuestion();
     }
     
     void generateQuestion()
     {
-        for (int i = 0; i < QnA.Count; i++)
+        /*for (int i = 0; i < QnA.Count; i++)
         {
             currentQ = i;
             QTxt.text = QnA[currentQ].Question;
            // correctAnswerText.text = QnA[currentQ].correctAnswer;
             setAnswers();
-        }
+        }*/
+        currentQ = UnityEngine.Random.Range(0, QnA.Count-1);
+        QTxt.text = QnA[currentQ].Question;
+        // correctAnswerText.text = QnA[currentQ].correctAnswer;
+        setAnswers();
     }
 
     void setAnswers()

@@ -6,6 +6,9 @@ using System.Text.RegularExpressions;
 using UnityEngine;
 using Mono.Data.Sqlite;
 using TMPro;
+
+
+
 public class DBscriptBlanks : MonoBehaviour
 {   
     
@@ -40,8 +43,8 @@ public class DBscriptBlanks : MonoBehaviour
         // Create database
         CreateDB();
         // Add a theory question with options and correct answer
-       // AddTheory(2, "Create an object of Item class called myItem:  \n " , "__ __ = new __ ();", 
-          // "Item myItem= new Item();" );
+     //   AddTheory(3, "Write a program choosing the correct data types:  \n " , "class myDemo\n{\n    public static void main(String[] args)\n        __ x =5;\n        __ name = \"Alex\";\n        __ flag = true;\n    }\n} ", 
+         //  "class myDemo\n{\n    public static void main(String[] args)\n        int x =5;\n        String name = \"Alex\";\n        boolean flag = true;\n    }\n} " );
            
 
         
@@ -132,12 +135,16 @@ public class DBscriptBlanks : MonoBehaviour
       
       void generateQuestion()
       {
-          for (int i = 0; i < QnA.Count; i++)
+          /*for (int i = 0; i < QnA.Count; i++)
           {
               currentQ = i;
               QTxt.text = QnA[currentQ].Question;
               BlanksTxt.text = QnA[currentQ].Blanks;
-          }
+          }*/
+
+          currentQ = UnityEngine.Random.Range(0, QnA.Count-1);
+          QTxt.text = QnA[currentQ].Question;
+          BlanksTxt.text = QnA[currentQ].Blanks;
       }
         
       public void getAnswer()
@@ -170,7 +177,7 @@ public class DBscriptBlanks : MonoBehaviour
       public void correct()
       {
           // Remove question from the list
-          QnA.RemoveAt(currentQ);
+        //  QnA.RemoveAt(currentQ);
           
           //clear player's answer txt
           answerField.Select();
