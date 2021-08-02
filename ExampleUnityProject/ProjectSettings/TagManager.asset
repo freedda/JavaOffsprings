@@ -15,6 +15,8 @@ TagManager:
   - Candles
   - Pitcher
   - Bottle
+  - Sack
+  - WoodenBox
   layers:
   - Default
   - TransparentFX
