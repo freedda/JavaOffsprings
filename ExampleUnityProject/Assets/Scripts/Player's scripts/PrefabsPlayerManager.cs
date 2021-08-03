@@ -19,6 +19,6 @@ public class PrefabsPlayerManager : MonoBehaviour
 
     void InitializePlayer()
     {
-        PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "Player"),new Vector3(45,28,-194), Quaternion.identity);
+        PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "Player"),new Vector3(81,30,-112), Quaternion.identity);
     }
 }
