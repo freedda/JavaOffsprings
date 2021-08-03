@@ -6,9 +6,7 @@ using UnityEngine;
 public class Equipment : Item
 {
     public EquipmentSlot equipSlot;
-    // paradegima to sfuri mporei na prokalei 'damage' se antikeimeno pou thelei na spasei
-    public int damage;
-
+   
     public override void Use(string Id)
     {
         base.Use(Id);

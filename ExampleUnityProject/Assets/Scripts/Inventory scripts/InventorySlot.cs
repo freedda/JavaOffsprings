@@ -46,7 +46,7 @@ public class InventorySlot : MonoBehaviour
                 //Debug.Log("TO ICON EINAI "+ takeIconsSprites.instance.icons[0] + " OUUU  " + takeIconsSprites.instance.icons[0].name);
                 icon.sprite = takeIconsSprites.instance.icons[0];
                 break;
-            case "c33c70d5-0665-4e90-aa76-6342bbe0cf50":
+            case "b50247dc-8ec9-46c7-937c-5d1425810f52":
                 nameText.text = "Hammer";
                 icon.sprite = takeIconsSprites.instance.icons[1];
                 objectTag = "Box";
