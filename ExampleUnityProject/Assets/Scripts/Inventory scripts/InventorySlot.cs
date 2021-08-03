@@ -64,6 +64,7 @@ public class InventorySlot : MonoBehaviour
             case "0c217d02-9e3d-4633-8171-826d75d922c0":
                 nameText.text = "Hoe";
                 icon.sprite = takeIconsSprites.instance.icons[4];
+                objectTag = "FlowerPot";
                 break;
             case "e5bdaf11-a79b-4436-8422-2c063ac7cc42":
                 nameText.text = "Nails";
@@ -108,8 +109,7 @@ public class InventorySlot : MonoBehaviour
                 nameText.text = "Crowbar";
                 icon.sprite = takeIconsSprites.instance.icons[13];
                 objectTag = "WoodenBox";
-                break; 
-                
+                break;
         }
         
         icon.enabled = true;
