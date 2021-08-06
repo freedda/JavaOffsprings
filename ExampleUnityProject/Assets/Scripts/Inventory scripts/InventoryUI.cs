@@ -37,7 +37,7 @@ public class InventoryUI : MonoBehaviour
     void RPC_Inventory_Update() 
     { 
         //Debug.Log("update UI"); 
-        for (int i = 0; i < inventorySlots.Length-10; i++) 
+        for (int i = 0; i < inventorySlots.Length-11; i++) 
         { 
             if (i < myInventory.items.Count) 
             { 
@@ -48,12 +48,12 @@ public class InventoryUI : MonoBehaviour
                 inventorySlots[i].RemoveItem();
             }
         }   
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < 11; i++)
         {
             // Debug.Log("MPIKE STO KEYS");
             if (i < myInventory.keys.Count)
             {
-                inventorySlots[i+14].AddItem(myInventory.keys[i]);
+                inventorySlots[i+13].AddItem(myInventory.keys[i]);
              }
                 
         }

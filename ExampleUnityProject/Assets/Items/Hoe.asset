@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: affbfcbafd272b1498929340bfeb5a50, type: 3}
   m_Name: Hoe
   m_EditorClassIdentifier: 
-  Id: 0c217d02-9e3d-4633-8171-826d75d922c0
+  Id: 91dad548-723a-474b-a89e-ab4606f1492b
   name: Hoe
   icon: {fileID: 21300000, guid: 027640e0f46fa9b49be96a713ae974d3, type: 3}
   isDeafaultItem: 0
   equipSlot: 0
-  damage: 0
