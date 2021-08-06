@@ -15,11 +15,11 @@ C:/Users/User/Desktop/Πτυχιακη/πτυχιακη/FirstScene/ExampleUnityP
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59534
+55180
 Successfully changed project path to: C:/Users/User/Desktop/Πτυχιακη/πτυχιακη/FirstScene/ExampleUnityProject
 C:/Users/User/Desktop/Πτυχιακη/πτυχιακη/FirstScene/ExampleUnityProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 709.10 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 145.25 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.7f1 (c53830e277f1)
 [Subsystems] Discovering subsystems at path C:/Unity/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,280 +35,185 @@ Initialize mono
 Mono path[0] = 'C:/Unity/2020.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Unity/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Unity/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Unity/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005708 seconds.
+Registered in 0.006634 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 305.02 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 120.73 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.952 seconds
+- Completed reload, in  3.883 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.039566 seconds.
+Registered in 0.039133 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.80 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 1.10 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.739 seconds
+- Completed reload, in  1.587 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 76.63 ms, found 5 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 92.09 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1910 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.6 MB.
-System memory in use after: 152.4 MB.
+System memory in use before: 152.7 MB.
+System memory in use after: 152.5 MB.
 
 Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 2333.
-Total: 172.339200 ms (FindLiveObjects: 12.876100 ms CreateObjectMapping: 0.249800 ms MarkObjects: 143.166700 ms  DeleteObjects: 15.451100 ms)
+Total: 251.896800 ms (FindLiveObjects: 9.143800 ms CreateObjectMapping: 0.581000 ms MarkObjects: 229.640500 ms  DeleteObjects: 12.161100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Axe_diffuse.png
-  artifactKey: Guid(2cbc3701df28a5643a60433058bcd066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Axe_diffuse.png using Guid(2cbc3701df28a5643a60433058bcd066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0666b71d57f81b749a95807aea3f13e') in 0.803281 seconds
-  Import took 0.853299 seconds .
+  path: Assets/Scenes/Game/Game.unity
+  artifactKey: Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game/Game.unity using Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19733e762b54c6b1d148193bc0cec5c') in 0.383795 seconds
+  Import took 0.420783 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003824 seconds.
-  path: Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Materials/Axe_uv_zbrexp_Group4Mat.mat
-  artifactKey: Guid(b1cdc53cfa9c6ca47ba753b5de062876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Materials/Axe_uv_zbrexp_Group4Mat.mat using Guid(b1cdc53cfa9c6ca47ba753b5de062876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc56fd251196b1e8b4ae12862c0fef40') in 0.951273 seconds
-  Import took 0.962224 seconds .
+  Time since last request: 2226.845780 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/PostProcessing/Resources/Shaders/EyeHistogram.compute
+  artifactKey: Guid(e213272ad8ff213409a6e13b5c26b4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/PostProcessing/Resources/Shaders/EyeHistogram.compute using Guid(e213272ad8ff213409a6e13b5c26b4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0077d564282d2d0037a667ded8cdf17') in 0.333975 seconds
+  Import took 0.622493 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000822 seconds.
-  path: Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Axe_nrm2.png
-  artifactKey: Guid(13617fc208264474da384b6afb13bf66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Axe_nrm2.png using Guid(13617fc208264474da384b6afb13bf66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4eb05d3f794d1cd432e6f6b95e5e88') in 0.081289 seconds
-  Import took 0.091967 seconds .
+  Time since last request: 0.001326 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/PostProcessing/Editor Resources/Monitors/HistogramCompute.compute
+  artifactKey: Guid(51b7e4b4448c98f4a849081110fd6212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/PostProcessing/Editor Resources/Monitors/HistogramCompute.compute using Guid(51b7e4b4448c98f4a849081110fd6212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901ad65c37d61b3b4b733602faec1b17') in 0.027987 seconds
+  Import took 0.036155 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000657 seconds.
-  path: Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Materials/Axe_uv_zbrexp_Group6Mat.mat
-  artifactKey: Guid(63bee02cff2be1e4d9857a1adc73581e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Materials/Axe_uv_zbrexp_Group6Mat.mat using Guid(63bee02cff2be1e4d9857a1adc73581e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd5a08b38b69326af0ab9cd7b20bbe7') in 0.097045 seconds
-  Import took 0.167940 seconds .
+  Time since last request: 159.716268 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_Sofa_B.prefab
+  artifactKey: Guid(109311ae22786fa4689248ba85a3e6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_Sofa_B.prefab using Guid(109311ae22786fa4689248ba85a3e6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0753fca870ec73fc6b5066eaa72503ba') in 1.364699 seconds
+  Import took 1.373748 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.006904 seconds.
-  path: Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Materials/Axe_uv_zbrexp_Group5Mat.mat
-  artifactKey: Guid(c1f134ced48f564478b303417abb1af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Materials/Axe_uv_zbrexp_Group5Mat.mat using Guid(c1f134ced48f564478b303417abb1af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f053806883f299b39f2e454140aa59ea') in 0.109850 seconds
-  Import took 0.126554 seconds .
+  Time since last request: 0.000286 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_Sofa_C.prefab
+  artifactKey: Guid(ee030b0ec84e4cb4199f6eea85012a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_Sofa_C.prefab using Guid(ee030b0ec84e4cb4199f6eea85012a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951f8a76d10288f02315ccca4243d8b4') in 0.164597 seconds
+  Import took 0.211209 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001187 seconds.
-  path: Assets/Sprites/axe.png
-  artifactKey: Guid(c997c3e7258658047995d47e20560321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/axe.png using Guid(c997c3e7258658047995d47e20560321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f951a3c5aad87334b35b8a3d042a978') in 0.074888 seconds
-  Import took 0.087578 seconds .
+  Time since last request: 0.000779 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_Sofa_D.prefab
+  artifactKey: Guid(9e82725a488a8094b9cbd49420058692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_Sofa_D.prefab using Guid(9e82725a488a8094b9cbd49420058692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4852fc09a97001497372a805edb224') in 0.089731 seconds
+  Import took 0.099965 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000766 seconds.
-  path: Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Axe_metallic.png
-  artifactKey: Guid(60aac02cbaadefe4cbe9cf4d67cc8c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Axe_metallic.png using Guid(60aac02cbaadefe4cbe9cf4d67cc8c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d87268fd49fa2c800ed3b1aeea1a4fd') in 0.054305 seconds
-  Import took 0.063334 seconds .
+  Time since last request: 612.117638 seconds.
+  path: Assets/Western Props/Prefabs/Whisky Bottle.prefab
+  artifactKey: Guid(991c87290ffb77d449861b8c11415b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Western Props/Prefabs/Whisky Bottle.prefab using Guid(991c87290ffb77d449861b8c11415b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4e3200eb1f70c055ac819a6dc5447e') in 0.112347 seconds
+  Import took 0.170864 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000431 seconds.
-  path: Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Materials/Axe_uv_zbrexp_Group1Mat.mat
-  artifactKey: Guid(3cd94e131a4376545bdb5d8b36b3d967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Materials/Axe_uv_zbrexp_Group1Mat.mat using Guid(3cd94e131a4376545bdb5d8b36b3d967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338da16500484d017b351d36189152cf') in 0.126150 seconds
-  Import took 0.158888 seconds .
+  Time since last request: 0.000347 seconds.
+  path: Assets/Western Props/Models/Whisky Bottle/Textures/Whisky_Bottle_Metallic.tga
+  artifactKey: Guid(72972e09fadbccf4fb4e8db2a65bfcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Western Props/Models/Whisky Bottle/Textures/Whisky_Bottle_Metallic.tga using Guid(72972e09fadbccf4fb4e8db2a65bfcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b6357f1b76fd8efe7f2d5c91555e10') in 0.272448 seconds
+  Import took 0.279907 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000381 seconds.
-  path: Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Materials/Axe_uv_zbrexp_Group7Mat.mat
-  artifactKey: Guid(13519196b7440f04c98fb409fccaacbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Materials/Axe_uv_zbrexp_Group7Mat.mat using Guid(13519196b7440f04c98fb409fccaacbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc16b06710d89bf7a091e3b6ae6a196') in 0.040542 seconds
-  Import took 0.050418 seconds .
+  Time since last request: 0.000387 seconds.
+  path: Assets/Western Props/Models/Whisky Bottle/Textures/Whisky_Bottle_Albedo.png
+  artifactKey: Guid(62b805afbe3069b44a6d28de59fecc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Western Props/Models/Whisky Bottle/Textures/Whisky_Bottle_Albedo.png using Guid(62b805afbe3069b44a6d28de59fecc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b216c892ab348eff6bed073e251eea04') in 0.113939 seconds
+  Import took 0.129798 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000987 seconds.
-  path: Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Materials/AXE_MATERIAL.mat
-  artifactKey: Guid(78cf105879ebd0e43a912aaa8e7475bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Materials/AXE_MATERIAL.mat using Guid(78cf105879ebd0e43a912aaa8e7475bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee308329c93f5f5699c2531a66b0722e') in 0.234619 seconds
-  Import took 0.438179 seconds .
+  Time since last request: 0.000895 seconds.
+  path: Assets/Western Props/Models/Whisky Bottle/Textures/Whisky_Bottle_Normal.png
+  artifactKey: Guid(c0b531c3705f74246ae35a6f21006f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Western Props/Models/Whisky Bottle/Textures/Whisky_Bottle_Normal.png using Guid(c0b531c3705f74246ae35a6f21006f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9069f9c9129fc3edc6ce906cff0ab17b') in 0.056247 seconds
+  Import took 0.068392 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000817 seconds.
-  path: Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Axe_nrm.jpg
-  artifactKey: Guid(d044ed19ea274944a8d2b3fb10782ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Axe_nrm.jpg using Guid(d044ed19ea274944a8d2b3fb10782ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21c13fe6ee434d557fec36f821c6a8e') in 0.126018 seconds
-  Import took 0.147390 seconds .
+  Time since last request: 0.000318 seconds.
+  path: Assets/Western Props/Models/Whisky Bottle/Materials/Whisky_Bottle.mat
+  artifactKey: Guid(f4107f9cae288b64289cbf9add08fdb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Western Props/Models/Whisky Bottle/Materials/Whisky_Bottle.mat using Guid(f4107f9cae288b64289cbf9add08fdb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cdd0ac1c415d3a48352a029f0e8478a') in 0.377740 seconds
+  Import took 0.386471 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000409 seconds.
-  path: Assets/Unity Store Assets/Tool Starter Kit/Axe/Prefab/Axe.prefab
-  artifactKey: Guid(ebe317a7280aad343a5264a539d95322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Tool Starter Kit/Axe/Prefab/Axe.prefab using Guid(ebe317a7280aad343a5264a539d95322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef2d5a1c7a94d94a7d4a1e7340a5c8a') in 0.131974 seconds
-  Import took 0.143679 seconds .
+  Time since last request: 0.000530 seconds.
+  path: Assets/Western Props/Models/Whisky Bottle/Textures/Whisky_Bottle_Occlusion.png
+  artifactKey: Guid(54af7a83b88ce064d899418a791f2549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Western Props/Models/Whisky Bottle/Textures/Whisky_Bottle_Occlusion.png using Guid(54af7a83b88ce064d899418a791f2549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6342fb012f6ce58995dfb7a860a1b0') in 0.027520 seconds
+  Import took 0.034234 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002201 seconds.
-  path: Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Materials/Axe_uv_zbrexp_Group2Mat.mat
-  artifactKey: Guid(287565ce96dd70643bcccdb961ae2de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Materials/Axe_uv_zbrexp_Group2Mat.mat using Guid(287565ce96dd70643bcccdb961ae2de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1c34d9615f377da5b7ab7ec3d973c1') in 0.072023 seconds
-  Import took 0.103004 seconds .
+  Time since last request: 831.746359 seconds.
+  path: Assets/Unity Store Assets/GardenTools/Sickle/Sickle.png
+  artifactKey: Guid(c4df83b21ba854147a7d33e3c1b29df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/GardenTools/Sickle/Sickle.png using Guid(c4df83b21ba854147a7d33e3c1b29df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9a28abfb19bbf45f6b394bf527c137') in 0.113040 seconds
+  Import took 0.133242 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000997 seconds.
-  path: Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Materials/Axe_uv_zbrexp_Group8Mat.mat
-  artifactKey: Guid(5b7baa2226019ef40976bbd09d6baa87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Materials/Axe_uv_zbrexp_Group8Mat.mat using Guid(5b7baa2226019ef40976bbd09d6baa87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b333e906bd73376bd914157fecaf4f') in 0.059421 seconds
-  Import took 0.071358 seconds .
+  Time since last request: 0.000369 seconds.
+  path: Assets/Unity Store Assets/GardenTools/Sickle/SickleNM.png
+  artifactKey: Guid(53e6ce295aedc21438e1565e2f26d75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/GardenTools/Sickle/SickleNM.png using Guid(53e6ce295aedc21438e1565e2f26d75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8140f297805d254dc1ae8945d18e969') in 0.114398 seconds
+  Import took 0.122533 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000453 seconds.
-  path: Assets/Sprites/Materials/axe.mat
-  artifactKey: Guid(459323113d611cd46a0bba57527956e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Materials/axe.mat using Guid(459323113d611cd46a0bba57527956e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f6590e8d0f8b88acce6f09678d44cc') in 0.055733 seconds
-  Import took 0.063945 seconds .
+  Time since last request: 0.000494 seconds.
+  path: Assets/Unity Store Assets/GardenTools/Sickle/Materials/Sickle.mat
+  artifactKey: Guid(12c3bb36b9272f649892f91c9d7121cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/GardenTools/Sickle/Materials/Sickle.mat using Guid(12c3bb36b9272f649892f91c9d7121cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48470d68c3934ce0e305ea9e4a1e9967') in 0.127033 seconds
+  Import took 0.133582 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Materials/Axe_uv_zbrexp_Group3Mat.mat
-  artifactKey: Guid(914de1abf70229b4bb2b36e13d7752e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Materials/Axe_uv_zbrexp_Group3Mat.mat using Guid(914de1abf70229b4bb2b36e13d7752e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4472835faded2a061885a707f0749a') in 0.032953 seconds
-  Import took 0.040024 seconds .
+  Time since last request: 0.000337 seconds.
+  path: Assets/Sprites/sickle.png
+  artifactKey: Guid(2c3171a4c30cfeb4bbccf7e5456c6b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sickle.png using Guid(2c3171a4c30cfeb4bbccf7e5456c6b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee615e11766776d43c861f3dfa093a7') in 0.166495 seconds
+  Import took 0.176350 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Materials/Axe_uv_zbrexp_Group2Mat.mat
-  artifactKey: Guid(287565ce96dd70643bcccdb961ae2de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Materials/Axe_uv_zbrexp_Group2Mat.mat using Guid(287565ce96dd70643bcccdb961ae2de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1c34d9615f377da5b7ab7ec3d973c1') in 0.014068 seconds
-  Import took 0.020708 seconds .
+  Time since last request: 0.000299 seconds.
+  path: Assets/Unity Store Assets/GardenTools/Sickle/SicklePrefab.prefab
+  artifactKey: Guid(4a78a3412fcbf8a46b113062b19b4e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/GardenTools/Sickle/SicklePrefab.prefab using Guid(4a78a3412fcbf8a46b113062b19b4e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925d504c5811237ada4398af68bf4ad1') in 0.120007 seconds
+  Import took 0.136916 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Materials/Axe_uv_zbrexp_Group9Mat.mat
-  artifactKey: Guid(1a935a4e98377984f9844a305443b091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Materials/Axe_uv_zbrexp_Group9Mat.mat using Guid(1a935a4e98377984f9844a305443b091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f053570d4bee34372e34e726a51222b') in 0.053461 seconds
-  Import took 0.064198 seconds .
+  Time since last request: 0.000369 seconds.
+  path: Assets/Unity Store Assets/GardenTools/Sickle/Sickle.png
+  artifactKey: Guid(c4df83b21ba854147a7d33e3c1b29df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/GardenTools/Sickle/Sickle.png using Guid(c4df83b21ba854147a7d33e3c1b29df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9a28abfb19bbf45f6b394bf527c137') in 0.042206 seconds
+  Import took 0.054752 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.208917 seconds.
-  path: Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Materials/Axe_uv_zbrexp_Group3Mat.mat
-  artifactKey: Guid(914de1abf70229b4bb2b36e13d7752e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Tool Starter Kit/Axe/Source/Materials/Axe_uv_zbrexp_Group3Mat.mat using Guid(914de1abf70229b4bb2b36e13d7752e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4472835faded2a061885a707f0749a') in 0.014556 seconds
-  Import took 0.020157 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 593.413159 seconds.
-  path: Assets/Unity Store Assets/Tool Starter Kit/Axe/Prefab/Axe.prefab
-  artifactKey: Guid(ebe317a7280aad343a5264a539d95322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Tool Starter Kit/Axe/Prefab/Axe.prefab using Guid(ebe317a7280aad343a5264a539d95322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4da4abbbbadb2d874f146a30ddd2ee3') in 0.123177 seconds
-  Import took 0.132912 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.294331 seconds.
-  path: Assets/Unity Store Assets/Tool Starter Kit/Axe/Prefab/Axe.prefab
-  artifactKey: Guid(ebe317a7280aad343a5264a539d95322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Tool Starter Kit/Axe/Prefab/Axe.prefab using Guid(ebe317a7280aad343a5264a539d95322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd50d27d1dad590ac761bec06193de8') in 0.127589 seconds
-  Import took 0.136882 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3859.642159 seconds.
-  path: Assets/Unity Store Assets/Tool Starter Kit/Pick Axe/Prefab/Pick_Axe.prefab
-  artifactKey: Guid(7cbb7de380582c74ab7ea7eff6a508cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Tool Starter Kit/Pick Axe/Prefab/Pick_Axe.prefab using Guid(7cbb7de380582c74ab7ea7eff6a508cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de45b11c49d13b341f25aeda6e0f39bf') in 0.682150 seconds
-  Import took 0.857248 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 94.419804 seconds.
-  path: Assets/Unity Store Assets/Tool Starter Kit/Pick Axe/Prefab/Pick_Axe.prefab
-  artifactKey: Guid(7cbb7de380582c74ab7ea7eff6a508cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Tool Starter Kit/Pick Axe/Prefab/Pick_Axe.prefab using Guid(7cbb7de380582c74ab7ea7eff6a508cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80a3369092d18d51baa6b1c1aa0599f') in 0.106676 seconds
-  Import took 0.116180 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5014.889195 seconds.
-  path: Assets/Western Props/Prefabs/Chopped Wood Pile.prefab
-  artifactKey: Guid(b9194464b029e4b478d5ca5d068b5179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Western Props/Prefabs/Chopped Wood Pile.prefab using Guid(b9194464b029e4b478d5ca5d068b5179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf63065f580efd57458b34de2f4ebc63') in 0.479796 seconds
-  Import took 0.722576 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003735 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_WoodPile_B.prefab
-  artifactKey: Guid(6d15f3c31fc781441bd95d7a09715f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_WoodPile_B.prefab using Guid(6d15f3c31fc781441bd95d7a09715f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f2fe74a72aa740d17b417299971e87') in 0.596770 seconds
-  Import took 0.638348 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/Survival Tools/Materials/Pills.mat
-  artifactKey: Guid(07eec9d53354822438d51a2634283947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Survival Tools/Materials/Pills.mat using Guid(07eec9d53354822438d51a2634283947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f32f90932183499efc9191cd89b735') in 0.424204 seconds
-  Import took 0.432474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Survival Tools/Meshes/pills.fbx
-  artifactKey: Guid(13c0f408a54463546a570585a55d00ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Survival Tools/Meshes/pills.fbx using Guid(13c0f408a54463546a570585a55d00ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257c66d5ce9346ff2c873c1456cb276b') in 0.989886 seconds
-  Import took 1.001738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000499 seconds.
-  path: Assets/Survival Tools/Textures/survivaltools2_Pills_AlbedoTransparency.png
-  artifactKey: Guid(bafa64d51a4b7ff46b6f0df2cb10a234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Survival Tools/Textures/survivaltools2_Pills_AlbedoTransparency.png using Guid(bafa64d51a4b7ff46b6f0df2cb10a234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3bedd4974b0179fda8bd5748f231064') in 0.057336 seconds
-  Import took 0.072483 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Survival Tools/Prefabs/pills.prefab
-  artifactKey: Guid(48ec186542777474bb236dff1694340c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Survival Tools/Prefabs/pills.prefab using Guid(48ec186542777474bb236dff1694340c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00510c07d4c0cfc5177d542060a99348') in 0.124053 seconds
-  Import took 0.137807 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.487914 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_Pillow_B.prefab
-  artifactKey: Guid(3e4aa3cf9b4ce6c4a83e9cd290caf3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_Pillow_B.prefab using Guid(3e4aa3cf9b4ce6c4a83e9cd290caf3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4370609648a6c8cf2a13f4ce99aee8') in 0.123675 seconds
-  Import took 0.134047 seconds .
-
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

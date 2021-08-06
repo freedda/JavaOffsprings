@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 33000011883755262}
   - component: {fileID: 23000010883570160}
   - component: {fileID: 3426816404114157002}
+  - component: {fileID: 9097149481612690734}
+  - component: {fileID: 3191074468013741493}
   m_Layer: 0
   m_Name: Whisky Bottle
   m_TagString: Untagged
@@ -98,3 +100,30 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &9097149481612690734
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013120505474}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.0074415, y: 29.890402, z: 11.573906}
+  m_Center: {x: -0.0000019558086, y: 14.944907, z: -0.0000013990673}
+--- !u!64 &3191074468013741493
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013120505474}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: dabf368786481654abc79f0199f7a476, type: 3}
