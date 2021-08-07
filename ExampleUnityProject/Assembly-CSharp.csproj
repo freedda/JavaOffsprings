@@ -128,6 +128,7 @@
      <Compile Include="Assets\Scripts\Canvases scripts\UIButtonExitGame.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\FPSController\CursorLock.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\Culling\CullDistanceVolume.cs" />
+     <Compile Include="Assets\GetIntoTheTemple.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\Doors\CursorManager.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\MoveToLayer.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />

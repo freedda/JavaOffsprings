@@ -16,16 +16,18 @@ public class PlayersMovement : MonoBehaviourPun
     Rigidbody rb;
 
     Animator anim;
-    
+
+    public bool flagMove = true;
 
     private Vector3 direction;
     PhotonView view;
+    public static PlayersMovement instance;
     
     void Awake()
     {
         rb = gameObject.GetComponent<Rigidbody>();
         view = GetComponent< PhotonView >();
-        
+        instance = this; 
     }
     private void Start()
     {
@@ -44,18 +46,28 @@ public class PlayersMovement : MonoBehaviourPun
 
     private void FixedUpdate()
     {
-        
+
+
         if (!view.IsMine)
         {
             return;
+
         }
-        
+
         float verticalMoveAxis = Input.GetAxis(verticalInput);
         float horizontalMoveAxis = Input.GetAxis(turnInput);
-        
-        
-        rb.velocity = new Vector3 (horizontalMoveAxis * speed * Time.deltaTime, rb.velocity.y, verticalMoveAxis * speed * Time.deltaTime);
 
+
+        rb.velocity = new Vector3(horizontalMoveAxis * speed * Time.deltaTime, rb.velocity.y,
+            verticalMoveAxis * speed * Time.deltaTime);
+
+        if (!flagMove){
+            anim.SetInteger("conditionL", 0); 
+            anim.SetInteger("conditionR", 0); 
+            anim.SetInteger("condition", 0);
+            return;
+        }
+        
         if (rb.velocity.z >0.01 || rb.velocity.z < -0.01)
         {   
             anim.SetInteger("condition", 1);

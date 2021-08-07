@@ -103,6 +103,7 @@ MonoBehaviour:
   turnInput: Horizontal
   verticalInput: Vertical
   speed: 3
+  flagMove: 1
 --- !u!114 &1946750198825342362
 MonoBehaviour:
   m_ObjectHideFlags: 0
