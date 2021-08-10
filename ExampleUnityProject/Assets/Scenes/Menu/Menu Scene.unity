@@ -2515,7 +2515,6 @@ MonoBehaviour:
   menus:
   - {fileID: 781808916}
   - {fileID: 1002606534}
-  - {fileID: 0}
   - {fileID: 1018554598}
   - {fileID: 2068921059}
   - {fileID: 1739476067}
