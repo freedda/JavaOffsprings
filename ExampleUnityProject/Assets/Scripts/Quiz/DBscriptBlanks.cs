@@ -11,19 +11,30 @@ using TMPro;
 
 public class DBscriptBlanks : MonoBehaviour
 {   
+    #region Singleton
+    public static DBscriptBlanks instance;
+    
+    void Awake()
+    {
+        instance = this;
+    }
+    #endregion
     
     private string dbName = "URI=file:theoryBlanks.db";
     private string option;
     private int currentQ;
+    private AnswerScript AnswerScriptManager;
     public TextMeshProUGUI QTxt;
     public TextMeshProUGUI BlanksTxt;
     public TextMeshProUGUI AnswerTxt;
     public TMP_InputField answerField;
-    
     public GameObject correctAnswerPanel;
     public GameObject wrongAnswerPanel;
     public TextMeshProUGUI correctAnswerText;
     public GameObject blanksPanel;
+
+    [SerializeField] public int correctNum = 0;
+    [SerializeField] public int wrongNum = 0 ;
     
     [SerializeField] private Animator animator;
     
@@ -45,9 +56,7 @@ public class DBscriptBlanks : MonoBehaviour
         // Add a theory question with options and correct answer
      //   AddTheory(3, "Write a program choosing the correct data types:  \n " , "class myDemo\n{\n    public static void main(String[] args)\n        __ x =5;\n        __ name = \"Alex\";\n        __ flag = true;\n    }\n} ", 
          //  "class myDemo\n{\n    public static void main(String[] args)\n        int x =5;\n        String name = \"Alex\";\n        boolean flag = true;\n    }\n} " );
-           
-
-        
+         
         // Display records to the console 
         DisplayTheory();
         
@@ -56,6 +65,8 @@ public class DBscriptBlanks : MonoBehaviour
         
         //Generate the first question 
         generateQuestion();
+
+        AnswerScriptManager = GetComponent<AnswerScript>();
     }
 
     public void CreateDB()
@@ -158,6 +169,7 @@ public class DBscriptBlanks : MonoBehaviour
               Debug.Log("correct Answer");
               correctAnswerPanel.SetActive(true);
               animator.SetTrigger("Correct");
+              correctNum += 1;
           }
           else
           { 
@@ -166,11 +178,13 @@ public class DBscriptBlanks : MonoBehaviour
               wrongAnswerPanel.SetActive(true);
               animator.SetTrigger("Wrong");
               Debug.Log(correctAnswer);
+              wrongNum += 1; 
           }
           correct();
           
           //When the button "Sumbit" pressed, close the blanks panel
           blanksPanel.SetActive(false);
+         // AnswerScriptManager.getScore();
 
       }
       

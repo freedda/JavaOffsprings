@@ -79,6 +79,7 @@
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
      <Compile Include="Assets\Scripts\Equipment\EquipmentManager.cs" />
      <Compile Include="Assets\Scripts\Player&apos;s scripts\FocusWithClick.cs" />
+     <Compile Include="Assets\Scripts\Quiz\Score.cs" />
      <Compile Include="Assets\Scripts\MasterClient scripts\MenuManager.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
      <Compile Include="Assets\ActivateItem.cs" />
