@@ -1,30 +1,33 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class Score : MonoBehaviour
 {
-    public AnswerScript dbMultipleManager;
+    private DBscript dbMultipleManager;
     private DBscriptBlanks dbBlanksManager;
-    public int blanksCorrect;
-    public int blanksWrong;
-    public int multipleCorrect;
-    public int multipleWrong;
+    private int blanksCorrect;
+    private int blanksWrong;
+    private int multipleCorrect;
+    private int multipleWrong;
+
+    public TextMeshProUGUI scoreText; 
     
     // Start is called before the first frame update
     void Start()
     {
-        dbBlanksManager = DBscriptBlanks.instance;
-        dbMultipleManager = AnswerScript.instance; 
+        dbBlanksManager = DBscriptBlanks.instance.GetComponent<DBscriptBlanks>();
+        dbMultipleManager = DBscript.instance.GetComponent<DBscript>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        multipleCorrect = dbMultipleManager.GetComponent<AnswerScript>().correctNum;
-        multipleWrong = dbMultipleManager.GetComponent<AnswerScript>().wrongNum;
-        blanksCorrect = dbBlanksManager.GetComponent<DBscriptBlanks>().correctNum;
-        blanksWrong = dbBlanksManager.GetComponent<DBscriptBlanks>().wrongNum;
+        multipleCorrect = dbMultipleManager.correctNum; 
+        multipleWrong = dbMultipleManager.wrongNum;
+        blanksCorrect = dbBlanksManager.correctNum;
+        blanksWrong = dbBlanksManager.wrongNum;
     }
     
     public void getScore()
@@ -34,8 +37,8 @@ public class Score : MonoBehaviour
         Debug.Log("wrong multiple: "+ multipleWrong);
         Debug.Log("wrong blanks: "+ blanksWrong);
         double score = ((float)blanksCorrect + (float)multipleCorrect) / ((float)blanksCorrect + (float)blanksWrong + (float)multipleCorrect + (float)multipleWrong);
-        // Debug.Log("Score: " + String.Format("{0:0.00}", score));
-        Debug.Log("Score: " + score * 100 +  "%"); 
-      
+        Debug.Log("Score: " + score * 100 +  "%");
+        scoreText.text = (score * 100 ) + "%" ; 
+
     }
 }

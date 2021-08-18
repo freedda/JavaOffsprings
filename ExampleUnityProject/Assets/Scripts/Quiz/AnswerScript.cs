@@ -18,12 +18,8 @@ public class AnswerScript : MonoBehaviour
     
     public bool isCorrect = false;
     public string correctAnswer;
-    public int correctNum = 0;
-    public int wrongNum = 0;
-    public DBscript dbManager;
-    private DBscriptBlanks dbBlanksManager;
-    public int blanksCorrect;
-    public int blanksWrong;
+    
+    public DBscript dbMultipleManager;
     public GameObject multiplesPanel;
     public GameObject correctAnswerPanel;
     public GameObject wrongAnswerPanel;
@@ -32,13 +28,13 @@ public class AnswerScript : MonoBehaviour
 
     private void Start()
     {
-        dbBlanksManager = DBscriptBlanks.instance;
+        dbMultipleManager = DBscript.instance.GetComponent<DBscript>();
     }
 
     private void Update()
     {
-        blanksCorrect = dbBlanksManager.GetComponent<DBscriptBlanks>().correctNum;
-        blanksWrong = dbBlanksManager.GetComponent<DBscriptBlanks>().wrongNum;
+        dbMultipleManager.correctNum= dbMultipleManager.correctNum;
+        dbMultipleManager.wrongNum = dbMultipleManager.wrongNum;
     }
 
     public void Answer()
@@ -48,8 +44,8 @@ public class AnswerScript : MonoBehaviour
             Debug.Log("Correct answer");
             correctAnswerPanel.SetActive(true);
             animator.SetTrigger("Correct");
-            dbManager.correct();
-            correctNum += 1;
+            dbMultipleManager.correct();
+            dbMultipleManager.correctNum += 1;
         }
         else
         {
@@ -57,25 +53,25 @@ public class AnswerScript : MonoBehaviour
             correctAnswerText.text = correctAnswer;
             wrongAnswerPanel.SetActive(true);
             animator.SetTrigger("Wrong");
-            dbManager.correct();
-            wrongNum += 1;
+            dbMultipleManager.correct();
+            dbMultipleManager.wrongNum+= 1;
             
         }
-        getScore();
-       
-        //when sumbit the multiple anwer , close the panel.
+        
+        //when submit the multiple answer , close the panel.
         multiplesPanel.SetActive(false);
     }
 
-    public void getScore()
+    /*public void getScore()
     {
-        Debug.Log("correct multiple: "+ correctNum);
-        Debug.Log("correct blanks: "+ blanksCorrect);
-        Debug.Log("wrong multiple: "+ wrongNum);
-        Debug.Log("wrong blanks: "+ blanksWrong);
+        Debug.Log("correct multiple: mesa stn getscore "+ correctNum);
+       // Debug.Log("correct blanks: "+ blanksCorrect);
+        Debug.Log("wrong multiple: mesa stn getscore "+ wrongNum);
+        /*Debug.Log("wrong blanks: "+ blanksWrong);
         double score = ((float)blanksCorrect + (float)correctNum) / ((float)blanksCorrect + (float)blanksWrong + (float)correctNum + (float)wrongNum);
-        Debug.Log("Score: " + score * 100 +  "%"); 
-      
-    }
+        Debug.Log("Score: " + score * 100 +  "%"); #1#
+    }*/
+
+   
     
 }

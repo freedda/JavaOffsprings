@@ -33,8 +33,8 @@ public class DBscriptBlanks : MonoBehaviour
     public TextMeshProUGUI correctAnswerText;
     public GameObject blanksPanel;
 
-    [SerializeField] public int correctNum = 0;
-    [SerializeField] public int wrongNum = 0 ;
+    public int correctNum = 0;
+    public int wrongNum = 0 ;
     
     [SerializeField] private Animator animator;
     
@@ -65,8 +65,7 @@ public class DBscriptBlanks : MonoBehaviour
         
         //Generate the first question 
         generateQuestion();
-
-        AnswerScriptManager = GetComponent<AnswerScript>();
+        
     }
 
     public void CreateDB()
@@ -184,7 +183,6 @@ public class DBscriptBlanks : MonoBehaviour
           
           //When the button "Sumbit" pressed, close the blanks panel
           blanksPanel.SetActive(false);
-         // AnswerScriptManager.getScore();
 
       }
       
