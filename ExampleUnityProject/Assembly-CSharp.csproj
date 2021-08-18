@@ -118,7 +118,7 @@
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\FPSController\CharController_Motor.cs" />
      <Compile Include="Assets\MoveItem.cs" />
      <Compile Include="Assets\Scripts\Voice and Chat Photon\VoiceButtonManager.cs" />
-     <Compile Include="Assets\Scripts\Quiz\DBscript.cs" />
+     <Compile Include="Assets\Scripts\Quiz\DBscriptMultiple.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\UserLutComponent.cs" />
      <Compile Include="Assets\Scripts\Player&apos;s scripts\PlayersMovement.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\ExposureManager\ExposureArea.cs" />

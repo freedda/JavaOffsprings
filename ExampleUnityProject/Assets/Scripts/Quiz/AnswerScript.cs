@@ -19,7 +19,7 @@ public class AnswerScript : MonoBehaviour
     public bool isCorrect = false;
     public string correctAnswer;
     
-    public DBscript dbMultipleManager;
+    public DBscriptMultiple dbMultipleManager;
     public GameObject multiplesPanel;
     public GameObject correctAnswerPanel;
     public GameObject wrongAnswerPanel;
@@ -28,7 +28,7 @@ public class AnswerScript : MonoBehaviour
 
     private void Start()
     {
-        dbMultipleManager = DBscript.instance.GetComponent<DBscript>();
+        dbMultipleManager = DBscriptMultiple.instance.GetComponent<DBscriptMultiple>();
     }
 
     private void Update()
@@ -61,17 +61,6 @@ public class AnswerScript : MonoBehaviour
         //when submit the multiple answer , close the panel.
         multiplesPanel.SetActive(false);
     }
-
-    /*public void getScore()
-    {
-        Debug.Log("correct multiple: mesa stn getscore "+ correctNum);
-       // Debug.Log("correct blanks: "+ blanksCorrect);
-        Debug.Log("wrong multiple: mesa stn getscore "+ wrongNum);
-        /*Debug.Log("wrong blanks: "+ blanksWrong);
-        double score = ((float)blanksCorrect + (float)correctNum) / ((float)blanksCorrect + (float)blanksWrong + (float)correctNum + (float)wrongNum);
-        Debug.Log("Score: " + score * 100 +  "%"); #1#
-    }*/
-
-   
+ 
     
 }
