@@ -1,6 +1,6 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: "C:/Users/User/Desktop/\u03A0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7/\u03C0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7/FirstScene/ExampleUnityProject/Packages/manifest.json"
+    m_FilePath: "C:/Users/User/Desktop/\u03A0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7/\u03C0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7/JavaOffspirngs/JavaOffspringsProject/Packages/manifest.json"
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -8,12 +8,12 @@ m_ProjectFiles:
       ticks: 637629187074839370
     m_Hash: 3526178898
   m_LockFileStatus:
-    m_FilePath: "C:/Users/User/Desktop/\u03A0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7/\u03C0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7/FirstScene/ExampleUnityProject/Packages/packages-lock.json"
+    m_FilePath: "C:/Users/User/Desktop/\u03A0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7/\u03C0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7/JavaOffspirngs/JavaOffspringsProject/Packages/packages-lock.json"
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637653054735674788
+      ticks: 637654184783132849
     m_Hash: 430392430
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -76,7 +76,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.9
       source: 1
-      resolvedPath: "C:\\Users\\User\\Desktop\\\u03A0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\\u03C0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\FirstScene\\ExampleUnityProject\\Library\\PackageCache\\com.unity.collab-proxy@1.3.9"
+      resolvedPath: "C:\\Users\\User\\Desktop\\\u03A0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\\u03C0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\JavaOffspirngs\\JavaOffspringsProject\\Library\\PackageCache\\com.unity.collab-proxy@1.3.9"
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Unity Collaborate
@@ -178,7 +178,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 4.1.0
       source: 1
-      resolvedPath: "C:\\Users\\User\\Desktop\\\u03A0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\\u03C0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\FirstScene\\ExampleUnityProject\\Library\\PackageCache\\com.unity.formats.fbx@4.1.0"
+      resolvedPath: "C:\\Users\\User\\Desktop\\\u03A0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\\u03C0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\JavaOffspirngs\\JavaOffspringsProject\\Library\\PackageCache\\com.unity.formats.fbx@4.1.0"
       assetPath: Packages/com.unity.formats.fbx
       name: com.unity.formats.fbx
       displayName: FBX Exporter
@@ -284,7 +284,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: "C:\\Users\\User\\Desktop\\\u03A0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\\u03C0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\FirstScene\\ExampleUnityProject\\Library\\PackageCache\\com.unity.ide.rider@2.0.7"
+      resolvedPath: "C:\\Users\\User\\Desktop\\\u03A0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\\u03C0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\JavaOffspirngs\\JavaOffspringsProject\\Library\\PackageCache\\com.unity.ide.rider@2.0.7"
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -391,7 +391,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: "C:\\Users\\User\\Desktop\\\u03A0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\\u03C0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\FirstScene\\ExampleUnityProject\\Library\\PackageCache\\com.unity.ide.visualstudio@2.0.7"
+      resolvedPath: "C:\\Users\\User\\Desktop\\\u03A0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\\u03C0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\JavaOffspirngs\\JavaOffspringsProject\\Library\\PackageCache\\com.unity.ide.visualstudio@2.0.7"
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -478,7 +478,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: "C:\\Users\\User\\Desktop\\\u03A0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\\u03C0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\FirstScene\\ExampleUnityProject\\Library\\PackageCache\\com.unity.ide.vscode@1.2.3"
+      resolvedPath: "C:\\Users\\User\\Desktop\\\u03A0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\\u03C0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\JavaOffspirngs\\JavaOffspringsProject\\Library\\PackageCache\\com.unity.ide.vscode@1.2.3"
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -547,7 +547,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.22
       source: 1
-      resolvedPath: "C:\\Users\\User\\Desktop\\\u03A0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\\u03C0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\FirstScene\\ExampleUnityProject\\Library\\PackageCache\\com.unity.test-framework@1.1.22"
+      resolvedPath: "C:\\Users\\User\\Desktop\\\u03A0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\\u03C0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\JavaOffspirngs\\JavaOffspringsProject\\Library\\PackageCache\\com.unity.test-framework@1.1.22"
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -640,7 +640,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.1
       source: 1
-      resolvedPath: "C:\\Users\\User\\Desktop\\\u03A0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\\u03C0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\FirstScene\\ExampleUnityProject\\Library\\PackageCache\\com.unity.textmeshpro@3.0.1"
+      resolvedPath: "C:\\Users\\User\\Desktop\\\u03A0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\\u03C0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\JavaOffspirngs\\JavaOffspringsProject\\Library\\PackageCache\\com.unity.textmeshpro@3.0.1"
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -2604,7 +2604,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: "C:\\Users\\User\\Desktop\\\u03A0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\\u03C0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\FirstScene\\ExampleUnityProject\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6"
+      resolvedPath: "C:\\Users\\User\\Desktop\\\u03A0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\\u03C0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\JavaOffspirngs\\JavaOffspringsProject\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6"
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -2665,7 +2665,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.5.2
       source: 1
-      resolvedPath: "C:\\Users\\User\\Desktop\\\u03A0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\\u03C0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\FirstScene\\ExampleUnityProject\\Library\\PackageCache\\com.unity.timeline@1.5.2"
+      resolvedPath: "C:\\Users\\User\\Desktop\\\u03A0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\\u03C0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\JavaOffspirngs\\JavaOffspringsProject\\Library\\PackageCache\\com.unity.timeline@1.5.2"
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -2817,7 +2817,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.1.0
       source: 1
-      resolvedPath: "C:\\Users\\User\\Desktop\\\u03A0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\\u03C0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\FirstScene\\ExampleUnityProject\\Library\\PackageCache\\com.autodesk.fbx@4.1.0"
+      resolvedPath: "C:\\Users\\User\\Desktop\\\u03A0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\\u03C0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7\\JavaOffspirngs\\JavaOffspringsProject\\Library\\PackageCache\\com.autodesk.fbx@4.1.0"
       assetPath: Packages/com.autodesk.fbx
       name: com.autodesk.fbx
       displayName: Autodesk FBX SDK for Unity
@@ -2895,5 +2895,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: "C:/Users/User/Desktop/\u03A0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7/\u03C0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7/FirstScene/ExampleUnityProject/Packages"
+m_ProjectPath: "C:/Users/User/Desktop/\u03A0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7/\u03C0\u03C4\u03C5\u03C7\u03B9\u03B1\u03BA\u03B7/JavaOffspirngs/JavaOffspringsProject/Packages"
 m_EditorVersion: 2020.2.7f1 (c53830e277f1)
