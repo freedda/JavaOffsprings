@@ -1,0 +1,266 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.7f1 (c53830e277f1) revision 12924976'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1165; Version 2009; 64bit' Language: 'el' Physical Memory: 3999 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Unity\2020.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/User/Desktop/Πτυχιακη/πτυχιακη/FirstScene/ExampleUnityProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59425
+Successfully changed project path to: C:/Users/User/Desktop/Πτυχιακη/πτυχιακη/FirstScene/ExampleUnityProject
+C:/Users/User/Desktop/Πτυχιακη/πτυχιακη/FirstScene/ExampleUnityProject
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 474.17 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.7f1 (c53830e277f1)
+[Subsystems] Discovering subsystems at path C:/Unity/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Desktop/Πτυχιακη/πτυχιακη/FirstScene/ExampleUnityProject/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 840M (ID=0x1341)
+    Vendor:   
+    VRAM:     2010 MB
+    Driver:   27.21.14.6589
+Initialize mono
+Mono path[0] = 'C:/Unity/2020.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Unity/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Unity/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Unity/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.019641 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 211.63 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.323 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.026429 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.710 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 7.41 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1912 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.5 MB.
+System memory in use after: 156.3 MB.
+
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 2335.
+Total: 386.455700 ms (FindLiveObjects: 3.234400 ms CreateObjectMapping: 0.108200 ms MarkObjects: 372.579300 ms  DeleteObjects: 9.598300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Unity Store Assets/Tool Starter Kit/Shovel/Prefab/Shovel_dirty.prefab
+  artifactKey: Guid(43b25a7b31b11d84fb606f77afac76b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Tool Starter Kit/Shovel/Prefab/Shovel_dirty.prefab using Guid(43b25a7b31b11d84fb606f77afac76b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e6333a4e9364067d007e7b2b64699a') in 2.179101 seconds
+  Import took 2.191231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002622 seconds.
+  path: Assets/Unity Store Assets/Tool Starter Kit/Shovel/Source/Fresh/Shovel_lowp_reUV_mayaexp_defaultMat_AlbedoTransparency.png
+  artifactKey: Guid(4b911c13fbf207c4ab3b87493bc99008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Tool Starter Kit/Shovel/Source/Fresh/Shovel_lowp_reUV_mayaexp_defaultMat_AlbedoTransparency.png using Guid(4b911c13fbf207c4ab3b87493bc99008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2a5455fedc944e9c9d7077ed24d238') in 0.115964 seconds
+  Import took 0.124348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000861 seconds.
+  path: Assets/Unity Store Assets/Tool Starter Kit/Shovel/Source/Fresh/Shovel_lowp_clean.OBJ
+  artifactKey: Guid(2f8fbb438e34627408e96bc46db472a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Tool Starter Kit/Shovel/Source/Fresh/Shovel_lowp_clean.OBJ using Guid(2f8fbb438e34627408e96bc46db472a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a2ba6479b8cc6c512d306643ee2256') in 0.428459 seconds
+  Import took 0.445042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001131 seconds.
+  path: Assets/Unity Store Assets/Tool Starter Kit/Shovel/Source/Used/Shovel_lowp_reUV_mayaexp_defaultMat_AlbedoTransparency.png
+  artifactKey: Guid(868a4a0fd0ae19141997f4fdbfbbbada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Tool Starter Kit/Shovel/Source/Used/Shovel_lowp_reUV_mayaexp_defaultMat_AlbedoTransparency.png using Guid(868a4a0fd0ae19141997f4fdbfbbbada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b0bfb8fb3c0e93a26d59cd13f8ccc0') in 0.051700 seconds
+  Import took 0.060826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000977 seconds.
+  path: Assets/Scripts/Player's scripts/PlayersMovement.cs
+  artifactKey: Guid(c4ce9c0940f25f143b155b4b49e8a995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player's scripts/PlayersMovement.cs using Guid(c4ce9c0940f25f143b155b4b49e8a995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23e3ed2eac15f528465f6cf348d4470') in 0.048474 seconds
+  Import took 0.058298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Unity Store Assets/Tool Starter Kit/Shovel/Source/Fresh/Shovel_clean.mat
+  artifactKey: Guid(070b7f4f80354d94d83f9bf5d0220ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Tool Starter Kit/Shovel/Source/Fresh/Shovel_clean.mat using Guid(070b7f4f80354d94d83f9bf5d0220ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196196a7c53744e496a9d1629d0da84d') in 1.218779 seconds
+  Import took 1.268744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001211 seconds.
+  path: Assets/Scripts/Player's scripts/PlayersMovement.cs
+  artifactKey: Guid(c4ce9c0940f25f143b155b4b49e8a995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player's scripts/PlayersMovement.cs using Guid(c4ce9c0940f25f143b155b4b49e8a995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23e3ed2eac15f528465f6cf348d4470') in 0.004430 seconds
+  Import took 0.014126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Unity Store Assets/Tool Starter Kit/Shovel/Prefab/Shovel_clean.prefab
+  artifactKey: Guid(a448a2317874c564c83b99b4861e5e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Tool Starter Kit/Shovel/Prefab/Shovel_clean.prefab using Guid(a448a2317874c564c83b99b4861e5e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef3c0e5c5c78a38dbf63b1dd42ff635') in 0.077495 seconds
+  Import took 0.101122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004036 seconds.
+  path: Assets/Unity Store Assets/GardenTools/Shovel/Materials/Shovel.mat
+  artifactKey: Guid(a1fa8f4f754fa8f429f124bd22a61efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/GardenTools/Shovel/Materials/Shovel.mat using Guid(a1fa8f4f754fa8f429f124bd22a61efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abef8a0113f97e4134e389b41c029910') in 0.225479 seconds
+  Import took 0.234236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001395 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Prefabs/PlayerOverviewEntry.prefab
+  artifactKey: Guid(f03d1c686a26a1d4da99a4186b0bb1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Prefabs/PlayerOverviewEntry.prefab using Guid(f03d1c686a26a1d4da99a4186b0bb1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dba360d0509670c0756dd2a24e91adc') in 0.145174 seconds
+  Import took 0.154267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001136 seconds.
+  path: Assets/Unity Store Assets/GardenTools/Shovel/Shovel.png
+  artifactKey: Guid(b81c636de052df7408f7fd4bd1c8b12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/GardenTools/Shovel/Shovel.png using Guid(b81c636de052df7408f7fd4bd1c8b12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f10a680e6d1202476891aa0e4f96f0') in 0.081248 seconds
+  Import took 0.093082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Sprites/shovel.png
+  artifactKey: Guid(a03953744503c664f8a6a2e9804f99d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/shovel.png using Guid(a03953744503c664f8a6a2e9804f99d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd224caef8dfa21d2e35ef408fd0a6058') in 0.132781 seconds
+  Import took 0.172194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001102 seconds.
+  path: Assets/Unity Store Assets/GardenTools/Shovel/Shovel.fbx
+  artifactKey: Guid(164608219c494b84f9df36c44a1cd65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/GardenTools/Shovel/Shovel.fbx using Guid(164608219c494b84f9df36c44a1cd65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82cc7a2908570f551739601c0b2c50fd') in 0.221159 seconds
+  Import took 0.238519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Unity Store Assets/Tool Starter Kit/Shovel/Source/Used/Shovel_lowp_reUV_mayaexp.OBJ
+  artifactKey: Guid(120c8aa09dc95694196df3470a93662c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Tool Starter Kit/Shovel/Source/Used/Shovel_lowp_reUV_mayaexp.OBJ using Guid(120c8aa09dc95694196df3470a93662c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b04b73a37f08f7e2527d3dc1eaf45bf') in 0.039443 seconds
+  Import took 0.050788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 531.329642 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/Unity/Editor/Wizard/resources/icons_welcome/documentation.png
+  artifactKey: Guid(7d6ce7da11bf9aa4f98abcc9eb237a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonRealtime/Code/Unity/Editor/Wizard/resources/icons_welcome/documentation.png using Guid(7d6ce7da11bf9aa4f98abcc9eb237a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50f70c98bd8b4001cdbc76f45b3920e') in 0.103275 seconds
+  Import took 0.127529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063713 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/Unity/Editor/Wizard/resources/icons_welcome/documentation.png
+  artifactKey: Guid(7d6ce7da11bf9aa4f98abcc9eb237a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonRealtime/Code/Unity/Editor/Wizard/resources/icons_welcome/documentation.png using Guid(7d6ce7da11bf9aa4f98abcc9eb237a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50f70c98bd8b4001cdbc76f45b3920e') in 0.010349 seconds
+  Import took 0.017657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.408971 seconds.
+  path: Assets/Scenes/Menu/Menu Scene.unity
+  artifactKey: Guid(3d3148e8100f561449e35ed6f1509ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu/Menu Scene.unity using Guid(3d3148e8100f561449e35ed6f1509ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002c4e09696d04211a671766e88088e4') in 0.016068 seconds
+  Import took 0.023209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010523 seconds.
+  path: Assets/Scenes/Menu/Menu Scene.unity
+  artifactKey: Guid(3d3148e8100f561449e35ed6f1509ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu/Menu Scene.unity using Guid(3d3148e8100f561449e35ed6f1509ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002c4e09696d04211a671766e88088e4') in 0.005713 seconds
+  Import took 0.013562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 371.078132 seconds.
+  path: Assets/Unity Store Assets/Cattleya/sources/Materials/clothingSet_04_tex.mat
+  artifactKey: Guid(2a7782c65c7520d45be3e8ef87b3b9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Cattleya/sources/Materials/clothingSet_04_tex.mat using Guid(2a7782c65c7520d45be3e8ef87b3b9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48def8a99fdf7cd759040572c5367941') in 0.458250 seconds
+  Import took 0.606961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.166693 seconds.
+  path: Assets/Scripts/Canvases scripts/SetCanvasActiveUI.cs
+  artifactKey: Guid(90ab09040e184f64f8ce3c0d6e796b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Canvases scripts/SetCanvasActiveUI.cs using Guid(90ab09040e184f64f8ce3c0d6e796b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6780068e262a8005cbb93aff8a6156c') in 0.014057 seconds
+  Import took 0.024673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002216 seconds.
+  path: Assets/Scripts/Canvases scripts/SetCanvasActiveUI.cs
+  artifactKey: Guid(90ab09040e184f64f8ce3c0d6e796b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Canvases scripts/SetCanvasActiveUI.cs using Guid(90ab09040e184f64f8ce3c0d6e796b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6780068e262a8005cbb93aff8a6156c') in 0.005939 seconds
+  Import took 0.016215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 192.263228 seconds.
+  path: Assets/Audio/1627478816535-voicemakerin-speech_4GofkqRK.mp3
+  artifactKey: Guid(624920679354835418fe4d978fe58ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/1627478816535-voicemakerin-speech_4GofkqRK.mp3 using Guid(624920679354835418fe4d978fe58ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd0646bba8d4fdb583484bb9476bb84') in 0.600683 seconds
+  Import took 0.614715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.393260 seconds.
+  path: Assets/Scripts/Inventory scripts/Inventory.cs
+  artifactKey: Guid(b6e100084be79ce4aa7fbd08403ea9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Inventory scripts/Inventory.cs using Guid(b6e100084be79ce4aa7fbd08403ea9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d8ecba8fb331468b5a57c78e1586b6') in 0.014712 seconds
+  Import took 0.022674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017899 seconds.
+  path: Assets/Scripts/Inventory scripts/Inventory.cs
+  artifactKey: Guid(b6e100084be79ce4aa7fbd08403ea9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Inventory scripts/Inventory.cs using Guid(b6e100084be79ce4aa7fbd08403ea9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d8ecba8fb331468b5a57c78e1586b6') in 0.004627 seconds
+  Import took 0.011224 seconds .
+
