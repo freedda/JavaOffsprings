@@ -54,8 +54,8 @@ public class DBscriptBlanks : MonoBehaviour
         // Create database
         CreateDB();
         // Add a theory question with options and correct answer
-     //   AddTheory(3, "Write a program choosing the correct data types:  \n " , "class myDemo\n{\n    public static void main(String[] args)\n        __ x =5;\n        __ name = \"Alex\";\n        __ flag = true;\n    }\n} ", 
-         //  "class myDemo\n{\n    public static void main(String[] args)\n        int x =5;\n        String name = \"Alex\";\n        boolean flag = true;\n    }\n} " );
+       // AddTheory(19, "Write the following program using the superclass constructor:" , "public class Student{\n    protected int id;\n \n    public Student(int myID){\n        id=myID;}\n    }\n \npublic class Undergraduate __ Student{\n    private String name;\n    public Undergraduate (int myID, String name){\n        __(myID);\n        name = __ ;}\n}", 
+         //   "public class Student{\n    protected int id;\n \n    public Student(int myID){\n        id=myID;}\n    }\n \npublic class Undergraduate extends Student{\n    private String name;\n    public Undergraduate (int myID, String name){\n        super(myID);\n        name = myName;}\n}");
          
         // Display records to the console 
         DisplayTheory();
@@ -115,7 +115,7 @@ public class DBscriptBlanks : MonoBehaviour
             {
                 // Select from the database
                 command.CommandText = "SELECT * FROM theoryBlanks ORDER BY questionID;";
-
+                
                 // Iterate through the recordset and display
                 using (IDataReader reader = command.ExecuteReader())
                 {
@@ -145,14 +145,14 @@ public class DBscriptBlanks : MonoBehaviour
       
       void generateQuestion()
       {
-          /*for (int i = 0; i < QnA.Count; i++)
+          for (int i = 0; i < QnA.Count; i++)
           {
               currentQ = i;
               QTxt.text = QnA[currentQ].Question;
               BlanksTxt.text = QnA[currentQ].Blanks;
-          }*/
+          }
 
-          currentQ = UnityEngine.Random.Range(0, QnA.Count-1);
+         // currentQ = UnityEngine.Random.Range(0, QnA.Count-1);
           QTxt.text = QnA[currentQ].Question;
           BlanksTxt.text = QnA[currentQ].Blanks;
       }
@@ -189,7 +189,7 @@ public class DBscriptBlanks : MonoBehaviour
       public void correct()
       {
           // Remove question from the list
-        //  QnA.RemoveAt(currentQ);
+          QnA.RemoveAt(currentQ);
           
           //clear player's answer txt
           answerField.Select();
