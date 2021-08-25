@@ -1,0 +1,155 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.7f1 (c53830e277f1) revision 12924976'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1165; Version 2009; 64bit' Language: 'el' Physical Memory: 15734 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/dimik/Desktop/πτυχιακή/JavaOffsprings/JavaOffspringsProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52293
+Successfully changed project path to: C:/Users/dimik/Desktop/πτυχιακή/JavaOffsprings/JavaOffspringsProject
+C:/Users/dimik/Desktop/πτυχιακή/JavaOffsprings/JavaOffspringsProject
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 144.56 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.7f1 (c53830e277f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/dimik/Desktop/πτυχιακή/JavaOffsprings/JavaOffspringsProject/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
+    Vendor:   
+    VRAM:     7867 MB
+    Driver:   27.20.11028.10001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004978 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 91.79 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.022 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007616 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.333 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.21 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1912 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.9 MB.
+System memory in use after: 157.7 MB.
+
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 2335.
+Total: 4.653400 ms (FindLiveObjects: 0.271500 ms CreateObjectMapping: 0.080600 ms MarkObjects: 2.985500 ms  DeleteObjects: 1.313400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/ropes/rope4.fbx
+  artifactKey: Guid(7f64b3107763b4841ba374d14ffc84f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ropes/rope4.fbx using Guid(7f64b3107763b4841ba374d14ffc84f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '016287cb82d184e1e0f99712278f7c51') in 0.242145 seconds
+  Import took 0.247445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Scenes/Game/Game.unity
+  artifactKey: Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game/Game.unity using Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d061a1f7e8e6be8417f1077708eb6f') in 0.011463 seconds
+  Import took 0.015742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Prefabs/ropes/rope5.fbx
+  artifactKey: Guid(c00889578b3a40a439fc98da3ae419aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ropes/rope5.fbx using Guid(c00889578b3a40a439fc98da3ae419aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631a1d113d963de50d1ff6bd7eb286f1') in 0.043641 seconds
+  Import took 0.048340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1039.102461 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Materials/wood_tiling_A.mat
+  artifactKey: Guid(117ee8cda72c5c94eb4d7fa2236aedd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Materials/wood_tiling_A.mat using Guid(117ee8cda72c5c94eb4d7fa2236aedd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cef1ff38a49d7bfc87be7737a4996e5') in 0.091209 seconds
+  Import took 0.097814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.984490 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Meshes/Main/Materials/Curbs.mat
+  artifactKey: Guid(a9ecc1439c6f35b42b54164ff1c3fd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Meshes/Main/Materials/Curbs.mat using Guid(a9ecc1439c6f35b42b54164ff1c3fd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d863c321d145168590e8aac9a09fde') in 0.049734 seconds
+  Import took 0.055419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001503 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Meshes/Main/Materials/Curbs.mat
+  artifactKey: Guid(a9ecc1439c6f35b42b54164ff1c3fd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Meshes/Main/Materials/Curbs.mat using Guid(a9ecc1439c6f35b42b54164ff1c3fd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d863c321d145168590e8aac9a09fde') in 0.031488 seconds
+  Import took 0.038272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.861698 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Meshes/Main/Materials/Prop_KitchenProps.mat
+  artifactKey: Guid(febb6c043b39b494285b36e273d72a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Meshes/Main/Materials/Prop_KitchenProps.mat using Guid(febb6c043b39b494285b36e273d72a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47e1053fb2a8e49799e748e9232c205') in 0.072718 seconds
+  Import took 0.156509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.399200 seconds.
+  path: Assets/Prefabs/ropes/rope4.prefab
+  artifactKey: Guid(b9f4023db531bb541aab8204f846d9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ropes/rope4.prefab using Guid(b9f4023db531bb541aab8204f846d9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0d5859813597872dc503cd2aa12d9d') in 0.053191 seconds
+  Import took 0.060366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009886 seconds.
+  path: Assets/Prefabs/ropes/rope4.prefab
+  artifactKey: Guid(b9f4023db531bb541aab8204f846d9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ropes/rope4.prefab using Guid(b9f4023db531bb541aab8204f846d9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0d5859813597872dc503cd2aa12d9d') in 0.058158 seconds
+  Import took 0.066301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.356345 seconds.
+  path: Assets/Prefabs/ropes/rope5.prefab
+  artifactKey: Guid(6aa0344958e78944b979218f79e8e9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ropes/rope5.prefab using Guid(6aa0344958e78944b979218f79e8e9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69b2542d7187a4964c415d2baad7c0b') in 0.054893 seconds
+  Import took 0.064845 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
