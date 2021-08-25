@@ -15,11 +15,11 @@ C:/Users/dimik/Desktop/πτυχιακή/JavaOffsprings/JavaOffspringsProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52293
+55244
 Successfully changed project path to: C:/Users/dimik/Desktop/πτυχιακή/JavaOffsprings/JavaOffspringsProject
 C:/Users/dimik/Desktop/πτυχιακή/JavaOffsprings/JavaOffspringsProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 144.56 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 117.55 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.7f1 (c53830e277f1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,22 +35,2009 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004978 seconds.
+Registered in 0.002449 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 91.79 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 100.76 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.022 seconds
+- Completed reload, in  1.609 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007616 seconds.
+Registered in 0.007424 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.381 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1912 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.8 MB.
+System memory in use after: 157.7 MB.
+
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 2335.
+Total: 3.759600 ms (FindLiveObjects: 0.594800 ms CreateObjectMapping: 0.109100 ms MarkObjects: 2.530900 ms  DeleteObjects: 0.522600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14e8baa1f406a64f4491192f048fac1') in 0.025537 seconds
+  Import took 0.030041 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006492 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.036 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.01 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.3 MB.
+System memory in use after: 154.1 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2339.
+Total: 2.672100 ms (FindLiveObjects: 0.382400 ms CreateObjectMapping: 0.122700 ms MarkObjects: 1.665200 ms  DeleteObjects: 0.498500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.307853 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0cccc9be2322315d848ef0e3c60770') in 0.010242 seconds
+  Import took 0.015144 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004815 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.156 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.4 MB.
+System memory in use after: 154.2 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2343.
+Total: 4.264600 ms (FindLiveObjects: 0.397300 ms CreateObjectMapping: 0.054400 ms MarkObjects: 2.941500 ms  DeleteObjects: 0.868400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.750346 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001790 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:04.9137928Z'
+  Import took 0.006299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.239400 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000450 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:04.9137928Z'
+  Import took 0.004420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.171167 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000552 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:04.9137928Z'
+  Import took 0.004468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.193592 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000540 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:04.9137928Z'
+  Import took 0.004246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.103451 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000757 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:04.9137928Z'
+  Import took 0.004509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.221591 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000532 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:04.9137928Z'
+  Import took 0.004127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.102115 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000439 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:04.9137928Z'
+  Import took 0.003896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.237249 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000730 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:04.9137928Z'
+  Import took 0.005242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.222948 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000457 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:04.9137928Z'
+  Import took 0.003487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.111929 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000530 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:04.9137928Z'
+  Import took 0.004406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.225975 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000463 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:04.9137928Z'
+  Import took 0.003370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.087464 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000479 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:04.9137928Z'
+  Import took 0.007027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.240563 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000481 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.005010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.244028 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000518 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.132595 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000918 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.008122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.238078 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000525 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.008985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.261336 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000585 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.133034 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000574 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.282945 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000497 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.018623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.228490 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000533 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.003907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.117649 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000518 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.003985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.248750 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001231 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.006123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.285719 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000465 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.003585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.220288 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000511 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.003831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.087469 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000458 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.003776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.207530 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000445 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.003525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.089306 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000467 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.003825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.202816 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000457 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088470 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000619 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.213686 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000542 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.003913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.113990 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000415 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.211504 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000449 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.003938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.101948 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000754 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.212877 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000534 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.006458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.224243 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000382 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.120990 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000526 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.212871 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000405 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.003568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088674 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000721 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.217075 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000737 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.184626 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000438 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093615 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000483 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.003976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.210014 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001013 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.116386 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000504 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.003945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.210122 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000496 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.003708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088239 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000485 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.246893 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002686 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.007819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.201304 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000533 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.003822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091316 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000486 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.236930 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000563 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.006015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.110429 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001121 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.217608 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000472 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.005742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.217963 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000515 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.006712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.217375 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000519 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.003933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.089386 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000476 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.208974 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000546 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.224626 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000540 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.200477 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000436 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.083333 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000488 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.003851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.230803 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000450 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.003498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.083042 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000614 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.195790 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002105 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.006284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.082143 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000520 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.210188 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000769 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.005056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.226227 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000454 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.124072 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001941 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.009562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.300575 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000538 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088846 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000427 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.003409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.220670 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001063 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.025182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.214577 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000564 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.003622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084090 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000875 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.005050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.201640 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000497 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.003555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.110105 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000547 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.211418 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000451 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.185709 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000628 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.092793 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000470 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.225205 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000506 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.005065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.114233 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000591 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.191673 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000476 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.003576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.108156 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001146 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.005759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.212442 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000849 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.119956 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000512 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.202420 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000560 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093713 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000511 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.005278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.191442 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000423 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.003762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.089264 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000630 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.221380 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000472 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.003824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.120426 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000653 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.194912 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000452 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084736 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000501 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.003763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.203565 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000436 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091252 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000551 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.193372 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000736 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.086790 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000574 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.209479 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000809 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.260601 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000990 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.006519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.222479 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000575 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.121892 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001016 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.005849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.204502 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000597 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.085055 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000436 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.218178 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000530 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.003755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.086898 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000656 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.240176 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000557 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.102035 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000879 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.005452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.226040 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000471 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.003832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.083059 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000802 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.202832 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000581 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.005878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.233871 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000878 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.005521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.089476 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000517 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.190073 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000619 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.003896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.276562 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000951 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.007148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.109419 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000768 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.006847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.266587 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000717 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.006017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.109235 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000688 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.006015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.304802 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000811 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.008326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.257851 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000840 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.007076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.163177 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002401 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.009529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.201223 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000506 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.122436 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000499 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.004490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.102137 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000562 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.005379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.280229 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000889 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.008493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.181452 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000767 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.007565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.264245 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000689 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.006902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.160457 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000706 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.007592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.286366 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000763 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.007026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.167726 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000935 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.005403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.234485 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000613 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.005597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.116285 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000931 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.005468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.283827 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000885 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.008611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.176408 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000697 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.007098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.278389 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001090 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:16.6035427Z'
+  Import took 0.008670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.195316 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001034 seconds
+  ERROR: Build asset version error: assets/scripts/quiz/dbscriptmultiple.cs in SourceAssetDB has modification time of '2021-08-25T15:10:51.8541917Z' while content on disk has modification time of '2021-08-25T15:11:38.2112396Z'
+  Import took 0.010329 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007918 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.915 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.97 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.4 MB.
+System memory in use after: 154.2 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2347.
+Total: 5.148300 ms (FindLiveObjects: 0.377900 ms CreateObjectMapping: 0.118100 ms MarkObjects: 3.436500 ms  DeleteObjects: 1.213000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.664622 seconds.
+  path: Assets/Scripts/Quiz/DBscriptMultiple.cs
+  artifactKey: Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/DBscriptMultiple.cs using Guid(ec8864b81329c9b4aac8c4d86e4afdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88868d85380e2885be81717f42a7267a') in 0.018981 seconds
+  Import took 0.027779 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009038 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.401 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.96 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.4 MB.
+System memory in use after: 154.2 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2351.
+Total: 5.656800 ms (FindLiveObjects: 0.702300 ms CreateObjectMapping: 0.143700 ms MarkObjects: 3.555600 ms  DeleteObjects: 1.252400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007130 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.303 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.40 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.4 MB.
+System memory in use after: 154.2 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2355.
+Total: 4.267900 ms (FindLiveObjects: 0.588000 ms CreateObjectMapping: 0.184300 ms MarkObjects: 2.707900 ms  DeleteObjects: 0.786100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011527 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.349 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.4 MB.
+System memory in use after: 154.2 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2359.
+Total: 3.944900 ms (FindLiveObjects: 0.383600 ms CreateObjectMapping: 0.102400 ms MarkObjects: 2.645000 ms  DeleteObjects: 0.811100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007965 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.282 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.4 MB.
+System memory in use after: 154.3 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2363.
+Total: 3.335200 ms (FindLiveObjects: 0.292400 ms CreateObjectMapping: 0.071100 ms MarkObjects: 2.159800 ms  DeleteObjects: 0.809500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007518 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.176 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.05 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.4 MB.
+System memory in use after: 154.2 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2367.
+Total: 5.689600 ms (FindLiveObjects: 0.676800 ms CreateObjectMapping: 0.201100 ms MarkObjects: 3.554400 ms  DeleteObjects: 1.254900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012537 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.678 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.27 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.4 MB.
+System memory in use after: 154.3 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2371.
+Total: 3.477900 ms (FindLiveObjects: 0.366700 ms CreateObjectMapping: 0.121700 ms MarkObjects: 2.197100 ms  DeleteObjects: 0.790200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007296 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.56 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.265 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.49 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.4 MB.
+System memory in use after: 154.2 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2375.
+Total: 3.651200 ms (FindLiveObjects: 0.295300 ms CreateObjectMapping: 0.076500 ms MarkObjects: 2.457400 ms  DeleteObjects: 0.819900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007165 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.272 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.4 MB.
+System memory in use after: 154.3 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2379.
+Total: 2.822000 ms (FindLiveObjects: 0.309800 ms CreateObjectMapping: 0.089500 ms MarkObjects: 1.835800 ms  DeleteObjects: 0.585200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005005 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.921 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.82 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.5 MB.
+System memory in use after: 154.3 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2383.
+Total: 3.445600 ms (FindLiveObjects: 0.343900 ms CreateObjectMapping: 0.072600 ms MarkObjects: 2.220900 ms  DeleteObjects: 0.806100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007495 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.310 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.4 MB.
+System memory in use after: 154.3 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2387.
+Total: 4.265100 ms (FindLiveObjects: 0.884900 ms CreateObjectMapping: 0.173700 ms MarkObjects: 2.617500 ms  DeleteObjects: 0.586900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008739 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.405 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.29 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.5 MB.
+System memory in use after: 154.3 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2391.
+Total: 3.586000 ms (FindLiveObjects: 0.373800 ms CreateObjectMapping: 0.125700 ms MarkObjects: 2.283200 ms  DeleteObjects: 0.799600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008554 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.064 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.25 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.5 MB.
+System memory in use after: 154.3 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2395.
+Total: 4.380200 ms (FindLiveObjects: 0.308300 ms CreateObjectMapping: 0.073600 ms MarkObjects: 3.172000 ms  DeleteObjects: 0.823500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009166 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.269 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.34 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.5 MB.
+System memory in use after: 154.3 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2399.
+Total: 4.600400 ms (FindLiveObjects: 0.374900 ms CreateObjectMapping: 0.120800 ms MarkObjects: 3.297200 ms  DeleteObjects: 0.805100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009510 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.296 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.56 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.5 MB.
+System memory in use after: 154.3 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2403.
+Total: 4.895400 ms (FindLiveObjects: 0.552900 ms CreateObjectMapping: 0.147400 ms MarkObjects: 3.346700 ms  DeleteObjects: 0.846600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013219 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.33 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.943 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.33 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.5 MB.
+System memory in use after: 154.3 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2407.
+Total: 3.251300 ms (FindLiveObjects: 0.294700 ms CreateObjectMapping: 0.073000 ms MarkObjects: 2.089500 ms  DeleteObjects: 0.792300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007281 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.333 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.80 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.5 MB.
+System memory in use after: 154.3 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2411.
+Total: 3.063100 ms (FindLiveObjects: 0.389400 ms CreateObjectMapping: 0.123600 ms MarkObjects: 1.911700 ms  DeleteObjects: 0.636200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010365 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.315 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.01 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.5 MB.
+System memory in use after: 154.3 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2415.
+Total: 5.192400 ms (FindLiveObjects: 0.392100 ms CreateObjectMapping: 0.122400 ms MarkObjects: 3.415500 ms  DeleteObjects: 1.257500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007560 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.98 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.258 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.46 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.5 MB.
+System memory in use after: 154.3 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2419.
+Total: 3.639400 ms (FindLiveObjects: 0.306700 ms CreateObjectMapping: 0.071600 ms MarkObjects: 2.472500 ms  DeleteObjects: 0.786600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007274 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.344 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.14 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.5 MB.
+System memory in use after: 154.4 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2423.
+Total: 5.429700 ms (FindLiveObjects: 0.400300 ms CreateObjectMapping: 0.126600 ms MarkObjects: 3.571600 ms  DeleteObjects: 1.328800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008909 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.315 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.01 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.5 MB.
+System memory in use after: 154.4 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2427.
+Total: 3.136000 ms (FindLiveObjects: 0.361800 ms CreateObjectMapping: 0.114700 ms MarkObjects: 1.930900 ms  DeleteObjects: 0.726700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012721 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.106 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.5 MB.
+System memory in use after: 154.3 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2431.
+Total: 4.488500 ms (FindLiveObjects: 0.700200 ms CreateObjectMapping: 0.173700 ms MarkObjects: 2.633800 ms  DeleteObjects: 0.979000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017969 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.514 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.5 MB.
+System memory in use after: 154.4 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2435.
+Total: 2.942700 ms (FindLiveObjects: 0.313600 ms CreateObjectMapping: 0.087300 ms MarkObjects: 1.954600 ms  DeleteObjects: 0.585500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004923 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.837 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.98 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.6 MB.
+System memory in use after: 154.4 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2439.
+Total: 3.599800 ms (FindLiveObjects: 0.330400 ms CreateObjectMapping: 0.078000 ms MarkObjects: 2.374000 ms  DeleteObjects: 0.815200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007714 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.341 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.03 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.6 MB.
+System memory in use after: 154.4 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2443.
+Total: 4.018000 ms (FindLiveObjects: 0.394200 ms CreateObjectMapping: 0.139200 ms MarkObjects: 2.553900 ms  DeleteObjects: 0.928300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009338 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.356 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.31 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.6 MB.
+System memory in use after: 154.4 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2447.
+Total: 5.327500 ms (FindLiveObjects: 0.412100 ms CreateObjectMapping: 0.122300 ms MarkObjects: 3.533800 ms  DeleteObjects: 1.256400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013589 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.363 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.29 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.6 MB.
+System memory in use after: 154.4 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2451.
+Total: 4.823400 ms (FindLiveObjects: 0.467900 ms CreateObjectMapping: 0.085000 ms MarkObjects: 2.771100 ms  DeleteObjects: 1.497000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008851 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.304 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.30 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.6 MB.
+System memory in use after: 154.4 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2455.
+Total: 4.411500 ms (FindLiveObjects: 0.368200 ms CreateObjectMapping: 0.133400 ms MarkObjects: 3.107700 ms  DeleteObjects: 0.800000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007204 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.873 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.09 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.6 MB.
+System memory in use after: 154.4 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2459.
+Total: 5.712100 ms (FindLiveObjects: 0.662800 ms CreateObjectMapping: 0.130700 ms MarkObjects: 3.527100 ms  DeleteObjects: 1.387700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007996 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.295 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.87 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.6 MB.
+System memory in use after: 154.4 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2463.
+Total: 3.941500 ms (FindLiveObjects: 0.284000 ms CreateObjectMapping: 0.071100 ms MarkObjects: 2.698700 ms  DeleteObjects: 0.885600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007037 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.313 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.65 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.6 MB.
+System memory in use after: 154.4 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2467.
+Total: 4.987900 ms (FindLiveObjects: 0.465300 ms CreateObjectMapping: 0.156800 ms MarkObjects: 3.077700 ms  DeleteObjects: 1.286000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007499 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.27 ms, found 5 plugins.
@@ -59,97 +2046,553 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.333 seconds
+- Completed reload, in  1.279 seconds
 Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.21 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 1.83 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1912 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 157.9 MB.
-System memory in use after: 157.7 MB.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.6 MB.
+System memory in use after: 154.4 MB.
 
-Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 2335.
-Total: 4.653400 ms (FindLiveObjects: 0.271500 ms CreateObjectMapping: 0.080600 ms MarkObjects: 2.985500 ms  DeleteObjects: 1.313400 ms)
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2471.
+Total: 4.551500 ms (FindLiveObjects: 0.969400 ms CreateObjectMapping: 0.358600 ms MarkObjects: 2.577800 ms  DeleteObjects: 0.642900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006096 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.86 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.377 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.6 MB.
+System memory in use after: 154.5 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2475.
+Total: 5.845400 ms (FindLiveObjects: 0.586800 ms CreateObjectMapping: 0.126600 ms MarkObjects: 3.855400 ms  DeleteObjects: 1.273700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008103 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.296 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.23 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.6 MB.
+System memory in use after: 154.5 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2479.
+Total: 25.932000 ms (FindLiveObjects: 15.939400 ms CreateObjectMapping: 0.296500 ms MarkObjects: 8.445600 ms  DeleteObjects: 1.246800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007713 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.612 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.6 MB.
+System memory in use after: 154.5 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2483.
+Total: 3.152000 ms (FindLiveObjects: 0.493100 ms CreateObjectMapping: 0.146200 ms MarkObjects: 1.925500 ms  DeleteObjects: 0.585100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005160 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.790 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.6 MB.
+System memory in use after: 154.5 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2487.
+Total: 3.304800 ms (FindLiveObjects: 0.316800 ms CreateObjectMapping: 0.090000 ms MarkObjects: 2.330800 ms  DeleteObjects: 0.565400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005247 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.786 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.88 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.6 MB.
+System memory in use after: 154.5 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2491.
+Total: 5.756500 ms (FindLiveObjects: 0.498600 ms CreateObjectMapping: 0.136500 ms MarkObjects: 3.809200 ms  DeleteObjects: 1.309600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008688 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.226 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.03 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.7 MB.
+System memory in use after: 154.5 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2495.
+Total: 5.252900 ms (FindLiveObjects: 0.399200 ms CreateObjectMapping: 0.124200 ms MarkObjects: 3.472700 ms  DeleteObjects: 1.254400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008039 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.06 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.376 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.03 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.7 MB.
+System memory in use after: 154.5 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2499.
+Total: 3.651400 ms (FindLiveObjects: 0.290500 ms CreateObjectMapping: 0.072200 ms MarkObjects: 2.263200 ms  DeleteObjects: 1.023700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005069 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.50 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.753 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.7 MB.
+System memory in use after: 154.5 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2503.
+Total: 3.356600 ms (FindLiveObjects: 0.483200 ms CreateObjectMapping: 0.095100 ms MarkObjects: 2.160500 ms  DeleteObjects: 0.614600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005267 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.773 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.7 MB.
+System memory in use after: 154.5 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2507.
+Total: 3.527700 ms (FindLiveObjects: 0.376600 ms CreateObjectMapping: 0.159200 ms MarkObjects: 2.399600 ms  DeleteObjects: 0.590600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007549 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.736 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.7 MB.
+System memory in use after: 154.5 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2511.
+Total: 3.616800 ms (FindLiveObjects: 0.532500 ms CreateObjectMapping: 0.150400 ms MarkObjects: 2.320600 ms  DeleteObjects: 0.610300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006895 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.876 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.7 MB.
+System memory in use after: 154.5 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2515.
+Total: 3.510800 ms (FindLiveObjects: 0.407900 ms CreateObjectMapping: 0.063100 ms MarkObjects: 2.191800 ms  DeleteObjects: 0.845000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004734 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.826 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.7 MB.
+System memory in use after: 154.5 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2519.
+Total: 3.480400 ms (FindLiveObjects: 0.480500 ms CreateObjectMapping: 0.127500 ms MarkObjects: 2.279900 ms  DeleteObjects: 0.590500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004645 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.763 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.7 MB.
+System memory in use after: 154.5 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2523.
+Total: 3.379100 ms (FindLiveObjects: 0.344800 ms CreateObjectMapping: 0.125900 ms MarkObjects: 2.313900 ms  DeleteObjects: 0.592600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004813 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.767 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.7 MB.
+System memory in use after: 154.6 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2527.
+Total: 2.486800 ms (FindLiveObjects: 0.282900 ms CreateObjectMapping: 0.050200 ms MarkObjects: 1.561800 ms  DeleteObjects: 0.590700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004819 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.07 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.831 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.7 MB.
+System memory in use after: 154.5 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2531.
+Total: 2.484000 ms (FindLiveObjects: 0.270300 ms CreateObjectMapping: 0.044600 ms MarkObjects: 1.575000 ms  DeleteObjects: 0.592900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007848 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.924 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.13 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.8 MB.
+System memory in use after: 154.6 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2535.
+Total: 3.473600 ms (FindLiveObjects: 0.302000 ms CreateObjectMapping: 0.049600 ms MarkObjects: 2.329900 ms  DeleteObjects: 0.789700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006052 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.751 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.7 MB.
+System memory in use after: 154.5 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2539.
+Total: 4.609100 ms (FindLiveObjects: 0.535500 ms CreateObjectMapping: 0.203000 ms MarkObjects: 2.867000 ms  DeleteObjects: 1.001800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008822 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.15 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.189 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.7 MB.
+System memory in use after: 154.6 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2543.
+Total: 3.227400 ms (FindLiveObjects: 0.365200 ms CreateObjectMapping: 0.099800 ms MarkObjects: 2.149900 ms  DeleteObjects: 0.610700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/ropes/rope4.fbx
-  artifactKey: Guid(7f64b3107763b4841ba374d14ffc84f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ropes/rope4.fbx using Guid(7f64b3107763b4841ba374d14ffc84f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '016287cb82d184e1e0f99712278f7c51') in 0.242145 seconds
-  Import took 0.247445 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
+  Time since last request: 3328.555170 seconds.
   path: Assets/Scenes/Game/Game.unity
   artifactKey: Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game/Game.unity using Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d061a1f7e8e6be8417f1077708eb6f') in 0.011463 seconds
-  Import took 0.015742 seconds .
+Start importing Assets/Scenes/Game/Game.unity using Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102a36c1c88bb0108346427faa208c43') in 0.020186 seconds
+  Import took 0.024365 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010598 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.39 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.564 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.19 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.8 MB.
+System memory in use after: 154.6 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2547.
+Total: 5.194100 ms (FindLiveObjects: 0.383800 ms CreateObjectMapping: 0.074600 ms MarkObjects: 3.353000 ms  DeleteObjects: 1.379200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000443 seconds.
-  path: Assets/Prefabs/ropes/rope5.fbx
-  artifactKey: Guid(c00889578b3a40a439fc98da3ae419aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ropes/rope5.fbx using Guid(c00889578b3a40a439fc98da3ae419aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631a1d113d963de50d1ff6bd7eb286f1') in 0.043641 seconds
-  Import took 0.048340 seconds .
+  Time since last request: 119.736009 seconds.
+  path: Assets/Scenes/Game/Game.unity
+  artifactKey: Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game/Game.unity using Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ace1db5ea68ec133c13802cd593b5d0') in 0.013124 seconds
+  Import took 0.017455 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1039.102461 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Content/Materials/wood_tiling_A.mat
-  artifactKey: Guid(117ee8cda72c5c94eb4d7fa2236aedd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Content/Materials/wood_tiling_A.mat using Guid(117ee8cda72c5c94eb4d7fa2236aedd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cef1ff38a49d7bfc87be7737a4996e5') in 0.091209 seconds
-  Import took 0.097814 seconds .
+  Time since last request: 177.274324 seconds.
+  path: Assets/Scenes/Game/Game.unity
+  artifactKey: Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game/Game.unity using Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b02771e3a7a386d10377e030218e316') in 0.003988 seconds
+  Import took 0.008519 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005409 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.753 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.8 MB.
+System memory in use after: 154.6 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2551.
+Total: 2.801600 ms (FindLiveObjects: 0.330200 ms CreateObjectMapping: 0.089600 ms MarkObjects: 1.802800 ms  DeleteObjects: 0.577900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.984490 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Content/Meshes/Main/Materials/Curbs.mat
-  artifactKey: Guid(a9ecc1439c6f35b42b54164ff1c3fd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Content/Meshes/Main/Materials/Curbs.mat using Guid(a9ecc1439c6f35b42b54164ff1c3fd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d863c321d145168590e8aac9a09fde') in 0.049734 seconds
-  Import took 0.055419 seconds .
+  Time since last request: 228.251061 seconds.
+  path: Assets/Scenes/Game/Game.unity
+  artifactKey: Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game/Game.unity using Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e977a599268263e56acbe8d7cb07e4a9') in 0.014588 seconds
+  Import took 0.018608 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.001503 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Content/Meshes/Main/Materials/Curbs.mat
-  artifactKey: Guid(a9ecc1439c6f35b42b54164ff1c3fd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Content/Meshes/Main/Materials/Curbs.mat using Guid(a9ecc1439c6f35b42b54164ff1c3fd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d863c321d145168590e8aac9a09fde') in 0.031488 seconds
-  Import took 0.038272 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004727 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.741 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.8 MB.
+System memory in use after: 154.6 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2555.
+Total: 3.134500 ms (FindLiveObjects: 0.332800 ms CreateObjectMapping: 0.093800 ms MarkObjects: 2.120700 ms  DeleteObjects: 0.584200 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 1.861698 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Content/Meshes/Main/Materials/Prop_KitchenProps.mat
-  artifactKey: Guid(febb6c043b39b494285b36e273d72a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Content/Meshes/Main/Materials/Prop_KitchenProps.mat using Guid(febb6c043b39b494285b36e273d72a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47e1053fb2a8e49799e748e9232c205') in 0.072718 seconds
-  Import took 0.156509 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006715 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.45 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.355 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.67 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.8 MB.
+System memory in use after: 154.6 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 48.399200 seconds.
-  path: Assets/Prefabs/ropes/rope4.prefab
-  artifactKey: Guid(b9f4023db531bb541aab8204f846d9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ropes/rope4.prefab using Guid(b9f4023db531bb541aab8204f846d9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0d5859813597872dc503cd2aa12d9d') in 0.053191 seconds
-  Import took 0.060366 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009886 seconds.
-  path: Assets/Prefabs/ropes/rope4.prefab
-  artifactKey: Guid(b9f4023db531bb541aab8204f846d9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ropes/rope4.prefab using Guid(b9f4023db531bb541aab8204f846d9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0d5859813597872dc503cd2aa12d9d') in 0.058158 seconds
-  Import took 0.066301 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.356345 seconds.
-  path: Assets/Prefabs/ropes/rope5.prefab
-  artifactKey: Guid(6aa0344958e78944b979218f79e8e9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ropes/rope5.prefab using Guid(6aa0344958e78944b979218f79e8e9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69b2542d7187a4964c415d2baad7c0b') in 0.054893 seconds
-  Import took 0.064845 seconds .
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2559.
+Total: 4.921000 ms (FindLiveObjects: 0.593600 ms CreateObjectMapping: 0.076400 ms MarkObjects: 3.265300 ms  DeleteObjects: 0.984200 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

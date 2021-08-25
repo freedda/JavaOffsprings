@@ -18,7 +18,7 @@ public class DBscriptMultiple : MonoBehaviour
     }
     #endregion
     
-    private string dbName = "URI=file:theory.db";
+    private string dbName = "URI=file:theoryMultiple.db";
     private string option;
     private int currentQ;
     public GameObject[] options;
@@ -46,8 +46,7 @@ public class DBscriptMultiple : MonoBehaviour
         // Create database
         CreateDB();
         // Add a theory question with options and correct answer
-       // AddTheory(3, "In Java, code needs to be inside:" , "an instance", "a class" , "a method" , "an object", 2);
-
+       // AddTheory(12, "Which keyword is used to inherit from a class?" , "superclass", "subclass" , "inherits" , "extends", 4);
         
         // Display records to the console 
         DisplayTheory();
@@ -106,7 +105,7 @@ public class DBscriptMultiple : MonoBehaviour
             {
                 // Select from the database
                 command.CommandText = "SELECT * FROM theory ORDER BY questionID;";
-
+              //  command.CommandText = "DELETE FROM theory WHERE questionID =7";
                 // Iterate through the recordset and display
                 using (IDataReader reader = command.ExecuteReader())
                 {
@@ -149,21 +148,21 @@ public class DBscriptMultiple : MonoBehaviour
     public void correct()
     {   
         // Remove question from the list
-      //  QnA.RemoveAt(currentQ);
+        QnA.RemoveAt(currentQ);
         // Generate next question
         generateQuestion();
     }
     
     void generateQuestion()
     {
-        /*for (int i = 0; i < QnA.Count; i++)
+        for (int i = 0; i < QnA.Count; i++)
         {
             currentQ = i;
             QTxt.text = QnA[currentQ].Question;
            // correctAnswerText.text = QnA[currentQ].correctAnswer;
             setAnswers();
-        }*/
-        currentQ = UnityEngine.Random.Range(0, QnA.Count-1);
+        }
+        //currentQ = UnityEngine.Random.Range(0, QnA.Count-1);
         QTxt.text = QnA[currentQ].Question;
         // correctAnswerText.text = QnA[currentQ].correctAnswer;
         setAnswers();
