@@ -9,10 +9,8 @@ public class Score : MonoBehaviour
     private DBscriptMultiple dbMultipleManager;
     private DBscriptBlanks dbBlanksManager;
     private int blanksCorrect;
-    private int blanksWrong;
     private int multipleCorrect;
-    private int multipleWrong;
-
+    
     public TextMeshProUGUI scoreText; 
     
     // Start is called before the first frame update
@@ -27,16 +25,15 @@ public class Score : MonoBehaviour
     void Update()
     {   
         // update current values
-        multipleCorrect = dbMultipleManager.correctNum; 
-        multipleWrong = dbMultipleManager.wrongNum;
+        multipleCorrect = dbMultipleManager.correctNum;
         blanksCorrect = dbBlanksManager.correctNum;
-        blanksWrong = dbBlanksManager.wrongNum;
+        
     }
     
     public void getScore()
     {   
         // calculate current score
-        double score = ((float)blanksCorrect + (float)multipleCorrect) / ((float)blanksCorrect + (float)blanksWrong + (float)multipleCorrect + (float)multipleWrong) * 100;
+        double score = ((float) blanksCorrect + (float) multipleCorrect) / 31 * 100;
         
         if (Double.IsNaN(score))
         {   
