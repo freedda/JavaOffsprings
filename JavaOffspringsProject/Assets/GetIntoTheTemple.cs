@@ -9,7 +9,8 @@ public class GetIntoTheTemple : MonoBehaviour
    private GameObject myPlayer;
    Vector3 warpPosition = Vector3.zero;
    private bool isTrigger = false;
-
+   public GameObject finalPanel;
+   [SerializeField] private Animator animator;
 
    private void Update()
    {
@@ -22,6 +23,8 @@ public class GetIntoTheTemple : MonoBehaviour
       if (isTrigger)
       {
          myPlayer.transform.position = new Vector3(178, 41, -151);
+         finalPanel.SetActive(true);
+         animator.SetTrigger("Activate");
       }
    }
 
