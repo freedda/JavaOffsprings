@@ -5,6 +5,8 @@ using UnityEngine;
 public class AnswerPlayAudio : MonoBehaviour
 {
     public AudioSource m_MyAudioSource;
+
+    public GameObject other;
     // Start is called before the first frame update
     private bool flag;
     void Start()
@@ -15,16 +17,16 @@ public class AnswerPlayAudio : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (gameObject.activeSelf && flag)
+        if (other.activeSelf && flag)
         {
             flag = false;
             m_MyAudioSource.Play();
         }
-
-        if (!gameObject.activeSelf)
+      
+        if (!other.activeSelf)
         {
             flag = true;
-            Debug.Log("TTO GAME OBJECT EINAI " + gameObject + "katastasi " + gameObject.activeSelf);
+   
         }
 
     }
