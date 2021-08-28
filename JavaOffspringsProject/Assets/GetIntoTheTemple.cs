@@ -6,42 +6,41 @@ using TMPro;
 using UnityEngine;
 
 public class GetIntoTheTemple : MonoBehaviour
-{
+{  
+   // for single player
    private GameObject myPlayer;
+   // for two players
    private GameObject[] players;
+   
    Vector3 warpPosition = Vector3.zero;
    private bool isTrigger = false;
-   public GameObject finalPanel;
+   public GameObject finalImagePanel;
+   public GameObject finalScorePanel;
    [SerializeField] private Animator animator;
-   
    
    public TextMeshProUGUI textDisplay;
    public AudioSource m_MyAudioSource1;
    public AudioSource m_MyAudioSource2;
-   private bool flag;
    private bool m_Play;
 
    private void Start()
    {
-      flag = true;
       m_Play = true;
    }
 
    private void Update()
    {
+      // for single player
       myPlayer = GameObject.FindGameObjectWithTag("Player");
-      if (flag)
-      {
-         players = GameObject.FindGameObjectsWithTag("Player");
-         flag = false;
-
-      }
+      // for two players
+      players = GameObject.FindGameObjectsWithTag("Player");
+      
     
       if (isTrigger && m_Play)
       {
          m_Play = false;
          myPlayer.transform.position = new Vector3(178, 41, -151);
-         finalPanel.SetActive(true);
+         finalImagePanel.SetActive(true);
          animator.SetTrigger("Activate");
          if (players.Length.Equals(2))
          {
@@ -53,8 +52,6 @@ public class GetIntoTheTemple : MonoBehaviour
             m_MyAudioSource2.Play();
             StartCoroutine(Type2());
          }
-
-
       }
    }
 
@@ -65,12 +62,9 @@ public class GetIntoTheTemple : MonoBehaviour
         isTrigger = true;
         PlayersMovement.instance.flagMove = false; 
       }
-      
-
    }
    
-   
-        //Create a coroutine for 2 players
+   //Create a coroutine for 2 players
    IEnumerator Type1() {
           
          textDisplay.text = "You did it! You have succeeded in completing all your quests and have reached your final destination, the Temple!";
@@ -82,7 +76,7 @@ public class GetIntoTheTemple : MonoBehaviour
          textDisplay.text = " Now you are successors, of the Kingdom of Java!!";
          yield return new WaitForSeconds(3f);
          textDisplay.text = "";
-         
+         setFinalCanvases();
    }
    
    IEnumerator Type2() {
@@ -96,8 +90,13 @@ public class GetIntoTheTemple : MonoBehaviour
       textDisplay.text = " Now you are successor, of the Kingdom of Java!!";
       yield return new WaitForSeconds(3f);
       textDisplay.text = "";
-         
+      setFinalCanvases();
    }
-    
+
+   void setFinalCanvases()
+   {
+      finalImagePanel.SetActive(false);
+      finalScorePanel.SetActive(true);
+   }
 
 }

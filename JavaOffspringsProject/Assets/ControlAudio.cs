@@ -8,37 +8,32 @@ using UnityEngine.UI;
 
 public class ControlAudio : MonoBehaviour
 {
-        //Audio for 2 players
+        //Audio for two players
         public AudioSource m_MyAudioSource1;
-        //Audio for 1 player
+        //Audio for single player
         public AudioSource m_MyAudioSource2;
         
         private GameObject player;
     
         private GameObject[] players;
     
-        private bool m_Play; 
-        
-        private bool flag;
-    
+        private bool m_Play;
+
         public TextMeshProUGUI textDisplay;
         
     
         void Start(){ 
-           
-            flag = true;
+            
             m_Play = true;
         }
     
         private void Update()
-        {
+        {   
+            // for single player
             player = GameObject.FindGameObjectWithTag("Player");
-            if (flag)
-            {
-                players = GameObject.FindGameObjectsWithTag("Player");
-                flag = false;
-
-            }
+            // for two players
+            players = GameObject.FindGameObjectsWithTag("Player");
+             
             
             StartTheAudio();
         }

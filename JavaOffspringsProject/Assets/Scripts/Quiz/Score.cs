@@ -6,10 +6,20 @@ using UnityEngine;
 
 public class Score : MonoBehaviour
 {
+    #region Singleton
+    public static Score instance;
+
+    void Awake()
+    {
+        instance = this;
+    }
+    #endregion
+    
     private DBscriptMultiple dbMultipleManager;
     private DBscriptBlanks dbBlanksManager;
     private int blanksCorrect;
     private int multipleCorrect;
+    public double score = 0;
     
     public TextMeshProUGUI scoreText; 
     
@@ -19,6 +29,7 @@ public class Score : MonoBehaviour
         // instances from  db scripts
         dbBlanksManager = DBscriptBlanks.instance.GetComponent<DBscriptBlanks>();
         dbMultipleManager = DBscriptMultiple.instance.GetComponent<DBscriptMultiple>();
+        
     }
 
     // Update is called once per frame
@@ -27,13 +38,13 @@ public class Score : MonoBehaviour
         // update current values
         multipleCorrect = dbMultipleManager.correctNum;
         blanksCorrect = dbBlanksManager.correctNum;
-        
+        calculateScore();
     }
     
-    public void getScore()
+    public void calculateScore()
     {   
         // calculate current score
-        double score = ((float) blanksCorrect + (float) multipleCorrect) / 31 * 100;
+        score = ((float) blanksCorrect + (float) multipleCorrect) / 31 * 100;
         
         if (Double.IsNaN(score))
         {   
@@ -47,4 +58,6 @@ public class Score : MonoBehaviour
         }
 
     }
+    
+
 }
