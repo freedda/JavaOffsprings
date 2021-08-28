@@ -4,7 +4,7 @@ using UnityEngine.EventSystems;
 public class LookWithTheMouse : MonoBehaviour
 {
     public Transform rotatePlayersBody;
-    private float mouseControl = 72;
+    private float mouseControl = 20;
     private float xAxisRotation = 0f;
     
     // Start is called before the first frame update

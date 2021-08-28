@@ -46,7 +46,7 @@ public class DBscriptMultiple : MonoBehaviour
         // Create database
         CreateDB();
         // Add a theory question with options and correct answer
-       // AddTheory(12, "Which keyword is used to inherit from a class?" , "superclass", "subclass" , "inherits" , "extends", 4);
+       // AddTheory(13, " " , " ", " " , " " , " ", 4);
         
         // Display records to the console 
         DisplayTheory();

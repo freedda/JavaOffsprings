@@ -54,8 +54,7 @@ public class DBscriptBlanks : MonoBehaviour
         // Create database
         CreateDB();
         // Add a theory question with options and correct answer
-       // AddTheory(19, "Write the following program using the superclass constructor:" , "public class Student{\n    protected int id;\n \n    public Student(int myID){\n        id=myID;}\n    }\n \npublic class Undergraduate __ Student{\n    private String name;\n    public Undergraduate (int myID, String name){\n        __(myID);\n        name = __ ;}\n}", 
-         //   "public class Student{\n    protected int id;\n \n    public Student(int myID){\n        id=myID;}\n    }\n \npublic class Undergraduate extends Student{\n    private String name;\n    public Undergraduate (int myID, String name){\n        super(myID);\n        name = myName;}\n}");
+      //  AddTheory(20, " " , " ", " ");
          
         // Display records to the console 
         DisplayTheory();
