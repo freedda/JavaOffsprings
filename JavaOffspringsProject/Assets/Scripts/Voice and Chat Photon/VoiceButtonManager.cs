@@ -27,7 +27,7 @@ public class VoiceButtonManager : MonoBehaviourPun
             if(view.IsMine) 
                 VoiceRecorder.TransmitEnabled = true;
         }
-        else if (Input.GetKeyUp(KeyCode.R))
+        else if (Input.GetKeyUp(KeyCode.LeftAlt))
         {   //stop transmit
             if(view.IsMine)
                 VoiceRecorder.TransmitEnabled = false;

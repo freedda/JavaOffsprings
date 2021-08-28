@@ -142,10 +142,11 @@ namespace SunTemple
 				if (DoorCollider.Raycast (ray, out hit, MaxDistance)) {
 					if (IsLocked == false) {
 						cursor.SetCursorToDoor ();
-					} else if (IsLocked == true) {
+					} else {
 						cursor.SetCursorToLocked ();
 					}					
-				} else {
+				}
+				else {
 					cursor.SetCursorToDefault ();
 				}
 			}
