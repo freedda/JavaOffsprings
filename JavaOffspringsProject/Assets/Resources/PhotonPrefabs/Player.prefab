@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 1263371823999771153}
   - component: {fileID: -3488813799194883226}
   - component: {fileID: 7892327880309635646}
-  - component: {fileID: -9131841384808241774}
   - component: {fileID: 6598764246083292541}
   - component: {fileID: 8431992891764266383}
   - component: {fileID: 922989513969530549}
@@ -153,7 +152,7 @@ MonoBehaviour:
   observableSearch: 2
   ObservedComponents:
   - {fileID: 7892327880309635646}
-  - {fileID: -9131841384808241774}
+  - {fileID: 0}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -173,33 +172,6 @@ MonoBehaviour:
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
   m_UseLocal: 1
---- !u!114 &-9131841384808241774
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6551049343285595807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b8c4a61274f60b4ea5fb4299cfdbf14, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowLayerWeightsInspector: 1
-  ShowParameterInspector: 1
-  m_SynchronizeParameters:
-  - Type: 3
-    SynchronizeType: 0
-    Name: condition
-  - Type: 3
-    SynchronizeType: 0
-    Name: conditionR
-  - Type: 3
-    SynchronizeType: 0
-    Name: conditionL
-  m_SynchronizeLayers:
-  - SynchronizeType: 0
-    LayerIndex: 0
 --- !u!114 &6598764246083292541
 MonoBehaviour:
   m_ObjectHideFlags: 0

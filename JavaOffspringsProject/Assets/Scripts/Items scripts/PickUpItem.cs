@@ -72,17 +72,11 @@ public class PickUpItem : MonoBehaviourPun
    protected  virtual void Update()
    {
       player = GameObject.FindGameObjectWithTag(playerTag);
-     
-      if (player == null)
-      {
-         // Debug.Log("DEN VRISKEI PAIKTI");
-         return;
-      }
+      
      
       if (m_MyAudioSource != null && flag)
       {
          m_MyAudioSource.Play();
-         Debug.Log("Mpike mesa tn if");
          flag = false;
       }
       ActiveCanvasWithE();
@@ -136,7 +130,6 @@ public class PickUpItem : MonoBehaviourPun
          }
          
          messagePanel.SetActive(true);
-         //Debug.Log("ENERGIOPOIHHHHHSE TON CANVVVVVA pou einai o  " + messagePanel + " einai einai " + messagePanel.activeSelf);
       }
       else 
       {

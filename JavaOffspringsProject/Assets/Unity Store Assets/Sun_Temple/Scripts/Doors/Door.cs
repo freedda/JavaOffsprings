@@ -76,7 +76,7 @@ namespace SunTemple
 			Player = GameObject.FindGameObjectWithTag (playerTag);
         
         	if (!Player) {
-        		Debug.LogWarning (this.GetType ().Name + ".cs on " + this.name + ", No object tagged with " + playerTag + " found in Scene", gameObject);
+        		//Debug.LogWarning (this.GetType ().Name + ".cs on " + this.name + ", No object tagged with " + playerTag + " found in Scene", gameObject);
         		scriptIsEnabled = false;
         		return;
         	}	
@@ -84,7 +84,7 @@ namespace SunTemple
             
             Cam = Camera.main;
             if (!Cam) {
-	            Debug.LogWarning (this.GetType ().Name + ", No objects tagged with MainCamera in Scene", gameObject);
+	            //Debug.Log (this.GetType ().Name + ", No objects tagged with MainCamera in Scene", gameObject);
 	            scriptIsEnabled = false;
             }
         	
@@ -126,7 +126,6 @@ namespace SunTemple
 				if (DoorCollider.Raycast(ray, out hit, MaxDistance)){					
 					if (IsLocked == false){
 						view.RPC("Activate",  RpcTarget.All);
-						//Activate ();
 					}
 				}
 			}

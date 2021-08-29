@@ -377,6 +377,7 @@
 "Assets/Scripts/Quiz/Score.cs"
 "Assets/Scripts/Voice and Chat Photon/ChatManager.cs"
 "Assets/Scripts/Voice and Chat Photon/VoiceButtonManager.cs"
+"Assets/setGameObjectActive.cs"
 "Assets/takeIconsSprites.cs"
 "Assets/Unity Store Assets/Sun_Temple/PostProcessing/Runtime/Attributes/GetSetAttribute.cs"
 "Assets/Unity Store Assets/Sun_Temple/PostProcessing/Runtime/Attributes/MinAttribute.cs"

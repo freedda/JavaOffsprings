@@ -12,7 +12,7 @@ public class VoiceButtonManager : MonoBehaviourPun
     private PhotonView view;
     void Start()
     {
-        view = photonView;
+        view = GetComponent<PhotonView>();
         VoiceRecorder.TransmitEnabled = false;
 
     }
