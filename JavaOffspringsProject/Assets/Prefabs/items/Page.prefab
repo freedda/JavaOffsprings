@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 7331662289094221353}
   - component: {fileID: 5142004865408240770}
   - component: {fileID: 2775827105990234605}
-  - component: {fileID: 1388910406025540370}
   m_Layer: 6
   m_Name: Page
   m_TagString: Untagged
@@ -55,6 +54,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -114,7 +114,9 @@ MonoBehaviour:
   interactionTransform: {fileID: 7331662289094221356}
   player: {fileID: 0}
   item: {fileID: 0}
+  myCanvas: {fileID: 0}
   messagePanel: {fileID: 0}
+  theoryPanel: {fileID: 0}
 --- !u!114 &2775827105990234605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -134,23 +136,7 @@ MonoBehaviour:
   OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
-  - {fileID: 1388910406025540370}
+  - {fileID: 0}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
---- !u!114 &1388910406025540370
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7331662289094221352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizePosition: 1
-  m_SynchronizeRotation: 1
-  m_SynchronizeScale: 0
-  m_UseLocal: 1

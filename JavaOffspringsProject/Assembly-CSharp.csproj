@@ -41,7 +41,6 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\FxaaComponent.cs" />
      <Compile Include="Assets\Scripts\Player&apos;s scripts\uniqueKeys.cs" />
      <Compile Include="Assets\Photon\PhotonLibs\WebSocket\WebSocket.cs" />
@@ -885,10 +884,6 @@
       <Project>{5daa1b5e-54d2-0e08-ec16-4cf68e3e4451}</Project>
       <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="PunDemos.DemoHubEditor.csproj">
-      <Project>{97fc185e-ac1f-880a-1a62-6f520fefd3db}</Project>
-      <Name>PunDemos.DemoHubEditor</Name>
-    </ProjectReference>
     <ProjectReference Include="PhotonRealtime.csproj">
       <Project>{dfac48ff-467e-9728-c583-4527502a33ba}</Project>
       <Name>PhotonRealtime</Name>
@@ -909,10 +904,6 @@
       <Project>{523a7c8f-d466-ef6c-a413-d67a8991dbbe}</Project>
       <Name>PhotonVoice.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
-      <Project>{65d8874b-e21d-c654-888e-85c85885aa56}</Project>
-      <Name>PhotonUnityNetworking.Demos</Name>
-    </ProjectReference>
     <ProjectReference Include="PhotonVoice.PUN.Editor.csproj">
       <Project>{6263d0f5-3908-df83-3204-04fa9ae8d4f8}</Project>
       <Name>PhotonVoice.PUN.Editor</Name>
@@ -920,10 +911,6 @@
     <ProjectReference Include="PhotonVoice.Utilities.Editor.csproj">
       <Project>{527f81cb-80c3-6a76-6be6-2b14d8cbd629}</Project>
       <Name>PhotonVoice.Utilities.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
-      <Project>{8c68249b-2549-9fd5-6001-d4e86be15cea}</Project>
-      <Name>PunDemos.DemoSlotcarEditor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonVoice.PUN.csproj">
       <Project>{ce2b980e-dc9f-4351-524e-7543c4f63f76}</Project>
