@@ -378,19 +378,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Prees E:  Pick Up any item.
+  m_text: 'Prees E:  Pick Up an item.
 
-    Press R: Voice chat with other player.
+    Press left Alt: Voice chat with other
+    player.
 
-    Press
-    T: Chatting.
+    Press T + lest Shift: Chatting.
 
     Press Escape: Unlock your cursor.
 
-    Press the Button "Lock
-    Cursor" : to Lock your cursor.
+    Press
+    the Button "Lock Cursor" : to Lock your cursor.
 
-    Click with cursor to open the inventory.'
+    Click with cursor to open
+    the inventory and map.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

@@ -15,11 +15,11 @@ C:/Users/dimik/Desktop/πτυχιακή/JavaOffsprings/JavaOffspringsProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65387
+49800
 Successfully changed project path to: C:/Users/dimik/Desktop/πτυχιακή/JavaOffsprings/JavaOffspringsProject
 C:/Users/dimik/Desktop/πτυχιακή/JavaOffsprings/JavaOffspringsProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 71.79 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 139.33 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.18f1 (25bdc3efbc2d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001701 seconds.
+Registered in 0.002480 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 60.83 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 109.62 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.077 seconds
+- Completed reload, in  1.814 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1078ms)
-		BeginReloadAssembly (57ms)
+	ReloadAssembly (1815ms)
+		BeginReloadAssembly (89ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (407ms)
-			LoadAssemblies (55ms)
+		EndReloadAssembly (695ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (148ms)
+			SetupTypeCache (237ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (187ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (332ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (61ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (90ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (110ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007423 seconds.
+Registered in 0.011641 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 1.35 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.047 seconds
+- Completed reload, in  1.889 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1048ms)
-		BeginReloadAssembly (145ms)
+	ReloadAssembly (1890ms)
+		BeginReloadAssembly (241ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (843ms)
-			LoadAssemblies (87ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1546ms)
+			LoadAssemblies (154ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (292ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (338ms)
+			SetupTypeCache (556ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (587ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (51ms)
-				ProcessInitializeOnLoadAttributes (270ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (468ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.98 ms, found 7 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 2.05 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2089 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.5 MB.
-System memory in use after: 118.3 MB.
+System memory in use before: 118.4 MB.
+System memory in use after: 118.2 MB.
 
 Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 2517.
-Total: 3.702400 ms (FindLiveObjects: 0.204500 ms CreateObjectMapping: 0.049300 ms MarkObjects: 3.270800 ms  DeleteObjects: 0.176100 ms)
+Total: 7.770100 ms (FindLiveObjects: 0.321800 ms CreateObjectMapping: 0.129300 ms MarkObjects: 6.906600 ms  DeleteObjects: 0.409900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,427 +132,271 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Resources/PhotonPrefabs/PrefabsPlayerManager.prefab
-  artifactKey: Guid(8f06bac4270e8a24d8e3bbdc856dfc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/PhotonPrefabs/PrefabsPlayerManager.prefab using Guid(8f06bac4270e8a24d8e3bbdc856dfc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '560a318e1a04f2341ee6b06d2aabab3c') in 0.038238 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Resources/PhotonPrefabs/Player.prefab
-  artifactKey: Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/PhotonPrefabs/Player.prefab using Guid(27eff444a74cf044e9d36c80eac18825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0d00b14e207240b3383b6e43402100') in 0.128073 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.010113 seconds.
   path: Assets/Scenes/Game/Game.unity
   artifactKey: Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game/Game.unity using Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c566d63a3a485bfbc8fac87a9904e2f0') in 0.003470 seconds 
+Start importing Assets/Scenes/Game/Game.unity using Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c7970fe835848096513f66b895955e') in 0.037547 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1213.092660 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_Bed_A.prefab
-  artifactKey: Guid(051ad94ddce68f94fa32b1eeeb503536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_Bed_A.prefab using Guid(051ad94ddce68f94fa32b1eeeb503536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ca25eef186f272d547f5699c0ff093') in 0.036887 seconds 
+  Time since last request: 37.263980 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/pavementB_tiling_dirty_A.tif
+  artifactKey: Guid(40615060e3bc0804e965cb4b3d07ae3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/pavementB_tiling_dirty_A.tif using Guid(40615060e3bc0804e965cb4b3d07ae3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b175c1e2bf1b129ef444f3a82ee71e41') in 0.155859 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_Bed_E.prefab
-  artifactKey: Guid(6d14b2d545d49fc4fb80106e92bc2b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_Bed_E.prefab using Guid(6d14b2d545d49fc4fb80106e92bc2b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab327f7265505c64679b209161b5738') in 0.022940 seconds 
+  Time since last request: 0.000440 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/plaster_trim_N.tif
+  artifactKey: Guid(802e965710577df459f538758f5aad52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/plaster_trim_N.tif using Guid(802e965710577df459f538758f5aad52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796fe6ab9d8944cc250b56349428ffd8') in 0.121466 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_BookCase_B.prefab
-  artifactKey: Guid(2902e212c68388d4c8574293809001c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_BookCase_B.prefab using Guid(2902e212c68388d4c8574293809001c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cbdce3f07e1159be0285cf3b82fa2d1') in 0.027800 seconds 
+  Time since last request: 0.000435 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_rocks_A.tif
+  artifactKey: Guid(ce2d9be16adf4eb408c965ea855cc439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_rocks_A.tif using Guid(ce2d9be16adf4eb408c965ea855cc439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3805cd22dc14c302db1ec56d70ecd952') in 0.025693 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_Candles_B.prefab
-  artifactKey: Guid(d13fb576f5aa0ac4a9b4cd9db48def44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_Candles_B.prefab using Guid(d13fb576f5aa0ac4a9b4cd9db48def44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b520cb82a6f3cddcae4eee08f6a044') in 0.016028 seconds 
+  Time since last request: 0.000572 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_books_A.tif
+  artifactKey: Guid(682c0b8bde88f954cadb71457c47f37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_books_A.tif using Guid(682c0b8bde88f954cadb71457c47f37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3fb2e9e0697c4469d60b0445ae66771') in 0.023350 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_BookCase_A.prefab
-  artifactKey: Guid(0db4603a37a6beb4ab919580fb219033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_BookCase_A.prefab using Guid(0db4603a37a6beb4ab919580fb219033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6243d54880076bb8a92227bc863c2c71') in 0.026751 seconds 
+  Time since last request: 0.000522 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/roof_gold_A.tiff
+  artifactKey: Guid(9e93bdf844feacd45b4bb636c3a09f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/roof_gold_A.tiff using Guid(9e93bdf844feacd45b4bb636c3a09f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9301bf0c4835c9e65d32730cdd37e6a2') in 0.028691 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.881312 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_Chair_C.prefab
-  artifactKey: Guid(4079c68ba0036f24b9f26a82d809a8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_Chair_C.prefab using Guid(4079c68ba0036f24b9f26a82d809a8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0380bf48ab01c0e10be8efaa1a0f443') in 0.024267 seconds 
+  Time since last request: 0.000442 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_porcelain_tiling_A.tif
+  artifactKey: Guid(d56db2610aa09264aa2a270e80e380c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_porcelain_tiling_A.tif using Guid(d56db2610aa09264aa2a270e80e380c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eab65cca2d7d59b9f7d7095f5ad1d8e') in 0.027463 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000443 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_ClayPot_A.prefab
-  artifactKey: Guid(0a52f4315fd3b6842b54bf8cac266877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_ClayPot_A.prefab using Guid(0a52f4315fd3b6842b54bf8cac266877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1b582bdde00b84e4742b341c41e2d4') in 0.017618 seconds 
+  Time since last request: 0.000444 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/skybox_blue.tif
+  artifactKey: Guid(cdddf5ac4181fa646873f379f204e5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/skybox_blue.tif using Guid(cdddf5ac4181fa646873f379f204e5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0fa49b008ae57b06d32d86c8f6204a') in 0.058883 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.476499 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_CupBoard_A.prefab
-  artifactKey: Guid(cd8f29cefe22c514abbd8824d857f3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_CupBoard_A.prefab using Guid(cd8f29cefe22c514abbd8824d857f3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d453e0de5a22bbbaa91feafc4fab04') in 0.040246 seconds 
+  Time since last request: 0.000487 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/reflectioncube1.tif
+  artifactKey: Guid(cec1aafc575cb8a42bdf70bc4872576c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/reflectioncube1.tif using Guid(cec1aafc575cb8a42bdf70bc4872576c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e5857822c59efd6ffac541fa03d3fb') in 0.036878 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.530308 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_Cupboard_B.prefab
-  artifactKey: Guid(1d8417c21ebd51945a62681014ad4314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_Cupboard_B.prefab using Guid(1d8417c21ebd51945a62681014ad4314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f91cc9d6edde1403e9a0353494fd7d') in 0.230984 seconds 
+  Time since last request: 0.000644 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/pavementB_tiling_dirty_N.tif
+  artifactKey: Guid(1f0c079cbb0433e4fad6d3c79551e146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/pavementB_tiling_dirty_N.tif using Guid(1f0c079cbb0433e4fad6d3c79551e146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09daf9accf6e9f49f5400fc6882cc53c') in 0.030422 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.806928 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_GrainSack_C.prefab
-  artifactKey: Guid(36887a9aa09c1e8498b1a0f12c243025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_GrainSack_C.prefab using Guid(36887a9aa09c1e8498b1a0f12c243025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505ba2e116115fac39144bb339de40fc') in 0.014994 seconds 
+  Time since last request: 0.000376 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/plaster_bluered_damaged_N.tiff
+  artifactKey: Guid(28c37a39bf4ef6a449af8d887d977c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/plaster_bluered_damaged_N.tiff using Guid(28c37a39bf4ef6a449af8d887d977c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c43196bd961e029d4128222772d2f1b') in 0.025723 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.695751 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_OvenSet_A.prefab
-  artifactKey: Guid(e407a9b9a74b89444a4ae4528203cb01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_OvenSet_A.prefab using Guid(e407a9b9a74b89444a4ae4528203cb01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b166a9f4d751e78f7dad3f353660e4e') in 0.061130 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_Pillow_B.prefab
-  artifactKey: Guid(3e4aa3cf9b4ce6c4a83e9cd290caf3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_Pillow_B.prefab using Guid(3e4aa3cf9b4ce6c4a83e9cd290caf3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dacfbbd6a3ee7de6af5f3f5297a29561') in 0.011732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_Roughbench_B_Det_A.prefab
-  artifactKey: Guid(71605caf757c6b64281cb10ffa80caa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_Roughbench_B_Det_A.prefab using Guid(71605caf757c6b64281cb10ffa80caa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f505a898c55dc24d76324d4cb3fb7b') in 0.020785 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.234371 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_Sofa_B.prefab
-  artifactKey: Guid(109311ae22786fa4689248ba85a3e6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_Sofa_B.prefab using Guid(109311ae22786fa4689248ba85a3e6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d11a75523b95c772cb852d113ee1e7') in 0.020081 seconds 
+  Time since last request: 0.000514 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_candles_A.tif
+  artifactKey: Guid(60ffd803dccda0540b5270aabed5757d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_candles_A.tif using Guid(60ffd803dccda0540b5270aabed5757d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5a9b6c91a6c9cd1cc23891f680a5c6') in 0.019470 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000388 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_Sofa_C.prefab
-  artifactKey: Guid(ee030b0ec84e4cb4199f6eea85012a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_Sofa_C.prefab using Guid(ee030b0ec84e4cb4199f6eea85012a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12deef327b99e42cc7c3ffe9e1f1038d') in 0.023349 seconds 
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_rugs_A.tif
+  artifactKey: Guid(4b8e44dd64bf29641bdcddfc2778840d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_rugs_A.tif using Guid(4b8e44dd64bf29641bdcddfc2778840d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5cab9ea108bf02f97b94f4d86d24f5') in 0.024451 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_Sofa_D.prefab
-  artifactKey: Guid(9e82725a488a8094b9cbd49420058692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_Sofa_D.prefab using Guid(9e82725a488a8094b9cbd49420058692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c220f8be2f29456f7e9851bfb073dc') in 0.025701 seconds 
+  Time since last request: 0.000517 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/plaster_trim_A.tif
+  artifactKey: Guid(4674148407bce784987d47994f8be148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/plaster_trim_A.tif using Guid(4674148407bce784987d47994f8be148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f27d58f76660ed5e84bc97c1c91ab7') in 0.057166 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 32.547752 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_StoneBricks_C (7).prefab
-  artifactKey: Guid(ffc465d2bfb74694087098a965a100be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_StoneBricks_C (7).prefab using Guid(ffc465d2bfb74694087098a965a100be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aacc395aefab3d4bdd1b23442104e2e') in 0.023093 seconds 
+  Time since last request: 0.000414 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/roof_clay_A.tif
+  artifactKey: Guid(2683032a776c70946aa141abe6d6a5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/roof_clay_A.tif using Guid(2683032a776c70946aa141abe6d6a5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9962b549b6282c5c91809afdce8c2671') in 0.022632 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000449 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_TableSet_B.prefab
-  artifactKey: Guid(e3b7b47626ba2e748a5851cec07bfd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_TableSet_B.prefab using Guid(e3b7b47626ba2e748a5851cec07bfd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1db6617333b23f698b02fdaecb0aa9') in 0.030688 seconds 
+  Time since last request: 0.000504 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_rocks2_A.tif
+  artifactKey: Guid(de8f8c2f5d7f2f44a87c44ca14261b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_rocks2_A.tif using Guid(de8f8c2f5d7f2f44a87c44ca14261b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a96656c80a9c16850e005da7dfa8dd9') in 0.021386 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000465 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_Stonestash_D.prefab
-  artifactKey: Guid(51e400dc43ba7a74780dfe0c4b2df4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_Stonestash_D.prefab using Guid(51e400dc43ba7a74780dfe0c4b2df4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f029136feab7084b466fbe11b7e6721') in 0.034623 seconds 
+  Time since last request: 0.000531 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/templetrims_M.tif
+  artifactKey: Guid(7d817c88719669a4f96c72f080c29c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/templetrims_M.tif using Guid(7d817c88719669a4f96c72f080c29c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0333c6fba13b201c7e4ca2dc680f000') in 0.027722 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.040019 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_TableSet_H.prefab
-  artifactKey: Guid(32db5c7fb3c94524a91d04336bd30bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_TableSet_H.prefab using Guid(32db5c7fb3c94524a91d04336bd30bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa990996b837c3ea7a91c9b3799caf72') in 0.023010 seconds 
+  Time since last request: 0.000585 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/roof_metal_N.tif
+  artifactKey: Guid(142d9b79898a4684c82d3fc8b26de55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/roof_metal_N.tif using Guid(142d9b79898a4684c82d3fc8b26de55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab3acffb2d237d489d019969fbe4cdf') in 0.034334 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_WoodPile_B.prefab
-  artifactKey: Guid(6d15f3c31fc781441bd95d7a09715f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_WoodPile_B.prefab using Guid(6d15f3c31fc781441bd95d7a09715f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5eade2a890359551e44820aff1ada9') in 0.024495 seconds 
+  Time since last request: 0.000315 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/templetrims_N.tiff
+  artifactKey: Guid(17b51d9c02e580f448efe4ed8bd94a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/templetrims_N.tiff using Guid(17b51d9c02e580f448efe4ed8bd94a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044cb3a67d03dd717bac62054596f488') in 0.024842 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_WoodLog_A (2).prefab
-  artifactKey: Guid(3d9e63e3064ad574f9fcfd577d6628e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_WoodLog_A (2).prefab using Guid(3d9e63e3064ad574f9fcfd577d6628e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16124f9ad2e0d646693a103bf327e209') in 0.015835 seconds 
+  Time since last request: 0.000415 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_stonestash_A.tif
+  artifactKey: Guid(6cf8f613ca8bd4742bc7779904df3fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_stonestash_A.tif using Guid(6cf8f613ca8bd4742bc7779904df3fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df449adada008cb6c0b057bc8f73caef') in 0.023053 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_TableSet_I.prefab
-  artifactKey: Guid(1db4358006deb1249bbb5854a751b3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Prefabs/Props/Prop_TableSet_I.prefab using Guid(1db4358006deb1249bbb5854a751b3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7d1a4f7567787858b4e0e9fe8b81e9') in 0.021664 seconds 
+  Time since last request: 0.000572 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_rocks_N.tif
+  artifactKey: Guid(4c08a203851a13a4e950dd27d7656eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_rocks_N.tif using Guid(4c08a203851a13a4e950dd27d7656eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab2daae5c715c7e65a827406b2d6f91') in 0.026989 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1611.118490 seconds.
-  path: Assets/Unity Store Assets/CS - Signs Free/Prefabs/Small/Sign_Stop.prefab
-  artifactKey: Guid(fddcb9d43ad1f1c43ad85d2185df40db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/CS - Signs Free/Prefabs/Small/Sign_Stop.prefab using Guid(fddcb9d43ad1f1c43ad85d2185df40db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6e0968f47c4ca9274b58d820840330') in 0.666102 seconds 
+  Time since last request: 0.000453 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/roof_metal_R.tif
+  artifactKey: Guid(b286a2786dfdc6e49a27211b8ee34206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/roof_metal_R.tif using Guid(b286a2786dfdc6e49a27211b8ee34206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbbf3f068c01e024f315b6cf0e7ba542') in 0.022892 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000607 seconds.
-  path: Assets/Unity Store Assets/CS - Signs Free/Prefabs/Small/Sign_Yield.prefab
-  artifactKey: Guid(eb0ab8fd899d39642b80eab6b17b2b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/CS - Signs Free/Prefabs/Small/Sign_Yield.prefab using Guid(eb0ab8fd899d39642b80eab6b17b2b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99cd14eeba80a67b13b7629ec73f7ada') in 0.064941 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.016957 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.40 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.704 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1705ms)
-		BeginReloadAssembly (257ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (1349ms)
-			LoadAssemblies (210ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (494ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (497ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (395ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.32 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2039 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.9 MB.
-System memory in use after: 131.7 MB.
-
-Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 2529.
-Total: 4.797500 ms (FindLiveObjects: 0.308700 ms CreateObjectMapping: 0.142900 ms MarkObjects: 4.110100 ms  DeleteObjects: 0.233400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 0.000443 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_kitchenprops_A.tif
+  artifactKey: Guid(1e2f457c31c87dc42b7cc2e0d7e9405c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_kitchenprops_A.tif using Guid(1e2f457c31c87dc42b7cc2e0d7e9405c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735f8e5a6fb5d3849d5e6d5938b7c6f4') in 0.019556 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 352.829776 seconds.
-  path: Assets/Scenes/Game/Game.unity
-  artifactKey: Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game/Game.unity using Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0cdf8ae8f8c199bf7f618b4636f7417') in 0.026083 seconds 
+  Time since last request: 0.000376 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/roof_clay_R.tif
+  artifactKey: Guid(b7461ba3aba6e104ca32e5509e5e9b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/roof_clay_R.tif using Guid(b7461ba3aba6e104ca32e5509e5e9b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896f88aa42c0c7301bf37f74abf4ac67') in 0.017212 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.609381 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Content/Meshes/Main/Bld_LongTriangular_Base.fbx
-  artifactKey: Guid(916ae11b430b3cd4db35a18dad5510b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Content/Meshes/Main/Bld_LongTriangular_Base.fbx using Guid(916ae11b430b3cd4db35a18dad5510b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c523ae33ab6e6741a225244ce864ac55') in 0.210791 seconds 
+  Time since last request: 0.000310 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/templetrims_A.tiff
+  artifactKey: Guid(7ddb44395b333df44947a057554ed5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/templetrims_A.tiff using Guid(7ddb44395b333df44947a057554ed5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94275f2e0c7e6b075769ecfe5111b76') in 0.016900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_fabric_A.tif
+  artifactKey: Guid(0dd092d4a80840e499121369f7a57b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_fabric_A.tif using Guid(0dd092d4a80840e499121369f7a57b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a42768a8a6a33793820b9bc6d51cff6') in 0.016132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/plaster_red_A.tif
+  artifactKey: Guid(c26f1ca9edaa23a44b9e23c22a4e2339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/plaster_red_A.tif using Guid(c26f1ca9edaa23a44b9e23c22a4e2339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589a84dba7c69b716033ef303048f816') in 0.036396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_woodlogs_A.tif
+  artifactKey: Guid(5035219ca625bd4428d2a842bc89ac3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_woodlogs_A.tif using Guid(5035219ca625bd4428d2a842bc89ac3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b1be8aefdfd263f38448450de5831f') in 0.016195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/roof_metal_M.tiff
+  artifactKey: Guid(096573b2449c81f42b9563f85c12dd00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/roof_metal_M.tiff using Guid(096573b2449c81f42b9563f85c12dd00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8f43fd0c1b2fd83754fcc13fb45190') in 0.015288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_woodlogs_EM.tif
+  artifactKey: Guid(c1034516266bbd842b2165b9c6faba2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_woodlogs_EM.tif using Guid(c1034516266bbd842b2165b9c6faba2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4b849a914ad0b0f4faf9531f565e22') in 0.018843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_stonestash_N.tiff
+  artifactKey: Guid(229120eac466b5e47b87b724e1d79e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_stonestash_N.tiff using Guid(229120eac466b5e47b87b724e1d79e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7575d274b89a43079762ae604171d83f') in 0.021729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/plaster_white_N.tiff
+  artifactKey: Guid(b87324f48d72cb745965b6704c60c274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/plaster_white_N.tiff using Guid(b87324f48d72cb745965b6704c60c274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f0d93e13c523484d0e7015f068945f') in 0.035172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000599 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/roof_clay_N.tif
+  artifactKey: Guid(1c97f68ae6499b1468f8269715ddbb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/roof_clay_N.tif using Guid(1c97f68ae6499b1468f8269715ddbb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787de86d749dc1f0c99caa7c5337c540') in 0.019201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000529 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/roof_gold_N.tiff
+  artifactKey: Guid(925888bf3d638aa4f909c9426727392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/roof_gold_N.tiff using Guid(925888bf3d638aa4f909c9426727392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac71b32f36aa04b3688382498787b297') in 0.018810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/plaster_desaturated_A.tif
+  artifactKey: Guid(aa71ecac94f191a46a3a9d51cfc4f562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/plaster_desaturated_A.tif using Guid(aa71ecac94f191a46a3a9d51cfc4f562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5506c72c993e5238025a2534acb3c74') in 0.025642 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000319 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Content/Meshes/Main/Bld_LongTriangular_Base_Hollow.fbx
-  artifactKey: Guid(53e700b6d2433644cba5dc3511d3147b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Content/Meshes/Main/Bld_LongTriangular_Base_Hollow.fbx using Guid(53e700b6d2433644cba5dc3511d3147b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4b69eb1509d4118c9e0686d348eab6') in 0.092950 seconds 
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/stones_rough_A.tif
+  artifactKey: Guid(768df9b56b6e14b49a0661e9f9cb4936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/stones_rough_A.tif using Guid(768df9b56b6e14b49a0661e9f9cb4936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53883e7c4d326359f74836ed81710d0') in 0.029725 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 58.205804 seconds.
-  path: Assets/Unity Store Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_LongTriangular_B_Interior_A.prefab
-  artifactKey: Guid(7c202d8cd54543b4487d577b8919ffee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Store Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_LongTriangular_B_Interior_A.prefab using Guid(7c202d8cd54543b4487d577b8919ffee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0fa32e732ba4dbc3c5504b5276557eb') in 0.851357 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012861 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.77 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.693 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1693ms)
-		BeginReloadAssembly (196ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (72ms)
-		EndReloadAssembly (1359ms)
-			LoadAssemblies (149ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (485ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (517ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (410ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.25 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2039 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.3 MB.
-System memory in use after: 133.1 MB.
-
-Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 2536.
-Total: 8.197500 ms (FindLiveObjects: 0.316100 ms CreateObjectMapping: 0.137800 ms MarkObjects: 7.363600 ms  DeleteObjects: 0.377000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 0.000349 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_stones_N.tiff
+  artifactKey: Guid(453d7f0ebf6c4024f97c25bc8a8b42b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_stones_N.tiff using Guid(453d7f0ebf6c4024f97c25bc8a8b42b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cecb5f7b13bc8c0e80cb966c67aa88d') in 0.016000 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 387.743201 seconds.
-  path: Assets/Scenes/Game/Game.unity
-  artifactKey: Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game/Game.unity using Guid(9d99a684b541cc046bf54e92be20bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b12b43258907a1f29f3a65979b1e4a') in 0.027828 seconds 
+  Time since last request: 0.000342 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/stones_rough_N.tiff
+  artifactKey: Guid(2888183964b40f5458c685f32edb94a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/stones_rough_N.tiff using Guid(2888183964b40f5458c685f32edb94a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc7a3b7f9d3f09b22eb3929d73dc4b9') in 0.020092 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.015425 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.43 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.651 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1651ms)
-		BeginReloadAssembly (227ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		EndReloadAssembly (1321ms)
-			LoadAssemblies (178ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (462ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (505ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (401ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.96 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2039 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.3 MB.
-System memory in use after: 133.2 MB.
-
-Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 2539.
-Total: 5.116000 ms (FindLiveObjects: 0.261600 ms CreateObjectMapping: 0.076800 ms MarkObjects: 4.515200 ms  DeleteObjects: 0.260600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/plaster_bluered_N.tif
+  artifactKey: Guid(c0c439fe24dd1824dba5f2d9c60cc7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/plaster_bluered_N.tif using Guid(c0c439fe24dd1824dba5f2d9c60cc7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1938c64f8a4ceae439ce97d8f497903') in 0.019350 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013171 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.702 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1703ms)
-		BeginReloadAssembly (215ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (1361ms)
-			LoadAssemblies (189ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (467ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (542ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (443ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.31 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2039 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.4 MB.
-System memory in use after: 133.2 MB.
-
-Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 2542.
-Total: 7.397600 ms (FindLiveObjects: 0.308500 ms CreateObjectMapping: 0.136900 ms MarkObjects: 6.579000 ms  DeleteObjects: 0.370500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/pavementB_tiling_N.tiff
+  artifactKey: Guid(0818a64034c73ef4caa399a4da6cc2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/pavementB_tiling_N.tiff using Guid(0818a64034c73ef4caa399a4da6cc2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5bf7accdb184aacd12a6b4496a011c') in 0.020712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/stones_rough_H.tiff
+  artifactKey: Guid(c439bf3cccbea5048a317aca85c8cc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/stones_rough_H.tiff using Guid(c439bf3cccbea5048a317aca85c8cc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2226325b315c3a6a1b79c3ab9ae1f804') in 0.017390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_stones_A.tif
+  artifactKey: Guid(f609109b31e374b4d90d3b390c70992d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_stones_A.tif using Guid(f609109b31e374b4d90d3b390c70992d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148c45a2e731dab254b0177268bf7ab4') in 0.015313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/roof_metal_A.tif
+  artifactKey: Guid(cd9a79114ea274249b7d9d2dc46e1418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/roof_metal_A.tif using Guid(cd9a79114ea274249b7d9d2dc46e1418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed95fceaa321479488f53fb3262175e9') in 0.021040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/plaster_blue_A.tif
+  artifactKey: Guid(9c6191ee3ccc8e24f97562f0155ccbec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/plaster_blue_A.tif using Guid(9c6191ee3ccc8e24f97562f0155ccbec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19306d660ad6e4e0b7b347641d3e0eae') in 0.032043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_kitchenprops_R.tif
+  artifactKey: Guid(bb83480ef5792a54a9c19fb85150d3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/Sun_Temple/Content/Textures/prop_kitchenprops_R.tif using Guid(bb83480ef5792a54a9c19fb85150d3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a1e5fba55a4fa21331381c5e445bcb') in 0.022723 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
