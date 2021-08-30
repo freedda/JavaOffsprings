@@ -114,6 +114,7 @@
      <Compile Include="Assets\ActivatePage.cs" />
      <Compile Include="Assets\Scripts\Canvases scripts\UIButtonExitGame.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\FPSController\CursorLock.cs" />
+     <Compile Include="Assets\setGameObjectActive.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\Culling\CullDistanceVolume.cs" />
      <Compile Include="Assets\GetIntoTheTemple.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\Doors\CursorManager.cs" />
@@ -142,7 +143,6 @@
      <Compile Include="Assets\Scripts\MasterClient scripts\PlayerListNames.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\DitheringModel.cs" />
-     <Compile Include="Assets\setGameObjectActive.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
      <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
