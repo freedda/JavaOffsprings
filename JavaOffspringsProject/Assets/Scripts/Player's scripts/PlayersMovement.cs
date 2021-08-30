@@ -2,7 +2,7 @@ using UnityEngine;
 using Photon.Pun;
 using Photon.Voice;
 
-public class PlayersMovement : MonoBehaviourPun
+public class PlayersMovement : MonoBehaviourPun, IPunObservable
 {
     /*
      * Moving the player
@@ -23,6 +23,9 @@ public class PlayersMovement : MonoBehaviourPun
     PhotonView view;
     public static PlayersMovement instance;
     
+    private Vector3 realPosition;
+    private Quaternion realRotation;
+    
     void Awake()
     {
         rb = gameObject.GetComponent<Rigidbody>();
@@ -31,6 +34,10 @@ public class PlayersMovement : MonoBehaviourPun
     }
     private void Start()
     {
+    
+        realPosition = Vector3.zero;
+        realRotation = Quaternion.identity;
+        
         if (!view.IsMine)
         {
             Destroy(GetComponentInChildren<Camera>().gameObject);
@@ -110,6 +117,24 @@ public class PlayersMovement : MonoBehaviourPun
 
     }
 
-    
+    public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+    {
+         if (stream.IsWriting)
+         {
+             
+             // This is OUR player. We need to send our actual position to the network.
+             stream.SendNext(transform.position);
+             stream.SendNext(transform.rotation);
+         }
+         else
+         {
+             // This is someone else's player. We need to receive their position (as of a few
+             // millisecond ago, and update our version of that player.
+             realPosition = (Vector3) stream.ReceiveNext();
+             realRotation = (Quaternion) stream.ReceiveNext();
+             
+ 
+         }
+    }
     
 }
