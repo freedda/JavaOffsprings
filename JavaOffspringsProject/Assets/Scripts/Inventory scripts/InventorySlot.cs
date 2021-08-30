@@ -139,7 +139,7 @@ public class InventorySlot : MonoBehaviour
 
                 if (moveItemsObject.CompareId(itemId) == 1)
                 {
-                    Item.instance.Use(itemId);
+                    //Item.instance.Use(itemId);
                     Inventory.instance.RemoveItem(itemId);
                     //Debug.Log("OK EINAI edw");
                 } 

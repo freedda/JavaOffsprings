@@ -25,7 +25,7 @@ public class PickUpItem : MonoBehaviourPun
    [SerializeField] protected GameObject player;
    private  string playerTag = ("Player");
    
-   public Item item;
+   public string item;
    
    public GameObject myCanvas;
    
@@ -91,9 +91,8 @@ public class PickUpItem : MonoBehaviourPun
    {
       if (Input.GetKeyDown("e") && isClose(player))
       {
-         Debug.Log("pick up " + item.name);
          
-         view.RPC("PickUp", RpcTarget.AllBuffered, item.Id);
+         view.RPC("PickUp", RpcTarget.AllBuffered, item);
          //PickUp(item);
       
          
