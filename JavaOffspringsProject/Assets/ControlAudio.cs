@@ -41,7 +41,7 @@ public class ControlAudio : MonoBehaviour
         public void StartTheAudio()
         { 
             
-            if ((Mathf.Abs(Vector3.Distance(player.transform.position, this.transform.position)) < 1.5) && m_Play)
+            if ((Mathf.Abs(Vector3.Distance(player.transform.position, this.transform.position)) < 2) && m_Play)
             {
     
                 if (players.Length.Equals(2))
