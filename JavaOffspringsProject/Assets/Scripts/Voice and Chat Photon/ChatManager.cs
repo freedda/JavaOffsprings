@@ -4,7 +4,9 @@ using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
  
-
+/*
+ *  This class creat the Chat 
+ */
 public class ChatManager : MonoBehaviour
 {
     bool isChatting = false;
@@ -19,6 +21,7 @@ public class ChatManager : MonoBehaviour
         public float timer = 0;
     }
  
+    // A list with chat messages
     List<ChatMessage> chatMessages = new List<ChatMessage>();
  
     // Start is called before the first frame update
@@ -27,6 +30,7 @@ public class ChatManager : MonoBehaviour
         //Initialize Photon View
         if (gameObject.GetComponent<PhotonView>() == null)
         {
+            //add photon view with ID 6
             photonView = gameObject.AddComponent<PhotonView>();
             photonView.ViewID = 6;
 
@@ -40,6 +44,7 @@ public class ChatManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Start Chatting
         if (Input.GetKeyUp(KeyCode.T) && Input.GetKeyUp(KeyCode.LeftShift) && !isChatting)
         {
             isChatting = true;

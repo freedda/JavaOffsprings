@@ -1,7 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
+ *  This class counts the unique keys
+ *  which are collected from the players
+ */
 public class uniqueKeys : MonoBehaviour
 {
     public static uniqueKeys instance;
@@ -16,17 +19,12 @@ public class uniqueKeys : MonoBehaviour
     }
     
     private Inventory inventory;
-
-
+    
     public int countKeys;
-    private int ListItemCount;
-    private int count;
-
-
+    
     void Start()
     {
         inventory = Inventory.instance;
-        count = 0;
         countKeys= 0;
     }
 
@@ -35,6 +33,6 @@ public class uniqueKeys : MonoBehaviour
     {
         //Take the number of the unique keys which are in inventory
         countKeys = inventory.CountKeys;
-        //Debug.Log("TOSAAAAAAAAAA TA KLEIDIA "+ countKeys);
+      
     }
 }

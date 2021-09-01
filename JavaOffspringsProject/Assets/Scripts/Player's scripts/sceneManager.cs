@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.IO;
 using UnityEngine.SceneManagement;
 using  Photon.Pun;
@@ -42,7 +39,8 @@ public class sceneManager : MonoBehaviourPunCallbacks
     {
         if (scene.buildIndex == 1)
         {
-            //access to the path class
+            //access to the path 
+            //Instantiate the prefab 
             PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "PrefabsPlayerManager"),
                 new Vector3(81,30,-112), Quaternion.identity);
         }

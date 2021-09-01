@@ -5,7 +5,7 @@ using Photon.Voice.Unity;
 using Photon.Voice.PUN;
 public class VoiceButtonManager : MonoBehaviourPun
 {
-    // Start is called before the first frame update
+   
     //Disable and enable the transmit
     public Recorder VoiceRecorder;
 
@@ -20,7 +20,7 @@ public class VoiceButtonManager : MonoBehaviourPun
     // Update is called once per frame
     void Update()
     {
-        //WHEN the player push the M button
+        //WHEN the player push the Left Alt button
         if (Input.GetKeyDown(KeyCode.LeftAlt))
         {
             //Start transmit
