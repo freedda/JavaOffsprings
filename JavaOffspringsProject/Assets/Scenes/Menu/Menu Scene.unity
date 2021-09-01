@@ -391,7 +391,9 @@ MonoBehaviour:
     the Button "Lock Cursor" : to Lock your cursor.
 
     Click with cursor to open
-    the inventory and map.'
+    the inventory and map.
+
+    Collected items must only  be used inside the houses.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

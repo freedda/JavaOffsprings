@@ -79,6 +79,7 @@ public class PickUpItem : MonoBehaviourPun
          m_MyAudioSource.Play();
          flag = false;
       }
+      
       ActiveCanvasWithE();
       // activeSpriteE();
       TryToPick();
@@ -109,7 +110,7 @@ public class PickUpItem : MonoBehaviourPun
    protected void ActiveCanvasWithE()
    {
       GameObject g = GameObject.FindGameObjectsWithTag("Item").Aggregate((o1, o2) => Vector3.Distance(o1.transform.position, player.transform.position) > Vector3.Distance(o2.transform.position, player.transform.position) ? o2 : o1);
-      if (!(Mathf.Abs(Vector3.Distance(player.transform.position, g.transform.position)) < radius) && messagePanel.activeSelf)
+      if ((Mathf.Abs(Vector3.Distance(player.transform.position, g.transform.position)) > radius) && messagePanel.activeSelf)
       {
          messagePanel.SetActive(false);
          //Debug.Log("EINAI STO IF");
@@ -117,16 +118,6 @@ public class PickUpItem : MonoBehaviourPun
       }
       
       if((Mathf.Abs(Vector3.Distance(player.transform.position, g.transform.position)) < radius)){
-         //Debug.Log("PLAYER IS CLOSE + " + gameObject);
-         cam = Camera.main;
-
-         Ray ray = cam.ScreenPointToRay (new Vector3 (Screen.width / 2, Screen.height / 2, 0));
-         RaycastHit hit;
-
-         if (ItemCollider.Raycast(ray, out hit, radius))
-         {
-            messagePanel.SetActive(true);
-         }
          
          messagePanel.SetActive(true);
       }
@@ -160,7 +151,11 @@ public class PickUpItem : MonoBehaviourPun
       }
       else
       {
-         
+         if (messagePanel.activeSelf)
+         {
+            messagePanel.SetActive(false);
+         }
+
          Inventory.instance.AddItem(newItemId);
          //this is key's id
          if (newItemId.Equals("02250c14-1e7b-4d55-a5e1-ce6758e5ac88"))
@@ -190,4 +185,5 @@ public class PickUpItem : MonoBehaviourPun
          return false;
       }
    }
+   
 }

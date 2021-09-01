@@ -130,7 +130,7 @@ public class MoveItem : MonoBehaviour
     
     public bool isClose(GameObject player)
     {
-        if (Mathf.Abs(Vector3.Distance(player.transform.position, transform.position)) < 3)
+        if (Mathf.Abs(Vector3.Distance(player.transform.position, transform.position)) < 2.5)
         {
             Debug.Log("u r close, u can pick it");
         
