@@ -5,23 +5,36 @@ using ExitGames.Client.Photon;
 using TMPro;
 using UnityEngine;
 
+/*
+ * This script controls the end of story
+ */
 public class GetIntoTheTemple : MonoBehaviour
 {  
-   // for single player
+   // keep one player
    private GameObject myPlayer;
-   // for two players
+   // keep a list of players
    private GameObject[] players;
    
-   Vector3 warpPosition = Vector3.zero;
+   //Check if the player is Trigger with an empty box
    private bool isTrigger = false;
+   
    public GameObject finalImagePanel;
    public GameObject finalScorePanel;
+   
+   //Animator for the final Image Panel
    [SerializeField] private Animator animator;
    
+   //Text Display is responsible for the final monologue
    public TextMeshProUGUI textDisplay;
+   
+   //Audio for two players
    public AudioSource m_MyAudioSource1;
+   //Audio for one player
    public AudioSource m_MyAudioSource2;
+   
    private bool m_Play;
+
+   private PlayersMovement playerMove;
 
    private void Start()
    {
@@ -30,23 +43,34 @@ public class GetIntoTheTemple : MonoBehaviour
 
    private void Update()
    {
-      // for single player
+      
+      //find one player
       myPlayer = GameObject.FindGameObjectWithTag("Player");
-      // for two players
+      // find two players
       players = GameObject.FindGameObjectsWithTag("Player");
       
     
       if (isTrigger && m_Play)
       {
+         //Get into the if only once
          m_Play = false;
+         
+         //transform player position
          myPlayer.transform.position = new Vector3(178, 41, -151);
+         
+         //Set Active the final image
          finalImagePanel.SetActive(true);
+         
+         //Start animation
          animator.SetTrigger("Activate");
+         
+         //If the game has 2 players play the audio 1 and start coroutine Type1
          if (players.Length.Equals(2))
          {
             m_MyAudioSource1.Play();
             StartCoroutine(Type1());
          }
+         //If the game has 1 players play the audio 2 and start coroutine Type2
          else
          {
             m_MyAudioSource2.Play();
@@ -57,16 +81,22 @@ public class GetIntoTheTemple : MonoBehaviour
 
    void OnTriggerEnter(Collider other){
 
+      //If the empty objects collides with a player
       if (other.gameObject.CompareTag("Player"))
       {
+         
         isTrigger = true;
-        PlayersMovement.instance.flagMove = false; 
+        //Stop player's movement
+        playerMove = other.gameObject.GetComponent<PlayersMovement>();
+        playerMove.flagMove = false;      
+        
       }
    }
    
    //Create a coroutine for 2 players
    IEnumerator Type1() {
           
+         //Start final monologue
          textDisplay.text = "You did it! You have succeeded in completing all your quests and have reached your final destination, the Temple!";
          yield return new WaitForSeconds(7f);
          textDisplay.text = " The manuscripts you have collected divulge the family secret and are parts of a document revealings your origin.";
@@ -79,8 +109,12 @@ public class GetIntoTheTemple : MonoBehaviour
          setFinalCanvases();
    }
    
+   //Create a coroutine for 1 players
+
    IEnumerator Type2() {
           
+      //Start final monologue
+
       textDisplay.text = "You did it! You have succeeded in completing all your quests and have reached your final destination, the Temple!";
       yield return new WaitForSeconds(7f);
       textDisplay.text = " The manuscripts you have collected divulge the family secret and are parts of a document revealings your origin.";

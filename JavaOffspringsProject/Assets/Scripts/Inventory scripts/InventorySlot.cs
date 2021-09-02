@@ -140,6 +140,8 @@ public class InventorySlot : MonoBehaviour
                 if (moveItemsObject.CompareId(itemId) == 1)
                 {
                     //Item.instance.Use(itemId);
+                    if(moveItemsObject.OtherToolPanel.activeSelf)moveItemsObject.OtherToolPanel.SetActive(false);
+
                     Inventory.instance.RemoveItem(itemId);
                     //Debug.Log("OK EINAI edw");
                 } 
