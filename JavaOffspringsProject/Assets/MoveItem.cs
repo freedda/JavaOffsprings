@@ -59,15 +59,14 @@ public class MoveItem : MonoBehaviour
     public int CompareId(string itemId)
     {
         tempId = itemId;
-
+        
         Debug.Log("MPIKE STO COMP" + tempId);
         if(!isClose(player)){
             Debug.Log("EIsai Makria jas");
-            StartCoroutine(OtherTool());
+            // StartCoroutine(OtherTool());
             return 0;
         }
-
-       
+        
         if (!id.Equals(tempId) )
         {
             Debug.Log("U need other item to id einai " + id + "kai to tempId " + tempId);
@@ -75,7 +74,6 @@ public class MoveItem : MonoBehaviour
             return 2;
             
         }
-        
 
         if (gameObject.tag == "Barrel" || gameObject.tag == "Flower")
         {
@@ -132,7 +130,7 @@ public class MoveItem : MonoBehaviour
     
     public bool isClose(GameObject player)
     {
-        if (Mathf.Abs(Vector3.Distance(player.transform.position, transform.position)) < 2.5)
+        if (Mathf.Abs(Vector3.Distance(player.transform.position, transform.position)) < 2)
         {
             Debug.Log("u r close, u can pick it");
         
