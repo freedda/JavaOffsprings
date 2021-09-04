@@ -5,10 +5,10 @@ using UnityEngine;
 public class AnswerPlayAudio : MonoBehaviour
 {
     public AudioSource m_MyAudioSource;
-
     public GameObject other;
-    // Start is called before the first frame update
     private bool flag;
+    
+    // Start is called before the first frame update
     void Start()
     {
         flag = true;

@@ -53,7 +53,6 @@
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\DisableRenderer.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
-     <Compile Include="Assets\Scripts\Equipment\Equipment.cs" />
      <Compile Include="Assets\Scripts\Inventory scripts\Inventory.cs" />
      <Compile Include="Assets\Scripts\Inventory scripts\PageSlot.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
@@ -63,7 +62,6 @@
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
-     <Compile Include="Assets\Scripts\Equipment\EquipmentManager.cs" />
      <Compile Include="Assets\Scripts\Quiz\Score.cs" />
      <Compile Include="Assets\Scripts\MasterClient scripts\MenuManager.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
@@ -79,7 +77,6 @@
      <Compile Include="Assets\LockTheCursor.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\VignetteModel.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\Models\GrainModel.cs" />
-     <Compile Include="Assets\answerBlanks.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\Culling\TriggerArea.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\PostProcessing\Runtime\PostProcessingModel.cs" />
      <Compile Include="Assets\Scripts\Canvases scripts\UIButtonLoadLevel.cs" />
@@ -110,7 +107,6 @@
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\ExposureManager\ExposureArea.cs" />
      <Compile Include="Assets\Scripts\Items scripts\Item.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\ExposureManager\ExposureManager.cs" />
-     <Compile Include="Assets\Scripts\Quiz\QnA.cs" />
      <Compile Include="Assets\ActivatePage.cs" />
      <Compile Include="Assets\Scripts\Canvases scripts\UIButtonExitGame.cs" />
      <Compile Include="Assets\Unity Store Assets\Sun_Temple\Scripts\FPSController\CursorLock.cs" />

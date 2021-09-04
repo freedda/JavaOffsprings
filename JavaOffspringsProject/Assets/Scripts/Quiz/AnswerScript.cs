@@ -28,11 +28,13 @@ public class AnswerScript : MonoBehaviour
 
     private void Start()
     {
+        // Instance from DBscriptMultiple in order to get correct and wrong questions 
         dbMultipleManager = DBscriptMultiple.instance.GetComponent<DBscriptMultiple>();
     }
 
     private void Update()
-    {
+    {   
+        // Update current values
         dbMultipleManager.correctNum= dbMultipleManager.correctNum;
         dbMultipleManager.wrongNum = dbMultipleManager.wrongNum;
     }
@@ -40,25 +42,30 @@ public class AnswerScript : MonoBehaviour
     public void Answer()
     {
         if (isCorrect)
-        {
-            Debug.Log("Correct answer");
+        {   
+            // Activate "Correct Answer" panel
             correctAnswerPanel.SetActive(true);
+            // Activate animation for correct answer
             animator.SetTrigger("Correct");
-            dbMultipleManager.correct();
+            // Increase correct answer value
             dbMultipleManager.correctNum += 1;
         }
         else
         {
-            Debug.Log("Wrong answer");
+            // Set the correct answer in the panel
             correctAnswerText.text = correctAnswer;
+            // Activate "Wrong Answer" panel
             wrongAnswerPanel.SetActive(true);
+            // Activate animation for wrong panel
             animator.SetTrigger("Wrong");
-            dbMultipleManager.correct();
+            // Increase wrong answer value
             dbMultipleManager.wrongNum+= 1;
             
         }
+        // Call the correct method from DBscriptMultiple class
+        dbMultipleManager.correct();
         
-        //when submit the multiple answer , close the panel.
+        // When the answer is submitted, close the panel.
         multiplesPanel.SetActive(false);
     }
  

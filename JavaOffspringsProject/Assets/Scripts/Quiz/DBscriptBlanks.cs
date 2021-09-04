@@ -52,9 +52,9 @@ public class DBscriptBlanks : MonoBehaviour
     void Start()
     {   
         // Create database
-        CreateDB();
+        //CreateDB();
         // Add a theory question with options and correct answer
-      //  AddTheory(20, " " , " ", " ");
+        // AddTheory();
          
         // Display records to the console 
         DisplayTheory();
@@ -67,7 +67,7 @@ public class DBscriptBlanks : MonoBehaviour
         
     }
 
-    public void CreateDB()
+    /*public void CreateDB()
     {
         // Create database connection
         using(var connection = new SqliteConnection(dbName))
@@ -82,9 +82,9 @@ public class DBscriptBlanks : MonoBehaviour
             // Close database connection
             connection.Close();
         }
-    }
+    }*/
     
-    public void AddTheory(int questionID, string question, string blanks, string correctAnswer)
+    /*public void AddTheory(int questionID, string question, string blanks, string correctAnswer)
     {   
         // Create database connection
         using (var connection = new SqliteConnection(dbName))
@@ -103,7 +103,7 @@ public class DBscriptBlanks : MonoBehaviour
             connection.Close();
         }
         
-    }
+    }*/
     
       public void DisplayTheory()
     {
@@ -122,18 +122,19 @@ public class DBscriptBlanks : MonoBehaviour
                     {   
                         // Get question's ID. IDs start from 1, we want to count from 0 
                         currentQ = Convert.ToInt16(reader["questionID"])-1;
-                       // Debug.Log("ID: " + currentQ);
 
                         // Get question from the db
                         QnA[currentQ].Question = reader["question"].ToString();
-                       // Debug.Log(QnA[currentQ].Question);
-
+                      
+                        // Get code with blanks from the database
                         QnA[currentQ].Blanks = reader["blanks"].ToString();
+                        
+                        // Get correct code from the database
                         QnA[currentQ].correctAnswer = reader["correctAnswer"].ToString();
                         
-                        //Display question's ID, question, blanks
-                        Debug.Log("Question ID: " +reader["questionID"] +"\n Question: " + reader["question"] + 
-                          "\n " + reader["blanks"] + "\n" + reader["correctAnswer"]);
+                        // Display question's ID, question, code with blanks and correct answer
+                        /*Debug.Log("Question ID: " +reader["questionID"] +"\n Question: " + reader["question"] + 
+                          "\n " + reader["blanks"] + "\n" + reader["correctAnswer"]);*/
                     }
                     reader.Close();
                 }
@@ -144,43 +145,50 @@ public class DBscriptBlanks : MonoBehaviour
       
       void generateQuestion()
       {
+          // Iterate through the list with the questions
           for (int i = 0; i < QnA.Count; i++)
           {
               currentQ = i;
+              // Set the question
               QTxt.text = QnA[currentQ].Question;
+              // Set the code with the blanks
               BlanksTxt.text = QnA[currentQ].Blanks;
           }
-
-         // currentQ = UnityEngine.Random.Range(0, QnA.Count-1);
-          QTxt.text = QnA[currentQ].Question;
-          BlanksTxt.text = QnA[currentQ].Blanks;
+          
       }
         
       public void getAnswer()
       { 
+          // Remove spaces from the correct answer
           string correctAnswer = Regex.Replace(QnA[currentQ].correctAnswer, @"\s+", "");
+          // Remove spaces from player's answer
           string playersAnswer = Regex.Replace(AnswerTxt.text, @"\s+", "");
+          // Remove extra character from player;s answer
           playersAnswer = playersAnswer.Remove(playersAnswer.Length - 1);
          
           if (playersAnswer.Equals(correctAnswer))
           {
-              Debug.Log("correct Answer");
+              // Activate "Correct Answer" panel
               correctAnswerPanel.SetActive(true);
+              // Activate animation for correct answer
               animator.SetTrigger("Correct");
+              // Increase correct answer value
               correctNum += 1;
           }
           else
-          { 
-              Debug.Log("Wrong answer");
+          {
+              // Set the correct answer in the panel
               correctAnswerText.text = QnA[currentQ].correctAnswer;
+              // Activate "Wrong Answer" panel
               wrongAnswerPanel.SetActive(true);
+              // Activate animation for wrong panel
               animator.SetTrigger("Wrong");
-              Debug.Log(correctAnswer);
+              // Increase wrong answer value
               wrongNum += 1; 
           }
           correct();
           
-          //When the button "Sumbit" pressed, close the blanks panel
+          // When the answer is submitted, close the panel.
           blanksPanel.SetActive(false);
 
       }
@@ -190,7 +198,7 @@ public class DBscriptBlanks : MonoBehaviour
           // Remove question from the list
           QnA.RemoveAt(currentQ);
           
-          //clear player's answer txt
+          // Clear player's answer txt
           answerField.Select();
           answerField.text = "";
           

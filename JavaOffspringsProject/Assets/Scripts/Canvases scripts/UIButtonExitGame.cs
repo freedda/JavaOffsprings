@@ -6,7 +6,10 @@ public class UIButtonExitGame : MonoBehaviour
 {
     public void Quit () 
     {
-        Debug.Log("QUIT");
+        // For testing.Show "QUIT" in console.
+        //Debug.Log("QUIT");
+        
+        // Close the application.
         Application.Quit();
     }
 }

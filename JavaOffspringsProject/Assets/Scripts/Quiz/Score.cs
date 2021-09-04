@@ -26,7 +26,7 @@ public class Score : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // instances from  db scripts
+        // Instances from db scripts
         dbBlanksManager = DBscriptBlanks.instance.GetComponent<DBscriptBlanks>();
         dbMultipleManager = DBscriptMultiple.instance.GetComponent<DBscriptMultiple>();
         
@@ -35,25 +35,26 @@ public class Score : MonoBehaviour
     // Update is called once per frame
     void Update()
     {   
-        // update current values
+        // Update current values
         multipleCorrect = dbMultipleManager.correctNum;
         blanksCorrect = dbBlanksManager.correctNum;
+        // Calculate current score
         calculateScore();
     }
     
     public void calculateScore()
     {   
-        // calculate current score
+        // Calculate current score. The total number of questions is 31. Multiplying by 100 to get the percentage. 
         score = ((float) blanksCorrect + (float) multipleCorrect) / 31 * 100;
         
         if (Double.IsNaN(score))
         {   
-            // when player hasn't answer any questions yet instead of "nan" the score is 0
+            // When player hasn't answer any questions yet instead of "nan" the score is 0.
             scoreText.text = "0%";
         }
         else
         {
-            // format score in two decimals
+            // Format score in two decimals.
             scoreText.text = score.ToString("F2") + "%" ; 
         }
 

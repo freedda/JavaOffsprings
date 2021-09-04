@@ -37,28 +37,28 @@ public class DBscriptMultiple : MonoBehaviour
         public int correctAnswerIndex;
     }
     
-     public List<QuestionAndAnswers> QnA = new List<QuestionAndAnswers>();
+    public List<QuestionAndAnswers> QnA = new List<QuestionAndAnswers>();
     
     // Start is called before the first frame update
     void Start()
     {   
         
         // Create database
-        CreateDB();
+        //CreateDB();
         // Add a theory question with options and correct answer
-       // AddTheory(13, " " , " ", " " , " " , " ", 4);
+        //AddTheory();
         
         // Display records to the console 
         DisplayTheory();
         // Reverse list
         QnA.Reverse();
         
-        //Generate the first question 
+        // Generate the first question 
         generateQuestion();
     }
     
     
-    public void CreateDB()
+    /*public void CreateDB()
     {
         // Create database connection
         using(var connection = new SqliteConnection(dbName))
@@ -73,9 +73,9 @@ public class DBscriptMultiple : MonoBehaviour
             // Close database connection
             connection.Close();
         }
-    }
+    }*/
 
-    public void AddTheory(int questionID, string question, string option1, string option2, string option3, string option4, int correctAnswer)
+    /*public void AddTheory(int questionID, string question, string option1, string option2, string option3, string option4, int correctAnswer)
     {   
         // Create database connection
         using (var connection = new SqliteConnection(dbName))
@@ -94,7 +94,7 @@ public class DBscriptMultiple : MonoBehaviour
             connection.Close();
         }
         
-    }
+    }*/
 
     public void DisplayTheory()
     {
@@ -105,7 +105,7 @@ public class DBscriptMultiple : MonoBehaviour
             {
                 // Select from the database
                 command.CommandText = "SELECT * FROM theory ORDER BY questionID;";
-              //  command.CommandText = "DELETE FROM theory WHERE questionID =7";
+              
                 // Iterate through the recordset and display
                 using (IDataReader reader = command.ExecuteReader())
                 {
@@ -113,19 +113,15 @@ public class DBscriptMultiple : MonoBehaviour
                     {   
                         // Get question's ID. IDs start from 1, we want to count from 0 
                         currentQ = Convert.ToInt16(reader["questionID"])-1;
-                        Debug.Log("ID: " + currentQ);
-                        
+
                         // Get question from the db
                         QnA[currentQ].Question = reader["question"].ToString();
-                        Debug.Log(QnA[currentQ].Question);
-                        
+
                         // Get correct answer index 
                         QnA[currentQ].correctAnswerIndex = Convert.ToInt32(reader["correctAnswer"]) - 1;
-                        Debug.Log(QnA[currentQ].correctAnswerIndex);
-                        
                         option = "option" + reader["correctAnswer"];
                         QnA[currentQ].correctAnswer = reader[option].ToString();
-                        Debug.Log(QnA[currentQ].correctAnswer);
+                        
                         // Get answer's options
                         for (int i = 0; i < options.Length; i++)
                         {   
@@ -133,9 +129,9 @@ public class DBscriptMultiple : MonoBehaviour
                             // Using a string with an int in the end to store the options in the db
                             option = "option" + (i+1).ToString();
                             QnA[currentQ].Answers[i] = reader[option].ToString();
-                            Debug.Log(QnA[currentQ].Answers[i]);
+                            
                         }
-                       // Display question's ID, question, options and correct answer
+                        // Display question's ID, question, options and correct answer
                        // Debug.Log("Question ID: " +reader["questionID"] +"\n Question: " + reader["question"] + 
                          // "\n Option1: " + reader["option1"] + "\n Option2: " + reader["option2"] + "\n Option3: " + reader["option3"] + "\n Option4: " + reader["option4"] + "\n Correct Answer: " + reader["correctAnswer"]);
                     }
@@ -158,13 +154,10 @@ public class DBscriptMultiple : MonoBehaviour
         for (int i = 0; i < QnA.Count; i++)
         {
             currentQ = i;
+            // Set the question
             QTxt.text = QnA[currentQ].Question;
-           // correctAnswerText.text = QnA[currentQ].correctAnswer;
             setAnswers();
         }
-        //currentQ = UnityEngine.Random.Range(0, QnA.Count-1);
-        QTxt.text = QnA[currentQ].Question;
-        // correctAnswerText.text = QnA[currentQ].correctAnswer;
         setAnswers();
     }
 
@@ -173,8 +166,11 @@ public class DBscriptMultiple : MonoBehaviour
         for (int i = 0; i < options.Length; i++)
         {
             options[i].GetComponent<AnswerScript>().isCorrect = false;
+            // Set the correct answer
             options[i].GetComponent<AnswerScript>().correctAnswer = QnA[currentQ].correctAnswer;
+            // Set answer's options
             options[i].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = QnA[currentQ].Answers[i];
+            // Set the correct answer
             if (QnA[currentQ].correctAnswerIndex == (i))
             {
                 options[i].GetComponent<AnswerScript>().isCorrect = true;

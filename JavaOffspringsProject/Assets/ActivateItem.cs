@@ -6,13 +6,10 @@ using UnityEngine;
 public class ActivateItem : MonoBehaviour
 {
     public GameObject hidedItem;
-
-
     public MoveItem moveItems;
-    
     private bool notDone;
-
     private PhotonView view;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +23,6 @@ public class ActivateItem : MonoBehaviour
     void Update()
     {
         activated();
-       
     }
 
     [PunRPC]

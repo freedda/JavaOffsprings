@@ -45,7 +45,6 @@ public class Item : ScriptableObject
         Id = Ids;
         // Use item...
         Debug.Log("Using " + Id);
-        //RemoveFromInventory(Id);
 
     }
 

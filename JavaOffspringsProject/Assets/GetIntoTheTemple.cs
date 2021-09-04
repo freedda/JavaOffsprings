@@ -44,33 +44,33 @@ public class GetIntoTheTemple : MonoBehaviour
    private void Update()
    {
       
-      //find one player
+      // Find one player
       myPlayer = GameObject.FindGameObjectWithTag("Player");
-      // find two players
+      // Find two players
       players = GameObject.FindGameObjectsWithTag("Player");
       
     
       if (isTrigger && m_Play)
       {
-         //Get into the if only once
+         // Get into the if only once
          m_Play = false;
          
-         //transform player position
+         // Transform player position
          myPlayer.transform.position = new Vector3(178, 41, -151);
          
-         //Set Active the final image
+         // Activate final image
          finalImagePanel.SetActive(true);
          
-         //Start animation
+         // Start animation
          animator.SetTrigger("Activate");
          
-         //If the game has 2 players play the audio 1 and start coroutine Type1
+         // If the game has 2 players play the audio 1 and start coroutine Type1
          if (players.Length.Equals(2))
          {
             m_MyAudioSource1.Play();
             StartCoroutine(Type1());
          }
-         //If the game has 1 players play the audio 2 and start coroutine Type2
+         // If the game has 1 players play the audio 2 and start coroutine Type2
          else
          {
             m_MyAudioSource2.Play();
@@ -81,22 +81,21 @@ public class GetIntoTheTemple : MonoBehaviour
 
    void OnTriggerEnter(Collider other){
 
-      //If the empty objects collides with a player
+      // If the empty objects collides with a player
       if (other.gameObject.CompareTag("Player"))
       {
-         
-        isTrigger = true;
-        //Stop player's movement
+         isTrigger = true;
+        // Stop player's movement
         playerMove = other.gameObject.GetComponent<PlayersMovement>();
         playerMove.flagMove = false;      
         
       }
    }
    
-   //Create a coroutine for 2 players
+   // Create a coroutine for 2 players
    IEnumerator Type1() {
           
-         //Start final monologue
+         // Start final monologue
          textDisplay.text = "You did it! You have succeeded in completing all your quests and have reached your final destination, the Temple!";
          yield return new WaitForSeconds(7f);
          textDisplay.text = " The manuscripts you have collected divulge the family secret and are parts of a document revealings your origin.";
@@ -109,12 +108,10 @@ public class GetIntoTheTemple : MonoBehaviour
          setFinalCanvases();
    }
    
-   //Create a coroutine for 1 players
-
+   // Create a coroutine for 1 players
    IEnumerator Type2() {
           
-      //Start final monologue
-
+      // Start final monologue
       textDisplay.text = "You did it! You have succeeded in completing all your quests and have reached your final destination, the Temple!";
       yield return new WaitForSeconds(7f);
       textDisplay.text = " The manuscripts you have collected divulge the family secret and are parts of a document revealings your origin.";
