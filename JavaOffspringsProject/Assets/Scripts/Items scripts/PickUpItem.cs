@@ -175,8 +175,7 @@ public class PickUpItem : MonoBehaviourPun
    {
       if (Mathf.Abs(Vector3.Distance(player.transform.position, transform.position)) < radius)
       {
-         Debug.Log("u r close, u can pick it");
-        
+         //Debug.Log("u r close, u can pick it")
          return true;
       }
       else
