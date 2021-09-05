@@ -10,7 +10,7 @@ list
 */
 public class MenuManager : MonoBehaviour
 {
-   //Creae an instacne for Menu Manager
+   //Create an instacne for Menu Manager
    public static MenuManager instance;
 
    //Keep a list of menus
@@ -21,7 +21,6 @@ public class MenuManager : MonoBehaviour
       instance = this;
    }
    
-   //ISWS NA EINAI PERITTO 
    //Take the name of menu
    public void OpenMenu(string name)
    {
@@ -40,7 +39,7 @@ public class MenuManager : MonoBehaviour
       }
    }
    
-   //Take menu 
+    
    public void OpenMenu(Menu menu)
    {
       for (int i = 0; i < menus.Length; i++)

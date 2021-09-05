@@ -17,7 +17,6 @@ using Photon.Pun;
  */
 public class PickUpItem : MonoBehaviourPun
 {
-   
    // distance between player and item in ordeto interact
    public float radius = 1f;
    public Transform interactionTransform;
@@ -31,13 +30,13 @@ public class PickUpItem : MonoBehaviourPun
    
    //A message Panel for "E" canvas
    public GameObject messagePanel;
-   private GameObject invetoryPanel;
-   private CursorManager cursor;
+   //Take inventory 
+   private GameObject inventoryPanel;
    
-   private Camera cam;
-   private Collider ItemCollider;
-   protected PhotonView view;
+   private CursorManager cursor;
+   private PhotonView view;
 
+   //Its responsible for the theory tasks
    public GameObject theoryPanel;
    
    private bool flag;
@@ -49,16 +48,14 @@ public class PickUpItem : MonoBehaviourPun
   
    }
   
-   protected virtual void Start()
+   //Initialize variables
+   private void Start()
    {
       view = GetComponent< PhotonView >();
    
       player = GameObject.FindGameObjectWithTag(playerTag);
       
-      ItemCollider = GetComponent<BoxCollider> ();
-  
-      cam = Camera.main;
-  
+
       cursor = CursorManager.instance;
   
       if (cursor != null) {
@@ -69,34 +66,34 @@ public class PickUpItem : MonoBehaviourPun
   
    }
   
-   protected  virtual void Update()
+   private void Update()
    {
+      //Find the player
       player = GameObject.FindGameObjectWithTag(playerTag);
       
-     
+      //Play the audio clip once in the beginning 
       if (m_MyAudioSource != null && flag)
       {
          m_MyAudioSource.Play();
          flag = false;
       }
       
+      //call the method active canvas with E
       ActiveCanvasWithE();
-      // activeSpriteE();
+      //Call a method to pick up an item
       TryToPick();
    
    }
 
 
-   [PunRPC]
-   protected void TryToPick()
+   [PunRPC] 
+   private void TryToPick()
    {
       if (Input.GetKeyDown("e") && isClose(player))
       {
          
          view.RPC("PickUp", RpcTarget.AllBuffered, item);
-         //PickUp(item);
-      
-         
+
       }
    }
    
@@ -107,16 +104,18 @@ public class PickUpItem : MonoBehaviourPun
    }
 
    
-   protected void ActiveCanvasWithE()
+   private void ActiveCanvasWithE()
    {
+      //Find the gameobject with the Tag "item", which is closer to the player
       GameObject g = GameObject.FindGameObjectsWithTag("Item").Aggregate((o1, o2) => Vector3.Distance(o1.transform.position, player.transform.position) > Vector3.Distance(o2.transform.position, player.transform.position) ? o2 : o1);
+      
+      //If the player isn't near and the panel is active, make it Deactivate 
       if ((Mathf.Abs(Vector3.Distance(player.transform.position, g.transform.position)) > radius) && messagePanel.activeSelf)
       {
          messagePanel.SetActive(false);
-         //Debug.Log("EINAI STO IF");
-         
       }
       
+      //if the player is near, activate the press E panel
       if((Mathf.Abs(Vector3.Distance(player.transform.position, g.transform.position)) < radius)){
          
          messagePanel.SetActive(true);
@@ -140,13 +139,13 @@ public class PickUpItem : MonoBehaviourPun
    }
    
    [PunRPC]
-   protected void PickUp(String newItemId)
+   private void PickUp(String newItemId)
    {
+      //  Call destroy with PunRPC
       RPC_destroy();
       //This is page's id
       if (newItemId.Equals("a3da4feb-3607-4a51-9a50-d19a9fc3f5fd"))
       {
-         //to add page tha mporouse na mn dexete orisma kathw den to xrisimopoiei
          PageSlot.instance.AddPage(newItemId);
       }
       else
@@ -155,24 +154,24 @@ public class PickUpItem : MonoBehaviourPun
          {
             messagePanel.SetActive(false);
          }
-
+         
+         //add the item to the list
          Inventory.instance.AddItem(newItemId);
          //this is key's id
          if (newItemId.Equals("02250c14-1e7b-4d55-a5e1-ce6758e5ac88"))
          {
+            //Open lesson Canvas
             myCanvas.SetActive(true);
-            Debug.Log("Pire key,  canvas. ");
          }
          else
          {
-            //if it isnt key, then open the theory task
-            Debug.Log(" open the theory task");
+            //if it isn't key, then open the theory task
             theoryPanel.SetActive(true);
          }
       }
    }
    
-   protected bool isClose(GameObject player)
+   private bool isClose(GameObject player)
    {
       if (Mathf.Abs(Vector3.Distance(player.transform.position, transform.position)) < radius)
       {
