@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class ActivateItem : MonoBehaviour
 {
+    
     public GameObject hidedItem;
     public MoveItem moveItems;
     private bool notDone;
@@ -28,6 +29,7 @@ public class ActivateItem : MonoBehaviour
     [PunRPC]
     public void activated()
     {
+        //Call RPC_activated method with RPC
         view.RPC("RPC_activated", RpcTarget.AllBuffered);
     }
 
@@ -35,12 +37,12 @@ public class ActivateItem : MonoBehaviour
     public void RPC_activated()
     {
         if(notDone){
-            //Debug.Log("Stin Update to move in einai " + moveItems.itIsDestroyed);
             if (moveItems.itIsDestroyed)
             {
+                //Activate the hideditem
                 notDone = false;
-                Debug.Log("ok einai mesa stin update eprepe na einai tru");
                 hidedItem.SetActive(true);
+                //Destroy this temp GameObject
                 Destroy(gameObject);
             }}
     }

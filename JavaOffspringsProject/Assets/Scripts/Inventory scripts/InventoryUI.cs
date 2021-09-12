@@ -10,9 +10,9 @@ public class InventoryUI : MonoBehaviour
     private Inventory myInventory;
     private InventorySlot[] inventorySlots;
     private PhotonView view;
-   
-       
-       // Start is called before the first frame update
+
+    
+    // Start is called before the first frame update
     void Start()
     {
         view = GetComponent<PhotonView>();
@@ -37,6 +37,7 @@ public class InventoryUI : MonoBehaviour
     void RPC_Inventory_Update() 
     { 
         //Debug.Log("update UI"); 
+        //Items are in the first three positions.
         for (int i = 0; i < inventorySlots.Length-11; i++) 
         { 
             if (i < myInventory.items.Count) 
@@ -48,13 +49,14 @@ public class InventoryUI : MonoBehaviour
                 inventorySlots[i].RemoveItem();
             }
         }   
+        
+        //Keys starts in inventory from the fourth position.
         for (int i = 0; i < 11; i++)
         {
-            // Debug.Log("MPIKE STO KEYS");
             if (i < myInventory.keys.Count)
             {
                 inventorySlots[i+3].AddItem(myInventory.keys[i]);
-             }
+            }
                 
         }
     }

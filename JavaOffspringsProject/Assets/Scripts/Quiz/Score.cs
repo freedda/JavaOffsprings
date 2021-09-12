@@ -14,13 +14,11 @@ public class Score : MonoBehaviour
         instance = this;
     }
     #endregion
-    
     private DBscriptMultiple dbMultipleManager;
     private DBscriptBlanks dbBlanksManager;
     private int blanksCorrect;
     private int multipleCorrect;
     public double score = 0;
-    
     public TextMeshProUGUI scoreText; 
     
     // Start is called before the first frame update

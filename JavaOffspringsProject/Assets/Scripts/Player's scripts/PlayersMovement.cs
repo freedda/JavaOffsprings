@@ -9,7 +9,6 @@ public class PlayersMovement : MonoBehaviourPun, IPunObservable
      * with w-s up and down
      * and with a-d left and right 
      */
-    
     [SerializeField] private string turnInput = ("Horizontal");
     [SerializeField] private string verticalInput = ("Vertical");
 
@@ -20,10 +19,8 @@ public class PlayersMovement : MonoBehaviourPun, IPunObservable
     
     //Player's animation for walking
     Animator anim;
-
     public bool flagMove = true;
 
-    private Vector3 direction;
     PhotonView view;
     public static PlayersMovement instance;
     
@@ -69,14 +66,11 @@ public class PlayersMovement : MonoBehaviourPun, IPunObservable
 
     private void FixedUpdate()
     {
-
-        
         if (!view.IsMine)
         {
             return;
 
         }
-
         //Get Vertical Axis
         float verticalMoveAxis = Input.GetAxis(verticalInput);
         

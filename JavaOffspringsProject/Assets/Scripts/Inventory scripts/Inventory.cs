@@ -20,16 +20,16 @@ public class Inventory : MonoBehaviour
     }
     #endregion
     
-    //A list for items
+    //List for items
     public List<string> items = new List<string>();
     
-    //A list for keys
+    //List for keys
     public List<string> keys = new List<string>();
+    
     public delegate void itemChanged();
     public itemChanged onItemChangedCallback;
-    public int space = 12;
 
-    //A counter for the existing keys in inventory
+    // Counter for the existing keys in inventory
     public int CountKeys;
    
     private PhotonView view;

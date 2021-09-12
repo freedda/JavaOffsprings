@@ -4,14 +4,16 @@ using UnityEngine.EventSystems;
 public class LookWithTheMouse : MonoBehaviour
 {
     public Transform rotatePlayersBody;
-    private float mouseControl = 20;
-    private float xAxisRotation = 0f;
+    private float mouseControl;
+    private float xAxisRotation;
     
     // Start is called before the first frame update
     void Start()
     {
-        //hide the cursor in the center of scene
-        //Cursor.lockState = CursorLockMode.Locked;
+        //Speed of mouse
+        mouseControl = 20;
+        //Rotation of the mouse
+        xAxisRotation = 0f;
     }
 
     // Update is called once per frame
@@ -20,7 +22,6 @@ public class LookWithTheMouse : MonoBehaviour
         // to check if we hovering the UI ( for the inventory)
         if (EventSystem.current.IsPointerOverGameObject())
             return;
-        
         
         //"Mouse X" in project settings , edit ->project set->input manager
         float mouseXaxis = Input.GetAxis("Mouse X") * mouseControl * Time.deltaTime;

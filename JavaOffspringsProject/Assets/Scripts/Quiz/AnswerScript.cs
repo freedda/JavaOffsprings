@@ -58,9 +58,6 @@ public class AnswerScript : MonoBehaviour
             wrongAnswerPanel.SetActive(true);
             // Activate animation for wrong panel
             animator.SetTrigger("Wrong");
-            // Increase wrong answer value
-            dbMultipleManager.wrongNum+= 1;
-            
         }
         // Call the correct method from DBscriptMultiple class
         dbMultipleManager.correct();

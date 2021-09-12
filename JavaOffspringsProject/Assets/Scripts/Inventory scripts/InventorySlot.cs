@@ -6,15 +6,19 @@ using UnityEngine.UI;
 
 public class InventorySlot : MonoBehaviour
 {
+    //item's icon
     public Image icon;
+    //item's nameText
     public Text nameText;
+    //Item's id
     private string itemId;
     
     private PhotonView view;
-
+    
+    //Canvas with the lessons
     public GameObject theoryCanvas;
     public GameObject player;
-
+    
     private string objectTag;
 
     private GameObject findTheObject;
@@ -36,6 +40,7 @@ public class InventorySlot : MonoBehaviour
         }
     }
 
+    //Add the final item in the slot
     public void AddItem(string newItemId)
     {
         itemId = newItemId;
@@ -43,7 +48,6 @@ public class InventorySlot : MonoBehaviour
         {   //Key ID
             case "02250c14-1e7b-4d55-a5e1-ce6758e5ac88":
                 nameText.text = "Key";
-                //Debug.Log("TO ICON EINAI "+ takeIconsSprites.instance.icons[0] + " OUUU  " + takeIconsSprites.instance.icons[0].name);
                 icon.sprite = takeIconsSprites.instance.icons[0];
                 break;
             case "b50247dc-8ec9-46c7-937c-5d1425810f52":
@@ -119,13 +123,13 @@ public class InventorySlot : MonoBehaviour
         icon.enabled = false;
         nameText.text = null;
     }
-
+    
+    
     [PunRPC]
     public void ClickItem()
     {
 
         view.RPC("UseItem", RpcTarget.AllBuffered);
-        Debug.Log("Click apoooo " + view);
     }
 
     [PunRPC]
@@ -135,18 +139,12 @@ public class InventorySlot : MonoBehaviour
         {
 
             findTheObject = GetNearestTarget();
-                moveItemsObject = (MoveItem) findTheObject.GetComponent(typeof(MoveItem));
+            moveItemsObject = (MoveItem) findTheObject.GetComponent(typeof(MoveItem));
 
-                if (moveItemsObject.CompareId(itemId) == 1)
-                {
-                    //Item.instance.Use(itemId);
-                    if(moveItemsObject.OtherToolPanel.activeSelf)moveItemsObject.OtherToolPanel.SetActive(false);
-
-                    Inventory.instance.RemoveItem(itemId);
-                    //Debug.Log("OK EINAI edw");
-                } 
-
-
+            if (moveItemsObject.CompareId(itemId) == 1)
+            {
+                Inventory.instance.RemoveItem(itemId);
+            }
             
         }
         // if player click an empty inventoryButton
@@ -161,7 +159,9 @@ public class InventorySlot : MonoBehaviour
     private GameObject GetNearestTarget()
     {
        //Find the closest object between the player and the object to use the equipment
-        return GameObject.FindGameObjectsWithTag(objectTag).Aggregate((o1, o2) => Vector3.Distance(o1.transform.position, player.transform.position) > Vector3.Distance(o2.transform.position, player.transform.position) ? o2 : o1);
+        return GameObject.FindGameObjectsWithTag(objectTag).Aggregate((o1, o2) => 
+            Vector3.Distance(o1.transform.position, player.transform.position) > 
+            Vector3.Distance(o2.transform.position, player.transform.position) ? o2 : o1);
     }
 
     public void useKeyNotRpc()

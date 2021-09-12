@@ -6,25 +6,20 @@ using UnityEngine;
 public class MoveItem : MonoBehaviour
 {
     
-    //
+    //Create a static class
+    public static MoveItem instance;
+
     public string id;
     private string tempId;
     
-    
-    float curMoveProportion = 0;
+    //Find the player
     private GameObject player;
-
-    
-    // in Start, set up whichever is the first position to be going to
-      
-    public static MoveItem instance;
     
     private PhotonView view;
  
     public GameObject destroyedItem;
-
-    public GameObject OtherToolPanel;
-
+    
+    //Check if the item has been destroyed 
     public bool itIsDestroyed;
     // Start is called before the first frame update
     
@@ -39,7 +34,6 @@ public class MoveItem : MonoBehaviour
         view = GetComponent<PhotonView>();
         itIsDestroyed = false;
 
-
     }
     // in Update, find the player
 
@@ -50,7 +44,6 @@ public class MoveItem : MonoBehaviour
       
         if (player == null)
         {
-            // Debug.Log("DEN VRISKEI PAIKTI");
             return;
         }
     }
@@ -60,17 +53,14 @@ public class MoveItem : MonoBehaviour
     {
         tempId = itemId;
         
-        Debug.Log("MPIKE STO COMP" + tempId);
+        //Check if the player is near
         if(!isClose(player)){
-            Debug.Log("EIsai Makria jas");
-            // StartCoroutine(OtherTool());
             return 0;
         }
         
+        //Check if you have the right item
         if (!id.Equals(tempId) )
         {
-            Debug.Log("U need other item to id einai " + id + "kai to tempId " + tempId);
-            StartCoroutine(OtherTool());
             return 2;
             
         }
@@ -87,7 +77,7 @@ public class MoveItem : MonoBehaviour
     }
     
     /*
-     * id the gameobject is a box
+     * id the gameobject is a barrel or flower
      * move it and discover the hide euquipment
      * Target.ALL
      */
@@ -102,8 +92,6 @@ public class MoveItem : MonoBehaviour
     {
 
         itIsDestroyed = true;
-
-        curMoveProportion += (Time.fixedDeltaTime);
         transform.Translate(0, 0, 30*Time.fixedDeltaTime);
 
     }
@@ -112,7 +100,6 @@ public class MoveItem : MonoBehaviour
      * If the object isnt a box, destroyed it to
      * find the hide object
      */
-    
     [PunRPC]
     public void destroyItem()
     {
@@ -141,11 +128,5 @@ public class MoveItem : MonoBehaviour
             return false;
         }
     }
-
-    IEnumerator OtherTool()
-    {
-        OtherToolPanel.SetActive(true);
-        yield return new WaitForSeconds(1f);
-        OtherToolPanel.SetActive(false);
-    }
+    
 }

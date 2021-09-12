@@ -24,7 +24,6 @@ public class PageSlot : MonoBehaviour
         
     public void AddPage(string newItemId)
     {
-        
         count += 1;
         item = newItemId;
         // Set the new amount of collected pages

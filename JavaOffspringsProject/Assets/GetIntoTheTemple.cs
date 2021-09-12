@@ -43,13 +43,11 @@ public class GetIntoTheTemple : MonoBehaviour
 
    private void Update()
    {
-      
       // Find one player
       myPlayer = GameObject.FindGameObjectWithTag("Player");
       // Find two players
       players = GameObject.FindGameObjectsWithTag("Player");
       
-    
       if (isTrigger && m_Play)
       {
          // Get into the if only once
@@ -87,15 +85,13 @@ public class GetIntoTheTemple : MonoBehaviour
          isTrigger = true;
         // Stop player's movement
         playerMove = other.gameObject.GetComponent<PlayersMovement>();
-        playerMove.flagMove = false;      
-        
+        playerMove.flagMove = false;
       }
    }
    
    // Create a coroutine for 2 players
    IEnumerator Type1() {
-          
-         // Start final monologue
+      // Start final monologue
          textDisplay.text = "You did it! You have succeeded in completing all your quests and have reached your final destination, the Temple!";
          yield return new WaitForSeconds(7f);
          textDisplay.text = " The manuscripts you have collected divulge the family secret and are parts of a document revealings your origin.";
