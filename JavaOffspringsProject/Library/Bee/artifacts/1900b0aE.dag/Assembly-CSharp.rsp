@@ -356,7 +356,6 @@
 "Assets/Scripts/Inventory scripts/PageSlot.cs"
 "Assets/Scripts/Items scripts/Item.cs"
 "Assets/Scripts/Items scripts/PickUpItem.cs"
-"Assets/Scripts/Items scripts/PickupKey.cs"
 "Assets/Scripts/LookWithTheMouse.cs"
 "Assets/Scripts/MasterClient scripts/Launch.cs"
 "Assets/Scripts/MasterClient scripts/Menu.cs"
